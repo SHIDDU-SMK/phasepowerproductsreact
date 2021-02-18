@@ -33,10 +33,10 @@ class Footer extends Component {
                         <Col>
                           <p className="card-text" style={{color:"white"}}>
                               <ul>
-                                  <li style={{color:"white"}}><Link className="nav-link" to="/hotroll" style={{color:"white"}} >Smart Monotoring</Link></li>
-                                  <li style={{color:"white"}}><Link className="nav-link" to="/coldroll" style={{color:"white"}}>Smart Control</Link></li>
-                                  <li style={{color:"white"}}><Link className="nav-link" to="/galvanised" style={{color:"white"}}>Smart Resouces</Link></li>
-                                  <li style={{color:"white"}}><Link className="nav-link" to="/prepainted" style={{color:"white"}}>Smart Networking </Link></li>
+                                  <li style={{color:"white"}}><Link className="nav-link" to="/smartmonotor" style={{color:"white"}} >Smart Monotoring</Link></li>
+                                  <li style={{color:"white"}}><Link className="nav-link" to="/smartcontrol" style={{color:"white"}}>Smart Control</Link></li>
+                                  <li style={{color:"white"}}><Link className="nav-link" to="/smartresource" style={{color:"white"}}>Smart Resouces</Link></li>
+                                  <li style={{color:"white"}}><Link className="nav-link" to="/smartnetworking" style={{color:"white"}}>Smart Networking </Link></li>
                                  
                               </ul>
                           </p>
