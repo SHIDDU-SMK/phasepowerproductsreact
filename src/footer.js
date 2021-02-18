@@ -28,7 +28,7 @@ class Footer extends Component {
                       <p className="card-text" style={{color:"white"}}> “Phase Power Products” was incorporated in the year 2010 as a Sole Proprietorship entity." </p>
                     </div>
                     <div className="col-sm-4" >
-                      <h4 className="card-title" style={{paddingLeft : '60px'}}><b>Quick Links</b></h4>
+                      <h4 className="card-title" style={{paddingLeft : '60px', color:"grey"}}><b>Quick Links</b></h4>
                       <Row>
                         <Col>
                           <p className="card-text" style={{color:"white"}}>
@@ -44,14 +44,13 @@ class Footer extends Component {
                       </Row>
                     </div>
                     <div className="col-sm-4">
-                        <h4><b>Contact</b></h4>
+                        <h4 style={{color:"grey"}}><b>Contact</b></h4>
                         <p className="card-text" style={{color:"white"}}>Phaspe Power Products
                                     Bengaluru  No.:47-P,KIADB Hardware Park,Huvinayakanahalli,
                                     Yelahanka Taluk,
-                                      Bengaluru - 562149, India <br/>
-                                              Cell - 1234567890,
-                                                   <br/>
-                                                    GST : XXXX123XXX</p>
+                                    Bengaluru - 562149, India <br/>
+                                    Cell - 1234567890,<br/>
+                                    GST : XXXX123XXX</p>
                          <p>
                             <a href="https://facebook.com/"><i className="fa fa-facebook-square link-color" style={footerTextSize}></i></a>&emsp;
                             <a href="https://linkedin.com/"><i className="fa fa-linkedin link-color" style={footerTextSize}></i></a>&emsp;

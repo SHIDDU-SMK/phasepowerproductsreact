@@ -21,7 +21,7 @@ function TpCarousel() {
             </Carousel.Item>
             <Carousel.Item interval={900}>
               <Image
-                className=" puff-in-center d-block w-100"
+                className=" bounce-in-top d-block w-100"
                 src={Auto}
                 alt="Third slide"
               />

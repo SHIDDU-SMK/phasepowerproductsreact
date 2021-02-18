@@ -5,7 +5,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 6rem;
+    padding-top: 5rem;
     padding-bottom: 1rem;
     color: #000000;
     font-size: 18px;
@@ -389,5 +389,15 @@ a:hover {
 }
 .ul {
     list-style-type: square;
+}
+.main-headding {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 88);
+    font-family:'Arial Narrow Bold';
+}
+.img-float {
+    float:center;
+    right: 3px;
 }
 
