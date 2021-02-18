@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import NavBarTop from './navbarroutes';
-import './assets/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/Dropdown.css';
 import './assets/css/carousel.css';
 
