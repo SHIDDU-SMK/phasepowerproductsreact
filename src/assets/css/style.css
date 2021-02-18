@@ -1,0 +1,41 @@
+  .product{
+    position: relative;
+    width: 50%;
+  }
+    
+  .product:hover .overlay {
+    bottom: 0;
+    height: 300px;
+  }
+  .subtext {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .productoverlay {
+    position: absolute;
+    bottom: 100%;
+    left: 70px;
+    right: 70px;
+    background-color: #ffffff;
+    overflow: hidden;
+    width: auto;
+    height:0;
+    transition: .5s ease;
+    top: 75px;
+  }
+  .productcollections {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 55%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }

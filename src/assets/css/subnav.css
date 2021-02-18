@@ -1,0 +1,60 @@
+body {
+    margin: 3rem;
+}
+
+.subnavbar {
+    position: sticky;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: unset;
+    flex-wrap: unset;
+    -ms-flex-align: center;
+    align-items: center;
+    /* -ms-flex-pack: justify; */
+    justify-content: space-evenly;
+    background-color: rgb(3, 16, 51);
+}
+
+.imgoverlay {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.subnavbarLink {
+    float: left;
+    display: flex;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* .subnavbar Link:hover {
+    color: rgb(60, 184, 189);
+} */
+
+.subtext {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+}
+
+#content-desktop {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    #content-desktop {
+        display: none;
+    }
+}
