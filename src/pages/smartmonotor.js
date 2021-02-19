@@ -74,6 +74,7 @@ function SmartMonotor() {
                                 <p style={{ textAlign: "center" }}> Measure, record and visualize electrical network parameters </p> 
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={Transducer} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Isolation Interface | Signal Changeover | Power Transducer | Voltage Transducer</p>
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
@@ -125,6 +126,9 @@ function SmartMonotor() {
                                 <p style={{ textAlign: "center" }}>Basic parameters measured precisely</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={Digitalpanel} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Ammeter | Volt meter | VAF Meter | Hz Meter | Frequency Meter
+                                DC Meter | RPM & MPM | Transducer Output </p>
+
                             </Col>
                         </Row>
                     </div>
@@ -139,6 +143,7 @@ function SmartMonotor() {
                                 <p style={{ textAlign: "center" }}>Simultaneous measurement of various electrical parameters</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={MultiFunctionMeter} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Basic | Power | Energy | Load Manager Digital Output | Pulse Output </p>
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
@@ -187,6 +192,8 @@ function SmartMonotor() {
                                 <p style={{ textAlign: "center" }}>Compact device to enroute multiple channels</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={BranchCircuitMonitor} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Multi-channel load manager | Power distribution unit </p>
+
                             </Col>
                         </Row>
                     </div>
@@ -200,6 +207,8 @@ function SmartMonotor() {
                                 <p style={{ textAlign: "center" }}>Generator monitoring device with dual display</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={GeneratorMonitoringUnit} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Counter & LED Display | Pulse Output </p>
+
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
@@ -245,6 +254,8 @@ function SmartMonotor() {
                                 <p style={{ textAlign: "center" }}>Collecting data from two different sources of energy</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={DualSourcEenergyMeter} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Multifunction meter | Dual source measurement </p>
+
                             </Col>
                         </Row>
                     </div>
@@ -259,6 +270,8 @@ function SmartMonotor() {
                                 {/* <Image src={DcEnergyMeter} height="250" width="400" rounded /> */}
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={DcEnergyMeter} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Multi-channel DC Energy | Voltage/Current full scale </p>
+
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>

@@ -75,6 +75,7 @@ function SmartControl() {
                                 <p style={{ textAlign: "center" }}> Measure, record and visualize electrical network parameters </p> 
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={PowerQualityMeter} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Multifunction Meter | Power quality | Load Manager | Demand controller | Power quality | Harmonics </p>
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
@@ -114,24 +115,21 @@ function SmartControl() {
                      <li>Capacitance-based power factor correction takes care of variation in voltage and frequency.</li>
                      <li>  Controlling based on VAR parameter and availability of built-in alarms</li>
                      <li>  Flexibility for site programmability of CT ratio suitable for any load</li>
-
-
-                                </ul>
+                     </ul>
                                 <h5><b>Applications</b></h5>
                                 <ul className="ul">
                                 <li>Automobile industry</li>
                                  <li> Cement Industry</li>
                                  <li>  Hospitals, commercial industries</li>
                                  <li> Any manufacturing industry</li>
-
-                                </ul>
+                                  </ul>
                             </Col>
-
                             <Col>
-                                <h2 id="apfc" style={{ textAlign: "center" }}> Digital Panel Meter</h2>
-                                <p style={{ textAlign: "center" }}>Basic parameters measured precisely</p>
+                                <h2 id="apfc" style={{ textAlign: "center" }}> APFC  </h2>
+                                <p style={{ textAlign: "center" }}>Automatic Power Factor Controller Save energy, maintain power factor range to avoid penalties</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={APFC} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Power | Frequency | PF | VAR | 8/12/16 stage control Automatic power factor controller </p>
                             </Col>
                         </Row>
                     </div>
@@ -146,6 +144,7 @@ function SmartControl() {
                                 <p style={{ textAlign: "center" }}>High-end multifunction meter for comprehensive energy management</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={DemandControl} alt="logo-img" width="100%" hight="100%"/> </svg>
+                                <p style={{ textAlign: "center" }}> Multifunction Meter | Load Manager | Import Export | Harmonics | Digital/Analog Input or Output | K-factor | BACnet | Energy Meter  </p>
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
@@ -200,6 +199,7 @@ function SmartControl() {
                                 <p style={{ textAlign: "center" }}>Intelligent device to maintain the power factor in required range</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={PowerFactorController} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Current | Voltage | Frequency | PF | VAR | 6/8/12 stage control  </p>
                             </Col>
                         </Row>
                     </div>
@@ -213,6 +213,7 @@ function SmartControl() {
                                 <p style={{ textAlign: "center" }}>Detect the leakage current in an intelligent electrical device</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={EarthLeakageRelay} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Earth leakage current | Trip time |  CBCT | Also read about prepaid meter  </p>
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
@@ -265,6 +266,7 @@ function SmartControl() {
                                 <p style={{ textAlign: "center" }}>Collecting data from two different sources of energy</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={EnergyProcessMonitor} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Multifunction meter | Dual source measurement  </p>
                             </Col>
                         </Row>
                     </div>
@@ -279,6 +281,7 @@ function SmartControl() {
                                 {/* <Image src={DcEnergyMeter} height="250" width="400" rounded /> */}
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={MotorProtectionSystem} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Voltage | Overload | Frequency | PF | Single phasing | Unbalance loading of voltage and current | Neutral current | Phase revers  </p>
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
