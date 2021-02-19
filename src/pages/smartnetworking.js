@@ -24,12 +24,12 @@ function SmartNetworking() {
                     <Col>
                         <Link to="#Converter" > 
                         <Image src={Converter} height="130" width="130" rounded title="APFC" />
-                        <p style={{color:"black", paddingTop:"1rem"}}> APFC </p></Link>
+                        <p style={{color:"black", paddingTop:"1rem"}}> Converter  </p></Link>
                     </Col>
                     <Col>
                         <Link to="#Gate">  
                         <Image src={Gate} height="130" width="130" rounded  title="DemandControl" />
-                        <p style={{color:"black", paddingTop:"1rem"}}> Demand Control  </p></Link>
+                        <p style={{color:"black", paddingTop:"1rem"}}> Gateway   </p></Link>
                     </Col>
                 </Row>
          
@@ -45,6 +45,8 @@ function SmartNetworking() {
                         <p style={{ textAlign: "center" }}>Seamless switching between sources for uninterrupted supply.Automatic Transfer Switch manufactures in India  </p> 
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                         <image href={SplitCorCT} alt="logo-img" width="100%" hight="100%"/></svg>
+                        <p style={{textAlign:"center"}}> Cost Effective | Compact Design | Easy to Install </p>
+
                     </Col>
                     <Col>
                         <h5><b>Salient Features</b></h5>
@@ -109,6 +111,8 @@ function SmartNetworking() {
                         </p>
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                         <image href={Converter} alt="logo-img" width="100%" hight="100%"/></svg>
+                        <p style={{textAlign:"center"}}> RS485 | USB | WiFi | Ethernet </p>
+
                     </Col>
                 </Row>
             </div>
@@ -126,6 +130,8 @@ function SmartNetworking() {
                         </p>
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                         <image href={Gate} alt="logo-img" width="100%" hight="100%"/> </svg>
+                        <p style={{textAlign:"center"}}> RS485 | Ethernet | GPRS </p>
+
                     </Col>
                     <Col>
                         <h5><b>Salient Features</b></h5>

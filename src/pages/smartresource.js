@@ -23,39 +23,39 @@ function SmartResorces() {
                         {/* <MultiCarousel items = { categoryhr } />             */}
                         <Row>
                             <Col>
-                                <Link to="#powerqualitymeter"> 
+                                <Link to="#automatictransferswitch"> 
                                 <Image src={AutomaticTransferSwitch} height="130" width="130" rounded title="Power Quality Meter" />
                                 <p style={{color:"black", paddingTop:"1rem"}}>Automatic Transfer Switch </p> </Link>
                             </Col>
                             <Col>
-                                <Link to="#apfc" > 
+                                <Link to="#manualtransferswitch" > 
                                 <Image src={ManualtransferSwitch} height="130" width="130" rounded title="APFC" />
                                 <p style={{color:"black", paddingTop:"1rem"}}> Manual transfer Switch </p></Link>
                             </Col>
                             <Col>
-                                <Link to="#demandcontrol">  
+                                <Link to="#prepaidmeter">  
                                 <Image src={PrepaidPostPaidMeter} height="130" width="130" rounded  title="DemandControl" />
-                                <p style={{color:"black", paddingTop:"1rem"}}> Demand Control  </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem"}}> Prepaid postpaid Merters </p></Link>
                             </Col>
                             <Col>
-                                <Link to="#powerfactorcontrol" >  
+                                <Link to="#poweranalyzer" >  
                                 <Image src={PowerAnalyzer} height="130" width="130" rounded title="PowerFactorController" />
-                                <p style={{color:"black", paddingTop:"1rem"}}> Power Factor Controller </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem"}}> Power Analyzer  </p></Link>
                             </Col>
                             <Col>
-                                <Link to="#earthleakagerelay">  
+                                <Link to="#accl">  
                                 <Image src={ACCL} height="130" width="130" rounded title="EarthLeakageRelay"  />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Earth Leakage Relay </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem"}}>ACCL </p></Link>
                             </Col>
                             <Col>
-                                <Link to="#energyprocessmonitor">
+                                <Link to="#powerqualityanalyzer">
                                 <Image src={PowerQualityAnalyzer} height="130" width="130" rounded title="EnergyProcessMonitor"  />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Energy Process Monitor </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem"}}>Power Qulity Analyzer </p></Link>
                             </Col>
                             <Col>
-                                <Link to="#motorprotectionsystem">
+                                <Link to="#smartio">
                                 <Image src={SmartIo } height="130" width="130" rounded title="MotorProtectionSystem"  />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Motor Protection System</p></Link>
+                                <p style={{color:"black", paddingTop:"1rem"}}>Smart IO </p></Link>
                             </Col>
                         </Row>
                  
@@ -71,6 +71,8 @@ function SmartResorces() {
                                 <p style={{ textAlign: "center" }}>Seamless switching between sources for uninterrupted supply. </p> 
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={AutomaticTransferSwitch} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Overload Tripping Logic | Automatic DG Start/Stop
+                                    | Fire/External Fault Trip | Safe and Rapid Switching | Automatic Transfer </p>
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
@@ -130,6 +132,7 @@ function SmartResorces() {
                                 <p style={{ textAlign: "center" }}>MANUALLY CONTROL YOUR POWER SOURCE</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={ManualtransferSwitch} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> User-friendly Installation | Safe Changeover </p>
                             </Col>
                         </Row>
                     </div>
@@ -145,6 +148,8 @@ function SmartResorces() {
                                 </p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={PrepaidPostPaidMeter} alt="logo-img" width="100%" hight="100%"/> </svg>
+                                <p style={{ textAlign: "center" }}>  Multifunction | Dual source | Over voltage/current cut off for protection 
+                                            | Post paid meter | Prepaid meter </p>
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
@@ -203,6 +208,7 @@ function SmartResorces() {
                                 <p style={{ textAlign: "center" }}>High profile power analyzer with higher accuracy and data logging</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={PowerAnalyzer} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}>Handheld Power Quality Analyzer | Power Analyzer | Harmonic Analyzer</p>
                             </Col>
                         </Row>
                     </div>
@@ -217,6 +223,8 @@ function SmartResorces() {
                                 uninterrupted changeover between power sources. Accl Changeover Switch manufacturers in India</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={ACCL} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> ACCL | Automatic Changeover Current Limiter | Frequency | Energy  </p>
+
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
@@ -265,10 +273,12 @@ function SmartResorces() {
                                 </ul>
                             </Col>
                             <Col>
-                                <h2 id="energyprocessmonitor" style={{ textAlign: "center" }}> Dual Source Energy Meter</h2>
-                                <p style={{ textAlign: "center" }}>Collecting data from two different sources of energy</p>
+                                <h2 id="powerqualityanalyzer" style={{ textAlign: "center" }}> Power Quailyt Analayzer </h2>
+                                <p style={{ textAlign: "center" }}>Prepaid meter is a Single Device for electricity, gas and water measurement. Prepaid meter manufactures in India</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={PowerQualityAnalyzer} alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}> Multifunction | Dual source | Over voltage/current cut off for protection | Post paid meter | Prepaid meter </p>
+
                             </Col>
                         </Row>
                     </div>
@@ -283,6 +293,7 @@ function SmartResorces() {
                                 {/* <Image src={DcEnergyMeter} height="250" width="400" rounded /> */}
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={SmartIo } alt="logo-img" width="100%" hight="100%"/></svg>
+                                <p style={{ textAlign: "center" }}>Universal Input | Universal Output | Digital Output</p>
                             </Col>
                             <Col>
                                 <h5><b>Salient Features</b></h5>
