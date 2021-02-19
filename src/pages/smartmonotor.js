@@ -23,7 +23,7 @@ function SmartMonotor() {
         <>
             <Header />
                     <div className="container" style={{ marginTop: "40px"}}>
-                        {/* <MultiCarousel items = { categoryhr } />             */}
+                        {/* <MultiCarousel items = { categoryhr } /> */}
                         <Row>
                             <Col>
                                 <Link to="#transducerisolator"> 

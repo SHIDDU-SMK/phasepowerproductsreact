@@ -8,6 +8,7 @@ import SplitCorCT from '../images/splitcorect.png';
 import Converter from '../images/converter.png';
 import Gate from '../images/gateway.png';
 
+
 function SmartNetworking() {
     return (
       
@@ -24,20 +25,20 @@ function SmartNetworking() {
                     <Col>
                         <Link to="#Converter" > 
                         <Image src={Converter} height="130" width="130" rounded title="APFC" />
-                        <p style={{color:"black", paddingTop:"1rem"}}> Converter  </p></Link>
+                        <p style={{color:"black", paddingTop:"1rem"}}> APFC </p></Link>
                     </Col>
                     <Col>
                         <Link to="#Gate">  
                         <Image src={Gate} height="130" width="130" rounded  title="DemandControl" />
-                        <p style={{color:"black", paddingTop:"1rem"}}> Gateway   </p></Link>
+                        <p style={{color:"black", paddingTop:"1rem"}}> Demand Control  </p></Link>
                     </Col>
                 </Row>
          
                 <hr className="featurette-divider" />
             </div>
-
+​
            
-
+​
             <div className="container">
                 <Row>
                     <Col>
@@ -45,8 +46,8 @@ function SmartNetworking() {
                         <p style={{ textAlign: "center" }}>Seamless switching between sources for uninterrupted supply.Automatic Transfer Switch manufactures in India  </p> 
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                         <image href={SplitCorCT} alt="logo-img" width="100%" hight="100%"/></svg>
-                        <p style={{textAlign:"center"}}> Cost Effective | Compact Design | Easy to Install </p>
-
+                        <p style={{ textAlign: "center" }}> Overload Tripping Logic | Automatic DG Start/Stop
+                        | Fire/External Fault Trip | Safe and Rapid Switching | Automatic Transfer </p>
                     </Col>
                     <Col>
                         <h5><b>Salient Features</b></h5>
@@ -58,27 +59,27 @@ function SmartNetworking() {
                                 <li>Inbuilt control switch for selecting auto/manual mode</li>
                                 <li>Automatic transfer switch have high capacity to withstand short circuit</li>
                                 <li>Optional RS485 communication and cloud</li>
-
+​
                         </ul>
                         <h5><b>Applications</b></h5>
                         <ul className="ul">
-
+​
                         <li>Monitor real-time system voltage and frequency </li>
                                 <li> Monitor source healthiness and output for both Source</li>
                                 <li> Wide range of motor operating voltage from 150VAC – 285V AC</li>
                                 <li> Automatic transfer switch for commercial centers, manufacturing, medical facilities,and data centers.</li>
-
-
-
+​
+​
+​
                         </ul>
                     </Col>
                 </Row>
             </div>
-
+​
             <div className="container">
-
+​
                 <hr className="featurette-divider" />
-
+​
                 <Row>
                     <Col>
                         <h5><b>Salient Features</b></h5>
@@ -89,10 +90,10 @@ function SmartNetworking() {
                                 <li>Inbuilt control switch for selecting auto/manual mode</li>
                                 <li>Automatic transfer switch have high capacity to withstand short circuit</li>
                                 <li>Optional RS485 communication and cloud</li>
-
-
-
-
+​
+​
+​
+​
                         </ul>
                         <h5><b>Applications</b></h5>
                         <ul className="ul">
@@ -100,27 +101,27 @@ function SmartNetworking() {
                                 <li> Monitor source healthiness and output for both Source</li>
                                 <li> Wide range of motor operating voltage from 150VAC – 285V AC</li>
                                 <li> Automatic transfer switch for commercial centers, manufacturing, medical facilities,and data centers.</li>
-
-
+​
+​
                         </ul>
                     </Col>
-
+​
                     <Col>
                         <h2 id="Converter" style={{ textAlign: "center" }}> Converter</h2>
                         <p style={{ textAlign: "center" }}>Seamless switching between sources for uninterrupted supply.  Automatic Transfer Switch manufactures in India 
                         </p>
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                         <image href={Converter} alt="logo-img" width="100%" hight="100%"/></svg>
-                        <p style={{textAlign:"center"}}> RS485 | USB | WiFi | Ethernet </p>
-
+                        <p style={{ textAlign: "center" }}> Overload Tripping Logic | Automatic DG Start/Stop
+                                    | Fire/External Fault Trip | Safe and Rapid Switching | Automatic Transfer </p>
                     </Col>
                 </Row>
             </div>
-
+​
             <div className="container">
-
+​
                 <hr className="featurette-divider" />
-
+​
                 <Row>
                     <Col>
                         <h2 id="Gate" style={{ textAlign: "center" }}>Gateway </h2>
@@ -130,8 +131,8 @@ function SmartNetworking() {
                         </p>
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                         <image href={Gate} alt="logo-img" width="100%" hight="100%"/> </svg>
-                        <p style={{textAlign:"center"}}> RS485 | Ethernet | GPRS </p>
-
+                        <p style={{ textAlign: "center" }}> Overload Tripping Logic | Automatic DG Start/Stop
+                                    | Fire/External Fault Trip | Safe and Rapid Switching | Automatic Transfer </p>
                     </Col>
                     <Col>
                         <h5><b>Salient Features</b></h5>
@@ -143,8 +144,8 @@ function SmartNetworking() {
                                 <li>Inbuilt control switch for selecting auto/manual mode</li>
                                 <li>Automatic transfer switch have high capacity to withstand short circuit</li>
                                 <li>Optional RS485 communication and cloud</li>
-
-
+​
+​
                             
                         </ul>
                         <h5><b>Applications</b></h5>
