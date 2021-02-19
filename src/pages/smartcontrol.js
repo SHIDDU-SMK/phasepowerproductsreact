@@ -23,8 +23,10 @@ function SmartControl() {
    return (
       <>
             <Header />
+            <h2 style={{textAlign:"center" , paddingTop:"1rem"}}> <b>Smart Controller </b> </h2>
                     <div className="container" style={{ marginTop: "40px"}}>
                         {/* <MultiCarousel items = { categoryhr } />             */}
+                        
                         <Row>
                             <Col>
                                 <Link to="#powerqualitymeter"> 
