@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from './images/logo.png';
+import Logo from './images/logo1.png';
 import { Link } from 'react-router-dom';
 import './assets/css/navbar.css';
 import {Row ,Col } from 'react-bootstrap';
