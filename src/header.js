@@ -4,12 +4,10 @@ import './assets/css/style.css';
 import './assets/css/navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Navbar, Form, Nav, Image } from 'react-bootstrap';
-import AutomaticTransferSwitch from './images/automatictransferswitch.png';
-import ManualtransferSwitch from './images/manualtransferswitch.png';
-import PrepaidPostPaidMeter from './images/prepaidpostpaidmeter.png';
-import PowerAnalyzer from './images/poweranalyzer.png';
-
-
+import Transducer from './images/transducer.png';
+import APFC from './images/APFC.png';
+import SmartIo from './images/smartio.png';
+import Gate from './images/gateway.png';
 
 
 const Header = () => {
@@ -23,25 +21,25 @@ const Header = () => {
                 <Nav className="mr-auto">
                     <Link to="/" className="nav-link line current" onClick={() => setExpanded(false)}>Home</Link>
                     <div class="menudropdown">
-                        <p className="nav-link">Products <i class="fa fa-caret-down"></i>
-                        </p>
+                        <a href="#products" className="nav-link">Products <i class="fa fa-caret-down"></i>
+                        </a>
                         <div class="menudropdown-content" style={{ paddingTop: "0.9rem" }}>
 
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
-                                <Image src={AutomaticTransferSwitch} className="imagecenter" Height="100px" width="100px" />
+                                <Image src={Transducer} className="imagecenter" Height="100px" width="100px" />
                                 <Link to="/smartmonotor" style={{ color: "white", "text-align": "center" }}> <h4>Smart Monitor</h4> </Link>
                             </div>
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
-                                <Image style={{ "align-items": "center" }} src={ManualtransferSwitch} className="imagecenter" Height="100px" width="100px" />
+                                <Image style={{ "align-items": "center" }} src={APFC} className="imagecenter" Height="100px" width="100px" />
                                 <Link to='/smartcontrol' style={{ color: "white", "text-align": "center" }}> <h4> Smart Controller</h4></Link>
                             </div>
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
-                                <Image style={{ "align-items": "center" }} src={PrepaidPostPaidMeter} className="imagecenter" Height="100px" width="100px" />
+                                <Image style={{ "align-items": "center" }} src={SmartIo} className="imagecenter" Height="100px" width="100px" />
 
                                 <Link to="/smartresource" style={{ color: "white", "text-align": "center" }}> <h4>Smart  Resource</h4></Link>
                             </div>
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
-                                <Image style={{ "align-items": "center" }} src={PowerAnalyzer} className="imagecenter" Height="100px" width="100px" />
+                                <Image style={{ "align-items": "center" }} src={Gate} className="imagecenter" Height="100px" width="100px" />
                                 <Link to="/smartnetworking" style={{ color: "white", "text-align": "center" }}> <h4>Smart Networking</h4></Link>
                             </div>
                         </div>
@@ -51,7 +49,7 @@ const Header = () => {
                 </Nav>
                 <Form inline>
                     <span style={{ fontSize: "16px", color: 'white' }}><i className="fa fa-phone"></i>&emsp;<Link to="+91 123456790" style={{ color: "white" }}> +91 1234567890 </Link>  </span>&emsp;
-                        <i class="fa fa-envelope" style={{ "font-size": "20px", "color": "white" }}></i>&emsp; <Link to="owner@PhasePowerProducts.in" style={{ color: "white" }}>owner@PhasePowerProducts.in&emsp;</Link>
+                        <i class="fa fa-envelope" style={{ "font-size": "20px", "color": "white" }}></i>&emsp; <Link to="sales@PhasePowerProducts.in" style={{ color: "white" }}>sales@PhasePowerProducts.in&emsp;</Link>
                     <a href="#Adress" className="nav-link line current"><i className="fa fa-map"></i>&emsp; Reach Us</a>
                 </Form>
             </Navbar.Collapse>

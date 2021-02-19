@@ -58,9 +58,11 @@ class Footer extends Component {
                         </p>
                     </div>
               </div>
-                <p>&copy; Surabhi Steel &middot; <a className="link-color" href="/privacy">Privacy</a> &middot; <a className="link-color" href="/terms">Terms</a></p>
-                <p className="float-right">made by <a className="link-color" href="www.anyonecancode.in">anyonecancode.in</a></p>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+              <div>
+                <p style={{color:"lightblue"}}>&copy; Phase Power Products &middot; <a className="link-color"  style={{color:"lightblue"}} href="/privacy">Privacy</a> &middot; <a className="link-color" style={{color:"lightblue"}} href="/terms">Terms</a></p>
+                <p  style={{color:"lightblue", textAlign:"right"}}> made by <a className="link-color" href="www.anyonecancode.in">anyonecancode.in</a></p>
+                <link  style={{paddingBottom:"2rem"}}   rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+                </div>
         </footer>
       </div>
     );
