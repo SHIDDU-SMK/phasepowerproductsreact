@@ -77,7 +77,8 @@ a:hover {
 
 .featurette-divider {
     margin: 3rem 0rem;
-    border-top: 2px solid;
+    border-top: 1px solid;
+    color: blue;
     /* Space out the Bootstrap <hr> more */
 }
 

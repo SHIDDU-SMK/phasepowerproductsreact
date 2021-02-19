@@ -22,6 +22,7 @@ function SmartMonotor() {
     return (
         <>
             <Header />
+            <h2 style={{textAlign:"center" , paddingTop:"1rem"}}> <b>Smart Monitor </b> </h2>
                     <div className="container" style={{ marginTop: "40px"}}>
                         {/* <MultiCarousel items = { categoryhr } /> */}
                         <Row>
