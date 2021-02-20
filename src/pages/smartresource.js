@@ -25,37 +25,37 @@ function SmartResorces() {
                             <Col>
                                 <Link to="#automatictransferswitch"> 
                                 <Image src={AutomaticTransferSwitch} height="130" width="130" rounded title="Power Quality Meter" />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Automatic Transfer Switch </p> </Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>Automatic Transfer Switch </p> </Link>
                             </Col>
                             <Col>
                                 <Link to="#manualtransferswitch" > 
                                 <Image src={ManualtransferSwitch} height="130" width="130" rounded title="APFC" />
-                                <p style={{color:"black", paddingTop:"1rem"}}> Manual transfer Switch </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> Manual transfer Switch </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#prepaidmeter">  
                                 <Image src={PrepaidPostPaidMeter} height="130" width="130" rounded  title="DemandControl" />
-                                <p style={{color:"black", paddingTop:"1rem"}}> Prepaid postpaid Merters </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> Prepaid postpaid Merters </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#poweranalyzer" >  
                                 <Image src={PowerAnalyzer} height="130" width="130" rounded title="PowerFactorController" />
-                                <p style={{color:"black", paddingTop:"1rem"}}> Power Analyzer  </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> Power Analyzer  </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#accl">  
                                 <Image src={ACCL} height="130" width="130" rounded title="EarthLeakageRelay"  />
-                                <p style={{color:"black", paddingTop:"1rem"}}>ACCL </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>ACCL </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#powerqualityanalyzer">
                                 <Image src={PowerQualityAnalyzer} height="130" width="130" rounded title="EnergyProcessMonitor"  />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Power Qulity Analyzer </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>Power Qulity Analyzer </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#smartio">
                                 <Image src={SmartIo } height="130" width="130" rounded title="MotorProtectionSystem"  />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Smart IO </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>Smart IO </p></Link>
                             </Col>
                         </Row>
                  
@@ -64,10 +64,10 @@ function SmartResorces() {
 
                    
 
-                    <div className="container">
+                    <div id="automatictransferswitch" className="container">
                         <Row>
                             <Col>
-                                <h2 id="automatictransferswitch" style={{ textAlign: "center" }}><b> AutomaticTransferSwitch  </b></h2>
+                                <h2  style={{ textAlign: "center" }}><b> AutomaticTransferSwitch  </b></h2>
                                 <p style={{ textAlign: "center" }}>Seamless switching between sources for uninterrupted supply. </p> 
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={AutomaticTransferSwitch} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -102,7 +102,7 @@ function SmartResorces() {
 
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr  id="manualtransferswitch" className="featurette-divider" />
 
                         <Row>
                             <Col>
@@ -128,7 +128,7 @@ function SmartResorces() {
                             </Col>
 
                             <Col>
-                                <h2 id="manualtransferswitch" style={{ textAlign: "center" }}> Manual Transfer Switch</h2>
+                                <h2  style={{ textAlign: "center" }}> Manual Transfer Switch</h2>
                                 <p style={{ textAlign: "center" }}>MANUALLY CONTROL YOUR POWER SOURCE</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={ManualtransferSwitch} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -139,11 +139,11 @@ function SmartResorces() {
 
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr   id="prepaidmeter" className="featurette-divider" />
 
                         <Row>
                             <Col>
-                                <h2 id="prepaidmeter" style={{ textAlign: "center" }}> Prepaid/Postpaid Meter</h2>
+                                <h2 style={{ textAlign: "center" }}> Prepaid/Postpaid Meter</h2>
                                 <p style={{ textAlign: "center" }}>Prepaid meter is a Single Device for electricity, gas and water measurement. Prepaid meter 
                                 </p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
@@ -178,7 +178,7 @@ function SmartResorces() {
                     </div>
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr  id="poweranalyzer" className="featurette-divider" />
 
                         <Row>
                             <Col>
@@ -204,7 +204,7 @@ function SmartResorces() {
 
                             </Col>
                             <Col>
-                                <h2 id="poweranalyzer" style={{ textAlign: "center" }}> Power Analyzer </h2>
+                                <h2  style={{ textAlign: "center" }}> Power Analyzer </h2>
                                 <p style={{ textAlign: "center" }}>High profile power analyzer with higher accuracy and data logging</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={PowerAnalyzer} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -214,11 +214,11 @@ function SmartResorces() {
                     </div>
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr id="accl"  className="featurette-divider" />
 
                         <Row>
                             <Col>
-                                <h2 id="accl" style={{ textAlign: "center" }}>  ACCL</h2>
+                                <h2 style={{ textAlign: "center" }}>  ACCL</h2>
                                 <p style={{ textAlign: "center" }}>Accl (Automatic Source Changeover with Current Limiter) For a seamless,
                                 uninterrupted changeover between power sources. Accl Changeover Switch manufacturers in India</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
@@ -249,7 +249,7 @@ function SmartResorces() {
                     </div>
 
                     <div className="container">
-                        <hr className="featurette-divider" />
+                        <hr  id="powerqualityanalyzer" className="featurette-divider" />
 
                         <Row>
                             <Col>
@@ -273,7 +273,7 @@ function SmartResorces() {
                                 </ul>
                             </Col>
                             <Col>
-                                <h2 id="powerqualityanalyzer" style={{ textAlign: "center" }}> Power Quailyt Analayzer </h2>
+                                <h2  style={{ textAlign: "center" }}> Power Quailyt Analayzer </h2>
                                 <p style={{ textAlign: "center" }}>Prepaid meter is a Single Device for electricity, gas and water measurement. Prepaid meter manufactures in India</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={PowerQualityAnalyzer} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -284,11 +284,11 @@ function SmartResorces() {
                     </div>
 
                     <div className="container">
-                        <hr className="featurette-divider" />
+                        <hr id="smartio" className="featurette-divider" />
 
                         <Row>
                             <Col>
-                                <h2 id="smartio" style={{ textAlign: "center" }}>Smart I/O </h2>
+                                <h2  style={{ textAlign: "center" }}>Smart I/O </h2>
                                 <p style={{ textAlign: "center" }}>Smartest way to capture the input & communicate data output </p>
                                 {/* <Image src={DcEnergyMeter} height="250" width="400" rounded /> */}
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">

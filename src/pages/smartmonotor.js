@@ -29,41 +29,41 @@ function SmartMonotor() {
                             <Col>
                                 <Link to="#transducerisolator"> 
                                 <Image src={Transducer} height="130" width="130" rounded title="Transducer & Isolator" />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Transducer & Isolator </p> </Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>Transducer & Isolator </p> </Link>
                             </Col>
                             <Col>
                                 <Link to="#digitalpanelmeter" > 
                                 <Image src={Digitalpanel} height="130" width="130" rounded title=" Digital Panel Meter" />
-                                <p style={{color:"black", paddingTop:"1rem"}}> Digital Panel Meter </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> Digital Panel Meter </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#multifunction">  
                                 <Image src={MultiFunctionMeter} height="130" width="130" rounded />
-                                <p style={{color:"black", paddingTop:"1rem"}}>  Multi Function  </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>  Multi Function  </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#branchcircuitmonitor" >  
                                 <Image src={BranchCircuitMonitor} height="130" width="130" rounded />
-                                <p style={{color:"black", paddingTop:"1rem"}}> Branch Circuit Monitor </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> Branch Circuit Monitor </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#generalmoitoringunit">  
                                 <Image src={GeneratorMonitoringUnit} height="130" width="130" rounded />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Generator Monitoring Unit</p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>Generator Monitoring Unit</p></Link>
                             </Col>
                             <Col>
                                 <Link to="#dualsource">
                                 <Image src={DualSourcEenergyMeter} height="130" width="130" rounded />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Dual Source Energy Meter </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>Dual Source Energy Meter </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#dcenergy">
                                 <Image src={DcEnergyMeter} height="130" width="130" rounded />
-                                <p style={{color:"black", paddingTop:"1rem"}}> DC Energy Meter</p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> DC Energy Meter</p></Link>
                             </Col>
                         </Row>
                  
-                        <hr className="featurette-divider" />
+                        <hr  id="transducerisolator" className="featurette-divider" />
                     </div>
 
                    
@@ -71,7 +71,7 @@ function SmartMonotor() {
                     <div className="container">
                         <Row>
                             <Col>
-                                <h2 id="transducerisolator" style={{ textAlign: "center" }}><b> Transducer & Isolator</b></h2>
+                                <h2  style={{ textAlign: "center" }}><b> Transducer & Isolator</b></h2>
                                 <p style={{ textAlign: "center" }}> Measure, record and visualize electrical network parameters </p> 
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={Transducer} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -101,7 +101,7 @@ function SmartMonotor() {
 
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr id="digitalpanelmeter" className="featurette-divider" />
 
                         <Row>
                             <Col>
@@ -123,7 +123,7 @@ function SmartMonotor() {
                             </Col>
 
                             <Col>
-                                <h2 id="digitalpanelmeter" style={{ textAlign: "center" }}> Digital Panel Meter</h2>
+                                <h2  style={{ textAlign: "center" }}> Digital Panel Meter</h2>
                                 <p style={{ textAlign: "center" }}>Basic parameters measured precisely</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={Digitalpanel} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -136,11 +136,11 @@ function SmartMonotor() {
 
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr id="multifunction" className="featurette-divider" />
 
                         <Row>
                             <Col>
-                                <h2 id="multifunction" style={{ textAlign: "center" }}> Multifunction Meter</h2>
+                                <h2  style={{ textAlign: "center" }}> Multifunction Meter</h2>
                                 <p style={{ textAlign: "center" }}>Simultaneous measurement of various electrical parameters</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={MultiFunctionMeter} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -168,7 +168,7 @@ function SmartMonotor() {
                     </div>
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr id="branchcircuitmonitor" className="featurette-divider" />
 
                         <Row>
                             <Col>
@@ -189,7 +189,7 @@ function SmartMonotor() {
 
                             </Col>
                             <Col>
-                                <h2 id="branchcircuitmonitor" style={{ textAlign: "center" }}> Branch Circuit Monitor</h2>
+                                <h2  style={{ textAlign: "center" }}> Branch Circuit Monitor</h2>
                                 <p style={{ textAlign: "center" }}>Compact device to enroute multiple channels</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={BranchCircuitMonitor} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -200,11 +200,11 @@ function SmartMonotor() {
                     </div>
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr id="generalmoitoringunit" className="featurette-divider" />
 
                         <Row>
                             <Col>
-                                <h2 id="generalmoitoringunit" style={{ textAlign: "center" }}> Generator Monitoring Unit</h2>
+                                <h2  style={{ textAlign: "center" }}> Generator Monitoring Unit</h2>
                                 <p style={{ textAlign: "center" }}>Generator monitoring device with dual display</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={GeneratorMonitoringUnit} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -231,7 +231,7 @@ function SmartMonotor() {
                     </div>
 
                     <div className="container">
-                        <hr className="featurette-divider" />
+                        <hr  id="dualsource" className="featurette-divider" />
 
                         <Row>
                             <Col>
@@ -251,7 +251,7 @@ function SmartMonotor() {
                                 </ul>
                             </Col>
                             <Col>
-                                <h2 id="dualsource" style={{ textAlign: "center" }}> Dual Source Energy Meter</h2>
+                                <h2  style={{ textAlign: "center" }}> Dual Source Energy Meter</h2>
                                 <p style={{ textAlign: "center" }}>Collecting data from two different sources of energy</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={DualSourcEenergyMeter} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -262,11 +262,11 @@ function SmartMonotor() {
                     </div>
 
                     <div className="container">
-                        <hr className="featurette-divider" />
+                        <hr id="dcenergy" className="featurette-divider" />
 
                         <Row>
                             <Col>
-                                <h2 id="dcenergy" style={{ textAlign: "center" }}>DC Energy Meter</h2>
+                                <h2  style={{ textAlign: "center" }}>DC Energy Meter</h2>
                                 <p style={{ textAlign: "center" }}>Smart device for all renewal energy resources</p>
                                 {/* <Image src={DcEnergyMeter} height="250" width="400" rounded /> */}
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">

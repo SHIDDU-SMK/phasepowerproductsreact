@@ -14,27 +14,27 @@ function SmartNetworking() {
       
      <>
     <Header />
-            <div className="container" style={{ marginTop: "40px"}}>
+            <div className="container" style={{ marginTop: "40px" ,textAlign:"center"}}>
                 {/* <MultiCarousel items = { categoryhr } />             */}
                 <Row>
                     <Col>
                         <Link to="#splitcorect"> 
-                        <Image src={SplitCorCT} height="130" width="130" rounded title="Power Quality Meter" />
-                        <p style={{color:"black", paddingTop:"1rem"}}>Split Core CT  </p> </Link>
+                        <Image src={SplitCorCT} height="130" width="180" rounded title="Power Quality Meter" />
+                        <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>Split Core CT  </p> </Link>
                     </Col>
                     <Col>
                         <Link to="#Converter" > 
                         <Image src={Converter} height="130" width="130" rounded title="APFC" />
-                        <p style={{color:"black", paddingTop:"1rem"}}> APFC </p></Link>
+                        <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> Converter </p></Link>
                     </Col>
                     <Col>
                         <Link to="#Gate">  
-                        <Image src={Gate} height="130" width="130" rounded  title="DemandControl" />
-                        <p style={{color:"black", paddingTop:"1rem"}}> Demand Control  </p></Link>
+                        <Image src={Gate} height="130" width="180" rounded  title="DemandControl" />
+                        <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> Gate  </p></Link>
                     </Col>
                 </Row>
          
-                <hr className="featurette-divider" />
+                <hr id="splitcorect"  className="featurette-divider"  />
             </div>
 ​
            
@@ -42,7 +42,7 @@ function SmartNetworking() {
             <div className="container">
                 <Row>
                     <Col>
-                        <h2 id="splitcorect" style={{ textAlign: "center" }}><b> Split Core CT   </b></h2>
+                        <h2 style={{ textAlign: "center" }}><b> Split Core CT   </b></h2>
                         <p style={{ textAlign: "center" }}>Seamless switching between sources for uninterrupted supply.Automatic Transfer Switch manufactures in India  </p> 
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                         <image href={SplitCorCT} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -78,7 +78,7 @@ function SmartNetworking() {
 ​
             <div className="container">
 ​
-                <hr className="featurette-divider" />
+                <hr id="Converter" className="featurette-divider" />
 ​
                 <Row>
                     <Col>
@@ -107,7 +107,7 @@ function SmartNetworking() {
                     </Col>
 ​
                     <Col>
-                        <h2 id="Converter" style={{ textAlign: "center" }}> Converter</h2>
+                        <h2  style={{ textAlign: "center" }}> Converter</h2>
                         <p style={{ textAlign: "center" }}>Seamless switching between sources for uninterrupted supply.  Automatic Transfer Switch manufactures in India 
                         </p>
                         <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
@@ -120,11 +120,11 @@ function SmartNetworking() {
 ​
             <div className="container">
 ​
-                <hr className="featurette-divider" />
+                <hr id="Gate" className="featurette-divider" />
 ​
                 <Row>
                     <Col>
-                        <h2 id="Gate" style={{ textAlign: "center" }}>Gateway </h2>
+                        <h2  style={{ textAlign: "center" }}>Gateway </h2>
                         <p style={{ textAlign: "center" }}>Seamless switching between sources for uninterrupted supply.
                                    Automatic Transfer Switch manufactures in India 
  
