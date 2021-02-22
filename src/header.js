@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import Logo from './images/logo1.png';
+ import Logo from './images/logonew.png';
 import './assets/css/style.css';
 import './assets/css/navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
@@ -15,8 +15,8 @@ const Header = () => {
 
     return (
         <Navbar expand="lg" expanded={expanded} fixed="top" variant="dark" style={{ backgroundColor: 'rgb(0, 0, 88)' }} onClick={() => setExpanded(expanded ? false : "expanded")}>
-            {/* <Navbar.Brand href="#home"><img src={Logo} alt="logo" width="100" height="60" /></Navbar.Brand> */}
-            <h4 style={{color:"white"}}> Phase Power Products </h4>
+             <Navbar.Brand href="#home"><img src={Logo} alt="logo" width="100" height="40" /></Navbar.Brand> 
+           
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
@@ -41,6 +41,10 @@ const Header = () => {
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
                             <Link to="/smartnetworking" style={{ color: "white", "text-align": "center" }}> <Image style={{ "align-items": "center" }} src={Gate} className="imagecenter" Height="100px" width="100px" />
                                 <h4>Smart Networking</h4></Link>
+                            </div>
+                            <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
+                            <Link to="/othersproducts" style={{ color: "white", "text-align": "center" }}> <Image style={{ "align-items": "center" }} src={Gate} className="imagecenter" Height="100px" width="100px" />
+                                <h4>Other Realted Prodcts </h4></Link>
                             </div>
                         </div>
                     </div>

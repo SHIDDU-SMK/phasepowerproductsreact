@@ -13,7 +13,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import './assets/css/App.css';
 // import './assets/css/album.css';
-// import Brand from './brand';
+ import Brand from './brand';
 
 
 const Home = () => {
@@ -23,6 +23,7 @@ const Home = () => {
            <TpCarousel />
            <Services />
            <About />
+           <Brand />
            <Slider />
            {/* <Brand /> */}
            <Footer />

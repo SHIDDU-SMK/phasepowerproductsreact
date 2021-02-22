@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Logo from './images/logo1.png';
+import Logo from './images/logonew.png';
 import { Link } from 'react-router-dom';
 import './assets/css/navbar.css';
 import {Row ,Col } from 'react-bootstrap';
@@ -21,11 +21,8 @@ class Footer extends Component {
         <footer className="card-body footer-text" style={footerbgColor}>
                 <div className="row">
                     <div className="col-sm-4">
-                      {/* <svg className="bd-placeholder-img" width="100px" height="30px" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"> */}
-                        {/* <img src={Logo} alt="Tool-img" width="110px" height="90px"/> */}
-                        <h4 style={{color:"white"}}> Phase Power Products </h4>
-                        <title>Placeholder</title>
-                      {/* </svg> */}
+                         <img src={Logo} alt="Tool-img" width="100px" height="40px"/>
+                       <h4 style={{color:"white"}}> Phase Power Products </h4>
                       <p className="card-text" style={{color:"white"}}> “Phase Power Products” was incorporated in the year 2010 as a Sole Proprietorship entity." </p>
                     </div>
                     <div className="col-sm-4" >
@@ -46,7 +43,9 @@ class Footer extends Component {
                     </div>
                     <div className="col-sm-4">
                         <h4 style={{color:"grey"}}><b>Contact</b></h4>
-                        <p className="card-text" style={{color:"white"}}>Phase Power Products <br/> 8/16, OPP.KTG School, 40 Feet Rd, Srigandha Nagar, Hegganahalli, Bengaluru, Karnataka 560091</p>
+                        <p className="card-text" style={{color:"white"}}>Phase Power Products <br/> 8/16, OPP.KTG School, 40 Feet Rd, Srigandha Nagar, 
+                        Hegganahalli, Bengaluru, Karnataka 560091 </p>
+                        <p style={{color:"white"}}> GST N0-29AASFP4396C1ZO </p>
                          <p>
                             <a className="fa" href="https://facebook.com/"style={{color:"grey"}} ><i className="fa fa-facebook-square" style={footerTextSize}></i></a>&emsp;
                             <a className="fa" href="https://linkedin.com/" style={{color:"grey"}}><i className="fa fa-linkedin " style={footerTextSize}></i></a>&emsp;
