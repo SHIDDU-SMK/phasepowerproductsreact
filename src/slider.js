@@ -1,12 +1,12 @@
 import React from 'react';
 import './assets/css/App.css';
 import { CurrentSlide, PlusSlides } from './showslide';
-import Product5 from './images/earthleakagerelay.png';
+import Product5 from './images/microbattery.jpg';
 import Product1 from './images/el1.png';
 import Product2 from './images/el2.png';
 import Product3 from   './images/el3.png';
 import Product4 from './images/el4.png';
-import product6 from './images/generatormonitoringunit.png';
+import product6 from './images/case1.jpg';
 
 class Slider extends React.Component {
   render () {

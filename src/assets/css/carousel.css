@@ -5,7 +5,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 5rem;
+    padding-top: 3.5rem;
     padding-bottom: 1rem;
     color: #000000;
     font-size: 18px;
@@ -76,12 +76,20 @@ a:hover {
   ------------------------- */
 
 .featurette-divider {
-    margin: 3rem 0rem;
+    margin: 3.5rem 0rem;
     border-top: 1px solid;
-    color: blue;
+    color: grey;
     /* Space out the Bootstrap <hr> more */
 }
-
+.fa {
+    text-align: center;
+    text-decoration: none;
+    
+  }
+.fa:hover{
+        color:honeydew;
+    
+}
 
 /* Thin out the marketing headings */
 

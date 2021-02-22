@@ -31,41 +31,41 @@ function SmartControl() {
                             <Col>
                                 <Link to="#powerqualitymeter"> 
                                 <Image src={PowerQualityMeter} height="130" width="130" rounded title="Power Quality Meter" />
-                                <p style={{color:"black", paddingTop:"1rem"}}> Power Quality Meter</p> </Link>
+                                <p style={{color:"black", paddingTop:"1rem" ,textAlign:"center"}}> Power Quality Meter</p> </Link>
                             </Col>
                             <Col>
                                 <Link to="#apfc" > 
                                 <Image src={APFC} height="130" width="130" rounded title="APFC" />
-                                <p style={{color:"black", paddingTop:"1rem"}}> APFC </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> APFC </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#demandcontrol">  
                                 <Image src={DemandControl} height="130" width="130" rounded  title="DemandControl" />
-                                <p style={{color:"black", paddingTop:"1rem"}}> Demand Control  </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> Demand Control  </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#powerfactorcontrol" >  
                                 <Image src={PowerFactorController} height="130" width="130" rounded title="PowerFactorController" />
-                                <p style={{color:"black", paddingTop:"1rem"}}> Power Factor Controller </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}> Power Factor Controller </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#earthleakagerelay">  
                                 <Image src={EarthLeakageRelay} height="130" width="130" rounded title="EarthLeakageRelay"  />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Earth Leakage Relay </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>Earth Leakage Relay </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#energyprocessmonitor">
                                 <Image src={EnergyProcessMonitor} height="130" width="130" rounded title="EnergyProcessMonitor"  />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Energy Process Monitor </p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>Energy Process Monitor </p></Link>
                             </Col>
                             <Col>
                                 <Link to="#motorprotectionsystem">
                                 <Image src={MotorProtectionSystem} height="130" width="130" rounded title="MotorProtectionSystem"  />
-                                <p style={{color:"black", paddingTop:"1rem"}}>Motor Protection System</p></Link>
+                                <p style={{color:"black", paddingTop:"1rem",textAlign:"center"}}>Motor Protection System</p></Link>
                             </Col>
                         </Row>
                  
-                        <hr className="featurette-divider" />
+                        <hr id="powerqualitymeter"className="featurette-divider" />
                     </div>
 
                    
@@ -73,7 +73,7 @@ function SmartControl() {
                     <div className="container">
                         <Row>
                             <Col>
-                                <h2 id="powerqualitymeter" style={{ textAlign: "center" }}><b> Power Quality Meter </b></h2>
+                                <h2  style={{ textAlign: "center" }}><b> Power Quality Meter </b></h2>
                                 <p style={{ textAlign: "center" }}> Measure, record and visualize electrical network parameters </p> 
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={PowerQualityMeter} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -105,7 +105,7 @@ function SmartControl() {
 
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr id="apfc" className="featurette-divider" />
 
                         <Row>
                             <Col>
@@ -127,7 +127,7 @@ function SmartControl() {
                                   </ul>
                             </Col>
                             <Col>
-                                <h2 id="apfc" style={{ textAlign: "center" }}> APFC  </h2>
+                                <h2  style={{ textAlign: "center" }}> APFC  </h2>
                                 <p style={{ textAlign: "center" }}>Automatic Power Factor Controller Save energy, maintain power factor range to avoid penalties</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={APFC} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -138,11 +138,11 @@ function SmartControl() {
 
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr id="demandcontrol" className="featurette-divider" />
 
                         <Row>
                             <Col>
-                                <h2 id="demandcontrol" style={{ textAlign: "center" }}> Demand Controller </h2>
+                                <h2  style={{ textAlign: "center" }}> Demand Controller </h2>
                                 <p style={{ textAlign: "center" }}>High-end multifunction meter for comprehensive energy management</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={DemandControl} alt="logo-img" width="100%" hight="100%"/> </svg>
@@ -173,7 +173,7 @@ function SmartControl() {
                     </div>
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr id="powerfactorcontrol" className="featurette-divider" />
 
                         <Row>
                             <Col>
@@ -197,7 +197,7 @@ function SmartControl() {
 
                             </Col>
                             <Col>
-                                <h2 id="powerfactorcontrol" style={{ textAlign: "center" }}> Power Factor Controller </h2>
+                                <h2  style={{ textAlign: "center" }}> Power Factor Controller </h2>
                                 <p style={{ textAlign: "center" }}>Intelligent device to maintain the power factor in required range</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={PowerFactorController} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -207,11 +207,11 @@ function SmartControl() {
                     </div>
                     <div className="container">
 
-                        <hr className="featurette-divider" />
+                        <hr id="earthleakagerelay" className="featurette-divider" />
 
                         <Row>
                             <Col>
-                                <h2 id="earthleakagerelay" style={{ textAlign: "center" }}>  Earth Leakage Relay</h2>
+                                <h2  style={{ textAlign: "center" }}>  Earth Leakage Relay</h2>
                                 <p style={{ textAlign: "center" }}>Detect the leakage current in an intelligent electrical device</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={EarthLeakageRelay} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -240,7 +240,7 @@ function SmartControl() {
                     </div>
 
                     <div className="container">
-                        <hr className="featurette-divider" />
+                        <hr  id="energyprocessmonitor" className="featurette-divider" />
 
                         <Row>
                             <Col>
@@ -264,7 +264,7 @@ function SmartControl() {
                                 </ul>
                             </Col>
                             <Col>
-                                <h2 id="energyprocessmonitor" style={{ textAlign: "center" }}> Dual Source Energy Meter</h2>
+                                <h2  style={{ textAlign: "center" }}> Dual Source Energy Meter</h2>
                                 <p style={{ textAlign: "center" }}>Collecting data from two different sources of energy</p>
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
                                 <image href={EnergyProcessMonitor} alt="logo-img" width="100%" hight="100%"/></svg>
@@ -274,11 +274,11 @@ function SmartControl() {
                     </div>
 
                     <div className="container">
-                        <hr className="featurette-divider" />
+                        <hr id="motorprotectionsystem" className="featurette-divider" />
 
                         <Row>
                             <Col>
-                                <h2 id="motorprotectionsystem" style={{ textAlign: "center" }}>Motor Protection System</h2>
+                                <h2  style={{ textAlign: "center" }}>Motor Protection System</h2>
                                 <p style={{ textAlign: "center" }}>One stop solution for motor protection</p>
                                 {/* <Image src={DcEnergyMeter} height="250" width="400" rounded /> */}
                                 <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
