@@ -22,7 +22,6 @@ class Footer extends Component {
                 <div className="row">
                     <div className="col-sm-4">
                          <img src={Logo} alt="Tool-img" width="100px" height="40px"/>
-                       <h4 style={{color:"white"}}> Phase Power Products </h4>
                       <p className="card-text" style={{color:"white"}}> “Phase Power Products” was incorporated in the year 2010 as a Sole Proprietorship entity." </p>
                     </div>
                     <div className="col-sm-4" >
@@ -31,10 +30,10 @@ class Footer extends Component {
                         <Col>
                           <p className="card-text" style={{color:"white"}}>
                               <ul>
-                                  <li style={{color:"white"}}><Link className="nav-link" to="/smartmonotor" style={{color:"white"}} >Smart Monotoring</Link></li>
-                                  <li style={{color:"white"}}><Link className="nav-link" to="/smartcontrol" style={{color:"white"}}>Smart Control</Link></li>
-                                  <li style={{color:"white"}}><Link className="nav-link" to="/smartresource" style={{color:"white"}}>Smart Resouces</Link></li>
-                                  <li style={{color:"white"}}><Link className="nav-link" to="/smartnetworking" style={{color:"white"}}>Smart Networking </Link></li>
+                                  <li ><Link className="nav-link textproduct" to="/smartmonotor" style={{color:"grey"}} >Smart Monotoring</Link></li>
+                                  <li ><Link className="nav-link" to="/smartcontrol" style={{color:"grey"}}>Smart Control</Link></li>
+                                  <li ><Link className="nav-link" to="/smartresource" style={{color:"grey"}}>Smart Resouces</Link></li>
+                                  <li ><Link className="nav-link" to="/smartnetworking" style={{color:"grey"}}>Smart Networking </Link></li>
                                  
                               </ul>
                           </p>
