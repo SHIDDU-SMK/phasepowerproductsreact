@@ -10,6 +10,10 @@ import PowerAnalyzer from '../images/poweranalyzer.png'
 import ACCL from '../images/accl.png';
 import PowerQualityAnalyzer from '../images/powerqualityanalyzer.png';
 import SmartIo from '../images/smartio.png';
+import Transducer from '../images/transducer.png';
+import APFC from '../images/APFC.png';
+import Gate from '../images/gateway.png';
+
 import Footer from '../footer';
 import { HashLink as  Link } from 'react-router-hash-link';
 // import SubNav from '../subnav';
@@ -19,6 +23,39 @@ function SmartResorces() {
     return (
         <>
             <Header />
+            <h2 style={{ textAlign: "center", paddingTop: "1rem" }}> <b>ELMEASURE </b> </h2>
+            <div className="container" style={{ marginTop: "40px"}}>
+            <Row>
+            <Col>
+            <div style={{ paddingTop: "0rem" }}>
+                <Link to="/smartmonotor" style={{ color: "black", "text-align": "center" }}> <Image style={{ "align-items": "center" }} src={Transducer} className="imagecenter" Height="100px" width="100px" />
+                    <h4>Smart Monitors </h4></Link>
+            </div>
+            </Col>
+                <Col>
+            <div style={{ paddingTop: "0rem" }}>
+                <Link to='/smartcontrol' style={{ color: "black", "text-align": "center" }}><Image style={{ "align-items": "center" }} src={APFC} className="imagecenter" Height="100px" width="100px" />
+                    <h4> Smart Controller</h4></Link>
+            </div>
+            </Col>
+            <Col>
+            <div style={{ paddingTop: "0rem" }}>
+                <Link to="/smartresource" style={{ color: "black", "text-align": "center" }}><Image style={{ "align-items": "center" }} src={SmartIo} className="imagecenter" Height="100px" width="100px" />
+                    <h4>Smart  Resource</h4></Link>
+            </div>
+            </Col>
+            <Col>
+            <div style={{ paddingTop: "0rem" }}>
+                <Link to="/smartnetworking" style={{ color: "black", "text-align": "center" }}> <Image style={{ "align-items": "center" }} src={Gate} className="imagecenter" Height="100px" width="100px" />
+                    <h4>Smart Networking</h4></Link>
+            </div>
+            </Col>
+            
+            </Row>
+            <hr className="featurette-divider" />
+            </div>
+            <h2 style={{textAlign:"center" , paddingTop:"1rem"}}> <b>Smart Resources </b> </h2>
+
                     <div className="container" style={{ marginTop: "40px"}}>
                         {/* <MultiCarousel items = { categoryhr } />             */}
                         <Row>

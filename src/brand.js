@@ -13,7 +13,7 @@ import Image from 'react-bootstrap/Image'
 
     return (
          <>
-         <h1 style={{textAlign : "center" , color : "rgb(16, 134, 163)"}}>Our Dealers</h1>
+         <h1 style={{textAlign : "center" , color : "rgb(16, 134, 163)"}}>Esteemed Clients</h1>
          <div className="container" style={{paddingBottom:"4rem" , textAlign:"center"}} >
              <div className="row">
            

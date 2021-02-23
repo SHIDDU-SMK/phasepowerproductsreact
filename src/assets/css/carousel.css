@@ -409,4 +409,19 @@ a:hover {
     float:center;
     right: 3px;
 }
+.textproduct
+{
+    text-decoration: none;
+    
+  }
 
+.textproduct:hover 
+{
+    color:white
+}
+.textfont {
+    font-size:20px;
+    text-align:start;
+    color:#f07e22 ;
+     letter-spacing: 6px;
+}
