@@ -420,8 +420,11 @@ a:hover {
     color:white
 }
 .textfont {
-    font-size:20px;
     text-align:start;
     color:#f07e22 ;
      letter-spacing: 6px;
-}
+     font-family: Georgia, serif;
+       font-size: 27px;
+       font-weight: 200;
+       text-align: center;
+       }

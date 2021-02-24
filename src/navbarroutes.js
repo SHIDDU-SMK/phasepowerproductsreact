@@ -24,7 +24,7 @@ import SmartResorces from './pages/smartresource';
 import SmartNetworking from './pages/smartnetworking';
 import Othersproducts from './pages/othersproducts';
 import Elmsure from './pages/elmsure';
-
+import Eaton from './pages/eaton';
 
 const NavBarTop = () => {
   return (
@@ -39,7 +39,7 @@ const NavBarTop = () => {
         <Route path ="/smartnetworking"> <SmartNetworking /></Route>
         <Route path ="/othersproducts"> <Othersproducts /> </Route>
         <Route path ="/elmsure"> <Elmsure /> </Route>
-
+        <Route path ="/eaton"> <Eaton /> </Route>
         {/* <Route path ="/monotorsubproducts"> <Monotorsubproducts /> </Route> */}
         {/* <Route path="/galvanised"><Galvanised /></Route> 
         <Route path="/access"><Access /></Route>  
