@@ -1,12 +1,7 @@
 import React from 'react';
 import Footer from '../footer';
 import Header from '../header';
-// import SubProduct from '../subproduct';
-// import MultiCarousel from '../multicarousel';
-// import {categoryhr} from '../data';
-// import {hrproducts} from '../data';
 import { Image, Row, Col } from 'react-bootstrap';
-// import CenterMode from '../pages/multislider';
 import { HashLink as Link } from 'react-router-hash-link';
 import Transducer from '../images/transducer.png';
 import APFC from '../images/APFC.png';

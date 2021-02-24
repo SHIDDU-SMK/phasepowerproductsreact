@@ -26,31 +26,31 @@ function SmartControl() {
    return (
       <>
             <Header />
-            <h2 style={{ textAlign: "center", paddingTop: "1rem" }}> <b>ELMEASURE </b> </h2>
+            <h2 style={{ textAlign: "center", paddingTop: "1rem", color:"red", fontSize:"50px" }}> <b>░E░L░M░A░S░U░R░E░</b> </h2>
             <div className="container" style={{ marginTop: "40px"}}>
             <Row>
             <Col>
             <div style={{ paddingTop: "0rem" }}>
                 <Link to="/smartmonotor" style={{ color: "black", "text-align": "center" }}> <Image style={{ "align-items": "center" }} src={Transducer} className="imagecenter" Height="100px" width="100px" />
-                    <h4 className="textfont" >Smart Monitors </h4></Link>
+                    <h4 className="textfont" >𝐒𝐦𝐚𝐫𝐭 𝐌𝐨𝐧𝐢𝐭𝐨𝐫𝐬</h4></Link>
             </div>
             </Col>
                 <Col>
             <div style={{ paddingTop: "0rem" }}>
                 <Link to='/smartcontrol' style={{ color: "black", "text-align": "center" }}><Image style={{ "align-items": "center" }} src={APFC} className="imagecenter" Height="100px" width="100px" />
-                    <h4 className="textfont"> Smart Controller</h4></Link>
+                    <h4 className="textfont"> 𝐒𝐦𝐚𝐫𝐭 𝐂𝐨𝐧𝐭𝐫𝐨𝐥</h4></Link>
             </div>
             </Col>
             <Col>
             <div style={{ paddingTop: "0rem" }}>
                 <Link to="/smartresource" style={{ color: "black", "text-align": "center" }}><Image style={{ "align-items": "center" }} src={SmartIo} className="imagecenter" Height="100px" width="100px" />
-                    <h4 className="textfont">Smart  Resource</h4></Link>
+                    <h4 className="textfont">𝐒𝐦𝐚𝐫𝐭 𝐑𝐞𝐬𝐨𝐮𝐫𝐜𝐞</h4></Link>
             </div>
             </Col>
             <Col>
             <div style={{ paddingTop: "0rem" }}>
                 <Link to="/smartnetworking" style={{ color: "black", "text-align": "center" }}> <Image style={{ "align-items": "center" }} src={Gate} className="imagecenter" Height="100px" width="100px" />
-                    <h4  className="textfont"> Smart Networking</h4></Link>
+                    <h4  className="textfont"> 𝐒𝐦𝐚𝐫𝐭 𝐍𝐞𝐭𝐰𝐨𝐫𝐤𝐢𝐧𝐠</h4></Link>
             </div>
             </Col>
             
@@ -58,7 +58,7 @@ function SmartControl() {
             <hr className="featurette-divider" />
             </div>
 
-            <h2 style={{textAlign:"center" , paddingTop:"1rem"}}> <b>Smart Controller </b> </h2>
+            <h2 style={{textAlign:"center" , paddingTop:"1rem"}}> <b>꧁༒☬𝓢𝓶𝓪𝓻𝓽 𝓒𝓸𝓷𝓽𝓻𝓸𝓵𝓵𝓮𝓻☬༒꧂ </b> </h2>
                     <div className="container" style={{ marginTop: "40px"}}>
                         {/* <MultiCarousel items = { categoryhr } />             */}
                         
