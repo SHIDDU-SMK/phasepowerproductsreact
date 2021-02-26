@@ -15,6 +15,9 @@ import BZMMccb from '../images/eaton/mccb/eatonbzm.jpg';
 import eatonmoeller from '../images/eaton/contractor/eatonmoeller.jpg';
 import Light from '../images/eaton/light/light.png';
 import SPD from '../images/eaton/spd/spd.png';
+
+
+
 function Eaton() {
 
     return (
@@ -31,7 +34,7 @@ function Eaton() {
             </Col>
             <Col>
             <div style={{ paddingTop: "0rem" }}>
-                <Link to="/eaton" style={{ color: "black", "text-align": "center" }}> <Image style={{ "align-items": "center" }} src={BZMMccb} className="imagecenter" Height="100px" width="100px" />
+                <Link to="/mccbeaton" style={{ color: "black", "text-align": "center" }}> <Image style={{ "align-items": "center" }} src={BZMMccb} className="imagecenter" Height="100px" width="100px" />
                     <h4 className="textfont" > MCCB Device  </h4></Link>
             </div>
             </Col>
