@@ -19,6 +19,9 @@ import ProductControl from './pages/product-Control';
 import ProductResource from './pages/product-resource';
 import ProductNetwork from './pages/product-network';
 import ProductEatonMcb from './pages/product-eatonmcb';
+
+import MCCB from './pages/mccbeaton';
+
 const NavBarTop = () => {
   return (
     <Router>
@@ -39,8 +42,20 @@ const NavBarTop = () => {
         <Route path ="/prodsr"> <ProductResource /> </Route>
         <Route path ="/prodsn"> <ProductNetwork /> </Route>
         <Route path ="/prodemcb"> <ProductEatonMcb /> </Route>
-        
-        
+        <Route path ="/eaton"> <Eaton /> </Route>
+        <Route path ="/mccbeaton"> <MCCB /></Route>
+        {/* <Route path ="/monotorsubproducts"> <Monotorsubproducts /> </Route> */}
+        {/* <Route path="/galvanised"><Galvanised /></Route> 
+        <Route path="/access"><Access /></Route>  
+        <Route path="/cement"><Cement /></Route>  
+        <Route path="/prepainted"><PrePaint /></Route> 
+        <Route path="/steel"><Steel /></Route>  
+        <Route path="/others"><Others /></Route>
+        <Route path="/tiles-S"><TilesS /></Route>  
+        <Route path="/pipes"><Pipes /></Route> 
+        <Route path="/tubes"><Tubes /></Route>  
+        <Route path="/poly"><Polycarbonates /></Route>       */}
+
 
       </Switch>
     </Router>

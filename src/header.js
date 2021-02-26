@@ -5,9 +5,10 @@ import './assets/css/navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Navbar, Form, Nav, Image } from 'react-bootstrap';
 import Transducer from './images/transducer.png';
-import APFC from './images/APFC.png';
 import SmartIo from './images/smartio.png';
 import Gate from './images/gateway.png';
+import BZMMccb from './images/eaton/mccb/eatonbzm.jpg';
+
 
 
 const Header = () => {
@@ -31,7 +32,7 @@ const Header = () => {
                                  <h4>Elmeasure India Pvt Ltd</h4> </Link>
                             </div>
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
-                            <Link to='/eaton' style={{ color: "white", "text-align": "center" }}><Image style={{ "align-items": "center" }} src={APFC} className="imagecenter" Height="100px" width="100px" />
+                            <Link to='/eaton' style={{ color: "white", "text-align": "center" }}><Image style={{ "align-items": "center" }} src={BZMMccb} className="imagecenter" Height="100px" width="100px" />
                                  <h4> Eaton Power Quality Pvt Ltd </h4></Link>
                             </div>
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
