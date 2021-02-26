@@ -181,41 +181,22 @@ function ProductTemplate({data}) {
                         <>
                             <hr id="dcenergy" className="featurette-divider" style={{ color: 'blue'}}/>
                             <Row>
-                                <Col className={ item.id % 2 === 0? '' : 'order-2' }>
-                                    <h2  style={{ textAlign: "center" }}>
+                                <Col sm={4} className={ item.id % 2 === 0? '' : 'order-2' }>
+                                   
+                                    <Image src={item.image} width="350" height="350" style={{ paddingBottom: '2rem'}}/>
+                                    
+                                </Col>
+                                <Col sm={8}>
+                                <h2  style={{ textAlign: "center" }}>
                                         {item.heading}
                                     </h2>
-                                    <p style={{ textAlign: "center" }}>
-                                        {item.top_desc}
-                                    </p>
-                                    <Image src={item.image} style={{ paddingBottom: '2rem'}}/>
-                                    <p style={{ textAlign: "center"}}> 
-                                        {item.bottom_desc}
-                                    </p>
-                                </Col>
-                                <Col>
+                                   
                                     <h5 className="text-black-50">
                                         {item.features_heading}
                                     </h5>
-                                    <ul className="ul">
-                                        {item.salient_features.map(
-                                            feature =>
-                                            <li>
-                                                { feature }
-                                            </li>
-                                        )}
-                                    </ul>
-                                    <h5>
-                                        {item.app_heading}
-                                    </h5>
-                                    <ul className="ul">
-                                        {item.app_list.map(
-                                            app =>
-                                            <li>
-                                                { app }
-                                            </li>
-                                        )}
-                                    </ul>
+                                   <p>
+                                       {item.paragraph}
+                                       </p>                                    
                                 </Col>
                             </Row>
                         </>
