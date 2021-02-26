@@ -25,7 +25,8 @@ import SmartNetworking from './pages/smartnetworking';
 import Othersproducts from './pages/othersproducts';
 import Elmsure from './pages/elmsure';
 import Eaton from './pages/eaton';
-import Product_Template from "./pages/product-template";
+import ProductTemplate from "./pages/product-template";
+import ProductTemp from "./pages/product-temp";
 
 const NavBarTop = () => {
   return (
@@ -41,7 +42,8 @@ const NavBarTop = () => {
         <Route path ="/othersproducts"> <Othersproducts /> </Route>
         <Route path ="/elmsure"> <Elmsure /> </Route>
         <Route path ="/eaton"> <Eaton /> </Route>
-        <Route path ="/prod"> <Product_Template /> </Route>
+        <Route path ="/prod"> <ProductTemplate /> </Route>
+        <Route path ="/prodtemp"> <ProductTemp /> </Route>
       </Switch>
     </Router>
   );

@@ -1,9 +1,3 @@
-import React from 'react';
-import Footer from '../footer';
-import Header from '../header';
-import { HashLink as Link } from 'react-router-hash-link';
-import { Image, Row, Col } from 'react-bootstrap';
-// import { data } from '../data/products.js';
 const data = {
     'Title': 'Smart Monitor',
     'Products': [{
@@ -80,7 +74,6 @@ const data = {
             "top_desc": "Compact device to enroute multiple channels",
             "image": '../images/branchcircuitmonitor.png',
             "bottom_desc": " Multi-channel load manager | Power distribution unit ",
-            "prod_id": "generalmoitoringunit",
             "prod_id": "branchcircuitmonitor",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -103,6 +96,7 @@ const data = {
             "top_desc": "Generator monitoring device with dual display",
             "image": '../images/generatormonitoringunit.png',
             "bottom_desc": " Counter & LED Display | Pulse Output ",
+            "prod_id": "generalmoitoringunit",
             "features_heading": "Salient Features",
             "salient_features": [
                 "Avoids the requirement of 2 different meters (energy and VAF in one)",
@@ -124,7 +118,6 @@ const data = {
             "top_desc": "Collecting data from two different sources of energy",
             "image": '../images/dualsourceenergymeter.png',
             "bottom_desc": " Multifunction meter | Dual source measurement ",
-            "prod_id": "dcenergy",
             "prod_id": "dualsource",
             "features_heading": "Salient Features",
             "salient_features": ["Directly replaces 2 energy meters",
@@ -146,6 +139,7 @@ const data = {
             "top_desc": "Smart device for all renewal energy resources",
             "image": '../images/dcenergymeter.png',
             "bottom_desc": " Multi-channel DC Energy | Voltage/Current full scale ",
+            "prod_id": "dcenergy",
             "features_heading": "Salient Features",
             "salient_features": [
                 "Multiple channels can be measured by a single meter, EN2450N & EN2450D",
@@ -164,68 +158,6 @@ const data = {
             ]
         }
     ]
-}
+};
 
-function ProductTemplate() {
-    return (
-        <>
-            <Header />
-                <h2 style={{ textAlign: "center", paddingTop: "1rem" }}> 
-                    <b>
-                        { data.Title } 
-                    </b> 
-                </h2>
-                <div className="container" style={{ marginTop: "40px"}}>
-                    {
-                        data.Products.map(item => 
-                        <>
-                            <hr id="dcenergy" className="featurette-divider" style={{ color: 'blue'}}/>
-                            <Row>
-                                <Col className={ item.id % 2 == 0? '' : 'order-2' }>
-                                    <h2  style={{ textAlign: "center" }}>
-                                        {item.heading}
-                                    </h2>
-                                    <p style={{ textAlign: "center" }}>
-                                        {item.top_desc}
-                                    </p>
-                                    <Image src={item.image} />
-                                    <p style={{ textAlign: "center" }}> 
-                                        {item.bottom_desc}
-                                    </p>
-                                </Col>
-                                <Col>
-                                    <h5 className="text-black-50">
-                                        {item.features_heading}
-                                    </h5>
-                                    <ul className="ul">
-                                        {item.salient_features.map(
-                                            feature =>
-                                            <li>
-                                                { feature }
-                                            </li>
-                                        )}
-                                    </ul>
-                                    <h5>
-                                        {item.app_heading}
-                                    </h5>
-                                    <ul className="ul">
-                                        {item.app_list.map(
-                                            app =>
-                                            <li>
-                                                { app }
-                                            </li>
-                                        )}
-                                    </ul>
-                                </Col>
-                            </Row>
-                        </>
-                    )
-                }
-            </div> 
-            <Footer />   
-        </>
-    );
-
-}
-
-export default ProductTemplate;
+export default { data };
