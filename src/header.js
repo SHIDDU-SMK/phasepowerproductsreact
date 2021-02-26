@@ -31,7 +31,7 @@ const Header = () => {
                                  <h4>Elmeasure India Pvt Ltd</h4> </Link>
                             </div>
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
-                            <Link to='/eaton' style={{ color: "white", "text-align": "center" }}><Image style={{ "align-items": "center" }} src={APFC} className="imagecenter" Height="100px" width="100px" />
+                            <Link to='/eatonmcb' style={{ color: "white", "text-align": "center" }}><Image style={{ "align-items": "center" }} src={APFC} className="imagecenter" Height="100px" width="100px" />
                                  <h4> Eaton Power Quality Pvt Ltd </h4></Link>
                             </div>
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>

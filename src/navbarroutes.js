@@ -12,13 +12,14 @@ import Home from "./home";
 //import SmartNetworking from './pages/smartnetworking';
 //import Othersproducts from './pages/othersproducts';
 import Elmsure from './pages/elmsure';
-import Eaton from './pages/eaton';
+// import Eaton from './pages/eaton';
 import ProductTemplate from "./pages/product-template";
 import ProductMonitor from "./pages/product-monitor";
 import ProductControl from './pages/product-Control';
 import ProductResource from './pages/product-resource';
 import ProductNetwork from './pages/product-network';
 import ProductEatonMcb from './pages/product-eatonmcb';
+import EatonTemplate from './pages/eaton-templetes';
 const NavBarTop = () => {
   return (
     <Router>
@@ -32,13 +33,18 @@ const NavBarTop = () => {
         <Route path ="/smartnetworking"> <SmartNetworking /></Route>
         <Route path ="/othersproducts"> <Othersproducts /> </Route> */}
         <Route path ="/elmsure"> <Elmsure /> </Route>
-         <Route path ="/eaton"> <Eaton /> </Route>  
+         {/* <Route path ="/eaton"> <Eaton /> </Route>   */}
         <Route path ="/prod"> <ProductTemplate /> </Route>
         <Route path ="/prodsm"> <ProductMonitor /> </Route>
         <Route path ="/prodsc"> <ProductControl /> </Route>
         <Route path ="/prodsr"> <ProductResource /> </Route>
         <Route path ="/prodsn"> <ProductNetwork /> </Route>
-        <Route path ="/prodemcb"> <ProductEatonMcb /> </Route>
+        <Route path ="/eaton"> <EatonTemplate /> </Route>
+        <Route path ="/eatonmcb"> <ProductEatonMcb /> </Route>
+
+
+        
+        
         
         
 

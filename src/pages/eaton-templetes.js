@@ -166,7 +166,7 @@ import { Image, Row, Col } from 'react-bootstrap';
 //     ]
 // }
 
-function ProductTemplate({data}) {
+function EatonTemplate({data}) {
     return (
         <>
             <Header />
@@ -209,4 +209,4 @@ function ProductTemplate({data}) {
 
 }
 
-export default ProductTemplate;
+export default EatonTemplate;

@@ -1,9 +1,9 @@
-import ProductTemplate from "./eaton-templetes";
+import EatonTemplate from "./eaton-templetes";
 import { Mcb } from '../data/eatonproduct'
 function ProductEatonMcb() {
     return (
         <>
-            <ProductTemplate data = { Mcb }/>
+            <EatonTemplate data = {Mcb}/>
         </>
     )
 }
