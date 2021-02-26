@@ -26,8 +26,8 @@ import Othersproducts from './pages/othersproducts';
 import Elmsure from './pages/elmsure';
 import Eaton from './pages/eaton';
 import ProductTemplate from "./pages/product-template";
-import ProductTemp from "./pages/product-temp";
-
+import ProductMonitor from "./pages/product-monitor";
+import ProductControl from './pages/product-Control';
 const NavBarTop = () => {
   return (
     <Router>
@@ -43,7 +43,9 @@ const NavBarTop = () => {
         <Route path ="/elmsure"> <Elmsure /> </Route>
         <Route path ="/eaton"> <Eaton /> </Route>
         <Route path ="/prod"> <ProductTemplate /> </Route>
-        <Route path ="/prodtemp"> <ProductTemp /> </Route>
+        <Route path ="/prodsm"> <ProductMonitor /> </Route>
+        <Route path ="/prodsc"> <ProductControl /> </Route>
+
       </Switch>
     </Router>
   );
