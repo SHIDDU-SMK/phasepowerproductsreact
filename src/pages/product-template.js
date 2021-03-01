@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../footer';
 import Header from '../header';
+import { HashLink as Link } from 'react-router-hash-link';
 import { Image, Row, Col } from 'react-bootstrap';
 
 function ProductTemplate({data}) {
@@ -13,10 +14,28 @@ function ProductTemplate({data}) {
                     </b> 
                 </h2>
                 <div className="container" style={{ marginTop: "40px"}}>
+                <Row className="justify-content-md-center">
+                        {
+                            data.Products.map(item => 
+                                <>
+                                    <Col md="3" style={{ "text-align": "center"}} >
+                                        <Link to={`#${item.id}`}> 
+                                            <Image src={ item.image} Height="50" width="50" style={{padding: '100'}}/>
+                                            <hr width = '100' paddingBottom='10'/>
+                                            <h6 style={{color: 'black'}}> { item.heading } </h6>
+                                        </Link>
+                                    </Col>  
+                                </>
+                            )
+                        }             
+                </Row>
+            </div>
+
+                <div className="container" style={{ marginTop: "40px"}}>
                     {
                         data.Products.map(item => 
                         <>
-                            <hr id="dcenergy" className="featurette-divider" />
+                            <hr id={item.id} className="featurette-divider" />
                             <Row>
                                 <Col className={ item.id % 2 === 0? '' : 'order-2' }>
                                     <h2  style={{ textAlign: "center" }}>

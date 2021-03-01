@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../footer';
 import Header from '../header';
 import { Image, Row, Col, Table } from 'react-bootstrap';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 function ProductTempleteSimple({data}) {
@@ -14,10 +15,27 @@ function ProductTempleteSimple({data}) {
                     </b> 
                 </h2>
                 <div className="container" style={{ marginTop: "40px"}}>
+                <Row className="justify-content-md-center">
+                        {
+                            data.Products.map(item => 
+                                <>
+                                    <Col md="4" style={{ "text-align": "center"}}>
+                                        <Link to={`#${item.id}`} style={{ "color": "black"}}> 
+                                            <Image src={ item.image} height="50px" width="50px"/>
+                                            <hr width = '100' paddingBottom='10'/>
+                                            <h6 style = {{ fontSize:'12' }} > { item.heading } </h6>
+                                        </Link>
+                                    </Col>  
+                                </>
+                            )
+                        }             
+                </Row>
+            </div>
+                <div className="container" style={{ marginTop: "40px"}}>
                     {
                         data.Products.map(item => 
                         <>
-                            <hr id="dcenergy" className="featurette-divider" />
+                            <hr id={item.id} className="featurette-divider" />
                             <Row>
                                 <Col sm={4} className={ item.id % 2 === 0? '' : 'order-2' }>
                                    
@@ -41,7 +59,7 @@ function ProductTempleteSimple({data}) {
                                 <Table striped bordered hover>
                                     <thead>
                                         <tr>
-                                            <th> RATED CURRENTS</th>
+                                            <th>RATED CURRENTS</th>
                                             <th>COMPLIANT TO</th>
                                             <th>RATED BREAKING CAPACITY</th>
                                         </tr>

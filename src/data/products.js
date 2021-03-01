@@ -651,58 +651,31 @@ const Eaton = {
             "rated_current": "compliant MCB",
             "compliant_to": "up to 50 A",
             "rated_breaking_capacity": "C",
-        }}],
+        }},
+        {
+            "id": 9,
+            "heading": "BZM Molded Case Circuit Breaker",
+            "image": '../images/eaton/mcb1.jpg',
+            "paragraph": "Eaton's BZM Molded Case Circuit Breakers offer optimum and efficient protection for low voltage applications in power distribution systems. The advantage of the BZM series is its simple use: The thermal and magnetic release system for over-current and short-circuit protection of your system is already factory set. Along with simple handling of the product and its accessories, Eaton’s BZM offering provides an attractive product assortment.",
+            "features": {
+                "rated_current": "up to 40 A",
+                "compliant_to": "IEC/EN 61009",
+                "rated_breaking_capacity": "6 kA or 10 kA",
+                }
+            },
+        
+            {
+                "id": 10,
+                "heading": "NZM Molded Case Circuit Breaker",
+                "image": "../images/eaton/eatonaz.jpg",
+                "paragraph": "The new Eaton circuit-breakers cover a range from 15 to 1600 A with just four frame sizes. And they are optimally matched to one another. The wide application spectrum covers every requirement as Eaton has closely examined what every customer needs and implemented the appropriate solutions. Outstanding, for example, is the continuous switching power range – which extends from the smallest to the largest circuit-breaker or the modular system which can be matched without difficulty to suit the specific application.",
+                "features": {
+                    "rated_current": "15 to 1600 A",
+                    "compliant_to": "1- and 2-pole",
+                    "rated_breaking_capacity": "150 kA.",
+                }
+            }],
 };
 
-const EatonMccb = {
-    'Title': 'Molded Case Circuit Breaker',
-    'Products': [{
-    "id": 1,
-    "heading": "BZM Molded Case Circuit Breaker",
-    "image": '../images/eaton/mcb1.jpg',
-    "paragraph": "Eaton's BZM Molded Case Circuit Breakers offer optimum and efficient protection for low voltage applications in power distribution systems. The advantage of the BZM series is its simple use: The thermal and magnetic release system for over-current and short-circuit protection of your system is already factory set. Along with simple handling of the product and its accessories, Eaton’s BZM offering provides an attractive product assortment.",
-    "features": {
-        "rated_current": "up to 40 A",
-        "compliant_to": "IEC/EN 61009",
-        "rated_breaking_capacity": "6 kA or 10 kA",
-        }
-    },
 
-    {
-        "id": 2,
-        "heading": "NZM Molded Case Circuit Breaker",
-        "image": "../images/eaton/eatonaz.jpg",
-        "paragraph": "The new Eaton circuit-breakers cover a range from 15 to 1600 A with just four frame sizes. And they are optimally matched to one another. The wide application spectrum covers every requirement as Eaton has closely examined what every customer needs and implemented the appropriate solutions. Outstanding, for example, is the continuous switching power range – which extends from the smallest to the largest circuit-breaker or the modular system which can be matched without difficulty to suit the specific application.",
-        "features": {
-            "rated_current": "15 to 1600 A",
-            "compliant_to": "1- and 2-pole",
-            "rated_breaking_capacity": "150 kA.",
-        }
-    },
-
-    {
-        "id": 3,
-        "heading": "Miniature Circuit Breakers - FAZ Series for Control Panels",
-        "image": "../images/eaton/eatonfaz.jpg",
-        "paragraph": "When it comes to protecting and switching, this range of high quality, reliable and safe products are a guarantee of protection for people, installations and systems worldwide. Ideally suited to control circuits FAZ mcb’s are designed and approved for industrial and high end commercial applications, offering a wide variety of diverse protection characteristics. The FAZ-series includes auxiliaries, tripping modules, interlocks, busbars and accessories",
-        "features": {
-            "rated_current": "15 to 1600 A",
-            "compliant_to": "1- and 2-pole",
-            "rated_breaking_capacity": "150 kA.",
-        }
-    },
-
-    {
-        "id": 4,
-        "heading": "Miniature Circuit Breakers - FAZ Series for Control Panels",
-        "image": "../images/eaton/eatonfaz.jpg",
-        "paragraph": "When it comes to protecting and switching, this range of high quality, reliable and safe products are a guarantee of protection for people, installations and systems worldwide. Ideally suited to control circuits FAZ mcb’s are designed and approved for industrial and high end commercial applications, offering a wide variety of diverse protection characteristics. The FAZ-series includes auxiliaries, tripping modules, interlocks, busbars and accessories",
-        "features": {
-            "rated_current": "15 to 1600 A",
-            "compliant_to": "1- and 2-pole",
-            "rated_breaking_capacity": "150 kA.",
-        }
-    }],
-}
-
-export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton, EatonMccb  };
+export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton  };

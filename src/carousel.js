@@ -13,7 +13,7 @@ function TpCarousel() {
           <Carousel>
             <Carousel.Item>
               <Image
-                className="d-block w-100 bounce-in-top"
+                className="d-block w-100"
                 src={Enegery}
                 alt="First slide"
                 />
@@ -21,20 +21,20 @@ function TpCarousel() {
             </Carousel.Item>
             <Carousel.Item interval={900}>
               <Image
-                className=" bounce-in-top d-block w-100"
+                className="d-block w-100"
                 src={Auto}
                 alt="Third slide"
               />
              
             </Carousel.Item>
             <Carousel.Item>
-              <Image  className=" bounce-in-top d-block w-100"
+              <Image  className="d-block w-100"
                 src={streetlight}
                 alt="Third slide" />
               
             </Carousel.Item>
             <Carousel.Item>
-              <Image  className=" bounce-in-top d-block w-100"
+              <Image  className="d-block w-100"
                 src={Light}
                 alt="Third slide" />
               </Carousel.Item>
