@@ -5,9 +5,10 @@ import './assets/css/navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Navbar, Form, Nav, Image } from 'react-bootstrap';
 import Transducer from './images/transducer.png';
-import APFC from './images/APFC.png';
 import SmartIo from './images/smartio.png';
 import Gate from './images/gateway.png';
+import BZMMccb from './images/eaton/mccb/eatonbzm.jpg';
+
 
 
 const Header = () => {
