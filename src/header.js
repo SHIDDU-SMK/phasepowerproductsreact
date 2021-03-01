@@ -31,7 +31,7 @@ const Header = () => {
                                  <h4>Elmeasure India Pvt Ltd</h4> </Link>
                             </div>
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
-                            <Link to='/eatonmcb' style={{ color: "white", "text-align": "center" }}><Image style={{ "align-items": "center" }} src={APFC} className="imagecenter" Height="100px" width="100px" />
+                            <Link to='/prodeaton' style={{ color: "white", "text-align": "center" }}><Image style={{ "align-items": "center" }} src={APFC} className="imagecenter" Height="100px" width="100px" />
                                  <h4> Eaton Power Quality Pvt Ltd </h4></Link>
                             </div>
                             <div class="menucolumn text-menu" style={{ paddingTop: "2rem" }}>
@@ -53,7 +53,7 @@ const Header = () => {
                 </Nav>
                 <Form inline>
                     <span className="nav-link" style={{ fontSize: "16px", color: 'grey' }}><i className="fa fa-phone"></i> &emsp;<Link to="+91 123456790" className="fa" style={{ color: "grey" }}> +91 1234567890 </Link>  </span>&emsp;
-                        <i  className="nav-link"class="fa fa-envelope" style={{ "font-size": "20px", "color": "grey" }}></i>&emsp; <Link to="sales@PhasePowerProducts.in" style={{ color: "grey" }}>sales@PhasePowerProducts.in&emsp;</Link>
+                        <i  className="nav-link"class="fa fa-envelope" style={{ "font-size": "20px", "color": "grey" }}></i>&emsp; <Link to="sales@PhasePowerProducts.in" style={{ color: "grey" }}>sales@phasepowerproducts.in&emsp;</Link>
                     <a className="nav-link" style={{ "font-size": "20px", "color": "grey" }}href="https://www.google.co.in/maps/place/PHASE+POWER+PRODUCTS/@13.0010549,77.5060438,15z/data=!4m5!3m4!1s0x0:0x3eceb35962d34fd7!8m2!3d13.0010549!4d77.5060438"><i className="fa fa-map"></i>&emsp; Reach Us</a>
                 </Form>
             </Navbar.Collapse>

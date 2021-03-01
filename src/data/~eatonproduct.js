@@ -1,4 +1,4 @@
-const Mcb = {
+const eaton = {
     'Title': 'Mcb',
     'Products': [{
         "id": 1,
