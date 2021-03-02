@@ -18,15 +18,14 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Home = () => {
       return (
-        <div>
-           <Header />
-           <TpCarousel />
-           <Services />
-           <About />
-           <Brand />
-           <Slider />
-           {/* <Brand /> */}
-           <Footer />
+        <div className="marketing">
+          <Header />
+          <TpCarousel />
+          <About />
+          <Services />
+          <Brand />
+          {/* <Slider /> */}
+          <Footer />
         </div>
       );    
   }

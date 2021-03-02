@@ -5,58 +5,26 @@ import {
   Switch
 } from "react-router-dom";
 import Home from "./home";
-
-//import SmartMonotor from "./pages/smartmonotor";
-//import SmartControl from './pages/smartcontrol';
-//import SmartResorces from './pages/smartresource';
-//import SmartNetworking from './pages/smartnetworking';
-//import Othersproducts from './pages/othersproducts';
-import Elmsure from './pages/elmsure';
-import Eaton from './pages/eaton';
-import ProductTemplate from "./pages/product-template";
+import ProductElmsure from './pages/elmeasure';
 import ProductMonitor from "./pages/product-monitor";
-import ProductControl from './pages/product-Control';
+import ProductControl from './pages/product-control';
 import ProductResource from './pages/product-resource';
 import ProductNetwork from './pages/product-network';
-import ProductEatonMcb from './pages/product-eatonmcb';
-
-import MCCB from './pages/mccbeaton';
+import ProductEaton from './pages/product-eaton';
+import ProductOther from './pages/otherproducts';
 
 const NavBarTop = () => {
   return (
     <Router>
       <Switch>
          <Route exact path="/" ><Home /></Route>
-        {/* <Route path="/product"><Product /></Route> */}
-        {/* <Route path="/coldroll"><ColdRoll /></Route>   */}
-        {/* <Route path="/smartmonotor"><SmartMonotor /></Route> */}
-        {/* <Route path="/smartcontrol"> <SmartControl /></Route> */}
-        {/* <Route path="/smartresource"> <SmartResorces/></Route>
-        <Route path ="/smartnetworking"> <SmartNetworking /></Route>
-        <Route path ="/othersproducts"> <Othersproducts /> </Route> */}
-        <Route path ="/elmsure"> <Elmsure /> </Route>
-         <Route path ="/eaton"> <Eaton /> </Route>  
-        <Route path ="/prod"> <ProductTemplate /> </Route>
+        <Route path ="/prodel"> <ProductElmsure /> </Route>
         <Route path ="/prodsm"> <ProductMonitor /> </Route>
         <Route path ="/prodsc"> <ProductControl /> </Route>
         <Route path ="/prodsr"> <ProductResource /> </Route>
         <Route path ="/prodsn"> <ProductNetwork /> </Route>
-        <Route path ="/prodemcb"> <ProductEatonMcb /> </Route>
-        <Route path ="/eaton"> <Eaton /> </Route>
-        <Route path ="/mccbeaton"> <MCCB /></Route>
-        {/* <Route path ="/monotorsubproducts"> <Monotorsubproducts /> </Route> */}
-        {/* <Route path="/galvanised"><Galvanised /></Route> 
-        <Route path="/access"><Access /></Route>  
-        <Route path="/cement"><Cement /></Route>  
-        <Route path="/prepainted"><PrePaint /></Route> 
-        <Route path="/steel"><Steel /></Route>  
-        <Route path="/others"><Others /></Route>
-        <Route path="/tiles-S"><TilesS /></Route>  
-        <Route path="/pipes"><Pipes /></Route> 
-        <Route path="/tubes"><Tubes /></Route>  
-        <Route path="/poly"><Polycarbonates /></Route>       */}
-
-
+        <Route path ="/prodea"> <ProductEaton /> </Route>
+        <Route path ="/prodpt"> <ProductOther /> </Route>
       </Switch>
     </Router>
   );

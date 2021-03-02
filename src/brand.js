@@ -7,36 +7,41 @@ import Image from 'react-bootstrap/Image'
  import havells from './images/havells.jpg';
  import Micro from './images/micro.jpg';
 
-
-
  function Brand() {
-
     return (
          <>
-         <h1 style={{textAlign : "center" , color : "rgb(16, 134, 163)"}}>Esteemed Clients</h1>
+        <div className="container">
+
+        <div className="row featurette">
+        <h2 className="featurette-heading">
+            Esteemed Clients
+        </h2>
+        </div>
+        <div className="row featurette">
          <div className="container" style={{paddingBottom:"4rem" , textAlign:"center"}} >
-             <div className="row">
-           
-                 <div className=" col-lg-4  swing-in-top-fwd ">
+             <div className="row">           
+                 <div className=" col-lg-4 ">
                      <Image src={Elmeasure} alt="brand image" width="200px" height="100px"/>
                  </div>
-                 <div className=" col-lg-4  swing-in-top-fwd ">
+                 <div className=" col-lg-4 ">
                      <Image src={Eaton} alt="brand image" width="200px" height="100px"/>
                  </div>
-                 <div className="col-lg-4 swing-in-top-fwd">
+                 <div className="col-lg-4 ">
                      <Image src={Micro} alt="brand image" width="200px" height="80px"/>
                  </div>
-                 <div className="col-lg-4 swing-in-top-fwd">
+                 <div className="col-lg-4 ">
                      <Image src={Lubi} alt="brand image" width="100px" height="100px"/>
                  </div>
-                 <div className="col-lg-4 swing-in-top-fwd">
+                 <div className="col-lg-4 ">
                      <Image src={havells} alt="brand image" width="100px" height="100px"/>
                  </div>
-                 <div className="col-lg-4 swing-in-top-fwd">
+                 <div className="col-lg-4 ">
                      <Image src={DSE} alt="brand image" width="100px" height="100px"/>
                  </div>
             
              </div>
+         </div>
+         </div>
          </div>
          </>
     )

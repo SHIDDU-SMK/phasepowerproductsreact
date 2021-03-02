@@ -9,16 +9,20 @@ import Process from './images/automation.png';
 
 const Services = () => {
 	return (
-           <>
-                <div className="container marketing">
-                <h1 className="main-headding"><b>S E R V I C E S</b></h1>
-                    <div className="row" style={{paddingTop:"3rem"}}>
+           <div className="container">
+                <div className="row featurette">
+                    <h2 className="featurette-heading">
+                        Services
+                    </h2>
+                </div>
+                <div className="row featurette">
                             <div className="col-lg-4">
                                 <svg className="bd-placeholder-img" width="140" height="140" >
                                     <image href={HandDollar} alt="Tool-img" width="100%" height="100%" />
-                                    
                                 </svg>
-                                <h4 style={{paddingTop:"1rem"}}><b>Accessibility Authorized Wholesale Dealer </b></h4>        
+                                <h4 style={{paddingTop:"1rem"}}>
+                                    <b>Accessibility Authorized Wholesale Dealer</b>
+                                </h4>        
                             </div>
                             <div className="col-lg-4">
                                 <svg className="bd-placeholder-img" width="120" height="120" >
@@ -60,8 +64,7 @@ const Services = () => {
                             
                             <hr className="featurette-divider" />
                     </div>
-                </div>
-            </>
+            </div>
 	)
 };
 
