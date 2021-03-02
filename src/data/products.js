@@ -674,8 +674,470 @@ const Eaton = {
                     "compliant_to": "1- and 2-pole",
                     "rated_breaking_capacity": "150 kA.",
                 }
+            },
+
+            {
+                "id": 11,
+                "heading": "Emergency Lighting System",
+                "image": "../images/eaton/light/light.png",
+                "paragraph": "The ELPS502 Model #M05 Emergency Lighting System is designed to automatically provide illumination to designated areas during failure or interruption of power to the normal lighting system. The ELPS502 is factory assembled and wired, and consists of one (1) ELPS50 power supply and two (2) EVLA lighting fixtures The ELPS50 power supply consists of a battery supply and battery recharging system housed inside a hazardous area enclosure with all the circuitry to automatically turn on emergency DC lighting fixture(s) when the normal power supply fails",
+                "features": {
+                    "rated_current": "15 to 1600 A",
+                    "compliant_to": "1- and 2-pole",
+                    "rated_breaking_capacity": "150 kA.",
+                }
+            },
+
+            {
+                "id": 12,
+                "heading": "Selecting Protective Devices",
+                "image": "../images/eaton/spd/spd.png",
+                "paragraph": "Eaton’s Bussmann series Selecting Protective Devices (SPD) handbook. This reference document is based on the 2017 National Electrical Code (NEC ® ) and is a comprehensive guide to electrical overcurrent protection and electrical design considerations. The information within this resource is presented on numerous applications as well as code and standard requirements for a variety of electrical equipment and distribution systems.",
+                "features": {
+                    "rated_current": "15 to 1600 A",
+                    "compliant_to": "1- and 2-pole",
+                    "rated_breaking_capacity": "150 kA.",
+                }
+            },
+
+            {
+                "id": 13,
+                "heading": "Eaton Contractors",
+                "image": "../images/eaton/contractor/eatonmoeller.jpg",
+                "paragraph": "",
+                "features": {
+                    "rated_current": "15 to 1600 A",
+                    "compliant_to": "1- and 2-pole",
+                    "rated_breaking_capacity": "150 kA.",
+                }
             }],
 };
 
+const SCModules = {
 
-export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton  };
+    'Title': 'MANUAL/AUTO START CONTROL MODULES',
+    'Products': [{
+        "id": 1,
+        "image": "../images/deepsea/dse402mkii.png",
+        "heading": "DSE402MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 2,
+        "image": "../images/deepsea/dse701mkii.png",
+        "heading": "DSE701MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 3,
+        "image": "../images/deepsea/dse3110.png",
+        "heading": "DSE3110",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 4,
+        "image": "../images/deepsea/dse3210.png",
+        "heading": "DSE3210",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 5,
+        "image": "../images/deepsea/dse4210.png",
+        "heading": "DSE4210",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 6,
+        "image": "../images/deepsea/dse4510mkii.png",
+        "heading": "DSE4510 MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 7,
+        "image": "../images/deepsea/dse6010.png",
+        "heading": "DSE6010 MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 8,
+        "image": "../images/deepsea/dse6110.png",
+        "heading": "DSE6110 MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 9,
+        "image": "../images/deepsea/dse7110mkii.png",
+        "heading": "DSE7110 MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 10,
+        "image": "../images/deepsea/dse7310mkii.png",
+        "heading": "DSE7310 MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 11,
+        "image": "../images/deepsea/dse7410mkii.png",
+        "heading": "DSE7410 MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    }],
+
+};
+
+const FCModules = {
+'Title': 'AUTO MAINS (UTILITY) FAILURE CONTROL MODULES',
+'Products':[{
+        "id": 1,
+        "image": "../images/deepsea/dse4220.png",
+        "heading": "DSE4220",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+ },
+
+ {
+    "id": 2,
+    "image": "../images/deepsea/dse4520.png",
+    "heading": "DSE4520 MKII",
+    "paragraph": "",
+    "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+    }
+},
+
+{
+    "id": 3,
+    "image": "../images/deepsea/dse6020.png",
+    "heading": "DSE6020 MKII",
+    "paragraph": "",
+    "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+    }
+},
+
+{
+    "id": 4,
+    "image": "../images/deepsea/dse6120.png",
+    "heading": "DSE6120 MKII",
+    "paragraph": "",
+    "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+    }
+},
+
+{
+    "id": 5,
+    "image": "../images/deepsea/dse7120.png",
+    "heading": "DSE7120 MKII",
+    "paragraph": "",
+    "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+    }
+},
+
+{
+    "id": 6,
+    "image": "../images/deepsea/dse7320.png",
+    "heading": "DSE7320 MKII",
+    "paragraph": "",
+    "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+    }
+},
+
+{
+    "id": 7,
+    "image": "../images/deepsea/dse7420mkii.png",
+    "heading": "DSE7420 MKII",
+    "paragraph": "",
+    "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+    }
+}],
+
+};
+
+const SharingModules = {
+'Title': 'AUTO MAINS (UTILITY) FAILURE CONTROL MODULES',
+'Products': [{
+        "id": 1,
+        "image": "../images/deepsea/dse8610mkii.png",
+        "heading": "DSE8610 MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 2,
+        "image": "../images/deepsea/dse8620.png",
+        "heading": "DSE8620",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 3,
+        "image": "../images/deepsea/dse8660.png",
+        "heading": "DSE8660 MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 4,
+        "image": "../images/deepsea/dse8661.png",
+        "heading": "DSE8661",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 5,
+        "image": "../images/deepsea/dse7320.png",
+        "heading": "DSE7320 MKII",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 6,
+        "image": "../images/deepsea/dse871060.png",
+        "heading": "DSE8710/60",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 7,
+        "image": "../images/deepsea/dse8721.png",
+        "heading": "DSE8721",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 8,
+        "image": "../images/deepsea/dse8810.png",
+        "heading": "DSE8810",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 9,
+        "image": "../images/deepsea/dse8860.png",
+        "heading": "DSE8860",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    },
+
+    {
+        "id": 10,
+        "image": "../images/deepsea/dse871116.png",
+        "heading": "DSE8711/8716",      
+        "sub_heading": "Sub Heading for testing",
+        "paragraph": "Test Paragraph",
+        "features": {
+            "overall_size": "15 to 1600 A",
+            "panel_cutout_size": "1- and 2-pole",
+            "maximum_panel_thickness": "150 kA.",
+            "weight":"0",
+            "product_variants": "demo"
+        }
+    }],
+};
+
+
+export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton, SCModules, FCModules, SharingModules  };

@@ -23,59 +23,86 @@ const Header = () => {
                 <Nav className="mr-auto">
                     <Link to="/" className="nav-link line current" onClick={() => setExpanded(false)}>Home</Link>
                     <div class="menudropdown">
-                        <a className="nav-link">Products <i class="fa fa-caret-down"></i>
-                        </a>
+                        <Link className="nav-link">Products <i class="fa fa-caret-down"></i>
+                        </Link>
                         <div class="menudropdown-content" >
-                                <Row >
-                                    <div style={{marginLeft: '50px'}}>
-                                        <h4>Elmeasure India Pvt Ltd</h4>
-                                    </div>
-                                </Row>
-                                <Row>
+                            <Row >
+                                <div style={{marginLeft: '50px'}}>
+                                    <h4 style={{marginBottom: "-25px"}}>Elmeasure India Pvt Ltd</h4>
+                                </div>
+                            </Row>
+                            <Row>
+                                <div className="menucolumn" >
+                                <Link to="/prodsr" onClick={() => setExpanded(false)}>
+                                    <Image style={{ "align-items": "center" }} src={SmartIo} height="25px"/> 
+                                    Smart Resource
+                                    <hr width = '100'/>
+                                </Link>
+                                </div>
+                                <div className="menucolumn" >
+                                <Link to="/prodsn" onClick={() => setExpanded(false)}> 
+                                    <Image style={{ "align-items": "center" }} src={Gate} height="25px" />
+                                    Smart Network
+                                    <hr width = '100'/>
+                                    </Link>
+                                </div>
+                                <div className="menucolumn" >
+                                    <Link to="/prodsm" onClick={() => setExpanded(false)}> 
+                                        <Image style={{ "align-items": "center" }} src={Gate} height="25px"/>
+                                        Smart Monitor
+                                        <hr width = '100'/>
+                                    </Link>
+                                </div>
+                                <div className="menucolumn" >
+                                    <Link to="/prodsc" onClick={() => setExpanded(false)}> 
+                                        <Image style={{ "align-items": "center" }} src={Gate} height="25px" />
+                                        Smart Control
+                                        <hr width = '100'/>
+                                    </Link>
+                                </div>
+                            </Row>
+                            <Row >
+                            <div style={{marginLeft: '50px'}}>
+                                <h4 style={{marginBottom: "-25px"}}>Deepsea Electronics</h4>
+                            </div>
+                            </Row>
+                            <Row>
                                     <div className="menucolumn" >
                                     <Link to="/prodsr" onClick={() => setExpanded(false)}>
-                                        <Image style={{ "align-items": "center" }} src={SmartIo} className="imagecenter" height="50px" width="50px" />
-                                        <hr width = '100' paddingBottom='10'/>
-                                    <h6>Smart Resource</h6>
+                                        <Image style={{ "align-items": "center" }} src={SmartIo} height="25px" width="50px" /> Start Control Modules
+                                        <hr width = '100'/>
                                     </Link>
                                     </div>
                                     <div className="menucolumn" >
                                     <Link to="/prodsn" onClick={() => setExpanded(false)}> 
-                                    <Image style={{ "align-items": "center" }} src={Gate} className="imagecenter" height="50px" width="50px" />
-                                        <hr width = '100' paddingBottom='10'/>
-
-                                        <h6>Smart Networking</h6></Link>
+                                    <Image style={{ "align-items": "center" }} src={Gate} height="25px" width="50px" />Failure Control Modules
+                                        <hr width = '100'/></Link>
                                     </div>
                                     <div className="menucolumn" >
                                         <Link to="/prodsm" onClick={() => setExpanded(false)}> 
-                                        <Image style={{ "align-items": "center" }} src={Gate} className="imagecenter" height="50px" width="50px" />
-                                        <hr width = '100' paddingBottom='10'/>
-
-                                            <h6>Smart Monitor</h6></Link>
+                                        <Image style={{ "align-items": "center" }} src={Gate} height="25px" width="50px" />Sharing Control Modules
+                                        <hr width = '100'/></Link>
                                     </div>
-                                    <div className="menucolumn" >
-                                        <Link to="/prodsc" onClick={() => setExpanded(false)}> 
-                                        <Image style={{ "align-items": "center" }} src={Gate} className="imagecenter" height="50px" width="50px" />
-                                        <hr width = '100' paddingBottom='10'/>
-
-                                        <h6>Smart Control</h6></Link>
+                                </Row>                                           
+                                <Row >
+                                    <div style={{marginLeft: '50px'}}>
+                                        <h4 style={{marginBottom: "-25px"}}>
+                                            Eaton Power Quality Pvt Ltd 
+                                        </h4>
                                     </div>
                                 </Row>
                             <Row>
                                 <div class="menucolumn" >
-                                <Link to='/prodea' onClick={() => setExpanded(false)}>
-                                    <Image style={{ "align-items": "center" }} src={BZMMccb} className="imagecenter" Height="50px" width="50px" />
-                                    <hr width = '100' paddingBottom='10'/>
-
-                                    <h6>Eaton Power Quality Pvt Ltd </h6></Link>
+                                    <Link to='/prodea' onClick={() => setExpanded(false)}>
+                                        <Image style={{ "align-items": "center" }} src={BZMMccb} height="25px" width="50px" /> MCCB
+                                        <hr width = '100'/>
+                                    </Link>
                                 </div>
                             </Row>
                             <Row>
                             <div class="menucolumn" >
-                            <Link to="/prod" > <Image style={{ "align-items": "center" }} src={Gate} className="imagecenter" Height="50px" width="50px" />
-                                <hr width = '100' paddingBottom='10'/>
-
-                                <h6>Other  Products </h6></Link>
+                            <Link to="/prod" > <Image style={{ "align-items": "center" }} src={Gate} height="25px" width="50px" />Other  Products 
+                                <hr width = '100'/></Link>
                             </div>
                             </Row>
                         </div>
