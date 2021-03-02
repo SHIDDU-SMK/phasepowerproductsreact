@@ -8,11 +8,13 @@ import { Navbar, Form, Nav, Image, Row, } from 'react-bootstrap';
 import SmartIo from './images/smartio.png';
 import Gate from './images/gateway.png';
 import BZMMccb from './images/eaton/mccb/eatonbzm.jpg';
+import ScrollToTop from './scrolltotop';
 
 const Header = () => {
     const [expanded, setExpanded] = useState(false);
 
     return (
+        <ScrollToTop>
         <Navbar expand="lg" expanded={expanded} fixed="top" variant="dark" style={{ backgroundColor: 'rgb(0, 0, 88)' }}>
              <Navbar.Brand href="#home">
                  <img src={Logo} alt="logo" width="100" height="40" />
@@ -97,6 +99,7 @@ const Header = () => {
                 </Form>
             </Navbar.Collapse>
         </Navbar>
+    </ScrollToTop>
     );
 }
 
