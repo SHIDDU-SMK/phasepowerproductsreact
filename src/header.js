@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 import './assets/css/style.css';
 import './assets/css/navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
-import { Navbar, Form, Nav, Image, Row, Col } from 'react-bootstrap';
-import Transducer from './images/transducer.png';
+import { Navbar, Form, Nav, Image, Row, } from 'react-bootstrap';
+// import Transducer from './images/transducer.png';
 import SmartIo from './images/smartio.png';
 import Gate from './images/gateway.png';
 import BZMMccb from './images/eaton/mccb/eatonbzm.jpg';
@@ -23,8 +23,8 @@ const Header = () => {
                 <Nav className="mr-auto">
                     <Link to="/" className="nav-link line current" onClick={() => setExpanded(false)}>Home</Link>
                     <div class="menudropdown">
-                        <a className="nav-link">Products <i class="fa fa-caret-down"></i>
-                        </a>
+                        <span className="nav-link">Products <i class="fa fa-caret-down"></i>
+                        </span>
                         <div class="menudropdown-content" >
                                 <Row >
                                     <div style={{marginLeft: '50px'}}>
