@@ -13,6 +13,7 @@ const Header = () => {
     const [expanded, setExpanded] = useState(false);
 
     return (
+       <ScrollToTop>
         <Navbar expand="lg" expanded={expanded} fixed="top" variant="dark" style={{ backgroundColor: '#33958C' }}>
              <Navbar.Brand href="#home">
                  <img src={Logo} alt="logo" width="100" height="40"/>
