@@ -7,7 +7,7 @@ import About from './about';
 import 'popper.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
- import Brand from './brand';
+import Brand from './brand';
 
 
 const Home = () => {
