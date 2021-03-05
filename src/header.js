@@ -7,6 +7,7 @@ import { Navbar, Form, Nav, Image, Row} from 'react-bootstrap';
 import SmartIo from './images/smartio.png';
 import Gate from './images/gateway.png';
 import BZMMccb from './images/eaton/mccb/eatonbzm.jpg';
+import ScrollToTop from './scrolltotop';
 
 const Header = () => {
     const [expanded, setExpanded] = useState(false);
@@ -24,6 +25,7 @@ const Header = () => {
                     <div class="menudropdown">
                         <Link className="nav-link">Products <i class="fa fa-caret-down"></i>
                         </Link>
+
                         <div class="menudropdown-content" >
                             <Row >
                                 <div style={{marginLeft: '50px'}}>
@@ -161,6 +163,7 @@ const Header = () => {
                 </Form>
             </Navbar.Collapse>
         </Navbar>
+    </ScrollToTop>
     );
 }
 
