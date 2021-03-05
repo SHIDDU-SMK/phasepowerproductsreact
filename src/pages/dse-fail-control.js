@@ -1,9 +1,9 @@
-import ProductDseTemplete from "./product-templete-dse";
+import ProductDseTempleteMedium from "./product-templete-dse";
 import { FCModules } from '../data/products'
 function FailureControl() {
     return (
         <>
-            <ProductDseTemplete data = {FCModules}/>
+            <ProductDseTempleteMedium data = {FCModules}/>
         </>
     )
 }

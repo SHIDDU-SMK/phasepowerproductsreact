@@ -1,9 +1,9 @@
-import ProductDseTemplete from "./product-templete-dse";
+import ProductDseTempleteMedium from "./product-templete-dse";
 import { SharingModules } from '../data/products'
 function SharingControl() {
     return (
         <>
-            <ProductDseTemplete data = {SharingModules}/>
+            <ProductDseTempleteMedium data = {SharingModules}/>
         </>
     )
 }

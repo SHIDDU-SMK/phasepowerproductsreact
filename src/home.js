@@ -4,7 +4,7 @@ import TpCarousel from './carousel';
 import Services from './services';
 import Footer from './footer';
 import About from './about';
-import Slider from './slider';
+// import Slider from './slider';
 // import Product from './product';
 // import Marketing from './marketing';
 // import './assets/css/navbar.css';
