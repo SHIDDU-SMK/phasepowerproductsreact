@@ -1,14 +1,10 @@
 import React from 'react';
 import Footer from '../footer';
 import Header from '../header';
-<<<<<<< HEAD
-import { Image, Row, Col, } from 'react-bootstrap';
-=======
-import { Image, Row, Col } from 'react-bootstrap';
->>>>>>> e303387e75bef2c3442631a0784da2328f76cf24
+import { Image, Row, Col, Table } from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
 
-
+let i=0;
 function ProductTempleteLubi({data}) {
     return (
         <>
@@ -19,52 +15,49 @@ function ProductTempleteLubi({data}) {
                     </b> 
                 </h2>
                 <div className="container" style={{ marginTop: "40px"}}>
-                <Row className="justify-content-md-center">
-                        {
-                            data.Products.map(item => 
-                                <>
-                                    <Col md="2" style={{ "text-align": "center"}}>
-                                        <Link to={`#${item.id}`} style={{ "color": "black"}}>
-                                            <Image src={ item.image} height="50px" width="50px"/>
-                                            <hr width = '100' paddingBottom='10'/>
-                                            <h6 style = {{ fontSize:'12' }} > { item.bottom_desc } </h6>
-                                        </Link>
-                                    </Col>  
-                                </>
-                            )
-                        }             
-                </Row>
-            </div>
+                    <Row className="justify-content-md-center">
+                            {
+                                data.Products.map(item => 
+                                    <>
+                                        <Col md="3" style={{ "text-align": "center"}}>
+                                            <Link to={`#${item.id}`} style={{ "color": "black"}}>
+                                                <Image src={ item.image} height="300" width="300"
+                                                style={{padding: 15}}/>
+                                                <hr width = '100' paddingBottom='10'/>
+                                                <h6 style = {{ fontSize:'12' }} > { item.bottom_desc } </h6>
+                                            </Link>
+                                        </Col>  
+                                    </>
+                                )
+                            }             
+                    </Row>
+                </div>
                 <div className="container" style={{ marginTop: "40px"}}>
+                    <hr className="featurette-divider" />
+                    <b>
+                        { data.SpecTitle } 
+                    </b> 
+                    <Table striped bordered hover>
                     {
-                        data.Products.map(item => 
-                        <>
-                            <hr id={item.id} className="featurette-divider" />
-                            <Row>
-                                <Col sm={4} className={ item.id % 2 === 0? '' : 'order-2' }> 
-                                    
-                                    <Image src={item.image} width="350" height="350" style={{ paddingBottom: '2rem'}}/>                                    
-                                </Col>
-                                <Col>
-                                <div style={{ textAlign: "center", fontsize: "20px" }}>
-                                <h2  style={{ textAlign: "center" }}>
-                                        {item.heading}
-                                </h2>
-                                    
-                                </div>
-                                                                
-                                <div style={{ textAlign: "center", fontsize: "10px"}}>
-                                    <h5 className="text-black-50">
-                                        {item.sub_heading}
-                                    </h5>
-                                    
-                                </div>
-                            </Col>
-                            </Row>                            
-                        </>
-                    )
-                }
-            </div> 
+                        data.Specifications.map(item => 
+                            <>
+                                <thead hidden = {i++ % 2 !== 0? true : false}>
+                                    <tr>
+                                        <th style={{width: '40%'}}>{ item.label}</th>
+                                        <th> {item.value} </th>
+                                    </tr>
+                                </thead>
+                                <tbody hidden = {i++ % 2 === 0? true : false}>
+                                    <tr>
+                                        <td style={{width: '40%'}}>{ item.label}</td>
+                                        <td> {item.value} </td>
+                                    </tr>
+                                </tbody>
+                            </>                  
+                        )
+                    }
+                    </Table>
+                </div> 
             <Footer />   
         </>
     );
