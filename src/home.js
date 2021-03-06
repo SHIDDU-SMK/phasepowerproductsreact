@@ -18,7 +18,6 @@ const Home = () => {
           <About />
           <Services />
           <Brand />
-          {/* <Slider /> */}
           <Footer />
         </div>
       );    
