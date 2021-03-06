@@ -1662,7 +1662,330 @@ const LTResin = {
         }]
 };
 
+const Seco = {
+    'Title': 'Seco Products',
+    'Products': [{
+        "id": 1,
+        "heading": "Hooter",
+        "image": '../images/seco/hooter.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 2,
+        "heading": "Buzzer",
+        "image": '../images/seco/buzzer.png',
+        "paragraph": "We design and manufacture Electronic Buzzers with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound. (any one tone can be selectable through link ) Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 3,
+        "heading": "Microcontroller Annunciators",
+        "image": '../images/seco/annunciator1.png',
+        "paragraph": "We design & manufacture Microcontroller based Annunciator from 2 windows to 64 windows with both Big window unit and small window unit & combination of Big & small window units in moulded box with Wide Aux. supply range, Standby working with AC supply, site selectable window colour, DC Fail Indication, Ac Fail Indication, RS 485 communication and Repeat relay contacts.",
+      },
+      {
+        "id": 4,
+        "heading": "Wireless Annunciator - Zigbee Based",
+        "image": '../images/seco/mmannounciator.png',
+        "paragraph": "We design and manufacture Wireless Annunciator with Microcontroller based advance technology and field proven model for all types of fields and environmental conditions. The purpose of this product is to give window Annunciation required at specific place and where the inputs or protective relays are at distance with the use of the radio frequency signal. This product can be used in the Power generation projects/ Power transmission projects/ process control or Industrial applications where we can’t run the wires to get the Annunciation for devices that may be in the hazardous environment and it also saves the copper wires.",
+      },
+      {
+        "id": 5,
+        "heading": "Annunciator - Input From PLC",
+        "image": '../images/seco/plcannounciator.png',
+        "paragraph": "We design and manufacture Alarm Annunciator – input form PLC (RS 485 input) with Microcontroller based advance technology. This type of Annunciation system is useful in process control panels/ PLC panels to eliminate control cable wires and accept input from Program logic controller by only twisted two wires on RS 485 (Modus protocol). It saves cable cost, labour and also solve loose contact issues. This unit increases the reliability of the system.",
+      }],
+};
+
+const Leap = {
+    'Title': 'Leap Industries',
+    'Products': [{
+            "id": 1,
+            "heading": "LED Tube Light",
+            "sub_heading": "LED Tube Light",
+            "image": '../images/leap/tubelight.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "No flicking and humming",
+                "High efficiency and Constant voltage driver",
+                "Special circuit design",
+                
+            ],
+            "app_heading": "Available In:",
+            "app_list": [
+                "1 Ft- 6W",
+                "2 Ft-10W",
+                "4 Ft-20W",
+                "4 Ft-22W",
+                "4 Ft-30W",
+                "4 Ft-36W",
+                "4 Ft-40W",
+            ],
+            "features": {
+            "tube_base_type":"T8",
+            "length":"1 Foot, 2 Feet, 4 Feet",
+            "ip_rating":"IP33",
+            "power_consumption":"6 W - 10 W, 16 W - 20 W, 11 W - 15 W",
+            "shape":"Round",
+            "color":"White",
+            
+
+        }
+        
+        },
+        {
+            "id": 2,
+            "heading": "LED Tube Light",
+            "sub_heading": "1 Feet 5w to 10w Tube Light",
+            "image": '../images/leap/tubelight1.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "No flicking and humming",
+                "High efficiency and Constant voltage driver",
+                "Special circuit design",
+            ],
+            "app_heading": "Available In:",
+            "app_list": [
+                "1 Ft- 6 W",
+                "2 Ft- 10 W",
+                "4 Ft- 20 W",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "length":"1 Foot, 2 Foot, 4 Foot",
+                "ip_rating":"IP33",
+                "power_consumption":"6w - 10w, 11w-16w, 18w-22w",
+                "shape":"Round",
+                "color":"Cool White",
+
+        }
+        
+        },
+        {
+            "id": 3,
+            "heading": "LED Panel Light",
+            "sub_heading": "Square LED Panel Light",
+            "image": '../images/leap/ledsquarepanel.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "Scratch resistance property",
+                "Free from flaws",
+                "Optimal quality"
+            ],
+            "app_heading": "Available In:",
+            "app_list": [
+                "6 Watt",
+                "12 Watt",
+                "18 Watt",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "ip_rating":"IP33",
+                "power_consumption":"6 Watt, att, 18 Watt, 5 W",
+                "shape":"Square",
+                "color":"Silver White",
+
+        }
+        
+        },
+        {
+            "id": 4,
+            "heading": "LED Panel Light",
+            "sub_heading": "Round LED Panel Light",
+            "image": '../images/leap/ledroundpanellight.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "Dimensional accuracy",
+                "Low maintenance cost",
+                "Long Service Life",
+            ],
+            "app_heading": "Available In:",
+            "app_list": ["Monitor real-time system voltage and frequency ",
+                "6 Watt",
+                "12 Watt",
+                "18 Watt",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "length":"N/A",
+                "ip_rating":"IP33",
+                "power_consumption":"12 W",
+                "shape":"Round",
+                "color":"White",
+
+        }
+        
+        },
+        {
+            "id": 5,
+            "heading": "Street Light",
+            "sub_heading": "LED Street Light",
+            "image": '../images/leap/ledstreetlight.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "Excellent illumination",
+                "High energy saving",
+                "Fast integration",
+            ],
+            "app_heading": "Available In:",
+            "app_list": [
+                "9 Watt",
+                "12 Watt",
+                "18 Watt",
+                "20 Watt",
+                "24 Watt",
+                "30 Watt",
+                "40 Watt",
+                "48 Watt",
+                "72 Watt",
+                "80 Watt",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "length":"1 Foot, 2 Foot, 4 Foot",
+                "ip_rating":"IP33",
+                "power_consumption":"6w - 10w, 11w-16w, 18w-22w",
+                "shape":"Round",
+                "color":"Cool White",
+
+        }
+        
+        },
+        {
+            "id": 6,
+            "heading": "Street Light",
+            "sub_heading": "Solar Street Light",
+            "image": '../images/leap/solarstreetlight.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "Excellent illumination",
+                "High energy saving",
+                "Fast integration",
+            ],
+            "app_heading": "Available In:",
+            "app_list": [
+                "12 Watt",
+                "18 Watt",
+                "24 Watt",
+                "36 Watt",
+                "48 Watt",
+                "50 Watt",
+                "72 Watt",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "length":"1 Foot, 2 Foot, 4 Foot",
+                "ip_rating":"IP33",
+                "power_consumption":"6w - 10w, 11w-16w, 18w-22w",
+                "shape":"Round",
+                "color":"Cool White",
+
+        }
+        
+        },
+        {
+            "id": 7,
+            "heading": "LED Driver",
+            "image": '../images/leap/leddriver.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "Accurate dimensions",
+                "Longer service life",
+                "Efficient working",
+            ],
+            "app_heading": "Available In:",
+            "app_list": ["Monitor real-time system voltage and frequency ",
+                " Monitor source healthiness and output for both Source",
+                " Wide range of motor operating voltage from 150VAC – 285V AC",
+                " Automatic transfer switch for commercial centers, manufacturing, medical facilities,and data centers.",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "length":"1 Foot, 2 Foot, 4 Foot",
+                "ip_rating":"IP33",
+                "power_consumption":"6w - 10w, 11w-16w, 18w-22w",
+                "shape":"Round",
+                "color":"Cool White",
+
+        }
+        
+        }],
+};
+
+const Kalaivani = {
+    'Title': 'Kalaivani Electricals',
+    'Products': [{
+        "id": 1,
+        "heading": "OUTDOOR OIL COOLED CT",
+        "image": '../images/kalaivani/11KV_outdoor_oil_cooled_CT.jpg',
+        "paragraph": "Oil cooled transformers are made for use on various systems ranging from 11kv to 33kv. the basic construction of the CT.",
+         },
+         {
+        "id": 2,
+        "heading": "OUTDOOR OIL COOLED PT",
+        "image": '../images/kalaivani/outpt.jpg',
+        "paragraph": "The Oil Cooled Outdoor CT & PT is designed to increase power supply with minimum distortion to address the persistent problem of low voltage.",
+            },
+        {
+        "id": 3,
+        "heading": "RESIN CAST CT & PT",
+        "image": '../images/kalaivani/ctpt.jpg',
+        "paragraph": "The transformers are vacuum encapsulated in epoxy resin, which ensures faultless insulation. Incombustible high-class raw material.",
+            }],
+};
+const Rishab = {
+    'Title': 'Rishabh Instruments',
+    'Products': [{
+        "id": 1,
+        "heading": "Handheld Digital Multimeters",
+        "image": '../images/rishab/hdmulti.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 2,
+        "heading": "Digital and Analog Insulation Tester",
+        "image": '../images/rishab/insulationtester.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 3,
+        "heading": "Digital Clamp Meters",
+        "image": '../images/rishab/dclamp1.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 4,
+        "heading": "Insulation And Earth Tester",
+        "image": '../images/rishab/dainsulationt.jpg',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 5,
+        "heading": "Analog Panel Meters",
+        "image": '../images/rishab/analogpanel.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 6,
+        "heading": "Digital Panel Meters",
+        "image": '../images/rishab/digitlpanel.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 7,
+        "heading": "Shunts",
+        "image": '../images/rishab/shunts.jpg',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      }],
+};
 
 
 
-export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton, SCModules, FCModules, SharingModules, LubiSmps, LTTape, LTMoulded, LTResin  };
+
+export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton, SCModules, FCModules, SharingModules, LubiSmps, LTTape, LTMoulded, LTResin, Seco, Leap, Kalaivani, Rishab  };

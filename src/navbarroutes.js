@@ -19,7 +19,11 @@ import LubiSmps from './pages/product-lubi';
 import ProductAmpturnTape from './pages/product-lttape';
 import ProductAmpturnResin from './pages/product-ltresin';
 import ProductAmpturnMoulded from './pages/product-ltmould';
-import Otherproducts from './pages/otherproducts';
+import ProductSeco from './pages/product-seco';
+import ProductLeap from './pages/product-leap';
+import ProductKalaivani from './pages/product-kalaivani';
+import ProductRishab from './pages/product-rishab';
+// import Otherproducts from './pages/otherproducts';
 
 const NavBarTop = () => {
   return (
@@ -37,10 +41,14 @@ const NavBarTop = () => {
         <Route path ="/prodsh"> <SharingControl /> </Route>
         <Route path ="/prodst"> <StartControl /> </Route>
         <Route path ="/prodlb"> <LubiSmps /> </Route>
-        <Route path ="/prodop"> <Otherproducts /> </Route>
+        {/* <Route path ="/prodop"> <Otherproducts /> </Route> */}
         <Route path = "/prodtp"> <ProductAmpturnTape/> </Route>
         <Route path = "/prodrn"> <ProductAmpturnResin/> </Route>
         <Route path = "/prodmd"> <ProductAmpturnMoulded/> </Route>
+        <Route path = "/prodsec"> <ProductSeco/> </Route>
+        <Route path = "/prodlp"> <ProductLeap/> </Route>
+        <Route path = "/prodkv"> <ProductKalaivani/> </Route>
+        <Route path = "/prodrb"> <ProductRishab/> </Route>
       </Switch>
     </Router>
   );
