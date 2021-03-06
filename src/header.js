@@ -115,7 +115,7 @@ const Header = () => {
                             </Row>
                             <Row >
                             <div style={{marginLeft: '50px'}}>
-                                <h4 style={{marginBottom: "-25px"}}>AMPTURN ELECTRICALS</h4>
+                                <h4 style={{marginBottom: "-25px"}}>Ampturn Electricals</h4>
                             </div>
                             </Row>
                             <Row>
@@ -135,10 +135,33 @@ const Header = () => {
                                         <Image style={{ "align-items": "center" }} src={Gate} height="25px" width="50px" />L.T.Resin Cast
                                         <hr width = '100'/></Link>
                                     </div>
-                                </Row>                        
+                                </Row> 
+                                <Row >
+                            <div style={{marginLeft: '50px'}}>
+                                <h4 style={{marginBottom: "-25px"}}>Other Products</h4>
+                            </div>
+                            </Row>                       
                             <Row>
                             <div class="menucolumn" >
-                            <Link to="/prodop" > <Image style={{ "align-items": "center" }} src={Gate} height="25px" width="50px" />Other  Products 
+                            <Link to="/prodsec" > <Image style={{ "align-items": "center" }} src={Gate} height="25px" width="50px" />Seco 
+                                <hr width = '100'/></Link>
+                            </div>
+                            </Row>
+                            <Row>
+                            <div class="menucolumn" >
+                            <Link to="/prodlp" > <Image style={{ "align-items": "center" }} src={Gate} height="25px" width="50px" />Leap Industries
+                                <hr width = '100'/></Link>
+                            </div>
+                            </Row>
+                            <Row>
+                            <div class="menucolumn" >
+                            <Link to="/prodkv" > <Image style={{ "align-items": "center" }} src={Gate} height="25px" width="50px" />Kalaivani Electricals 
+                                <hr width = '100'/></Link>
+                            </div>
+                            </Row>
+                            <Row>
+                            <div class="menucolumn" >
+                            <Link to="/prodrb" > <Image style={{ "align-items": "center" }} src={Gate} height="25px" width="50px" />Rishabh Instruments 
                                 <hr width = '100'/></Link>
                             </div>
                             </Row>
