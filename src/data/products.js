@@ -728,12 +728,8 @@ const SCModules = {
             "maximum_panel_thickness": "8.0 mm (0.3”)",
             "weight":"0.45kg",
             "product_variants": "0402-03 - 402 MKII Waterproof Engine Control Module (Mpu)"
-                                
-                                    
-                                
         }
     },
-
     {
         "id": 2,
         "image": "../images/deepsea/dse701mkii.png",
@@ -1368,96 +1364,93 @@ const LTTape = {
     'Products': [{
         "id": 1,
         "image": "../images/ampturn/lttape1.png",
-        "bottom_desc": "TAPE RING TYPE"      
-        
-    },
-
+        "bottom_desc": "TAPE RING TYPE"
+        },
         {
             "id": 2,
             "image": "../images/ampturn/lttape2.png",
             "bottom_desc": "TAPE RECTANGULAR TYPE"
         },
-
         {
             "id": 3,
             "image": "../images/ampturn/lttape3.jpeg",
             "bottom_desc": "TAPE INSULATED WPL TYPE"
             },
-
         {
             "id": 4,
             "image": "../images/ampturn/lttape4.jpg",
             "bottom_desc": "TAPE WOUND PRIMARY TYPE"
             }],
-            "specifications":[
-                {
-                "label": "Service",
-                "value": "Indoor purpose"
-                },
-                {
-                "label": "System Voltage", 
-                "value" : "Upto 1.1kV",
-                },
-                {
-                "label": "Application",
-                "value": "Suitable For Metering &amp; Relaying application in AC Power Systems."
-                },
-                {
-                "label": "Frequency", 
-                "value" : "50Hz To 400Hz",
-                },
-                {
-                "label": "Primary Current",
-                "value" : "1A To 75,000A"
-                },
-                {
-                "label": "Secondary Current", 
-                "value" : "1A, 5A, 0.577A",
-                },
-                {
-                "label": "Burden (VA)",
-                "value" : "1, 1.25, 1.5, 2.5, 3.75, 5, 7.5, 10, 12.5, 15, 20VA"
-                },
-                {
-                "label": "Accuracy Class", 
-                "value" : "Metering: 0.2, 0.2s, 0.5, 0.5s, 1, 3 &amp; 5",
-                },
-                {
-                "label": "Protection",
-                "value" : "5P10, 5P20, 10P10, 10P20"
-                },
-                {
-                "label": "Special Protection (PS)", 
-                "value" : "Knee Point Voltage(Vk) &amp; Magnetizing Current (Im) as Per Requirement",
-                },
-                {
-                "label": "Ambient Temperature",
-                "value" : "- 50 C to + 450 C"
-                },
-                {
-                "label": "Thermal Short Circuit Current (Ith)", 
-                "value" : "60 x Ip / 1 Sec",
-                },
-                {
-                "label": "Instrument Security Factor (ISF)",
-                "value" : "2.5, 5, 10"
-                },
-                {
-                "label": "Thermal Insulation Class", 
-                "value" : "Class A, Class B &amp;Class F",
-                },
-                {
-                "label": "Type / Encapsulation",
-                "value" : "Resin Cast, Moulded Case &amp; Tape Insulated"
-                },
-                {
-                "label": "Construction", 
-                "value" : "Window type (Ring &amp; Rectangular), Wound Primary Type &amp; Bar Primary Type",
-                }, 
-                {    
-                "label" : "Applicable Standard", 
-                "value" : "IS 2705 Part (1, 2 &amp; 3), IEC 61869 Part (1 &amp; 2)"
-                }]
+    'SpecTitle': 'LV Current Transformers',
+    "Specifications":[
+        {            
+        "label": "Service",
+        "value": "Indoor purpose"
+        },
+        {
+        "label": "System Voltage", 
+        "value" : "Upto 1.1kV",
+        },
+        {
+        "label": "Application",
+        "value": "Suitable For Metering &amp; Relaying application in AC Power Systems."
+        },
+        {
+        "label": "Frequency", 
+        "value" : "50Hz To 400Hz",
+        },
+        {
+        "label": "Primary Current",
+        "value" : "1A To 75,000A"
+        },
+        {
+        "label": "Secondary Current", 
+        "value" : "1A, 5A, 0.577A",
+        },
+        {
+        "label": "Burden (VA)",
+        "value" : "1, 1.25, 1.5, 2.5, 3.75, 5, 7.5, 10, 12.5, 15, 20VA"
+        },
+        {
+        "label": "Accuracy Class", 
+        "value" : "Metering: 0.2, 0.2s, 0.5, 0.5s, 1, 3 &amp; 5",
+        },
+        {
+        "label": "Protection",
+        "value" : "5P10, 5P20, 10P10, 10P20"
+        },
+        {
+        "label": "Special Protection (PS)", 
+        "value" : "Knee Point Voltage(Vk) &amp; Magnetizing Current (Im) as Per Requirement",
+        },
+        {
+        "label": "Ambient Temperature",
+        "value" : "- 50 C to + 450 C"
+        },
+        {
+        "label": "Thermal Short Circuit Current (Ith)", 
+        "value" : "60 x Ip / 1 Sec",
+        },
+        {
+        "label": "Instrument Security Factor (ISF)",
+        "value" : "2.5, 5, 10"
+        },
+        {
+        "label": "Thermal Insulation Class", 
+        "value" : "Class A, Class B &amp;Class F",
+        },
+        {
+        "label": "Type / Encapsulation",
+        "value" : "Resin Cast, Moulded Case &amp; Tape Insulated"
+        },
+        {
+        "label": "Construction", 
+        "value" : "Window type (Ring &amp; Rectangular), Wound Primary Type &amp; Bar Primary Type",
+        }, 
+        {    
+        "label" : "Applicable Standard", 
+        "value" : "IS 2705 Part (1, 2 &amp; 3), IEC 61869 Part (1 &amp; 2)"
+    }]
 };
 
 const LTMoulded = {
@@ -1468,99 +1461,96 @@ const LTMoulded = {
         "image": "../images/ampturn/ltm1.png",
         "bottom_desc": "MOULDED CASE RING TYPE"      
         },
-
         {
         "id": 2,
         "image": "../images/ampturn/ltm2.png",
         "bottom_desc": "MOULDED CASE RECTANGULAR TYPE"
         },
-
         {
         "id": 3,
         "image": "../images/ampturn/ltm3.jpg",
         "bottom_desc": "MOULDED CASE WOUND PRIMARY TYPE"
         },
-
         {
         "id": 4,
         "image": "../images/ampturn/ltm4.jpg",
         "bottom_desc": "MOULDED CASE RECTANGULAR TYPE"
         },
-
         {
         "id": 5,
         "image": "../images/ampturn/ltm5.png",
         "bottom_desc": "MOULDED CASE RECTANGULAR TYPE"
         }],
-        "specifications":[
-            {
-            "label": "Service",
-            "value": "Indoor purpose"
-            },
-            {
-            "label": "System Voltage", 
-            "value" : "Upto 1.1kV",
-            },
-            {
-            "label": "Application",
-            "value": "Suitable For Metering &amp; Relaying application in AC Power Systems."
-            },
-            {
-            "label": "Frequency", 
-            "value" : "50Hz To 400Hz",
-            },
-            {
-            "label": "Primary Current",
-            "value" : "1A To 75,000A"
-            },
-            {
-            "label": "Secondary Current", 
-            "value" : "1A, 5A, 0.577A",
-            },
-            {
-            "label": "Burden (VA)",
-            "value" : "1, 1.25, 1.5, 2.5, 3.75, 5, 7.5, 10, 12.5, 15, 20VA"
-            },
-            {
-            "label": "Accuracy Class", 
-            "value" : "Metering: 0.2, 0.2s, 0.5, 0.5s, 1, 3 &amp; 5",
-            },
-            {
-            "label": "Protection",
-            "value" : "5P10, 5P20, 10P10, 10P20"
-            },
-            {
-            "label": "Special Protection (PS)", 
-            "value" : "Knee Point Voltage(Vk) &amp; Magnetizing Current (Im) as Per Requirement",
-            },
-            {
-            "label": "Ambient Temperature",
-            "value" : "- 50 C to + 450 C"
-            },
-            {
-            "label": "Thermal Short Circuit Current (Ith)", 
-            "value" : "60 x Ip / 1 Sec",
-            },
-            {
-            "label": "Instrument Security Factor (ISF)",
-            "value" : "2.5, 5, 10"
-            },
-            {
-            "label": "Thermal Insulation Class", 
-            "value" : "Class A, Class B &amp;Class F",
-            },
-            {
-            "label": "Type / Encapsulation",
-            "value" : "Resin Cast, Moulded Case &amp; Tape Insulated"
-            },
-            {
-            "label": "Construction", 
-            "value" : "Window type (Ring &amp; Rectangular), Wound Primary Type &amp; Bar Primary Type",
-            }, 
-            {    
-            "label" : "Applicable Standard", 
-            "value" : "IS 2705 Part (1, 2 &amp; 3), IEC 61869 Part (1 &amp; 2)"
-            }]
+    'SpecTitle': 'LV Current Transformers',
+    "Specifications":[
+        {
+        "label": "Service",
+        "value": "Indoor purpose"
+        },
+        {
+        "label": "System Voltage", 
+        "value" : "Upto 1.1kV",
+        },
+        {
+        "label": "Application",
+        "value": "Suitable For Metering &amp; Relaying application in AC Power Systems."
+        },
+        {
+        "label": "Frequency", 
+        "value" : "50Hz To 400Hz",
+        },
+        {
+        "label": "Primary Current",
+        "value" : "1A To 75,000A"
+        },
+        {
+        "label": "Secondary Current", 
+        "value" : "1A, 5A, 0.577A",
+        },
+        {
+        "label": "Burden (VA)",
+        "value" : "1, 1.25, 1.5, 2.5, 3.75, 5, 7.5, 10, 12.5, 15, 20VA"
+        },
+        {
+        "label": "Accuracy Class", 
+        "value" : "Metering: 0.2, 0.2s, 0.5, 0.5s, 1, 3 &amp; 5",
+        },
+        {
+        "label": "Protection",
+        "value" : "5P10, 5P20, 10P10, 10P20"
+        },
+        {
+        "label": "Special Protection (PS)", 
+        "value" : "Knee Point Voltage(Vk) &amp; Magnetizing Current (Im) as Per Requirement",
+        },
+        {
+        "label": "Ambient Temperature",
+        "value" : "- 50 C to + 450 C"
+        },
+        {
+        "label": "Thermal Short Circuit Current (Ith)", 
+        "value" : "60 x Ip / 1 Sec",
+        },
+        {
+        "label": "Instrument Security Factor (ISF)",
+        "value" : "2.5, 5, 10"
+        },
+        {
+        "label": "Thermal Insulation Class", 
+        "value" : "Class A, Class B &amp;Class F",
+        },
+        {
+        "label": "Type / Encapsulation",
+        "value" : "Resin Cast, Moulded Case &amp; Tape Insulated"
+        },
+        {
+        "label": "Construction", 
+        "value" : "Window type (Ring &amp; Rectangular), Wound Primary Type &amp; Bar Primary Type",
+        }, 
+        {    
+        "label" : "Applicable Standard", 
+        "value" : "IS 2705 Part (1, 2 &amp; 3), IEC 61869 Part (1 &amp; 2)"
+        }]
 };
 
 const LTResin = {
@@ -1570,111 +1560,106 @@ const LTResin = {
         "image": "../images/ampturn/resincast1.png",
         "bottom_desc": "RESIN CAST RECTANGULAR TYPE"      
         },
-
         {
         "id": 2,
         "image": "../images/ampturn/resincast2.jpeg",
         "bottom_desc": "RESIN CAST RECTANGULAR TYPE"
         },
-
         {
         "id": 3,
         "image": "../images/ampturn/resincast3.jpeg",
         "bottom_desc": "RESIN CAST RECTANGULAR TYPE"
         },
-
         {
         "id": 4,
         "image": "../images/ampturn/resincast4.jpeg",
         "bottom_desc": "RESIN CAST RING TYPE"
         },
-
         {
         "id": 5,
         "image": "../images/ampturn/resincast5.png",
         "bottom_desc": "RESIN CAST RING TYPE"
         },
-
         {
         "id": 6,
         "image": "../images/ampturn/resincast6.png",
         "bottom_desc": "RESIN CAST WPL TYPE"
         },
-
         {
         "id": 7,
         "image": "../images/ampturn/resincast7.png",
         "bottom_desc": "RESIN CAST WOUND PRIMARY TYPE"
-        }], 
-        "specifications":[
-            {
-            "label": "Service",
-            "value": "Indoor purpose"
-            },
-            {
-            "label": "System Voltage", 
-            "value" : "Upto 1.1kV",
-            },
-            {
-            "label": "Application",
-            "value": "Suitable For Metering &amp; Relaying application in AC Power Systems."
-            },
-            {
-            "label": "Frequency", 
-            "value" : "50Hz To 400Hz",
-            },
-            {
-            "label": "Primary Current",
-            "value" : "1A To 75,000A"
-            },
-            {
-            "label": "Secondary Current", 
-            "value" : "1A, 5A, 0.577A",
-            },
-            {
-            "label": "Burden (VA)",
-            "value" : "1, 1.25, 1.5, 2.5, 3.75, 5, 7.5, 10, 12.5, 15, 20VA"
-            },
-            {
-            "label": "Accuracy Class", 
-            "value" : "Metering: 0.2, 0.2s, 0.5, 0.5s, 1, 3 &amp; 5",
-            },
-            {
-            "label": "Protection",
-            "value" : "5P10, 5P20, 10P10, 10P20"
-            },
-            {
-            "label": "Special Protection (PS)", 
-            "value" : "Knee Point Voltage(Vk) &amp; Magnetizing Current (Im) as Per Requirement",
-            },
-            {
-            "label": "Ambient Temperature",
-            "value" : "- 50 C to + 450 C"
-            },
-            {
-            "label": "Thermal Short Circuit Current (Ith)", 
-            "value" : "60 x Ip / 1 Sec",
-            },
-            {
-            "label": "Instrument Security Factor (ISF)",
-            "value" : "2.5, 5, 10"
-            },
-            {
-            "label": "Thermal Insulation Class", 
-            "value" : "Class A, Class B &amp;Class F",
-            },
-            {
-            "label": "Type / Encapsulation",
-            "value" : "Resin Cast, Moulded Case &amp; Tape Insulated"
-            },
-            {
-            "label": "Construction", 
-            "value" : "Window type (Ring &amp; Rectangular), Wound Primary Type &amp; Bar Primary Type",
-            }, 
-            {    
-            "label" : "Applicable Standard", 
-            "value" : "IS 2705 Part (1, 2 &amp; 3), IEC 61869 Part (1 &amp; 2)"
-            }]
+        }],
+    'SpecTitle': 'LV Current Transformers',
+    "Specifications":[
+        {
+        "label": "Service",
+        "value": "Indoor purpose"
+        },
+        {
+        "label": "System Voltage", 
+        "value" : "Upto 1.1kV",
+        },
+        {
+        "label": "Application",
+        "value": "Suitable For Metering &amp; Relaying application in AC Power Systems."
+        },
+        {
+        "label": "Frequency", 
+        "value" : "50Hz To 400Hz",
+        },
+        {
+        "label": "Primary Current",
+        "value" : "1A To 75,000A"
+        },
+        {
+        "label": "Secondary Current", 
+        "value" : "1A, 5A, 0.577A",
+        },
+        {
+        "label": "Burden (VA)",
+        "value" : "1, 1.25, 1.5, 2.5, 3.75, 5, 7.5, 10, 12.5, 15, 20VA"
+        },
+        {
+        "label": "Accuracy Class", 
+        "value" : "Metering: 0.2, 0.2s, 0.5, 0.5s, 1, 3 &amp; 5",
+        },
+        {
+        "label": "Protection",
+        "value" : "5P10, 5P20, 10P10, 10P20"
+        },
+        {
+        "label": "Special Protection (PS)", 
+        "value" : "Knee Point Voltage(Vk) &amp; Magnetizing Current (Im) as Per Requirement",
+        },
+        {
+        "label": "Ambient Temperature",
+        "value" : "- 50 C to + 450 C"
+        },
+        {
+        "label": "Thermal Short Circuit Current (Ith)", 
+        "value" : "60 x Ip / 1 Sec",
+        },
+        {
+        "label": "Instrument Security Factor (ISF)",
+        "value" : "2.5, 5, 10"
+        },
+        {
+        "label": "Thermal Insulation Class", 
+        "value" : "Class A, Class B &amp;Class F",
+        },
+        {
+        "label": "Type / Encapsulation",
+        "value" : "Resin Cast, Moulded Case &amp; Tape Insulated"
+        },
+        {
+        "label": "Construction", 
+        "value" : "Window type (Ring &amp; Rectangular), Wound Primary Type &amp; Bar Primary Type",
+        }, 
+        {    
+        "label" : "Applicable Standard", 
+        "value" : "IS 2705 Part (1, 2 &amp; 3), IEC 61869 Part (1 &amp; 2)"
+        }]
 };
 
 
