@@ -1,7 +1,11 @@
 import React from 'react';
 import Footer from '../footer';
 import Header from '../header';
+<<<<<<< HEAD
 import { Image, Row, Col, } from 'react-bootstrap';
+=======
+import { Image, Row, Col } from 'react-bootstrap';
+>>>>>>> e303387e75bef2c3442631a0784da2328f76cf24
 import { HashLink as Link } from 'react-router-hash-link';
 
 
