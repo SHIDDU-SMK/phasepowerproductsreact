@@ -70,17 +70,18 @@
 .menucolumn {
   /* float: left; */
   /* width: 20%; */
-  padding-top: 2rem;
+    padding: 2rem;
+    vertical-align: bottom;
+    text-align: center;
 }
 
 /* Style links inside the columns */
-.menucolumn a {
+.menucolumn Link {
   float: none;
   color: black;
-  padding: 16px;
-  text-decoration: none;
+  /* padding: 16px; */
+  /* text-decoration: none; */
   display: block;
-  text-align: center;
 }
 
 /* Add a background color on hover */
