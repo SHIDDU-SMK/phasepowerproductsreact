@@ -28,34 +28,40 @@ const Header = () => {
                         <div class="menudropdown-content" >
                             <Row>
                                 <Col md={8} >
-                                    <Row md={4} className="justify-content-center">
+                                    <Row md={6} className="justify-content-center">
                                         <h5>
-                                            Elmeasure India Pvt Ltd
+                                            Elmeasure India
                                         </h5>
                                     </Row>
-                                    <Row md={4}>
+                                    <Row md={4} style={{ textAlign: 'center'}}>
                                         <div className="menucolumn" >
                                             <Link to="/prodsr" onClick={() => setExpanded(false)}>
-                                                <Image src={SmartIo} height="60px" /> 
-                                                <hr width = '100'/>
-                                                <span class="text-black-50">
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={SmartIo}/> 
+                                                    <hr />
+                                                </div>
+                                                <span className="text-black-50">
                                                     Smart Resource
                                                 </span>
                                             </Link>
                                         </div>
                                         <div className="menucolumn" >
                                             <Link to="/prodsn" onClick={() => setExpanded(false)}> 
-                                                <Image src={Gate} height="60px" />
-                                                <hr width = '100'/>
-                                                <span class="text-black-50">
-                                                    Smart Network
-                                                </span>
+                                                    <div className="dropmenu-image">
+                                                    <Image height="20px" src={Gate} />
+                                                    <hr />
+                                                    </div>
+                                                    <span class="text-black-50">
+                                                        Smart Network
+                                                    </span>
                                             </Link>
                                         </div>
                                         <div className="menucolumn" >
                                             <Link to="/prodsm" onClick={() => setExpanded(false)}> 
-                                                <Image src={Gate} height="60px" />
-                                                <hr width = '100'/>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={Gate} />
+                                                <hr />
+                                                    </div>
                                                 <span class="text-black-50">
                                                     Smart Monitor
                                                 </span>
@@ -63,8 +69,10 @@ const Header = () => {
                                         </div>
                                         <div className="menucolumn" >
                                             <Link to="/prodsc" onClick={() => setExpanded(false)}> 
-                                                <Image src={Gate} height="60px" />
-                                                <hr width = '100'/>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={Gate} />
+                                                <hr />
+                                                    </div>
                                                 <span class="text-black-50">
                                                     Smart Control
                                                 </span>
@@ -72,17 +80,19 @@ const Header = () => {
                                         </div>
                                     </Row>
                                 </Col>
-                                <Col md={4} >
-                                    <Row md={2} className="justify-content-center">
+                                <Col md={2} >
+                                    <Row md={1} className="justify-content-center">
                                     <h5>
-                                        Lubi Electronics Pvt Ltd 
+                                        Lubi Electronics 
                                     </h5>
                                     </Row>
-                                    <Row md={1}>
+                                    <Row md={2}>
                                         <div class="menucolumn" >
                                             <Link to='/prodlb' onClick={() => setExpanded(false)}>
-                                                <Image src={BZMMccb}  height="60px" /> 
-                                                <hr width = '100'/>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={BZMMccb} /> 
+                                                <hr />
+                                                    </div>
                                                 <span class="text-black-50">
                                                     SMPS
                                                 </span>
@@ -90,55 +100,19 @@ const Header = () => {
                                         </div>
                                     </Row>
                                 </Col>
-                            </Row>
-                            <Row>
-                                <Col md={8}>
-                                    <Row md={4} className="justify-content-center">
+                                <Col md={2}>
+                                    <Row md={1}  className="justify-content-center">
                                         <h5>
-                                            Deepsea Electronics
+                                            Eaton Power Quality 
                                         </h5>
                                     </Row>
-                                    <Row md={4}>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodst" onClick={() => setExpanded(false)}>
-                                                <Image src={SmartIo}  height="60px" />
-                                                <hr width = '100'/>
-                                                <span class="text-black-50">
-                                                    Start Control Modules
-                                                </span>
-                                            </Link>
-                                        </div>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodfc" onClick={() => setExpanded(false)}> 
-                                                <Image src={Gate}  height="60px" />
-                                                <hr width = '100'/>
-                                                <span class="text-black-50">
-                                                    Failure Control Modules
-                                                </span>
-                                            </Link>
-                                        </div>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodsh" onClick={() => setExpanded(false)}> 
-                                                <Image src={Gate}  height="60px" />
-                                                <hr width = '100'/>
-                                                <span class="text-black-50">
-                                                    Sharing Control Modules
-                                                </span>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                </Col>
-                                <Col md={4}>
-                                    <Row md={2}  className="justify-content-center">
-                                        <h5>
-                                            Eaton Power Quality Pvt Ltd 
-                                        </h5>
-                                    </Row>
-                                    <Row md={1}>
+                                    <Row md={2}>
                                         <div class="menucolumn" >
                                             <Link to='/prodea' onClick={() => setExpanded(false)}>
-                                                <Image src={BZMMccb}  height="60px" /> 
-                                                <hr width = '100'/>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={BZMMccb} /> 
+                                                <hr />
+                                                    </div>
                                                 <span class="text-black-50">
                                                     MCCB
                                                 </span>
@@ -146,10 +120,100 @@ const Header = () => {
                                         </div>
                                     </Row>
                                 </Col>
+                            
                             </Row>
                             <Row>
+                                <Col md={6}>
+                                    <Row md={2} className="justify-content-center">
+                                        <h5>
+                                            Deepsea Electronics
+                                        </h5>
+                                    </Row>
+                                    <Row md={4}>
+                                        <div className="menucolumn" >
+                                            <Link to="/prodst" onClick={() => setExpanded(false)}>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={SmartIo} />
+                                                <hr />
+                                                    </div>
+                                                <span class="text-black-50">
+                                                    Start Control Modules
+                                                </span>
+                                            </Link>
+                                        </div>
+                                        <div className="menucolumn" >
+                                            <Link to="/prodfc" onClick={() => setExpanded(false)}> 
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={Gate} />
+                                                <hr />
+                                                    </div>
+                                                <span class="text-black-50">
+                                                    Failure Control Modules
+                                                </span>
+                                            </Link>
+                                        </div>
+                                        <div className="menucolumn" >
+                                            <Link to="/prodsh" onClick={() => setExpanded(false)}> 
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={Gate} />
+                                                <hr />
+                                                    </div>
+                                                <span class="text-black-50">
+                                                    Sharing Control Modules
+                                                </span>
+                                            </Link>
+                                        </div>
+                                    </Row>
+                                </Col>
+                                <Col md={6}>
+                                    <Row md={2} className="justify-content-center">
+                                        <h5>
+                                            Ampturn Electricals
+                                        </h5>
+                                    </Row>
+                                    <Row md={4}>
+                                        <div className="menucolumn" >
+                                            <Link to="/prodtp" onClick={() => setExpanded(false)}>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={SmartIo}/>
+                                                    <hr />
+                                                </div>
+                                                <span class="text-black-50">
+                                                    L.T.Tape Insulated
+                                                </span>
+                                            </Link>
+                                        </div>
+                                        <div className="menucolumn" >
+                                            <Link to="/prodmd" > 
+                                                    <div className="dropmenu-image">
+                                                        <Image height="20px" src={Gate} />
+                                                    <hr />
+                                                    </div>
+                                                <span class="text-black-50">
+                                                    L.T.Moulded Case
+                                                </span>
+                                            </Link>
+                                        </div>
+                                        <div className="menucolumn" >
+                                            <Link to="/prodrn" >
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={Gate} />
+                                                    <hr />
+                                                </div>
+                                                <span class="text-black-50">
+                                                    L.T.Resin Cast
+                                                </span>
+                                            </Link>
+                                        </div>
+                                    </Row>
+                                </Col>
+                                </Row>
+                            {/* <Row>
+                            </Row> */}
+                                                    
+                            <Row>
                                 <Col md={8}>
-                                    <Row md={4} className="justify-content-center">
+                                    <Row md={8} className="justify-content-center">
                                         <h5>
                                             Other Products
                                         </h5>
@@ -157,8 +221,10 @@ const Header = () => {
                                     <Row md={4}>
                                         <div className="menucolumn" >
                                             <Link to="/prodsec" onClick={() => setExpanded(false)}>
-                                            <Image src={Gate}  height="60px" />
-                                                <hr width = '100'/>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={Gate} />
+                                                    <hr />
+                                                </div>
                                                 <span class="text-black-50">
                                                     Seco Products
                                                 </span>
@@ -166,8 +232,10 @@ const Header = () => {
                                         </div>
                                         <div className="menucolumn" >
                                             <Link to="/prodlp" > 
-                                                <Image src={Gate}  height="60px" />
-                                                <hr width = '100'/>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={Gate} />
+                                                <hr />
+                                                    </div>
                                                 <span class="text-black-50">
                                                     Leap Industries
                                                 </span>
@@ -175,8 +243,10 @@ const Header = () => {
                                         </div>
                                         <div className="menucolumn" >
                                         <Link to="/prodkv" > 
-                                            <Image src={Gate}  height="60px" />
-                                            <hr width = '100'/>
+                                            <div className="dropmenu-image">
+                                                <Image height="20px" src={Gate} />
+                                                <hr />
+                                            </div>
                                             <span class="text-black-50">
                                                 Kalaivani Electricals 
                                             </span>
@@ -184,8 +254,10 @@ const Header = () => {
                                         </div>
                                         <div className="menucolumn" >
                                             <Link to="/prodrb" > 
-                                                <Image src={Gate}  height="60px" />
-                                                <hr width = '100'/>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={Gate} />
+                                                <hr />
+                                                    </div>
                                                 <span class="text-black-50">
                                                     Rishabh Instruments 
                                                 </span>
