@@ -12,7 +12,7 @@ import Brand from './brand';
 
 const Home = () => {
       return (
-        <div className="marketing">
+        <div className="marketing container">
           <Header />
           <TpCarousel />
           <About />

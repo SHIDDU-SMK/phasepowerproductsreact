@@ -48,9 +48,7 @@
   position: fixed;
   width: 96%;
   left: 2%;
-  z-index: -1;
   padding-top: 1rem;
-
 }
 
 /* Mega Menu header, if needed */
@@ -70,8 +68,9 @@
 .menucolumn {
   /* float: left; */
   /* width: 20%; */
-    padding: 2rem;
+    padding: 1rem;
     vertical-align: bottom;
+    align-items: center;
     text-align: center;
 }
 
@@ -124,3 +123,21 @@
     transition: .5s ease;
     top: 70px;
   }
+
+  .dropmenu-image {
+    display: none;
+  }
+
+  .dropmenu-image hr {
+    width: 100px
+  }
+
+  @media (min-width: 62em) {
+    .dropmenu-image {
+      display: block;
+    }
+}
+
+.menucolumn Link span {
+  font-size: smaller;
+}
