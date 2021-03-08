@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Logo from './images/logonew.png';
+import Logo from './images/phaselogo.png';
 import { Link } from 'react-router-dom';
 import './assets/css/navbar.css';
 import {Row ,Col } from 'react-bootstrap';
@@ -16,8 +16,7 @@ class Footer extends Component {
     };
 
     return (
-      <div className="fluid" id="contact">
-         
+      <div className="fluid" id="contact">         
         <footer className="card-body footer-text" style={footerbgColor}>
                 <div className="row">
                     <div className="col-sm-4">

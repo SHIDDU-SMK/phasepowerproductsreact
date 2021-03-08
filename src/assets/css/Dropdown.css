@@ -20,6 +20,10 @@
   overflow: hidden;
 }
 
+.menudropdown h6{
+  font-size:12px;
+}
+
 /* Dropdown button */
 .menudropdown .dropbtn {
   font-size: 16px;
@@ -41,19 +45,19 @@
 /* Dropdown content (hidden by default) */
 .menudropdown-content {
   display: none;
-  position: absolute;
-  width: 80%;
-  left: 120px;
-  z-index: 1;
+  position: fixed;
+  width: 96%;
+  left: 2%;
+  z-index: -1;
   padding-top: 1rem;
 
 }
 
 /* Mega Menu header, if needed */
 .menudropdown-content .header {
-  background: rgb(82, 77, 77);
+  background: rgb(255, 255, 255);
   padding: 16px;
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 
 /* Show the dropdown menu on hover */
@@ -65,22 +69,23 @@
 /* Create three equal columns that floats next to each other */
 .menucolumn {
   /* float: left; */
-  width: 20%;
-  padding-top: 2rem;
+  /* width: 20%; */
+    padding: 2rem;
+    vertical-align: bottom;
+    text-align: center;
 }
 
 /* Style links inside the columns */
-.menucolumn a {
+.menucolumn Link {
   float: none;
   color: black;
-  padding: 16px;
-  text-decoration: none;
+  /* padding: 16px; */
+  /* text-decoration: none; */
   display: block;
-  text-align: center;
 }
 
 /* Add a background color on hover */
-.menucolumn a:hover {
+.menucolumn Link:hover {
   background-color: transparent;
 }
 

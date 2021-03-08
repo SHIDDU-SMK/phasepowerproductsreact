@@ -674,8 +674,1318 @@ const Eaton = {
                     "compliant_to": "1- and 2-pole",
                     "rated_breaking_capacity": "150 kA.",
                 }
+            },
+
+            {
+                "id": 11,
+                "heading": "Emergency Lighting System",
+                "image": "../images/eaton/light/light.png",
+                "paragraph": "The ELPS502 Model #M05 Emergency Lighting System is designed to automatically provide illumination to designated areas during failure or interruption of power to the normal lighting system. The ELPS502 is factory assembled and wired, and consists of one (1) ELPS50 power supply and two (2) EVLA lighting fixtures The ELPS50 power supply consists of a battery supply and battery recharging system housed inside a hazardous area enclosure with all the circuitry to automatically turn on emergency DC lighting fixture(s) when the normal power supply fails",
+                "features": {
+                    "rated_current": "15 to 1600 A",
+                    "compliant_to": "1- and 2-pole",
+                    "rated_breaking_capacity": "150 kA.",
+                }
+            },
+
+            {
+                "id": 12,
+                "heading": "Selecting Protective Devices",
+                "image": "../images/eaton/spd/spd.png",
+                "paragraph": "Eaton’s Bussmann series Selecting Protective Devices (SPD) handbook. This reference document is based on the 2017 National Electrical Code (NEC ® ) and is a comprehensive guide to electrical overcurrent protection and electrical design considerations. The information within this resource is presented on numerous applications as well as code and standard requirements for a variety of electrical equipment and distribution systems.",
+                "features": {
+                    "rated_current": "15 to 1600 A",
+                    "compliant_to": "1- and 2-pole",
+                    "rated_breaking_capacity": "150 kA.",
+                }
+            },
+
+            {
+                "id": 13,
+                "heading": "Eaton Contractors",
+                "image": "../images/eaton/contractor/eatonmoeller.jpg",
+                "paragraph": "",
+                "features": {
+                    "rated_current": "15 to 1600 A",
+                    "compliant_to": "1- and 2-pole",
+                    "rated_breaking_capacity": "150 kA.",
+                }
             }],
 };
 
+const SCModules = {
 
-export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton  };
+    'Title': 'MANUAL/AUTO START CONTROL MODULES',
+    'Products': [{
+        "id": 1,
+        "image": "../images/deepsea/dse402.png",
+        "heading": "DSE402MKII",      
+        "sub_heading": "Waterproof Manual & Auto Start Control Module",
+        "paragraph": "The DSE402 MKII is a waterproof Auto/Manual Start Control Module designed for generator and engine only applications. The intelligent design combines smart features with a waterproof key switch and enclosure to provide an excellent control option for wet/humid environments. ",
+        "features": {
+            "overall_size": "157 mm x 111 mm x 60 mm (6.2” x 4.4” x 2.4”) Excludes Key Switch",
+            "panel_cutout_size": "132 mm x 84 mm (5.2 ' x 3.4')",
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.45kg",
+            "product_variants": "0402-03 - 402 MKII Waterproof Engine Control Module (Mpu)"
+        }
+    },
+    {
+        "id": 2,
+        "image": "../images/deepsea/dse701mkii.png",
+        "heading": "DSE701MKII",      
+        "sub_heading": "Manual & Auto Start Control Module",
+        "paragraph": "The DSE701 MKII is a compact control module that offers a range of features for single-set applications. The controller can be used in manual or auto start mode.",
+        "features": {
+            "overall_size": "72 mm x 72 mm x 38 mm (2.8” x 2.8” x 1.5”) Excludes Key Switch",
+            "panel_cutout_size": '68 mm x 68 mm (2.7 " x 2.7")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.14kg",
+            "product_variants": "0701-05 - 701MKII Manual & Auto Start Control Module"
+        }
+    },
+
+    {
+        "id": 3,
+        "image": "../images/deepsea/dse3110.png",
+        "heading": "DSE3110",      
+        "sub_heading": "Manual & Auto Start Control Module",
+        "paragraph": "The DSE3110 is an outstanding compact control module that provides a comprehensive range of features for single-set applications. The controller can be used in manual or auto start mode.",
+        "features": {
+            "overall_size": "98 mm x 79 mm x 40 mm (3.9” x 3.1” x 1.6”)  ",
+            "panel_cutout_size": '80 mm x 68 mm (3.1 " x 2.7")',
+            "maximum_panel_thickness": "8.0 mm (0.3”) ",
+            "weight":"0.16kg",
+            "product_variants": "3110-02 - Manual & Auto Start Control Module (Can), 3110-01 - Manual & Auto Start Control Module (Mpu)"
+        }
+    },
+
+    {
+        "id": 4,
+        "image": "../images/deepsea/dse3210.png",
+        "heading": "DSE3210",      
+        "sub_heading": "Manual & Auto Start Control Module",
+        "paragraph": "The DSE3210 is an outstanding compact control module that provides a comprehensive range of features for single-set applications. The controller can be used in manual or auto start mode. ",
+        "features": {
+            "overall_size": "98 mm x 79 mm x 40 mm (3.9” x 3.1” x 1.6”)",
+            "panel_cutout_size": '80 mm x 68 mm (3.1 " x 2.7")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.18kg",
+            "product_variants": "3210-01 - 3210 Manual & Auto Start Control Module (Mpu)"
+        }
+    },
+
+    {
+        "id": 5,
+        "image": "../images/deepsea/dse4210.png",
+        "heading": "DSE4210",      
+        "sub_heading": "Auto Start Control Module",
+        "paragraph": "The DSE4210 is an Auto Start Control Module that has been developed to provide an outstanding range of features within a compact module size.",
+        "features": {
+            "overall_size": "140 mm x 113 mm x 43 mm (5.5” x 4.4” x 1.7”) ",
+            "panel_cutout_size": '118 mm x 92 mm (4.6" x 3.6") ',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.22kg",
+            "product_variants": "4210-01 - 4210 Auto Start Control Module"
+        }
+    },
+
+    {
+        "id": 6,
+        "image": "../images/deepsea/dse4510mkii.png",
+        "heading": "DSE4510 MKII",      
+        "sub_heading": "Auto Start Control Module",
+        "paragraph": "The DSE4510 is a compact Auto Start Control Module that has been developed to provide an outstanding range of features within a compact enclosure.",
+        "features": {
+            "overall_size": "140 mm x 113 mm x 43 mm (5.5” x 4.4” x 1.5”)",
+            "panel_cutout_size": '118 mm x 92 mm (4.6" x 3.6")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.26kg",
+            "product_variants": "4510-03 - 4510 Auto Start Control Module (Ct, Rtc), 4510-04 - 4510 Auto Start Control Module (Ct, Rtc, Htr)"
+        }
+    },
+
+    {
+        "id": 7,
+        "image": "../images/deepsea/dse6010.png",
+        "heading": "DSE6010 MKII",      
+        "sub_heading": "Auto Start Control Module",
+        "paragraph": "The DSE 6010 MKII is an Auto Start Control Module developed to provide a wide range of operating and monitoring features for single diesel and gas gen-sets. ",
+        "features": {
+            "overall_size": "216 mm x 158 mm x 43 mm (8.5” x 6.2” x 1.5”)",
+            "panel_cutout_size": '184 mm x 137 mm (7.2" x 5.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.48kg",
+            "product_variants": "6010-03 - 6010 MKII Auto Start Control Module"
+        }
+    },
+
+    {
+        "id": 8,
+        "image": "../images/deepsea/dse6110.png",
+        "heading": "DSE6110 MKII",      
+        "sub_heading": "Auto Start Control Module",
+        "paragraph": "The DSE 6110 MKII is an Auto Start Control Module developed to provide a wide range of operating and monitoring features for single diesel and gas gen-sets. ",
+        "features": {
+            "overall_size": "216 mm x 158 mm x 43 mm (8.5” x 6.2” x 1.5”)",
+            "panel_cutout_size": "184 mm x 137 mm (7.2” x 5.3”)",
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.5kg",
+            "product_variants": "6110-03 - 6110 MKII Auto Start Control Module"
+        }
+    },
+
+    {
+        "id": 9,
+        "image": "../images/deepsea/dse7110mkii.png",
+        "heading": "DSE7110 MKII",      
+        "sub_heading": "Auto Start Control Module",
+        "paragraph": "The DSE7110 MKII is an Auto Start Control Module with an icon-based display. The control module has been designed to control single diesel or gas gen-set applications. ",
+        "features": {
+            "overall_size": "240 mm x 181 mm x 42 mm (9.4” x 6.8” x 1.6”) ",
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.82kg",
+            "product_variants": "7110-01 - 7110 MKII Auto Start Control Module"
+        }
+    },
+
+    {
+        "id": 10,
+        "image": "../images/deepsea/dse7310mkii.png",
+        "heading": "DSE7310 MKII",      
+        "sub_heading": "Auto Start Control Module",
+        "paragraph": "The DSE7310 MKII is a powerful, new generation auto start genset control module with a highly sophisticated level of new features and functions, presented in the usual DSE user-friendly format. Suitable for a wide variety of single, diesel or gas Gen-set applications. ",
+        "features": {
+            "overall_size": '245 mm x 184 mm x 51 mm (9.6" x 7.2" x 2.0")',
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": '8.0 mm (0.3")',
+            // "weight":"0",
+            "product_variants": "7310-03 - 7310 MKII Autostart Control Module"
+        }
+    },
+
+    {
+        "id": 11,
+        "image": "../images/deepsea/dse7410mkii.png",
+        "heading": "DSE7410 MKII",      
+        "sub_heading": "Auto Start Control Module",
+        "paragraph": "The DSE7410 MKII is an intelligent, powerful auto start control module with high-level features and functionality. The control module is the first module in the DSE range to include in-built SNMP and features an embedded web server. The module is suitable for a wide range of single-set gas and diesel applications.",
+        "features": {
+            "overall_size": "245 mm x 184 mm x 51 mm (9.6” x 7.2” x 2.0”)",
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.88kg",
+            "product_variants": "7410-03 - 7410 MKII Auto Start Control Module"
+        }
+    }],
+
+};
+
+const FCModules = {
+'Title': 'AUTO MAINS (UTILITY) FAILURE CONTROL MODULES',
+'Products':[{
+        "id": 1,
+        "image": "../images/deepsea/dse4220.png",
+        "heading": "DSE4220",
+        "sub_heading": "Auto Mains (Utility) Control Module",      
+        "paragraph": "The DSE4220 is an Auto Mains (Utility) Failure Control Module that has been       developed to provide an outstanding range of features within a compact module size. ",
+        "features": {
+            "overall_size": "140 mm x 113 mm x 43 mm (5.5” x 4.4” x 1.7”)",
+            "panel_cutout_size": '118 mm x 92 mm (4.6" x 3.6")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.24kg",
+            "product_variants": "4220-01 - 4220 Auto Mains (Utility) Failure Control Module"
+        }
+ },
+
+ {
+    "id": 2,
+    "image": "../images/deepsea/dse4520.png",
+    "heading": "DSE4520 MKII",
+    "sub_heading": "Auto Mains (Utility) Control Module",
+    "paragraph": "The DSE4520 MKII is a compact Auto Mains (Utility) Failure Control Module that has been developed to provide an outstanding range of features within a compact enclosure. New Features Added May 2020. Read Product Change Notification Document for details.",
+    "features": {
+            "overall_size": "140 mm x 113 mm x 43 mm (5.5” x 4.4” x 1.5”)",
+            "panel_cutout_size": '118 mm x 92 mm (4.6" x 3.6")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.26kg",
+            "product_variants": "4520-05 - 4520 Auto Mains (Utility) Failure Control Module (Ct, Rtc),4520-06 - 4520 Auto Mains (Utility) Failure Control Module (Ct, Rtc, Htr)"
+    }
+},
+
+{
+    "id": 3,
+    "image": "../images/deepsea/dse6020.png",
+    "heading": "DSE6020 MKII",
+    "sub_heading": "Auto Mains (Utility) Control Module",
+    "paragraph": "The DSE 6020 MKII is an Auto Mains (Utility) Failure Control Module developed to provide a wide range of operating and monitoring features for single diesel and gas gen-sets. ",
+    "features": {
+            "overall_size": "216 mm x 158 mm x 43 mm (8.5” x 6.2” x 1.5”)",
+            "panel_cutout_size": '184 mm x 137 mm (7.2" x 5.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.48kg",
+            "product_variants": "6020-03 - MKII Auto Mains (Utility) Failure Control Module, 6020-04 - MKII Auto Mains (Utility) Failure Control Module (Htr)"
+    }
+},
+
+{
+    "id": 4,
+    "image": "../images/deepsea/dse6120.png",
+    "heading": "DSE6120 MKII",
+    "sub_heading": "Auto Mains (Utility) Failure Control Module",
+    "paragraph": "The DSE 6120 MKII is an Auto Mains (Utility) Failure Control Module developed to provide a wide range of operating and monitoring features for single diesel and gas gen-sets. ",
+    "features": {
+            "overall_size": "216 mm x 158 mm x 43 mm (8.5” x 6.2” x 1.5”)",
+            "panel_cutout_size": "184 mm x 137 mm (7.2” x 5.3”)",
+            "maximum_panel_thickness": "8.0mm (0.3”)",
+            "weight":"0.5kg",
+            "product_variants": "6120-03 - 6120 MKII Auto Mains (Utility) Failure Control Module"
+    }
+},
+
+{
+    "id": 5,
+    "image": "../images/deepsea/dse7120.png",
+    "heading": "DSE7120 MKII",
+    "sub_heading": "Auto Mains (Utility) Failure Control Module",
+    "paragraph": "The DSE7120 is an Auto Mains (Utility) Failure Control Module with an icon-based display. The control module has been designed to control single diesel or gas gen-set applications. ",
+    "features": {
+            "overall_size": "240 mm x 181 mm x 42 mm (9.4” x 6.8” x 1.6”)",
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.82kg",
+            "product_variants": "7120-01 - 7120 MKII Auto Mains (Utility) Control Module"
+    }
+},
+
+{
+    "id": 6,
+    "image": "../images/deepsea/dse7320.png",
+    "heading": "DSE7320 MKII",
+    "sub_heading": "Auto Mains (Utility) Failure Control Module",
+    "paragraph": "The DSE7320 MKII is a powerful, new generation Auto Mains (Utility) Failure genset control module with a highly sophisticated level of new features and functions, presented in the usual DSE user-friendly format. Suitable for a wide variety of single, diesel or gas Gen-set applications. ",
+    "features": {
+            "overall_size": '245 mm x 184 mm x 51 mm (9.6" x 7.2" x 2.0")',
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": '8.0 mm (0.3")',
+             "weight":"N/A",
+            "product_variants": "7320-03 - 7320 MKII Auto Mains (Utility) Failure Control Module"
+    }
+},
+
+{
+    "id": 7,
+    "image": "../images/deepsea/dse7420mkii.png",
+    "heading": "DSE7420 MKII",
+    "sub_heading": "Auto Mains (Utility) Failure Control Module",
+    "paragraph": "The DSE7420 MKII is an intelligent, powerful auto mains (utility) failure control module with high-level features and functionality. The control module is the first module in the DSE range to include in-built SNMP and features an embedded web server. The module is suitable for a wide range of single-set gas and diesel applications. ",
+    "features": {
+            "overall_size": "245 mm x 184 mm x 51 mm (9.6” x 7.2” x 2.0”) ",
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.88kg",
+            "product_variants": "7420-03 - 7420 MKII Auto Mains (Utility) Failure Control Module, 7420-04 - 7420 MKII Auto Mains (Utility) Failure Control Module (Htr)"
+    }
+}],
+
+};
+
+const SharingModules = {
+'Title': 'SYNCHRONISING AND LOAD SHARING CONTROL MODULES',
+'Products': [{
+        "id": 1,
+        "image": "../images/deepsea/dse8610mkii.png",
+        "heading": "DSE8610 MKII",      
+        "sub_heading": "Synchronising & Load Sharing Auto Start Control Module",
+        "paragraph": "The DSE8610 MKII represents the latest in complex load sharing & synchronising control technology. Designed to handle the most complex grid type generator applications the DSE8610 MKII control module is packed with multiple features and benefits that are unrivalled across the generator control industry. ",
+        "features": {
+            "overall_size": '245 mm x 184 mm x 51 mm (9.6" x 7.2" x 2.0")',
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": '8.0 mm (0.3")',
+            "weight":"0.88kg",
+            "product_variants": "8610-02 - 8610 MKII Synchronising & Load Sharing Control Module (Ct, Rtc)"
+        }
+    },
+
+    {
+        "id": 2,
+        "image": "../images/deepsea/dse8620.png",
+        "heading": "DSE8620",      
+        "sub_heading": "Synchronising & Load Sharing Auto Mains (Utility) Failure Control Module",
+        "paragraph": "The DSE8620 is an intelligent mono display auto mains (utility) failure load share control module packed with industry leading features to enhance paralleling single gensets with a mains (utility) supply. ",
+        "features": {
+            "overall_size": "240 mm x 181 mm x 42 mm (9.4” x 6.8” x 1.6”)",
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.88kg",
+            "product_variants": "8620-01 - 8620 Auto Mains (Utility) Failure Control Module "
+        }
+    },
+
+    {
+        "id": 3,
+        "image": "../images/deepsea/dse8660.png",
+        "heading": "DSE8660 MKII",      
+        "sub_heading": "Auto Transfer Switch & Mains (Utility) Control Module",
+        "paragraph": "The DSE8660 MKII is the latest and most advanced Auto Transfer Switch & Mains (Utility) Control Module within the DSE synchronising and load sharing control module range. Developed alongside the DSE8610 MKII this control module provides industry-leading features and benefits for the most complex grid type generator installations.",
+        "features": {
+            "overall_size": '245 mm x 184 mm x 51 mm (9.6" x 7.2" x 2.0")',
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": '8.0 mm (0.3")',
+            "weight":"0.88kg",
+            "product_variants": "8660-02 - 8660 MKII Auto Transfer Switch & Mains (Utility) Control Module (Ct, Rtc)"
+        }
+    },
+
+    {
+        "id": 4,
+        "image": "../images/deepsea/dse8661.png",
+        "heading": "DSE8661",      
+        "sub_heading": "Two-Part Auto Transfer Switch & Mains (Utility) Control Module",
+        "paragraph": "The DSE8661 is an intelligent two-part mono display single or multi-mains (utility) controller with automatic transfer switch capabilities. The DSE8661 can be used with remote breakers up to 1.2km apart.  The modules synchronise single or multiple set systems in conjunction with DSE synchronising & load share control modules.",
+        "features": {
+            "overall_size": "240 mm x 181 mm x 42 mm (9.4” x 6.8” x 1.6”)",
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.88kg",
+            "product_variants": "8661-01 - 8661 Two-Part Auto Transfer Switch & Mains (Utility) Control Module"
+        }
+    },
+
+    {
+        "id": 5,
+        "image": "../images/deepsea/dse7320.png",
+        "heading": "DSE7320 MKII",      
+        "sub_heading": "Auto Mains (Utility) Failure Control Module",
+        "paragraph": "The DSE7320 MKII is a powerful, new generation Auto Mains (Utility) Failure genset control module with a highly sophisticated level of new features and functions, presented in the usual DSE user-friendly format. Suitable for a wide variety of single, diesel or gas Gen-set applications. ",
+        "features": {
+            "overall_size": '245 mm x 184 mm x 51 mm (9.6" x 7.2" x 2.0")',
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": '8.0 mm (0.3")',
+            "weight":"N/A",
+            "product_variants": "7320-03 - 7320 MKII Auto Mains (Utility) Failure Control Module"
+        }
+    },
+
+    {
+        "id": 6,
+        "image": "../images/deepsea/dse871060.png",
+        "heading": "DSE8710/60",      
+        "sub_heading": "Mono Remote Displays",
+        "paragraph": "ear Mounted Synchronising & Load Sharing Control Module The DSE8710 is an intelligent rear mounted auto start load share control module packed with industry leading features to enhance multi-set",
+        "features": {
+            "overall_size": "240 mm x 172 mm x 57 mm (9.4” x 6.8” x 2.2”)",
+            "panel_cutout_size": "N/A",
+            "maximum_panel_thickness": "N/A",
+            "weight":"0.74kg",
+            "product_variants": "8710-01 – 8710 Rear Mounted Synchronising & Load Sharing Control Module"
+        }
+    },
+
+    {
+        "id": 7,
+        "image": "../images/deepsea/dse8721.png",
+        "heading": "DSE8721",      
+        "sub_heading": "Graphical Colour Remote Display",
+        "paragraph": "The DSE8721 remote display has been expertly designed to provide the DSE8610/60, DSE8610/60 MKII Load Share Control Modules and DSE8710/60 Rear Mounted Load Share Control Modules flexible graphical colour display options",
+        "features": {
+            "overall_size": "310 mm x 160 mm x 40 mm (12.2” x 6.3” x 1.5”)",
+            "panel_cutout_size": '282 mm x 136 mm (11.1" x 5.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"1.0kg",
+            "product_variants": '8721 7" Graphical Colour Remote Display'
+        }
+    },
+
+    {
+        "id": 8,
+        "image": "../images/deepsea/dse8810.png",
+        "heading": "DSE8810",      
+        "sub_heading": "Load Share Control with Graphical Colour Display",
+        "paragraph": "The DSE8810 is an intelligent graphical colour display load share control module packed with industry leading features to enhance multi-set control. The module can be synchronised with up to 32 generators within the same system. ",
+        "features": {
+            "overall_size": "245 mm x 184 mm x 50 mm (9.6” x 7.2” x 2.0”) ",
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.98kg",
+            "product_variants": "8810-01 - 8810 Load Share Control Module with Graphical Colour Display"
+        }
+    },
+
+    {
+        "id": 9,
+        "image": "../images/deepsea/dse8860.png",
+        "heading": "DSE8860",      
+        "sub_heading": "Auto Transfer Switch & Mains (Utility) Graphical Colour Display Control Module",
+        "paragraph": "The DSE8860 is an intelligent graphical colour display single or multi-mains (utility) controller with automatic transfer switch capabilities. The control module synchronises single or multiple set systems in conjunction with DSE synchronising & load share control modules.",
+        "features": {
+            "overall_size": "245 mm x 184 mm x 50 mm (9.6” x 7.2” x 2.0”)",
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.88kg",
+            "product_variants": "8860-01 - 8860 Auto Transfer Switch & Mains (Utility) Graphical Colour Display Control Module"
+        }
+    },
+
+    {
+        "id": 10,
+        "image": "../images/deepsea/dse871116.png",
+        "heading": "DSE8711/8716",      
+        "sub_heading": "Mono Remote Displays",
+        "paragraph": "The DSE8711 and DSE8716 remote displays have been expertly designed to provide the DSE8710/60 Rear Mounted Load Share Control Modules flexible display options.",
+        "features": {
+            "overall_size": "240 mm x 181 mm x 42 mm (9.4” x 7.1” x 1.6”) ",
+            "panel_cutout_size": '220 mm x 160 mm (8.7" x 6.3")',
+            "maximum_panel_thickness": "8.0 mm (0.3”)",
+            "weight":"0.76kg",
+            "product_variants": "8711-01 - 8711 Mono Remote Display (For use with 8710), 8716-01 - 8716 Mono Remote Display (For use with 8760)"
+        }
+    }],
+};
+
+const LubiSmps = {
+    'Title': 'Switching Power Supplies',
+    'Products': 
+    [{
+        "id": 1,
+        "heading": "LESA15P5",
+        "image": "../images/lubi/smps15p5.png",      
+        "features": {
+            "products_name":"SMPS", 
+            "model_number":"LESA15P5",
+            "manufacturer":"Lubi",
+            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+        },
+        "sub_heading": "Technical Specifications",
+        "specifications": {
+            "number_of_outputs":"Single",
+            "mounting_type":"Panel",
+            "output_power":"15W",
+            "output_voltage":"5v",
+            "output_current":"3A"
+
+        }
+    },
+
+    {
+        "id": 2,
+        "heading": "LESA15B5",
+        "image": "../images/lubi/smps15b5.jpg",      
+        "features": {
+            "products_name":"SMPS", 
+            "model_number":"LESA15B5",
+            "manufacturer":"Lubi",
+            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+        },
+        "sub_heading": "Technical Specifications",
+        "specifications": {
+            "number_of_outputs":"Single",
+            "mounting_type":"Panel",
+            "output_power":"15W",
+            "output_voltage":"5v",
+            "output_current":"3A"
+
+        }
+    },
+
+    {
+        "id": 3,
+        "heading": "LESC25P5",
+        "image": "../images/lubi/smps25p5.png",      
+        "features": {
+            "products_name":"SMPS", 
+            "model_number":"LESC25P5",
+            "manufacturer":"Lubi",
+            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+        },
+        "sub_heading": "Technical Specifications",
+        "specifications": {
+            "number_of_outputs":"Single",
+            "mounting_type":"Panel",
+            "output_power":"15W",
+            "output_voltage":"5v",
+            "output_current":"3A"
+
+        }
+    },
+
+    {
+        "id": 4,
+        "heading": "LESC25B5",
+        "image": "../images/lubi/lesc25b5.jpg",      
+        "features": {
+            "products_name":"SMPS", 
+            "model_number":"LESC25B5",
+            "manufacturer":"Lubi",
+            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+        },
+        "sub_heading": "Technical Specifications",
+        "specifications": {
+            "number_of_outputs":"Single",
+            "mounting_type":"Panel",
+            "output_power":"15W",
+            "output_voltage":"5v",
+            "output_current":"3A"
+
+        }
+    },
+
+    {
+        "id": 5,
+        "heading": "LESA50P5",
+        "image": "../images/lubi/lesa50p5.png",      
+        "features": {
+            "products_name":"SMPS", 
+            "model_number":"LESA50P5",
+            "manufacturer":"Lubi",
+            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+        },
+        "sub_heading": "Technical Specifications",
+        "specifications": {
+            "number_of_outputs":"Single",
+            "mounting_type":"Panel",
+            "output_power":"15W",
+            "output_voltage":"5v",
+            "output_current":"3A"
+
+        }
+    },
+
+    {
+        "id": 6,
+        "heading": "LESA12P12",
+        "image": "../images/lubi/lesa12p12.png",      
+        "features": {
+            "products_name":"SMPS", 
+            "model_number":"LESA12P12",
+            "manufacturer":"Lubi",
+            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+        },
+        "sub_heading": "Technical Specifications",
+        "specifications": {
+            "number_of_outputs":"Single",
+            "mounting_type":"Panel",
+            "output_power":"15W",
+            "output_voltage":"5v",
+            "output_current":"3A"
+
+        }
+    },
+
+    {
+        "id": 7,
+        "heading": "LESA15P12",
+        "image": "../images/lubi/lesa15p12.png",      
+        "features": {
+            "products_name":"SMPS", 
+            "model_number":"LESA15P12",
+            "manufacturer":"Lubi",
+            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+        },
+        "sub_heading": "Technical Specifications",
+        "specifications": {
+            "number_of_outputs":"Single",
+            "mounting_type":"Panel",
+            "output_power":"15W",
+            "output_voltage":"5v",
+            "output_current":"3A"
+
+        }
+    },
+
+    {
+        "id": 8,
+        "heading": "LESA12B12",
+        "image": "../images/lubi/lesa12b12.jpg",      
+        "features": {
+            "products_name":"SMPS", 
+            "model_number":"LESA12B12",
+            "manufacturer":"Lubi",
+            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+        },
+        "sub_heading": "Technical Specifications",
+        "specifications": {
+            "number_of_outputs":"Single",
+            "mounting_type":"Panel",
+            "output_power":"15W",
+            "output_voltage":"5v",
+            "output_current":"3A"
+
+        }
+    },
+
+    {
+        "id": 9,
+        "heading": "LESA15B12",
+        "image": "../images/lubi/lesa15b12.jpg",      
+        "features": {
+            "products_name":"SMPS", 
+            "model_number":"LESA15B12",
+            "manufacturer":"Lubi",
+            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+        },
+        "sub_heading": "Technical Specifications",
+        "specifications": {
+            "number_of_outputs":"Single",
+            "mounting_type":"Panel",
+            "output_power":"15W",
+            "output_voltage":"5v",
+            "output_current":"3A"
+
+        }
+    },
+
+    {
+        "id": 10,
+        "heading": "LESA35P12",
+        "image": "../images/lubi/lesa35p12.jpg",      
+        "features": {
+            "products_name":"SMPS", 
+            "model_number":"LESA35P12",
+            "manufacturer":"Lubi",
+            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+        },
+        "sub_heading": "Technical Specifications",
+        "specifications": {
+            "number_of_outputs":"Single",
+            "mounting_type":"Panel",
+            "output_power":"15W",
+            "output_voltage":"5v",
+            "output_current":"3A"
+
+        }
+    }],
+
+};
+
+const LTTape = {
+    'Title': 'L.T.Tape Insulated',
+    'Products': [{
+        "id": 1,
+        "image": "../images/ampturn/lttape1.png",
+        "bottom_desc": "TAPE RING TYPE"
+        },
+        {
+            "id": 2,
+            "image": "../images/ampturn/lttape2.png",
+            "bottom_desc": "TAPE RECTANGULAR TYPE"
+        },
+        {
+            "id": 3,
+            "image": "../images/ampturn/lttape3.jpeg",
+            "bottom_desc": "TAPE INSULATED WPL TYPE"
+            },
+        {
+            "id": 4,
+            "image": "../images/ampturn/lttape4.jpg",
+            "bottom_desc": "TAPE WOUND PRIMARY TYPE"
+            }],
+    'SpecTitle': 'LV Current Transformers',
+    "Specifications":[
+        {            
+        "label": "Service",
+        "value": "Indoor purpose"
+        },
+        {
+        "label": "System Voltage", 
+        "value" : "Upto 1.1kV",
+        },
+        {
+        "label": "Application",
+        "value": "Suitable For Metering &amp; Relaying application in AC Power Systems."
+        },
+        {
+        "label": "Frequency", 
+        "value" : "50Hz To 400Hz",
+        },
+        {
+        "label": "Primary Current",
+        "value" : "1A To 75,000A"
+        },
+        {
+        "label": "Secondary Current", 
+        "value" : "1A, 5A, 0.577A",
+        },
+        {
+        "label": "Burden (VA)",
+        "value" : "1, 1.25, 1.5, 2.5, 3.75, 5, 7.5, 10, 12.5, 15, 20VA"
+        },
+        {
+        "label": "Accuracy Class", 
+        "value" : "Metering: 0.2, 0.2s, 0.5, 0.5s, 1, 3 &amp; 5",
+        },
+        {
+        "label": "Protection",
+        "value" : "5P10, 5P20, 10P10, 10P20"
+        },
+        {
+        "label": "Special Protection (PS)", 
+        "value" : "Knee Point Voltage(Vk) &amp; Magnetizing Current (Im) as Per Requirement",
+        },
+        {
+        "label": "Ambient Temperature",
+        "value" : "- 50 C to + 450 C"
+        },
+        {
+        "label": "Thermal Short Circuit Current (Ith)", 
+        "value" : "60 x Ip / 1 Sec",
+        },
+        {
+        "label": "Instrument Security Factor (ISF)",
+        "value" : "2.5, 5, 10"
+        },
+        {
+        "label": "Thermal Insulation Class", 
+        "value" : "Class A, Class B &amp;Class F",
+        },
+        {
+        "label": "Type / Encapsulation",
+        "value" : "Resin Cast, Moulded Case &amp; Tape Insulated"
+        },
+        {
+        "label": "Construction", 
+        "value" : "Window type (Ring &amp; Rectangular), Wound Primary Type &amp; Bar Primary Type",
+        }, 
+        {    
+        "label" : "Applicable Standard", 
+        "value" : "IS 2705 Part (1, 2 &amp; 3), IEC 61869 Part (1 &amp; 2)"
+    }]
+};
+
+const LTMoulded = {
+    'Title': 'L.T.Moulded Case',
+    'CategoryImage': '../images/ampturn/ltm1.png',
+    'Products': [{
+        "id": 1,
+        "image": "../images/ampturn/ltm1.png",
+        "bottom_desc": "MOULDED CASE RING TYPE"      
+        },
+        {
+        "id": 2,
+        "image": "../images/ampturn/ltm2.png",
+        "bottom_desc": "MOULDED CASE RECTANGULAR TYPE"
+        },
+        {
+        "id": 3,
+        "image": "../images/ampturn/ltm3.jpg",
+        "bottom_desc": "MOULDED CASE WOUND PRIMARY TYPE"
+        },
+        {
+        "id": 4,
+        "image": "../images/ampturn/ltm4.jpg",
+        "bottom_desc": "MOULDED CASE RECTANGULAR TYPE"
+        },
+        {
+        "id": 5,
+        "image": "../images/ampturn/ltm5.png",
+        "bottom_desc": "MOULDED CASE RECTANGULAR TYPE"
+        }],
+    'SpecTitle': 'LV Current Transformers',
+    "Specifications":[
+        {
+        "label": "Service",
+        "value": "Indoor purpose"
+        },
+        {
+        "label": "System Voltage", 
+        "value" : "Upto 1.1kV",
+        },
+        {
+        "label": "Application",
+        "value": "Suitable For Metering &amp; Relaying application in AC Power Systems."
+        },
+        {
+        "label": "Frequency", 
+        "value" : "50Hz To 400Hz",
+        },
+        {
+        "label": "Primary Current",
+        "value" : "1A To 75,000A"
+        },
+        {
+        "label": "Secondary Current", 
+        "value" : "1A, 5A, 0.577A",
+        },
+        {
+        "label": "Burden (VA)",
+        "value" : "1, 1.25, 1.5, 2.5, 3.75, 5, 7.5, 10, 12.5, 15, 20VA"
+        },
+        {
+        "label": "Accuracy Class", 
+        "value" : "Metering: 0.2, 0.2s, 0.5, 0.5s, 1, 3 &amp; 5",
+        },
+        {
+        "label": "Protection",
+        "value" : "5P10, 5P20, 10P10, 10P20"
+        },
+        {
+        "label": "Special Protection (PS)", 
+        "value" : "Knee Point Voltage(Vk) &amp; Magnetizing Current (Im) as Per Requirement",
+        },
+        {
+        "label": "Ambient Temperature",
+        "value" : "- 50 C to + 450 C"
+        },
+        {
+        "label": "Thermal Short Circuit Current (Ith)", 
+        "value" : "60 x Ip / 1 Sec",
+        },
+        {
+        "label": "Instrument Security Factor (ISF)",
+        "value" : "2.5, 5, 10"
+        },
+        {
+        "label": "Thermal Insulation Class", 
+        "value" : "Class A, Class B &amp;Class F",
+        },
+        {
+        "label": "Type / Encapsulation",
+        "value" : "Resin Cast, Moulded Case &amp; Tape Insulated"
+        },
+        {
+        "label": "Construction", 
+        "value" : "Window type (Ring &amp; Rectangular), Wound Primary Type &amp; Bar Primary Type",
+        }, 
+        {    
+        "label" : "Applicable Standard", 
+        "value" : "IS 2705 Part (1, 2 &amp; 3), IEC 61869 Part (1 &amp; 2)"
+        }]
+};
+
+const LTResin = {
+    'Title': 'L.T.Resin Cast',
+    'Products': [{
+        "id": 1,
+        "image": "../images/ampturn/resincast1.png",
+        "bottom_desc": "RESIN CAST RECTANGULAR TYPE"      
+        },
+        {
+        "id": 2,
+        "image": "../images/ampturn/resincast2.jpeg",
+        "bottom_desc": "RESIN CAST RECTANGULAR TYPE"
+        },
+        {
+        "id": 3,
+        "image": "../images/ampturn/resincast3.jpeg",
+        "bottom_desc": "RESIN CAST RECTANGULAR TYPE"
+        },
+        {
+        "id": 4,
+        "image": "../images/ampturn/resincast4.jpeg",
+        "bottom_desc": "RESIN CAST RING TYPE"
+        },
+        {
+        "id": 5,
+        "image": "../images/ampturn/resincast5.png",
+        "bottom_desc": "RESIN CAST RING TYPE"
+        },
+        {
+        "id": 6,
+        "image": "../images/ampturn/resincast6.png",
+        "bottom_desc": "RESIN CAST WPL TYPE"
+        },
+        {
+        "id": 7,
+        "image": "../images/ampturn/resincast7.png",
+        "bottom_desc": "RESIN CAST WOUND PRIMARY TYPE"
+        }],
+    'SpecTitle': 'LV Current Transformers',
+    "Specifications":[
+        {
+        "label": "Service",
+        "value": "Indoor purpose"
+        },
+        {
+        "label": "System Voltage", 
+        "value" : "Upto 1.1kV",
+        },
+        {
+        "label": "Application",
+        "value": "Suitable For Metering &amp; Relaying application in AC Power Systems."
+        },
+        {
+        "label": "Frequency", 
+        "value" : "50Hz To 400Hz",
+        },
+        {
+        "label": "Primary Current",
+        "value" : "1A To 75,000A"
+        },
+        {
+        "label": "Secondary Current", 
+        "value" : "1A, 5A, 0.577A",
+        },
+        {
+        "label": "Burden (VA)",
+        "value" : "1, 1.25, 1.5, 2.5, 3.75, 5, 7.5, 10, 12.5, 15, 20VA"
+        },
+        {
+        "label": "Accuracy Class", 
+        "value" : "Metering: 0.2, 0.2s, 0.5, 0.5s, 1, 3 &amp; 5",
+        },
+        {
+        "label": "Protection",
+        "value" : "5P10, 5P20, 10P10, 10P20"
+        },
+        {
+        "label": "Special Protection (PS)", 
+        "value" : "Knee Point Voltage(Vk) &amp; Magnetizing Current (Im) as Per Requirement",
+        },
+        {
+        "label": "Ambient Temperature",
+        "value" : "- 50 C to + 450 C"
+        },
+        {
+        "label": "Thermal Short Circuit Current (Ith)", 
+        "value" : "60 x Ip / 1 Sec",
+        },
+        {
+        "label": "Instrument Security Factor (ISF)",
+        "value" : "2.5, 5, 10"
+        },
+        {
+        "label": "Thermal Insulation Class", 
+        "value" : "Class A, Class B &amp;Class F",
+        },
+        {
+        "label": "Type / Encapsulation",
+        "value" : "Resin Cast, Moulded Case &amp; Tape Insulated"
+        },
+        {
+        "label": "Construction", 
+        "value" : "Window type (Ring &amp; Rectangular), Wound Primary Type &amp; Bar Primary Type",
+        }, 
+        {    
+        "label" : "Applicable Standard", 
+        "value" : "IS 2705 Part (1, 2 &amp; 3), IEC 61869 Part (1 &amp; 2)"
+        }]
+};
+
+const Seco = {
+    'Title': 'Seco Products',
+    'Products': [{
+        "id": 1,
+        "heading": "Hooter",
+        "image": '../images/seco/hooter.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 2,
+        "heading": "Buzzer",
+        "image": '../images/seco/buzzer.png',
+        "paragraph": "We design and manufacture Electronic Buzzers with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound. (any one tone can be selectable through link ) Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 3,
+        "heading": "Microcontroller Annunciators",
+        "image": '../images/seco/annunciator1.png',
+        "paragraph": "We design & manufacture Microcontroller based Annunciator from 2 windows to 64 windows with both Big window unit and small window unit & combination of Big & small window units in moulded box with Wide Aux. supply range, Standby working with AC supply, site selectable window colour, DC Fail Indication, Ac Fail Indication, RS 485 communication and Repeat relay contacts.",
+      },
+      {
+        "id": 4,
+        "heading": "Wireless Annunciator - Zigbee Based",
+        "image": '../images/seco/mmannounciator.png',
+        "paragraph": "We design and manufacture Wireless Annunciator with Microcontroller based advance technology and field proven model for all types of fields and environmental conditions. The purpose of this product is to give window Annunciation required at specific place and where the inputs or protective relays are at distance with the use of the radio frequency signal. This product can be used in the Power generation projects/ Power transmission projects/ process control or Industrial applications where we can’t run the wires to get the Annunciation for devices that may be in the hazardous environment and it also saves the copper wires.",
+      },
+      {
+        "id": 5,
+        "heading": "Annunciator - Input From PLC",
+        "image": '../images/seco/plcannounciator.png',
+        "paragraph": "We design and manufacture Alarm Annunciator – input form PLC (RS 485 input) with Microcontroller based advance technology. This type of Annunciation system is useful in process control panels/ PLC panels to eliminate control cable wires and accept input from Program logic controller by only twisted two wires on RS 485 (Modus protocol). It saves cable cost, labour and also solve loose contact issues. This unit increases the reliability of the system.",
+      }],
+};
+
+const Leap = {
+    'Title': 'Leap Industries',
+    'Products': [{
+            "id": 1,
+            "heading": "LED Tube Light",
+            "sub_heading": "LED Tube Light",
+            "image": '../images/leap/tubelight.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "No flicking and humming",
+                "High efficiency and Constant voltage driver",
+                "Special circuit design",
+                
+            ],
+            "app_heading": "Available In:",
+            "app_list": [
+                "1 Ft- 6W",
+                "2 Ft-10W",
+                "4 Ft-20W",
+                "4 Ft-22W",
+                "4 Ft-30W",
+                "4 Ft-36W",
+                "4 Ft-40W",
+            ],
+            "features": {
+            "tube_base_type":"T8",
+            "length":"1 Foot, 2 Feet, 4 Feet",
+            "ip_rating":"IP33",
+            "power_consumption":"6 W - 10 W, 16 W - 20 W, 11 W - 15 W",
+            "shape":"Round",
+            "color":"White",
+            
+
+        }
+        
+        },
+        {
+            "id": 2,
+            "heading": "LED Tube Light",
+            "sub_heading": "1 Feet 5w to 10w Tube Light",
+            "image": '../images/leap/tubelight1.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "No flicking and humming",
+                "High efficiency and Constant voltage driver",
+                "Special circuit design",
+            ],
+            "app_heading": "Available In:",
+            "app_list": [
+                "1 Ft- 6 W",
+                "2 Ft- 10 W",
+                "4 Ft- 20 W",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "length":"1 Foot, 2 Foot, 4 Foot",
+                "ip_rating":"IP33",
+                "power_consumption":"6w - 10w, 11w-16w, 18w-22w",
+                "shape":"Round",
+                "color":"Cool White",
+
+        }
+        
+        },
+        {
+            "id": 3,
+            "heading": "LED Panel Light",
+            "sub_heading": "Square LED Panel Light",
+            "image": '../images/leap/ledsquarepanel.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "Scratch resistance property",
+                "Free from flaws",
+                "Optimal quality"
+            ],
+            "app_heading": "Available In:",
+            "app_list": [
+                "6 Watt",
+                "12 Watt",
+                "18 Watt",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "ip_rating":"IP33",
+                "power_consumption":"6 Watt, att, 18 Watt, 5 W",
+                "shape":"Square",
+                "color":"Silver White",
+
+        }
+        
+        },
+        {
+            "id": 4,
+            "heading": "LED Panel Light",
+            "sub_heading": "Round LED Panel Light",
+            "image": '../images/leap/ledroundpanellight.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "Dimensional accuracy",
+                "Low maintenance cost",
+                "Long Service Life",
+            ],
+            "app_heading": "Available In:",
+            "app_list": ["Monitor real-time system voltage and frequency ",
+                "6 Watt",
+                "12 Watt",
+                "18 Watt",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "length":"N/A",
+                "ip_rating":"IP33",
+                "power_consumption":"12 W",
+                "shape":"Round",
+                "color":"White",
+
+        }
+        
+        },
+        {
+            "id": 5,
+            "heading": "Street Light",
+            "sub_heading": "LED Street Light",
+            "image": '../images/leap/ledstreetlight.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "Excellent illumination",
+                "High energy saving",
+                "Fast integration",
+            ],
+            "app_heading": "Available In:",
+            "app_list": [
+                "9 Watt",
+                "12 Watt",
+                "18 Watt",
+                "20 Watt",
+                "24 Watt",
+                "30 Watt",
+                "40 Watt",
+                "48 Watt",
+                "72 Watt",
+                "80 Watt",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "length":"1 Foot, 2 Foot, 4 Foot",
+                "ip_rating":"IP33",
+                "power_consumption":"6w - 10w, 11w-16w, 18w-22w",
+                "shape":"Round",
+                "color":"Cool White",
+
+        }
+        
+        },
+        {
+            "id": 6,
+            "heading": "Street Light",
+            "sub_heading": "Solar Street Light",
+            "image": '../images/leap/solarstreetlight.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "Excellent illumination",
+                "High energy saving",
+                "Fast integration",
+            ],
+            "app_heading": "Available In:",
+            "app_list": [
+                "12 Watt",
+                "18 Watt",
+                "24 Watt",
+                "36 Watt",
+                "48 Watt",
+                "50 Watt",
+                "72 Watt",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "length":"1 Foot, 2 Foot, 4 Foot",
+                "ip_rating":"IP33",
+                "power_consumption":"6w - 10w, 11w-16w, 18w-22w",
+                "shape":"Round",
+                "color":"Cool White",
+
+        }
+        
+        },
+        {
+            "id": 7,
+            "heading": "LED Driver",
+            "image": '../images/leap/leddriver.jpg',
+            "prod_id": "splitcorect",
+            "features_heading": "Salient Features",
+            "salient_features": [
+                "Accurate dimensions",
+                "Longer service life",
+                "Efficient working",
+            ],
+            "app_heading": "Available In:",
+            "app_list": ["Monitor real-time system voltage and frequency ",
+                " Monitor source healthiness and output for both Source",
+                " Wide range of motor operating voltage from 150VAC – 285V AC",
+                " Automatic transfer switch for commercial centers, manufacturing, medical facilities,and data centers.",
+            ],
+            "features": {
+                "tube_base_type":"T8 and T5",
+                "length":"1 Foot, 2 Foot, 4 Foot",
+                "ip_rating":"IP33",
+                "power_consumption":"6w - 10w, 11w-16w, 18w-22w",
+                "shape":"Round",
+                "color":"Cool White",
+
+        }
+        
+        }],
+};
+
+const Kalaivani = {
+    'Title': 'Kalaivani Electricals',
+    'Products': [{
+        "id": 1,
+        "heading": "OUTDOOR OIL COOLED CT",
+        "image": '../images/kalaivani/11KV_outdoor_oil_cooled_CT.jpg',
+        "paragraph": "Oil cooled transformers are made for use on various systems ranging from 11kv to 33kv. the basic construction of the CT.",
+         },
+         {
+        "id": 2,
+        "heading": "OUTDOOR OIL COOLED PT",
+        "image": '../images/kalaivani/outpt.jpg',
+        "paragraph": "The Oil Cooled Outdoor CT & PT is designed to increase power supply with minimum distortion to address the persistent problem of low voltage.",
+            },
+        {
+        "id": 3,
+        "heading": "RESIN CAST CT & PT",
+        "image": '../images/kalaivani/ctpt.jpg',
+        "paragraph": "The transformers are vacuum encapsulated in epoxy resin, which ensures faultless insulation. Incombustible high-class raw material.",
+            }],
+};
+const Rishab = {
+    'Title': 'Rishabh Instruments',
+    'Products': [{
+        "id": 1,
+        "heading": "Handheld Digital Multimeters",
+        "image": '../images/rishab/hdmulti.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 2,
+        "heading": "Digital and Analog Insulation Tester",
+        "image": '../images/rishab/insulationtester.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 3,
+        "heading": "Digital Clamp Meters",
+        "image": '../images/rishab/dclamp1.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 4,
+        "heading": "Insulation And Earth Tester",
+        "image": '../images/rishab/dainsulationt.jpg',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 5,
+        "heading": "Analog Panel Meters",
+        "image": '../images/rishab/analogpanel.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 6,
+        "heading": "Digital Panel Meters",
+        "image": '../images/rishab/digitlpanel.png',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      },
+      {
+        "id": 7,
+        "heading": "Shunts",
+        "image": '../images/rishab/shunts.jpg',
+        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+      }],
+};
+
+
+
+
+export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton, SCModules, FCModules, SharingModules, LubiSmps, LTTape, LTMoulded, LTResin, Seco, Leap, Kalaivani, Rishab  };
