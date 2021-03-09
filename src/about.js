@@ -1,5 +1,5 @@
 import React from 'react';
-import Pic3 from './images/about.jpg';
+import Pic3 from './assets/images/about.jpg';
 
 const About = () => {
 
@@ -25,4 +25,4 @@ const About = () => {
         );
 }
 
-        export default About;
+export default About;

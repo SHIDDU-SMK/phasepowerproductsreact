@@ -1,17 +1,31 @@
 import React, { useState } from 'react';
- import Logo from './images/phaselogo.png';
+ import Logo from './assets/images/phaselogo.png';
 import './assets/css/style.css';
-import './assets/css/navbar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Navbar, Form, Nav, Image, Row, Col} from 'react-bootstrap';
-import SmartIo from './images/smartio.png';
-import Gate from './images/gateway.png';
-import BZMMccb from './images/eaton/mccb/eatonbzm.jpg';
+import SmartIo from './assets/images/smartio.png';
+import Gate from './assets/images/gateway.png';
+import Monitor from './assets/images/branchcircuitmonitor.png';
+import Controller from './assets/images/multifunctionmeter.png';
+import Lubi from './assets/images/lubi/smps15b5.jpg';
+import DSE701 from './assets/images/deepsea/dse701mkii.png';
+import DSE4520 from './assets/images/deepsea/dse4520.png';
+import DSE8620 from './assets/images/deepsea/dse8620.png';
+import LTTape from './assets/images/ampturn/lttape3.jpeg';
+import LTMould from './assets/images/ampturn/ltm2.png';
+import LTResin from './assets/images/ampturn/resincast3.jpeg';
+import Seco from './assets/images/seco/mmannounciator.png';
+import Leap from './assets/images/leap/ledsquarepanel.jpg';
+import Kalaivani from './assets/images/kalaivani/ctpt.jpg';
+import Rishabh from './assets/images/rishab/dainsulationt.jpg';
+import BZMMccb from './assets/images/eaton/mccb/eatonbzm.jpg';
+import ScrollToTop from './scrolltotop';
 
 const Header = () => {
     const [expanded, setExpanded] = useState(false);
 
     return (
+        <ScrollToTop>
         <Navbar expand="lg" expanded={expanded} fixed="top" variant="dark" style={{ backgroundColor: '#33958C' }}>
              <Navbar.Brand href="#home">
                  <img src={Logo} alt="logo" width="100" height="40"/>
@@ -59,7 +73,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodsm" onClick={() => setExpanded(false)}> 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Gate} />
+                                                    <Image height="20px" src={Monitor} />
                                                 <hr />
                                                     </div>
                                                 <span class="text-black-50">
@@ -70,7 +84,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodsc" onClick={() => setExpanded(false)}> 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Gate} />
+                                                    <Image height="20px" src={Controller} />
                                                 <hr />
                                                     </div>
                                                 <span class="text-black-50">
@@ -90,7 +104,7 @@ const Header = () => {
                                         <div class="menucolumn" >
                                             <Link to='/prodlb' onClick={() => setExpanded(false)}>
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={BZMMccb} /> 
+                                                    <Image height="20px" src={Lubi} /> 
                                                 <hr />
                                                     </div>
                                                 <span class="text-black-50">
@@ -133,7 +147,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodst" onClick={() => setExpanded(false)}>
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={SmartIo} />
+                                                    <Image height="20px" src={DSE701} />
                                                 <hr />
                                                     </div>
                                                 <span class="text-black-50">
@@ -144,7 +158,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodfc" onClick={() => setExpanded(false)}> 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Gate} />
+                                                    <Image height="20px" src={DSE4520} />
                                                 <hr />
                                                     </div>
                                                 <span class="text-black-50">
@@ -155,7 +169,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodsh" onClick={() => setExpanded(false)}> 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Gate} />
+                                                    <Image height="20px" src={DSE8620} />
                                                 <hr />
                                                     </div>
                                                 <span class="text-black-50">
@@ -175,7 +189,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodtp" onClick={() => setExpanded(false)}>
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={SmartIo}/>
+                                                    <Image height="20px" src={LTTape}/>
                                                     <hr />
                                                 </div>
                                                 <span class="text-black-50">
@@ -186,7 +200,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodmd" > 
                                                     <div className="dropmenu-image">
-                                                        <Image height="20px" src={Gate} />
+                                                        <Image height="20px" src={LTMould} />
                                                     <hr />
                                                     </div>
                                                 <span class="text-black-50">
@@ -197,7 +211,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodrn" >
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Gate} />
+                                                    <Image height="20px" src={LTResin} />
                                                     <hr />
                                                 </div>
                                                 <span class="text-black-50">
@@ -222,7 +236,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodsec" onClick={() => setExpanded(false)}>
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Gate} />
+                                                    <Image height="20px" src={Seco} />
                                                     <hr />
                                                 </div>
                                                 <span class="text-black-50">
@@ -233,7 +247,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodlp" > 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Gate} />
+                                                    <Image height="20px" src={Leap} />
                                                 <hr />
                                                     </div>
                                                 <span class="text-black-50">
@@ -244,7 +258,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                         <Link to="/prodkv" > 
                                             <div className="dropmenu-image">
-                                                <Image height="20px" src={Gate} />
+                                                <Image height="20px" src={Kalaivani} />
                                                 <hr />
                                             </div>
                                             <span class="text-black-50">
@@ -255,7 +269,7 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodrb" > 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Gate} />
+                                                    <Image height="20px" src={Rishabh} />
                                                 <hr />
                                                     </div>
                                                 <span class="text-black-50">
@@ -285,6 +299,7 @@ const Header = () => {
                 </Form>
             </Navbar.Collapse>
         </Navbar>
+        </ScrollToTop>
     );
 }
 
