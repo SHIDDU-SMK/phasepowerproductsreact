@@ -1,10 +1,10 @@
 import React  from 'react';
 import {Carousel} from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
-import Enegery from './images/slid1.jpg';
-import Auto  from './images/slide2.jpg';
-import streetlight from './images/slide3.jpg';
-import Light from './images/slide4.png';
+import Enegery from './assets/images/slid1.jpg';
+import Auto  from './assets/images/slide2.jpg';
+import streetlight from './assets/images/slide3.jpg';
+import Light from './assets/images/slide4.png';
 
 function TpCarousel() {
     

@@ -1,4 +1,4 @@
-import ProductTempleteLubi from "./product-templete-lubi";
+import ProductTempleteLubi from "../templates/product-templete-lubi";
 import { LubiSmps } from '../data/products'
 
 function ProductLubiSmps() {

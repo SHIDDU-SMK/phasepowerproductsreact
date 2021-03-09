@@ -1,4 +1,4 @@
-import ProductTemplate from "./product-template";
+import ProductTemplate from "../templates/product-template";
 import { SmartResource } from '../data/products'
 function ProductResource() {
     return  (

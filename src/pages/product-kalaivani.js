@@ -1,4 +1,4 @@
-import ProductTempleteSR from "./product-templete-seco";
+import ProductTempleteSR from "../templates/product-templete-seco";
 import { Kalaivani } from '../data/products';
 
 

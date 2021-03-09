@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Logo from './images/phaselogo.png';
+import Logo from './assets/images/phaselogo.png';
 import { Link } from 'react-router-dom';
-import './assets/css/navbar.css';
 import {Row ,Col } from 'react-bootstrap';
 
 class Footer extends Component {
@@ -29,10 +28,12 @@ class Footer extends Component {
                         <Col>
                           <p className="card-text" style={{color:"white"}}>
                               <ul>
-                                  <li ><Link className="nav-link textproduct" to="/smartmonotor" style={{color:"grey"}} >Smart Monotoring</Link></li>
-                                  <li ><Link className="nav-link" to="/smartcontrol" style={{color:"grey"}}>Smart Control</Link></li>
-                                  <li ><Link className="nav-link" to="/smartresource" style={{color:"grey"}}>Smart Resouces</Link></li>
-                                  <li ><Link className="nav-link" to="/smartnetworking" style={{color:"grey"}}>Smart Networking </Link></li>
+                                  <li ><Link className="nav-link textproduct" to="/smartmonotor" style={{color:"grey"}} >Elmeasure India</Link></li>
+                                  <li ><Link className="nav-link" to="/smartcontrol" style={{color:"grey"}}>Deepsea Electronics</Link></li>
+                                  <li ><Link className="nav-link" to="/smartresource" style={{color:"grey"}}>Lubi Electronics</Link></li>
+                                  <li ><Link className="nav-link" to="/smartnetworking" style={{color:"grey"}}>Eaton Power Quality</Link></li>
+                                  <li ><Link className="nav-link textproduct" to="/smartmonotor" style={{color:"grey"}} >Ampturn Electricals</Link></li>
+                                  <li ><Link className="nav-link textproduct" to="/smartmonotor" style={{color:"grey"}} >Other Products</Link></li>
                                  
                               </ul>
                           </p>

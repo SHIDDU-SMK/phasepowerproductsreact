@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image'
- import Elmeasure from './images/elmeasure.png';
- import DSE from './images/dse.png';
- import Eaton from './images/eaton.png';
- import Lubi from './images/lubi.jpg';
- import havells from './images/havells.jpg';
- import Micro from './images/micro.jpg';
+ import Elmeasure from './assets/images/elmeasure.png';
+ import DSE from './assets/images/dse.png';
+ import Eaton from './assets/images/eaton.png';
+ import Lubi from './assets/images/lubi.jpg';
+ import havells from './assets/images/havells.jpg';
+ import Micro from './assets/images/micro.jpg';
 
  function Brand() {
     return (
