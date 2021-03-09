@@ -1,99 +1,126 @@
 .menunavbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
 }
 
+
 /* Links inside the navbar */
+
 .menunavbar a {
-  float: left;
-  font-size: 16px;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
 
 /* The dropdown container */
 
-
-.menudropdown h6{
-  font-size:12px;
+.menudropdown h6 {
+    font-size: 12px;
 }
+
 
 /* Dropdown button */
+
 .menudropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
 }
+
 
 /* Add a red background color to navbar links on hover */
-.menunavbar a:hover, .menudropdown:hover .menudropbtn {
-  background-color: rgb(235, 245, 233);
-  text-decoration: none;
+
+.menunavbar a:hover,
+.menudropdown:hover .menudropbtn {
+    background-color: rgb(235, 245, 233);
+    text-decoration: none;
 }
 
+
+/* Dropdown content (hidden by default) */
+
+.menudropdown-content {
+    display: none;
+    position: fixed;
+    width: 96%;
+    left: 2%;
+    padding-top: 1rem;
+    height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 
 
 /* Mega Menu header, if needed */
+
 .menudropdown-content .header {
-  background: rgb(255, 255, 255);
-  padding: 16px;
-  color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    padding: 16px;
+    color: rgb(255, 255, 255);
 }
+
 
 /* Show the dropdown menu on hover */
-.menudropdown:hover .menudropdown-content {
-  display: block;
-  background-color: rgb(255, 255, 255);
-}
 
+.menudropdown:hover .menudropdown-content {
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
 
 
 /* Style links inside the columns */
+
 .menucolumn Link {
-  float: none;
-  color: black;
-  /* padding: 16px; */
-  /* text-decoration: none; */
-  display: block;
+    float: none;
+    color: black;
+    /* padding: 16px; */
+    /* text-decoration: none; */
+    display: block;
 }
+
 
 /* Add a background color on hover */
+
 .menucolumn Link:hover {
-  background-color: transparent;
+    background-color: transparent;
 }
+
 
 /* Clear floats after the columns */
+
 .menurow:after {
-  display: table;
-  clear: both;
-  padding: 5%;
+    display: table;
+    clear: both;
+    padding: 5%;
 }
 
-.divider-line
-{
-  border: 1px solid grey;
+.divider-line {
+    border: 1px solid grey;
 }
 
 .productimg {
-  align-self:center;
+    align-self: center;
 }
 
 .imagecenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
-
-  .overlaydm {
+.overlaydm {
     position: absolute;
     bottom: 100%;
     left: 70px;
@@ -101,23 +128,25 @@
     background-color: #ffffff;
     overflow: hidden;
     width: auto;
-    height:0;
+    height: 0;
     transition: .5s ease;
     top: 70px;
-  }
+}
 
-  
+.dropmenu-image {
+    display: block;
+}
 
-  .dropmenu-image hr {
+.dropmenu-image hr {
     width: 100px
-  }
+}
 
-  @media (min-width: 62em) {
+@media (min-width: 62em) {
     .dropmenu-image {
-      display: block;
+        display: block;
     }
 }
 
 .menucolumn Link span {
-  font-size: smaller;
+    font-size: smaller;
 }
