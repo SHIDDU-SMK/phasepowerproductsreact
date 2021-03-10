@@ -1,4 +1,4 @@
-import ProductTempleteLp from "./product-templete-leap";
+import ProductTempleteLp from "../templates/product-templete-leap";
 import { Leap } from '../data/products'
 function ProductLeap() {
     return  (

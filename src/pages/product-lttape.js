@@ -1,4 +1,4 @@
-import ProductTempleteAmpturn from "./product-templete-large";
+import ProductTempleteAmpturn from "../templates/product-templete-large";
 import { LTTape } from '../data/products'
 
 function ProductAmpturnTape() {

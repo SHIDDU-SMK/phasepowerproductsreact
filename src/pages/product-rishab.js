@@ -1,4 +1,4 @@
-import ProductTempleteSR from "./product-templete-seco";
+import ProductTempleteSR from "../templates/product-templete-seco";
 import { Rishab } from '../data/products'
 function ProductRishab() {
     return  (

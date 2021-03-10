@@ -39,3 +39,33 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+  /* classes from Dropdown.css */
+  .menudropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  /* Dropdown content (hidden by default) */
+.menudropdown-content {
+  display: none;
+  position: fixed;
+  width: 96%;
+  left: 2%;
+  padding-top: 1rem;
+}
+
+/* Create three equal columns that floats next to each other */
+.menucolumn {
+  /* float: left; */
+  /* width: 20%; */
+    padding: 1rem;
+    vertical-align: bottom;
+    align-items: center;
+    text-align: center;
+}
+
+.dropmenu-image {
+  display: none;
+}
+

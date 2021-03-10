@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import NavBarTop from './navbarroutes';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/css/Dropdown.css';
+import './assets/css/dropdown.css';
 import './assets/css/carousel.css';
+import './assets/css/navbar.css';
 
 
 

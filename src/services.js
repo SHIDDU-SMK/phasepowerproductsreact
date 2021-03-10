@@ -1,15 +1,15 @@
 import React from 'react';
-import HandDollar from './images/wholesaledealer.png';
-import Wind  from './images/energymanagement.png';
-import Prepaid  from './images/prepaidmetering.png';
-import Textile from './images/textilesenergy.png';
-import Street from './images/Street Light.png';
-import Process from './images/automation.png';
+import HandDollar from './assets/images/wholesaledealer.png';
+import Wind  from './assets/images/energymanagement.png';
+import Prepaid  from './assets/images/prepaidmetering.png';
+import Textile from './assets/images/textilesenergy.png';
+import Street from './assets/images/Street Light.png';
+import Process from './assets/images/automation.png';
 
 
 const Services = () => {
 	return (
-           <div className="container">
+           <div className="container" id="services">
                 <div className="row featurette">
                     <h2 className="featurette-heading">
                         Services

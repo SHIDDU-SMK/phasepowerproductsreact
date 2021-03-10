@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './header';
-import TpCarousel from './carousel';
+import Slider from './carousel';
 import Services from './services';
 import Footer from './footer';
 import About from './about';
@@ -12,9 +12,9 @@ import Brand from './brand';
 
 const Home = () => {
       return (
-        <div className="marketing container">
+        <div className="marketing">
           <Header />
-          <TpCarousel />
+          <Slider  style={{paddingTop:'100'}}/>
           <About />
           <Services />
           <Brand />

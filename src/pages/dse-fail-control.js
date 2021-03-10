@@ -1,4 +1,4 @@
-import ProductDseTempleteMedium from "./product-templete-dse";
+import ProductDseTempleteMedium from "../templates/product-templete-dse";
 import { FCModules } from '../data/products'
 function FailureControl() {
     return (

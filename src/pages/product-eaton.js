@@ -1,4 +1,4 @@
-import ProductTempleteSimple from "./product-templete-simple";
+import ProductTempleteSimple from "../templates/product-templete-simple";
 import { Eaton } from '../data/products'
 function ProductEaton() {
     return (
