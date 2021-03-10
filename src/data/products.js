@@ -1972,14 +1972,14 @@ const Rishab = {
         "image": '../assets/images/rishab/analogpanel.png',
         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
       },
+    //   {
+    //     "id": 6,
+    //     "heading": "Digital Panel Meters",
+    //     "image": '../assets/images/rishab/digitlpanel.png',
+    //     "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+    //   },
       {
         "id": 6,
-        "heading": "Digital Panel Meters",
-        "image": '../assets/images/rishab/digitlpanel.png',
-        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
-      },
-      {
-        "id": 7,
         "heading": "Shunts",
         "image": '../assets/images/rishab/shunts.jpg',
         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",

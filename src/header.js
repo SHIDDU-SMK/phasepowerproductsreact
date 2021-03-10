@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
- import Logo from './assets/images/phaselogo.png';
+ import Logo from './assets/images/logo.png';
 import './assets/css/style.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Navbar, Form, Nav, Image, Row, Col} from 'react-bootstrap';
@@ -14,9 +14,9 @@ import DSE8620 from './assets/images/deepsea/dse8620.png';
 import LTTape from './assets/images/ampturn/lttape3.jpeg';
 import LTMould from './assets/images/ampturn/ltm2.png';
 import LTResin from './assets/images/ampturn/resincast3.jpeg';
-import Seco from './assets/images/seco/mmannounciator.png';
-import Leap from './assets/images/leap/ledsquarepanel.jpg';
-import Kalaivani from './assets/images/kalaivani/ctpt.jpg';
+// import Seco from './assets/images/seco/mmannounciator.png';
+// import Leap from './assets/images/leap/ledsquarepanel.jpg';
+// import Kalaivani from './assets/images/kalaivani/ctpt.jpg';
 import Rishabh from './assets/images/rishab/dainsulationt.jpg';
 import BZMMccb from './assets/images/eaton/mccb/eatonbzm.jpg';
 import ScrollToTop from './scrolltotop';
@@ -26,23 +26,24 @@ const Header = () => {
 
     return (
         <ScrollToTop>
-        <Navbar expand="lg" expanded={expanded} fixed="top" variant="dark" style={{ backgroundColor: '#33958C' }}>
+        <Navbar expand="lg" expanded={expanded} fixed="top" style={{ backgroundColor: '#D4E6C7' }}>
              <Navbar.Brand href="#home">
-                 <img src={Logo} alt="logo" width="100" height="40"/>
+                 <img src={Logo} alt="logo" width="150" height="52.5"/>
              </Navbar.Brand>            
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Link to="/" className="nav-link line current" onClick={() => setExpanded(false)}>Home</Link>
+                    <Link to="#" className="nav-link line current" onClick={() => setExpanded(false)}>Home</Link>
                     <div class="menudropdown">
-                        <Link className="nav-link">Products 
+                        <Link className="nav-link">
+                            Products&emsp;
                             <i class="fa fa-caret-down">
                             </i>
                         </Link>
                         <div class="menudropdown-content" >
                             <Row>
                                 <Col md={8} >
-                                    <Row md={6} className="justify-content-center">
+                                    <Row md={5} className="justify-content-center">
                                         <h5>
                                             Elmeasure India
                                         </h5>
@@ -233,7 +234,7 @@ const Header = () => {
                                         </h5>
                                     </Row>
                                     <Row md={4}>
-                                        <div className="menucolumn" >
+                                        {/* <div className="menucolumn" >
                                             <Link to="/prodsec" onClick={() => setExpanded(false)}>
                                                 <div className="dropmenu-image">
                                                     <Image height="20px" src={Seco} />
@@ -243,8 +244,8 @@ const Header = () => {
                                                     Seco Products
                                                 </span>
                                             </Link>
-                                        </div>
-                                        <div className="menucolumn" >
+                                        </div> */}
+                                        {/* <div className="menucolumn" >
                                             <Link to="/prodlp" > 
                                                 <div className="dropmenu-image">
                                                     <Image height="20px" src={Leap} />
@@ -254,8 +255,8 @@ const Header = () => {
                                                     Leap Industries
                                                 </span>
                                             </Link>
-                                        </div>
-                                        <div className="menucolumn" >
+                                        </div> */}
+                                        {/* <div className="menucolumn" >
                                         <Link to="/prodkv" > 
                                             <div className="dropmenu-image">
                                                 <Image height="20px" src={Kalaivani} />
@@ -265,7 +266,7 @@ const Header = () => {
                                                 Kalaivani Electricals 
                                             </span>
                                         </Link>
-                                        </div>
+                                        </div> */}
                                         <div className="menucolumn" >
                                             <Link to="/prodrb" > 
                                                 <div className="dropmenu-image">
@@ -282,20 +283,21 @@ const Header = () => {
                             </Row>
                         </div>
                     </div>
+                    <Link to="/#services" className="nav-link line current" onClick={() => setExpanded(false)}>Services</Link>
                     <Link to="/#about" className="nav-link line current" onClick={() => setExpanded(false)}>About</Link>
                     <Link to="/#contact" className="nav-link line " onClick={() => setExpanded(false)}>Contact</Link>
                 </Nav>
                 <Form inline>
-                    <span className="nav-link" style={{ fontSize: "16px", color: "white" }}>
+                    <span className="nav-link" style={{ fontSize: "16px", color: "navy" }}>
                         <i className="fa fa-phone"></i> &emsp;
-                        <Link to="+91 123456790" className="fa" style={{ color: "white" }}> 
-                        +91 1234567890 </Link>  </span>
+                        <Link className="fa" style={{ color: "navy" }}> 
+                        +91 80 28365150 </Link>  </span>
                         &emsp;
-                        <i className="nav-link"class="fa fa-envelope" style={{ "font-size": "20px", "color": "white" }}></i>&emsp; 
-                        <Link to="sales@PhasePowerProducts.in" style={{ color: "white" }}>
+                        <i className="nav-link"class="fa fa-envelope" style={{ "font-size": "20px", "color": "navy" }}></i>&emsp; 
+                        <Link mailto="sales@PhasePowerProducts.in" style={{ color: "navy" }}>
                             sales@phasepowerproducts.in&emsp;
                         </Link>
-                        <a className="nav-link" style={{ "font-size": "20px", "color": "white" }}href="https://www.google.co.in/maps/place/PHASE+POWER+PRODUCTS/@13.0010549,77.5060438,15z/data=!4m5!3m4!1s0x0:0x3eceb35962d34fd7!8m2!3d13.0010549!4d77.5060438"><i className="fa fa-map"></i>&emsp; Reach Us</a>
+                        <a className="nav-link" style={{ "font-size": "20px", "color": "navy" }}href="https://www.google.co.in/maps/place/PHASE+POWER+PRODUCTS/@13.0010549,77.5060438,15z/data=!4m5!3m4!1s0x0:0x3eceb35962d34fd7!8m2!3d13.0010549!4d77.5060438"><i className="fa fa-map-marker"></i>&emsp; Reach Us</a>
                 </Form>
             </Navbar.Collapse>
         </Navbar>

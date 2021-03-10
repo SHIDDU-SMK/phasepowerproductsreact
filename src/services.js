@@ -9,7 +9,7 @@ import Process from './assets/images/automation.png';
 
 const Services = () => {
 	return (
-           <div className="container">
+           <div className="container" id="services">
                 <div className="row featurette">
                     <h2 className="featurette-heading">
                         Services
