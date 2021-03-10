@@ -14,7 +14,7 @@ const Home = () => {
       return (
         <div className="marketing">
           <Header />
-          <Slider  style={{paddingTop:'100'}}/>
+          <Slider />
           <About />
           <Services />
           <Brand />
