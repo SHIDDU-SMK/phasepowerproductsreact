@@ -15,7 +15,7 @@ function ProductTempleteLubi({data}) {
                     </b> 
                 </h2>
                 <div className="container" style={{ marginTop: "40px"}}>
-                <Row className="justify-content-md-center">
+                    <Row className="justify-content-md-center">
                         {
                             data.Products.map(item => 
                                 <>
@@ -30,71 +30,71 @@ function ProductTempleteLubi({data}) {
                             )
                         }             
                 </Row>
-            </div>
+                </div>
                 <div className="container" style={{ marginTop: "40px"}}>
-                    {
-                        data.Products.map(item => 
-                        <>
-                            <hr id={item.id} className="featurette-divider" />
-                            <Row>
-                                <Col sm={4} className={ item.id % 2 === 0? '' : 'order-2' }> 
-                                    
-                                    <Image src={item.image} width="350" height="350" style={{ paddingBottom: '2rem'}}/>                                    
-                                </Col>
-                                <Col>
-                                <div style={{ textAlign: "center", fontsize: "20px" }}>
-                                <h2  style={{ textAlign: "center" }}>
-                                        {item.heading}
-                                </h2>
-                                    <Table striped bordered hover>
-                                        <thead>  
-                                            <tr>
-                                                <th>Product Name</th>
-                                                <th>Model Number</th>
-                                                <th>Description</th> 
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td> {item.features.products_name} </td>
-                                                <td> {item.features.model_number}</td>
-                                                <td> {item.features.description}</td>
-                                            </tr>
-                                        </tbody>
-                                    </Table>
-                                </div>
-                                <hr width = '100' paddingTop='2rem' />                                
-                                <div style={{ textAlign: "center", fontsize: "10px"}}>
-                                    <h5 className="text-black-50">
-                                        {item.sub_heading}
-                                    </h5>
-                                    <Table striped bordered hover>
-                                        <thead>                               
-                                            <tr>
-                                                <th>Number of Outputs</th>
-                                                <th>Mounting Type</th>
-                                                <th>Output Power</th>
-                                                <th>Output Voltage</th>
-                                                <th>Output Current</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>                                             
-                                                <td> {item.specifications.number_of_outputs} </td>
-                                                <td> {item.specifications.mounting_type}</td>
-                                                <td> {item.specifications.output_power}</td>
-                                                <td> {item.specifications.output_voltage}</td>
-                                                <td> {item.specifications.output_current}</td>
-                                            </tr>                                        
-                                        </tbody>
-                                    </Table> 
-                                </div>
+                {
+                    data.Products.map(item => 
+                    <>
+                        <hr id={item.id} className="featurette-divider" />
+                        <Row>
+                            <Col sm={4} className={ item.id % 2 === 0? '' : 'order-2' }> 
+                                
+                                <Image src={item.image} width="350" height="350" style={{ paddingBottom: '2rem'}}/>                                    
                             </Col>
-                            </Row>                            
-                        </>
-                    )
-                }
-            </div> 
+                            <Col>
+                            <div style={{ textAlign: "center", fontsize: "20px" }}>
+                            <h2  style={{ textAlign: "center" }}>
+                                    {item.heading}
+                            </h2>
+                                <Table striped bordered hover>
+                                    <thead>  
+                                        <tr>
+                                            <th>Product Name</th>
+                                            <th>Model Number</th>
+                                            <th>Description</th> 
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> {item.features.products_name} </td>
+                                            <td> {item.features.model_number}</td>
+                                            <td> {item.features.description}</td>
+                                        </tr>
+                                    </tbody>
+                                </Table>
+                            </div>
+                            <hr width = '100' paddingTop='2rem' />                                
+                            <div style={{ textAlign: "center", fontsize: "10px"}}>
+                                <h5 className="text-black-50">
+                                    {item.sub_heading}
+                                </h5>
+                                <Table striped bordered hover>
+                                    <thead>                               
+                                        <tr>
+                                            <th>Number of Outputs</th>
+                                            <th>Mounting Type</th>
+                                            <th>Output Power</th>
+                                            <th>Output Voltage</th>
+                                            <th>Output Current</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>                                             
+                                            <td> {item.specifications.number_of_outputs} </td>
+                                            <td> {item.specifications.mounting_type}</td>
+                                            <td> {item.specifications.output_power}</td>
+                                            <td> {item.specifications.output_voltage}</td>
+                                            <td> {item.specifications.output_current}</td>
+                                        </tr>                                        
+                                    </tbody>
+                                </Table> 
+                            </div>
+                        </Col>
+                        </Row>                            
+                    </>
+                )
+            }
+        </div> 
             <Footer />   
         </>
     );
