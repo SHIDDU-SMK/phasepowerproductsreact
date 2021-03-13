@@ -11,12 +11,12 @@ function Slider() {
     
   
       return (
-          <Carousel>
+          <Carousel style={{paddingTop:'2rem'}}>
             <Carousel.Item>
               <Image
-                className="d-block w-100"
+                className="d-block w-100" 
                 src={SlideOne}
-                alt="First slide"
+                alt="First slide" 
                 />
               
             </Carousel.Item>

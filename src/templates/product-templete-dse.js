@@ -46,10 +46,6 @@ function ProductTempleteMedium({data}) {
                                 <h2  style={{ textAlign: "center" }}>
                                         {item.heading}
                                     </h2>
-                                   
-                                    <h5 className="text-black-50">
-                                        {item.sub_heading}
-                                    </h5>
                                    <p>
                                        {item.paragraph}
                                        </p>                                    

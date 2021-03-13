@@ -50,10 +50,10 @@ function ProductTemplate({data}) {
                                     </p>
                                 </Col>
                                 <Col>
-                                    <h5 className="text-black-50">
+                                    <h5 className="text-black">
                                         {item.features_heading}
                                     </h5>
-                                    <ul className="ul">
+                                    <ul>
                                         {item.salient_features.map(
                                             feature =>
                                             <li>
@@ -64,7 +64,7 @@ function ProductTemplate({data}) {
                                     <h5>
                                         {item.app_heading}
                                     </h5>
-                                    <ul className="ul">
+                                    <ul>
                                         {item.app_list.map(
                                             app =>
                                             <li>
