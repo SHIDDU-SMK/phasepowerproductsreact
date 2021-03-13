@@ -146,7 +146,7 @@
     }
     
     .navbar-light .navbar-nav .nav-link {
-        color:navy;
+        color: navy;
     }
     
     li .product {
@@ -162,6 +162,7 @@
     .bg-light {
         background-color: '#D4E6C7';
     }
+    
     .hide {
         display: none;
     }
@@ -174,3 +175,4 @@
         background-color: black;
     }
     
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
