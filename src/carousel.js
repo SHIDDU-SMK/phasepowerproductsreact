@@ -10,10 +10,10 @@ import SlideFive from './assets/images/slide-4.png';
 function Slider() {    
   
       return (
-          <Carousel>
+          <Carousel style={{paddingTop:'2rem'}}>
             <Carousel.Item>
               <Image
-                className="d-block w-100"
+                className="d-block w-100" 
                 src={SlideOne}
                 alt="First slide"
                 style={{ paddingTop: '2rem' }}
