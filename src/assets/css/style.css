@@ -1,13 +1,14 @@
-  .product{
+.product {
     position: relative;
     width: 50%;
-  }
-    
-  .product:hover .overlay {
+}
+
+.product:hover .overlay {
     bottom: 0;
     height: 300px;
-  }
-  .subtext {
+}
+
+.subtext {
     color: rgb(17, 17, 17);
     font-size: 20px;
     position: relative;
@@ -16,8 +17,9 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
-  .productoverlay {
+}
+
+.productoverlay {
     position: absolute;
     bottom: 100%;
     left: 70px;
@@ -25,11 +27,12 @@
     background-color: #ffffff;
     overflow: hidden;
     width: auto;
-    height:0;
+    height: 0;
     transition: .5s ease;
     top: 75px;
-  }
-  .productcollections {
+}
+
+.productcollections {
     color: rgb(17, 17, 17);
     font-size: 20px;
     position: relative;
@@ -38,27 +41,33 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
-
-  /* classes from Dropdown.css */
-  .menudropdown {
-    float: left;
-    overflow: hidden;
-  }
-
-  /* Dropdown content (hidden by default) */
-.menudropdown-content {
-  display: none;
-  position: fixed;
-  width: 96%;
-  left: 2%;
-  padding-top: 1rem;
 }
 
+
+/* classes from Dropdown.css */
+
+.menudropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Dropdown content (hidden by default) */
+
+.menudropdown-content {
+    display: none;
+    position: fixed;
+    width: 96%;
+    left: 2%;
+    padding-top: 1rem;
+}
+
+
 /* Create three equal columns that floats next to each other */
+
 .menucolumn {
-  /* float: left; */
-  /* width: 20%; */
+    /* float: left; */
+    /* width: 20%; */
     padding: 1rem;
     vertical-align: bottom;
     align-items: center;
@@ -66,6 +75,5 @@
 }
 
 .dropmenu-image {
-  display: none;
+    display: none;
 }
-
