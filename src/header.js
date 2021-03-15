@@ -42,198 +42,197 @@ const Header = () => {
                         </Link>
                         <div class="menudropdown-content" >
                             <Row>
-                                <Col md={8} >
-                                    <Row md={5} className="justify-content-center">
+                                <Col>
+                                    <Row>
                                         <h5>
                                             Elmeasure India
                                         </h5>
                                     </Row>
-                                    <Row md={4} style={{ textAlign: 'center'}}>
+                                    <Row style={{ textAlign: 'center'}}>
                                         <div className="menucolumn" >
                                             <Link to="/prodsr" onClick={() => setExpanded(false)}>
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={SmartIo}/> 
-                                                    <hr />
-                                                </div>
+                                                    <Image height="20px" src={SmartIo}/>      
                                                 <span className="text-black-50">
                                                     Smart Resource
                                                 </span>
+                                                </div>
                                             </Link>
                                         </div>
+                                        </Row>
+                                        <Row>
                                         <div className="menucolumn" >
                                             <Link to="/prodsn" onClick={() => setExpanded(false)}> 
                                                     <div className="dropmenu-image">
                                                     <Image height="20px" src={Gate} />
-                                                    <hr />
-                                                    </div>
                                                     <span class="text-black-50">
                                                         Smart Network
                                                     </span>
+                                                    </div>
                                             </Link>
                                         </div>
+                                        </Row>
+                                        <Row>
                                         <div className="menucolumn" >
                                             <Link to="/prodsm" onClick={() => setExpanded(false)}> 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Monitor} />
-                                                <hr />
-                                                    </div>
+                                                    <Image height="20px" src={Monitor} />   
                                                 <span class="text-black-50">
                                                     Smart Monitor
                                                 </span>
+                                                </div>
                                             </Link>
                                         </div>
+                                        </Row>
+                                        <Row>
                                         <div className="menucolumn" >
                                             <Link to="/prodsc" onClick={() => setExpanded(false)}> 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Controller} />
-                                                <hr />
-                                                    </div>
+                                                    <Image height="20px" src={Controller} />   
                                                 <span class="text-black-50">
                                                     Smart Control
                                                 </span>
+                                                </div>
                                             </Link>
                                         </div>
                                     </Row>
                                 </Col>
-                                <Col md={2} >
-                                    <Row md={1} className="justify-content-center">
-                                    <h5>
-                                        Lubi Electronics 
-                                    </h5>
-                                    </Row>
-                                    <Row md={2}>
-                                        <div class="menucolumn" >
-                                            <Link to='/prodlb' onClick={() => setExpanded(false)}>
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={Lubi} /> 
-                                                <hr />
-                                                    </div>
-                                                <span class="text-black-50">
-                                                    SMPS
-                                                </span>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                </Col>
-                                <Col md={2}>
-                                    <Row md={1}  className="justify-content-center">
-                                        <h5>
-                                            Eaton Power Quality 
-                                        </h5>
-                                    </Row>
-                                    <Row md={2}>
-                                        <div class="menucolumn" >
-                                            <Link to='/prodea' onClick={() => setExpanded(false)}>
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={BZMMccb} /> 
-                                                <hr />
-                                                    </div>
-                                                <span class="text-black-50">
-                                                    MCCB
-                                                </span>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                </Col>
-                            
-                            </Row>
-                            <Row>
-                                <Col md={6}>
-                                    <Row md={2} className="justify-content-center">
+                                <Col >
+                                    <Row>
                                         <h5>
                                             Deepsea Electronics
                                         </h5>
                                     </Row>
-                                    <Row md={4}>
+                                    <Row>
                                         <div className="menucolumn" >
                                             <Link to="/prodst" onClick={() => setExpanded(false)}>
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={DSE701} />
-                                                <hr />
-                                                    </div>
+                                                    <Image height="20px" src={DSE701} />     
                                                 <span class="text-black-50">
                                                     Start Control Modules
                                                 </span>
+                                                </div>
                                             </Link>
                                         </div>
+                                    </Row>
+                                    <Row>
                                         <div className="menucolumn" >
                                             <Link to="/prodfc" onClick={() => setExpanded(false)}> 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={DSE4520} />
-                                                <hr />
-                                                    </div>
+                                                    <Image height="20px" src={DSE4520} />    
                                                 <span class="text-black-50">
                                                     Failure Control Modules
                                                 </span>
+                                                </div>
                                             </Link>
                                         </div>
+                                    </Row>
+                                    <Row>
                                         <div className="menucolumn" >
                                             <Link to="/prodsh" onClick={() => setExpanded(false)}> 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={DSE8620} />
-                                                <hr />
-                                                    </div>
+                                                    <Image height="20px" src={DSE8620} />    
                                                 <span class="text-black-50">
                                                     Sharing Control Modules
                                                 </span>
+                                                </div>
                                             </Link>
                                         </div>
                                     </Row>
                                 </Col>
-                                <Col md={6}>
-                                    <Row md={2} className="justify-content-center">
+                                <Col>
+                                    <Row>
                                         <h5>
                                             Ampturn Electricals
                                         </h5>
                                     </Row>
-                                    <Row md={4}>
+                                    <Row>
                                         <div className="menucolumn" >
                                             <Link to="/prodtp" onClick={() => setExpanded(false)}>
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={LTTape}/>
-                                                    <hr />
-                                                </div>
+                                                    <Image height="20px" src={LTTape}/>         
                                                 <span class="text-black-50">
                                                     L.T.Tape Insulated
                                                 </span>
+                                                </div>
                                             </Link>
                                         </div>
+                                    </Row>
+                                    <Row>
                                         <div className="menucolumn" >
                                             <Link to="/prodmd" > 
                                                     <div className="dropmenu-image">
                                                         <Image height="20px" src={LTMould} />
-                                                    <hr />
-                                                    </div>
                                                 <span class="text-black-50">
                                                     L.T.Moulded Case
                                                 </span>
+                                                </div>
                                             </Link>
                                         </div>
+                                    </Row>
+                                    <Row>
                                         <div className="menucolumn" >
                                             <Link to="/prodrn" >
                                                 <div className="dropmenu-image">
                                                     <Image height="20px" src={LTResin} />
-                                                    <hr />
-                                                </div>
                                                 <span class="text-black-50">
                                                     L.T.Resin Cast
                                                 </span>
+                                                </div>
                                             </Link>
                                         </div>
                                     </Row>
                                 </Col>
-                                </Row>
+                            </Row>    
                             {/* <Row>
                             </Row> */}
-                                                    
                             <Row>
-                                <Col md={8}>
-                                    <Row md={8} className="justify-content-center">
+                            <Col>
+                                    <Row >
+                                        <h5>
+                                            Eaton Power Quality 
+                                        </h5>
+                                    </Row>
+                                    <Row>
+                                        <div class="menucolumn" >
+                                            <Link to='/prodea' onClick={() => setExpanded(false)}>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={BZMMccb} />      
+                                                <span class="text-black-50">
+                                                    MCCB
+                                                </span>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </Row>
+                            </Col>
+                            <Col>
+                                    <Row> 
+                                    <h5>
+                                        Lubi Electronics 
+                                    </h5>
+                                    </Row>
+                                    <Row>
+                                        <div class="menucolumn" >
+                                            <Link to='/prodlb' onClick={() => setExpanded(false)}>
+                                                <div className="dropmenu-image">
+                                                    <Image height="20px" src={Lubi} />     
+                                                <span class="text-black-50">
+                                                    SMPS
+                                                </span>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    </Row>
+                            </Col>                        
+                            
+                                <Col>
+                                    <Row>
                                         <h5>
                                             Other Products
                                         </h5>
                                     </Row>
-                                    <Row md={4}>
+                                    <Row>
                                         {/* <div className="menucolumn" >
                                             <Link to="/prodsec" onClick={() => setExpanded(false)}>
                                                 <div className="dropmenu-image">
@@ -270,12 +269,12 @@ const Header = () => {
                                         <div className="menucolumn" >
                                             <Link to="/prodrb" > 
                                                 <div className="dropmenu-image">
-                                                    <Image height="20px" src={Rishabh} />
-                                                <hr />
-                                                    </div>
+                                                    <Image height="20px" src={Rishabh} />   
                                                 <span class="text-black-50">
                                                     Rishabh Instruments 
                                                 </span>
+                                                </div>
+                                        
                                             </Link>
                                         </div>
                                     </Row>
