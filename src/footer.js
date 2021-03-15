@@ -6,7 +6,7 @@ import {Row ,Col } from 'react-bootstrap';
 class Footer extends Component {
   render() {
     const footerbgColor = {
-      backgroundColor : '#C7E1C7',
+      backgroundColor : 'grey',
       paddingLeft: '1rem',
       paddingRight: '1rem',
       paddingTop: '1rem'
@@ -33,14 +33,14 @@ class Footer extends Component {
                       <hr style={{ width:'100px', textAlign: 'center'}}  /> */}
                       <Row>
                         <Col md={12}>
-                          <h4 style={{color:"grey"}}>
+                          <h4 style={{color:"white"}}>
                             <b>Contact</b>
                           </h4>
                         </Col>
                       </Row>
                       <Row>
-                        <Col md={6}>
-                          <p className="card-text" style={{color:"grey"}}>
+                        <Col md={5}>
+                          <p className="card-text" style={{color:"white"}}>
                             Phase Power Products <br/> 
                             8/16, OPP.KTG School,  <br/>
                             40 Feet Rd,  <br/>
@@ -49,7 +49,7 @@ class Footer extends Component {
                               GST N0-29AASFP4396C1ZO 
                           </p>
                         </Col>
-                        <Col md={6} style={{ color: "grey" }}>
+                        <Col md={7} style={{ color: "white" }}>
                             <p className="card-text" >
                               <i className="fa fa-phone"></i> &emsp;
                               +91 80 28365150 <br />
@@ -57,42 +57,42 @@ class Footer extends Component {
                               +91 80 7090036669, +91 80 7090046669&emsp; 
                             </p>
                             <p>
-                              <i class="fa fa-envelope" style={{ "font-size": "16px", color: "grey" }}></i>&emsp; 
-                              <Link mailto="sales@PhasePowerProducts.in" style={{ color: "grey" }}>
+                              <i class="fa fa-envelope" style={{ "font-size": "16px", color: "white" }}></i>&emsp; 
+                              <Link mailto="sales@PhasePowerProducts.in" style={{ color: "white" }}>
                                   sales@phasepowerproducts.in&emsp;
                               </Link><br/> 
-                              <i class="fa fa-envelope" style={{ "font-size": "16px", color: "grey"  }}></i>&emsp; 
-                              <Link mailto="phasepowerproducts@gmail.com" style={{ color: "grey" }}>
+                              <i class="fa fa-envelope" style={{ "font-size": "16px", color: "white"  }}></i>&emsp; 
+                              <Link mailto="phasepowerproducts@gmail.com" style={{ color: "white" }}>
                                   phasepowerproducts@gmail.com&emsp;
                               </Link>
                             </p>
                             <p>
-                                <a className="fa" href="https://facebook.com/" style={{color:"grey"}} ><i className="fa fa-facebook-square" style={footerTextSize}></i></a>&emsp;
-                                <a className="fa" href="https://linkedin.com/" style={{color:"grey"}}><i className="fa fa-linkedin " style={footerTextSize}></i></a>&emsp;
-                                <a className="fa" href="https://twitter.com" style={{color:"grey"}}><i className="fa fa-twitter link-color" style={footerTextSize}></i></a>&emsp;
+                                <a className="fa" href="https://facebook.com/" style={{color:"white"}} ><i className="fa fa-facebook-square" style={footerTextSize}></i></a>&emsp;
+                                <a className="fa" href="https://linkedin.com/" style={{color:"white"}}><i className="fa fa-linkedin " style={footerTextSize}></i></a>&emsp;
+                                <a className="fa" href="https://twitter.com" style={{color:"white"}}><i className="fa fa-twitter link-color" style={footerTextSize}></i></a>&emsp;
                             </p>
                         </Col>
                       </Row>
                     </Col>
                     <Col lg={6}>
                           <Row>
-                            <h4 className="card-title" style={{paddingLeft : '60px', color:"grey"}}>
+                            <h4 className="card-title" style={{paddingLeft : '60px', color:"white"}}>
                               <b>Quick Links</b>
                             </h4>
                           </Row>
                           <Row>
                             <Col lg={6}>
                                   <ul style={{ lineHeight: '80%' }}>                                    
-                                      <Link className="nav-link" to="/prodsr" style={{color:"grey"}} >Smart Resource</Link>
-                                      <Link className="nav-link" to="/prodsn" style={{color:"grey"}} >Smart Network</Link><Link className="nav-link" to="/prodsm" style={{color:"grey"}} >Smart Monitor</Link>
-                                      <Link className="nav-link" to="/prodsc" style={{color:"grey"}} >Smart Control</Link><Link className="nav-link" to="/prodst" style={{color:"grey"}} >Start Control Modules</Link><Link className="nav-link" to="/prodfc" style={{color:"grey"}} >Failure Control Modules</Link><Link className="nav-link" to="/prodsh" style={{color:"grey"}} >Sharing Control Modules</Link>
+                                      <Link className="nav-link" to="/prodsr" style={{color:"white"}} >Smart Resource</Link>
+                                      <Link className="nav-link" to="/prodsn" style={{color:"white"}} >Smart Network</Link><Link className="nav-link" to="/prodsm" style={{color:"white"}} >Smart Monitor</Link>
+                                      <Link className="nav-link" to="/prodsc" style={{color:"white"}} >Smart Control</Link><Link className="nav-link" to="/prodst" style={{color:"white"}} >Start Control Modules</Link><Link className="nav-link" to="/prodfc" style={{color:"white"}} >Failure Control Modules</Link><Link className="nav-link" to="/prodsh" style={{color:"white"}} >Sharing Control Modules</Link>
                                   </ul> 
                           </Col>
                             <Col lg={6}>
                                   <ul style={{ lineHeight: '80%' }}>
-                                    <Link className="nav-link" to="/prodlb" style={{color:"grey"}} >Lubi Electronics</Link>                         
-                                    <Link className="nav-link" to="/prodea" style={{color:"grey"}} >Eaton Products</Link>
-                                    <Link className="nav-link" to="/prodtp" style={{color:"grey"}} >L.T.Tape Insulated</Link><Link className="nav-link" to="/prodmd" style={{color:"grey"}} >L.T.Moulded Case</Link><Link className="nav-link" to="/prodrn" style={{color:"grey"}} >L.T.Resin Cast</Link><Link className="nav-link" to="/prodrb" style={{color:"grey"}} >Rishabh Instruments</Link>
+                                    <Link className="nav-link" to="/prodlb" style={{color:"white"}} >Lubi Electronics</Link>                         
+                                    <Link className="nav-link" to="/prodea" style={{color:"white"}} >Eaton Products</Link>
+                                    <Link className="nav-link" to="/prodtp" style={{color:"white"}} >L.T.Tape Insulated</Link><Link className="nav-link" to="/prodmd" style={{color:"white"}} >L.T.Moulded Case</Link><Link className="nav-link" to="/prodrn" style={{color:"white"}} >L.T.Resin Cast</Link><Link className="nav-link" to="/prodrb" style={{color:"white"}} >Rishabh Instruments</Link>
                                   </ul> 
                             </Col>
                           </Row>
@@ -100,17 +100,17 @@ class Footer extends Component {
               </Row>
               <Row style={{ paddingTop: "1rem"}}>
                 <Col lg={12}>
-                  <p style={{color:"grey"}}>
+                  <p style={{color:"white"}}>
                   &copy; Phase Power Products 
                   &emsp;&middot; 
-                  <a href="/privacy" style={{color:"grey"}}>
+                  <a href="/privacy" style={{color:"white"}}>
                   &emsp;Privacy
                   </a> 
                   &emsp;&middot; 
-                  <a href="/terms" style={{color:"grey"}}>
+                  <a href="/terms" style={{color:"white"}}>
                   &emsp;Terms</a>
                   <span style={{float:"right"}}> made by 
-                  <a style={{color:"grey"}} href="www.anyonecancode.in">
+                  <a style={{color:"white"}} href="www.anyonecancode.in">
                   &emsp;anyonecancode.in
                   </a>
                   </span>

@@ -26,14 +26,14 @@ const Header = () => {
 
     return (
         <ScrollToTop>
-        <Navbar expand="lg" expanded={expanded} fixed="top" style={{ backgroundColor: '#D4E6C7' }}>
+        <Navbar expand="lg" expanded={expanded} fixed="top" style={{ backgroundColor: '#BFFF80' }}>
              <Navbar.Brand href="#home">
                  <img src={Logo} alt="logo" width="150" height="52.5"/>
              </Navbar.Brand>            
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Link to="#" className="nav-link line current" onClick={() => setExpanded(false)}>Home</Link>
+                    <Link to="/" className="nav-link line current" onClick={() => setExpanded(false)}>Home</Link>
                     <div class="menudropdown">
                         <Link className="nav-link">
                             Products&emsp;
