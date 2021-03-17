@@ -110,8 +110,8 @@ class Footer extends Component {
                   <a href="/terms" style={{color:"white"}}>
                   &emsp;Terms</a>
                   <span style={{float:"right"}}> made by 
-                  <a style={{color:"white"}} href="www.anyonecancode.in">
-                  &emsp;anyonecancode.in
+                  <a style={{color:"white"}} target="_blank" href="http://www.anyonecancode.in" rel="noreferrer">
+                  {' '}anyonecancode.in
                   </a>
                   </span>
                 </p>

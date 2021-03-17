@@ -2,7 +2,7 @@ import React, { useState } from 'react';
  import Logo from './assets/images/logo.png';
 import './assets/css/style.css';
 import { HashLink as Link } from 'react-router-hash-link';
-import { Navbar, Form, Nav, Image, Row, Col} from 'react-bootstrap';
+import { Navbar, Form, Nav, Image,  Col} from 'react-bootstrap';
 import SmartIo from './assets/images/smartio.png';
 import Gate from './assets/images/gateway.png';
 import Monitor from './assets/images/branchcircuitmonitor.png';
@@ -14,15 +14,13 @@ import DSE8620 from './assets/images/deepsea/dse8620.png';
 import LTTape from './assets/images/ampturn/lttape3.jpeg';
 import LTMould from './assets/images/ampturn/ltm2.png';
 import LTResin from './assets/images/ampturn/resincast3.jpeg';
-// import Seco from './assets/images/seco/mmannounciator.png';
-// import Leap from './assets/images/leap/ledsquarepanel.jpg';
-// import Kalaivani from './assets/images/kalaivani/ctpt.jpg';
 import Rishabh from './assets/images/rishab/dainsulationt.jpg';
 import BZMMccb from './assets/images/eaton/mccb/eatonbzm.jpg';
 import ScrollToTop from './scrolltotop';
 
 const Header = () => {
     const [expanded, setExpanded] = useState(false);
+    const [hidemenu, setHideMenu] = useState(false);
 
     return (
         <ScrollToTop>
@@ -33,253 +31,156 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Link to="/" className="nav-link line current" onClick={() => setExpanded(false)}>Home</Link>
+                    <Link to="/" className="nav-link line current">Home</Link>
                     <div class="menudropdown">
-                        <Link className="nav-link">
+                        <Link className="nav-link" onClick={() => setHideMenu(hidemenu ? false : true)}>
                             Products&emsp;
                             <i class="fa fa-caret-down">
                             </i>
                         </Link>
-                        <div class="menudropdown-content" >
-                            <Row>
-                                <Col>
-                                    <Row>
-                                        <h5>
-                                            Elmeasure India
-                                        </h5>
-                                    </Row>
-                                    <Row style={{ textAlign: 'center'}}>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodsr" onClick={() => setExpanded(false)}>
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={SmartIo}/>      
-                                                <span className="text-black-50">
-                                                    Smart Resource
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                        </Row>
-                                        <Row>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodsn" onClick={() => setExpanded(false)}> 
-                                                    <div className="dropmenu-image">
-                                                    <Image height="20px" src={Gate} />
-                                                    <span class="text-black-50">
-                                                        Smart Network
-                                                    </span>
-                                                    </div>
-                                            </Link>
-                                        </div>
-                                        </Row>
-                                        <Row>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodsm" onClick={() => setExpanded(false)}> 
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={Monitor} />   
-                                                <span class="text-black-50">
-                                                    Smart Monitor
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                        </Row>
-                                        <Row>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodsc" onClick={() => setExpanded(false)}> 
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={Controller} />   
-                                                <span class="text-black-50">
-                                                    Smart Control
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                </Col>
-                                <Col >
-                                    <Row>
-                                        <h5>
-                                            Deepsea Electronics
-                                        </h5>
-                                    </Row>
-                                    <Row>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodst" onClick={() => setExpanded(false)}>
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={DSE701} />     
-                                                <span class="text-black-50">
-                                                    Start Control Modules
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                    <Row>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodfc" onClick={() => setExpanded(false)}> 
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={DSE4520} />    
-                                                <span class="text-black-50">
-                                                    Failure Control Modules
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                    <Row>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodsh" onClick={() => setExpanded(false)}> 
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={DSE8620} />    
-                                                <span class="text-black-50">
-                                                    Sharing Control Modules
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                </Col>
-                                <Col>
-                                    <Row>
+                        <div className="menudropdown-content">
+                            <Col sm = {4}>
+                                <ul>
+                                    <h5>Elmeasure India</h5>
+                                    <li>
+                                        <Link to="/prodsr" onClick={() => setExpanded(false)}>
+                                                <Image src={SmartIo} className="dropmenu-image"/>      
+                                                &emsp;
+                                            <span className="dropdownLink">Smart Resource
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/prodsn" onClick={() => setExpanded(false)}> 
+                                                <Image src={Gate}  className="dropmenu-image"/>
+                                                &emsp;
+                                            <span className="dropdownLink">Smart Network
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/prodsm" onClick={() => setExpanded(false)}> 
+
+                                                <Image src={Monitor}  className="dropmenu-image"/>   
+                                                &emsp;
+                                            <span className="dropdownLink">Smart Monitor
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/prodsc" onClick={() => setExpanded(false)}>
+                                                <Image src={Controller}  className="dropmenu-image"/>   
+                                                &emsp;
+                                            <span className="dropdownLink">Smart Control
+                                            </span>
+                                        </Link>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <h5>Deepsea Electronics</h5>
+                                    <li>
+                                        <Link to="/prodst" onClick={() => setExpanded(false)}>
+                                            <Image src={DSE701}  className="dropmenu-image"/>     
+                                            &emsp;
+                                            <span className="dropdownLink">Start Control Modules
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/prodfc" onClick={() => setExpanded(false)}> 
+                                            <Image src={DSE4520}  className="dropmenu-image"/>    
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                Failure Control Modules
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/prodsh" onClick={() => setExpanded(false)}> 
+                                            <Image src={DSE8620}  className="dropmenu-image"/>    
+                                            &emsp;
+                                            <span className="dropdownLink">Sharing Control Modules
+                                            </span>
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </Col>
+                            <Col sm = {4}>
+                                <ul>
+                                    <li>
                                         <h5>
                                             Ampturn Electricals
                                         </h5>
-                                    </Row>
-                                    <Row>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodtp" onClick={() => setExpanded(false)}>
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={LTTape}/>         
-                                                <span class="text-black-50">
-                                                    L.T.Tape Insulated
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                    <Row>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodmd" > 
-                                                    <div className="dropmenu-image">
-                                                        <Image height="20px" src={LTMould} />
-                                                <span class="text-black-50">
-                                                    L.T.Moulded Case
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                    <Row>
-                                        <div className="menucolumn" >
-                                            <Link to="/prodrn" >
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={LTResin} />
-                                                <span class="text-black-50">
-                                                    L.T.Resin Cast
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                </Col>
-                            </Row>    
-                            {/* <Row>
-                            </Row> */}
-                            <Row>
-                            <Col>
-                                    <Row >
+                                        <Link to="/prodtp" onClick={() => setExpanded(false)}>
+                                            <Image src={LTTape}  className="dropmenu-image"/>         
+                                            &emsp;
+                                            <span className="dropdownLink">L.T.Tape Insulated
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/prodmd" > 
+                                            <Image src={LTMould}  className="dropmenu-image"/>
+                                            &emsp;
+                                            <span className="dropdownLink">L.T.Moulded Case
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/prodrn" >
+                                            <Image src={LTResin}  className="dropmenu-image"/>
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                L.T.Resin Cast
+                                            </span>
+                                        </Link>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
                                         <h5>
                                             Eaton Power Quality 
                                         </h5>
-                                    </Row>
-                                    <Row>
-                                        <div class="menucolumn" >
-                                            <Link to='/prodea' onClick={() => setExpanded(false)}>
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={BZMMccb} />      
-                                                <span class="text-black-50">
-                                                    MCCB
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    </Row>
+                                        <Link to='/prodea' onClick={() => setExpanded(false)}>
+                                            <Image src={BZMMccb}  className="dropmenu-image"/>      
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                MCCB
+                                            </span>
+                                        </Link>
+                                    </li>
+                                </ul>
                             </Col>
-                            <Col>
-                                    <Row> 
-                                    <h5>
-                                        Lubi Electronics 
-                                    </h5>
-                                    </Row>
-                                    <Row>
-                                        <div class="menucolumn" >
-                                            <Link to='/prodlb' onClick={() => setExpanded(false)}>
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={Lubi} />     
-                                                <span class="text-black-50">
-                                                    SMPS
-                                                </span>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    </Row>
-                            </Col>                        
-                            
-                                <Col>
-                                    <Row>
+                            <Col md={4}>
+                                <ul>
+                                    <li>
+                                        <h5>
+                                            Lubi Electronics 
+                                        </h5>
+                                        <Link to='/prodlb' onClick={() => setExpanded(false)}>
+                                            <Image src={Lubi}  className="dropmenu-image"/>     
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                SMPS
+                                            </span>
+                                        </Link>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
                                         <h5>
                                             Other Products
                                         </h5>
-                                    </Row>
-                                    <Row>
-                                        {/* <div className="menucolumn" >
-                                            <Link to="/prodsec" onClick={() => setExpanded(false)}>
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={Seco} />
-                                                    <hr />
-                                                </div>
-                                                <span class="text-black-50">
-                                                    Seco Products
-                                                </span>
-                                            </Link>
-                                        </div> */}
-                                        {/* <div className="menucolumn" >
-                                            <Link to="/prodlp" > 
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={Leap} />
-                                                <hr />
-                                                    </div>
-                                                <span class="text-black-50">
-                                                    Leap Industries
-                                                </span>
-                                            </Link>
-                                        </div> */}
-                                        {/* <div className="menucolumn" >
-                                        <Link to="/prodkv" > 
-                                            <div className="dropmenu-image">
-                                                <Image height="20px" src={Kalaivani} />
-                                                <hr />
-                                            </div>
-                                            <span class="text-black-50">
-                                                Kalaivani Electricals 
-                                            </span>
+                                        <Link to="/prodrb" >
+                                            <Image src={Rishabh} className="dropmenu-image"/>
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                Rishabh Instruments    
+                                            </span>                                 
                                         </Link>
-                                        </div> */}
-                                        <div className="menucolumn" >
-                                            <Link to="/prodrb" > 
-                                                <div className="dropmenu-image">
-                                                    <Image height="20px" src={Rishabh} />   
-                                                <span class="text-black-50">
-                                                    Rishabh Instruments 
-                                                </span>
-                                                </div>
-                                        
-                                            </Link>
-                                        </div>
-                                    </Row>
-                                </Col>
-                            </Row>
+                                    </li>
+                                </ul>
+                            </Col>
                         </div>
                     </div>
                     <Link to="/#services" className="nav-link line current" onClick={() => setExpanded(false)}>Services</Link>

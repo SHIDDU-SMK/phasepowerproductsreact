@@ -54,48 +54,40 @@
 .menudropdown-content {
     display: none;
     position: fixed;
-    width: 96%;
-    left: 2%;
+    width: 98%;
     padding-top: 1rem;
-    height: 90%;
+    height: 100%;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
 
 /* Mega Menu header, if needed */
 
-.menudropdown-content .header {
-    background: rgb(255, 255, 255);
+.menudropdown-content h5 {
     padding: 16px;
-    color: rgb(255, 255, 255);
+    color: black;
+    font-size: large;
 }
 
 
 /* Show the dropdown menu on hover */
 
 .menudropdown:hover .menudropdown-content {
-    display: block;
-    background-color: rgb(255, 255, 255);
+    display: flex;
+    background-color: white;
 }
 
 
 /* Style links inside the columns */
 
-.menucolumn Link {
-    float: none;
-    color: black;
-    /* padding: 16px; */
-    /* text-decoration: none; */
-    display: block;
+.menudropdown-content .dropdownLink {
+    color: darkolivegreen;
+    font-size: 12px;
 }
 
 
 /* Add a background color on hover */
-
-.menucolumn Link:hover {
-    background-color: transparent;
-}
 
 
 /* Clear floats after the columns */
@@ -133,20 +125,27 @@
     top: 70px;
 }
 
-.dropmenu-image {
-    display: block;
-}
-
 .dropmenu-image hr {
     width: 100px
 }
 
 @media (min-width: 62em) {
     .dropmenu-image {
-        display: block;
+        display: inline-flex;
+        height: 50px;
+    }
+    .menudropdown-content ul {
+        list-style-type: none;
+        line-height: 4rem;
+        margin-left: 20px;
+    }
+    .menudropdown-content .dropdownLink {
+        color: darkolivegreen;
+        font-size: 20px;
     }
 }
 
-.menucolumn Link span {
-    font-size: smaller;
+.menudropdown-content ul {
+    list-style-type: none;
+    line-height: 2rem;
 }
