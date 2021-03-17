@@ -3,19 +3,19 @@ import React, { useState } from 'react';
 import './assets/css/style.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Navbar, Form, Nav, Image,  Col} from 'react-bootstrap';
-import SmartIo from './assets/images/smartio.png';
-import Gate from './assets/images/gateway.png';
-import Monitor from './assets/images/branchcircuitmonitor.png';
-import Controller from './assets/images/multifunctionmeter.png';
-import Lubi from './assets/images/lubi/smps15b5.jpg';
-import DSE701 from './assets/images/deepsea/dse701mkii.png';
-import DSE4520 from './assets/images/deepsea/dse4520.png';
-import DSE8620 from './assets/images/deepsea/dse8620.png';
-import LTTape from './assets/images/ampturn/lttape3.jpeg';
-import LTMould from './assets/images/ampturn/ltm2.png';
-import LTResin from './assets/images/ampturn/resincast3.jpeg';
-import Rishabh from './assets/images/rishab/dainsulationt.jpg';
-import BZMMccb from './assets/images/eaton/mccb/eatonbzm.jpg';
+import SmartIo from './assets/images/submenuicons/smartio.png';
+import Gate from './assets/images/submenuicons/gateway.png';
+import Monitor from './assets/images/submenuicons/branchcircuitmonitor.png';
+import Controller from './assets/images/submenuicons/multifunctionmeter.png';
+import Lubi from './assets/images/submenuicons/smps15b5.png';
+import DSE701 from './assets/images/submenuicons/dse701mkii.png';
+import DSE4520 from './assets/images/submenuicons/dse4520.png';
+import DSE8620 from './assets/images/submenuicons/dse8620.png';
+import LTTape from './assets/images/submenuicons/lttape3.png';
+import LTMould from './assets/images/submenuicons/ltm2.png';
+import LTResin from './assets/images/submenuicons/resincast3.png';
+import Rishabh from './assets/images/submenuicons/rishabh.png';
+import BZMMccb from './assets/images/submenuicons/eatonbzm.png';
 import ScrollToTop from './scrolltotop';
 
 const Header = () => {
@@ -142,7 +142,7 @@ const Header = () => {
                                             Eaton Power Quality 
                                         </h5>
                                         <Link to='/prodea' onClick={() => setExpanded(false)}>
-                                            <Image src={BZMMccb}  className="dropmenu-image"/>      
+                                            <Image src={BZMMccb}  className="dropmenu-image" />      
                                             &emsp;
                                             <span className="dropdownLink">
                                                 MCCB
