@@ -24,7 +24,7 @@ const Header = () => {
 
     return (
         <ScrollToTop>
-        <Navbar expand="lg" expanded={expanded} fixed="top" style={{ backgroundColor: '#BFFF80' }}>
+        <Navbar expand="lg" expanded={expanded} fixed="top" style={{ backgroundColor: 'rgb(211, 207, 207)' }}>
              <Navbar.Brand href="#home">
                  <img src={Logo} alt="logo" width="150" height="52.5"/>
              </Navbar.Brand>            
@@ -38,7 +38,7 @@ const Header = () => {
                             <i class="fa fa-caret-down">
                             </i>
                         </Link>
-                        <div className="menudropdown-content">
+                        <div className="menudropdown-content link-container">
                             <Col sm = {4}>
                                 <ul>
                                     <h5>Elmeasure India</h5>

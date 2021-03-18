@@ -70,6 +70,7 @@ class Footer extends Component {
                                 <a className="fa" href="https://facebook.com/" style={{color:"white"}} ><i className="fa fa-facebook-square" style={footerTextSize}></i></a>&emsp;
                                 <a className="fa" href="https://linkedin.com/" style={{color:"white"}}><i className="fa fa-linkedin " style={footerTextSize}></i></a>&emsp;
                                 <a className="fa" href="https://twitter.com" style={{color:"white"}}><i className="fa fa-twitter link-color" style={footerTextSize}></i></a>&emsp;
+                                
                             </p>
                         </Col>
                       </Row>

@@ -46,6 +46,7 @@
 .menudropdown:hover .menudropbtn {
     background-color: rgb(235, 245, 233);
     text-decoration: none;
+
 }
 
 
@@ -76,6 +77,7 @@
 .menudropdown:hover .menudropdown-content {
     display: flex;
     background-color: rgb(211, 207, 207);
+
 }
 
 
@@ -84,10 +86,21 @@
 .menudropdown-content .dropdownLink {
     color: darkolivegreen;
     font-size: 12px;
+
 }
 
 
 /* Add a background color on hover */
+.link-container a {
+    display:block;
+    height: 100%;
+    /* text-align: center; */
+}
+
+.link-container a:hover {
+    background: #b3acac;
+
+}
 
 
 /* Clear floats after the columns */

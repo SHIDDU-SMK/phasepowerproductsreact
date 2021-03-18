@@ -10,7 +10,7 @@ import SlideFive from './assets/images/slide-4.png';
 function Slider() {    
   
       return (
-          <Carousel style={{paddingTop:'2rem'}}>
+          <Carousel >
             <Carousel.Item>
               <Image
                 className="d-block w-100" 
@@ -33,14 +33,16 @@ function Slider() {
               <Image  className="d-block w-100"
                 src={SlideThree}
                 alt="Third slide"
-                style={{ paddingTop: '2rem' }} />
+                style={{ paddingTop: '2rem' }}
+              />
               
             </Carousel.Item>
             <Carousel.Item>
               <Image  className="d-block w-100"
                 src={SlideFour}
                 alt="Third slide" 
-                style={{ paddingTop: '2rem' }}/>
+                style={{ paddingTop: '2rem' }} 
+              />
               </Carousel.Item>
          
           <Carousel.Item>
