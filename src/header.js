@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
- import Logo from './assets/images/logo.png';
 import './assets/css/style.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { Navbar, Form, Nav, Image,  Col} from 'react-bootstrap';
-import SmartIo from './assets/images/submenuicons/smartio.png';
-import Gate from './assets/images/submenuicons/gateway.png';
-import Monitor from './assets/images/submenuicons/branchcircuitmonitor.png';
-import Controller from './assets/images/submenuicons/multifunctionmeter.png';
-import Lubi from './assets/images/submenuicons/smps15b5.png';
-import DSE701 from './assets/images/submenuicons/dse701mkii.png';
-import DSE4520 from './assets/images/submenuicons/dse4520.png';
-import DSE8620 from './assets/images/submenuicons/dse8620.png';
-import LTTape from './assets/images/submenuicons/lttape3.png';
-import LTMould from './assets/images/submenuicons/ltm2.png';
-import LTResin from './assets/images/submenuicons/resincast3.png';
-import Rishabh from './assets/images/submenuicons/rishabh.png';
-import BZMMccb from './assets/images/submenuicons/eatonbzm.png';
+import Logo from './assets/images/logo.webp';
+import SmartIo from './assets/images/submenuicons/smartio.webp';
+import Gate from './assets/images/submenuicons/gateway.webp';
+import Monitor from './assets/images/submenuicons/branchcircuitmonitor.webp';
+import Controller from './assets/images/submenuicons/multifunctionmeter.webp';
+import Lubi from './assets/images/submenuicons/smps15b5.webp';
+import DSE701 from './assets/images/submenuicons/dse701mkii.webp';
+import DSE4520 from './assets/images/submenuicons/dse4520.webp';
+import DSE8620 from './assets/images/submenuicons/dse8620.webp';
+import LTTape from './assets/images/submenuicons/lttape3.webp';
+import LTMould from './assets/images/submenuicons/ltm2.webp';
+import LTResin from './assets/images/submenuicons/resincast3.webp';
+import Rishabh from './assets/images/submenuicons/rishabh.webp';
+import BZMMccb from './assets/images/submenuicons/eatonbzm.webp';
 import ScrollToTop from './scrolltotop';
 
 const Header = () => {
