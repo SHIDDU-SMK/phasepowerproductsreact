@@ -1,5 +1,5 @@
 import React from 'react';
-import Pic3 from './assets/images/about.jpg';
+import Pic3 from './assets/images/about.webp';
 
 const About = () => {
 

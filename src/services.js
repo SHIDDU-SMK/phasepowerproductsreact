@@ -1,10 +1,10 @@
 import React from 'react';
-import HandDollar from './assets/images/wholesaledealer.png';
-import Wind  from './assets/images/energymanagement.png';
-import Prepaid  from './assets/images/prepaidmetering.png';
-import Textile from './assets/images/textilesenergy.png';
-import Street from './assets/images/Street Light.png';
-import Process from './assets/images/automation.png';
+import HandDollar from './assets/images/wholesaledealer.webp';
+import Wind  from './assets/images/energymanagement.webp';
+import Prepaid  from './assets/images/prepaidmetering.webp';
+import Textile from './assets/images/textilesenergy.webp';
+import Street from './assets/images/Street Light.webp';
+import Process from './assets/images/automation.webp';
 
 
 const Services = () => {

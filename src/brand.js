@@ -1,16 +1,16 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image'
- import Elmeasure from './assets/images/brands/elmeasure.png';
- import DSE from './assets/images/brands/rishablogo.png';
- import Eaton from './assets/images/brands/eaton.png';
- import Lubi from './assets/images/brands/lubi.png';
-//  import havells from './assets/images/havells.jpg';
- import Micro from './assets/images/brands/micro.png';
- import Ampturn from './assets/images/brands/amplogo.png';
-//  import LeapLogo from './assets/images/leaplogo.jpg';
-//  import SecoLogo from './assets/images/secologo.jpeg';
-//  import KalaiVani from './assets/images/kalaivani.png';
- import RishabLogo from './assets/images/brands/dse.png';
+ import Elmeasure from './assets/images/brands/elmeasure.webp';
+ import DSE from './assets/images/brands/rishablogo.webp';
+ import Eaton from './assets/images/brands/eaton.webp';
+ import Lubi from './assets/images/brands/lubi.webp';
+//  import havells from './assets/images/havells.webp';
+ import Micro from './assets/images/brands/micro.webp';
+ import Ampturn from './assets/images/brands/amplogo.webp';
+//  import LeapLogo from './assets/images/leaplogo.webp';
+//  import SecoLogo from './assets/images/secologo.webp';
+//  import KalaiVani from './assets/images/kalaivani.webp';
+ import RishabLogo from './assets/images/brands/dse.webp';
 
  function Brand() {
     return (

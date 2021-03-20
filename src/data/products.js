@@ -4,7 +4,7 @@ const SmartMonitor = {
             "id": 1,
             "heading": "Transducer & Isolator",
             "top_desc": " Measure, record and visualize electrical network parameters ",
-            "image": '../assets/images/transducer.png',
+            "image": '../assets/images/transducer.webp',
             "bottom_desc": " Isolation Interface | Signal Changeover | Power Transducer | Voltage Transducer",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -26,7 +26,7 @@ const SmartMonitor = {
             "id": 2,
             "heading": "Digital Panel Meter",
             "top_desc": "Basic parameters measured precisely",
-            "image": '../assets/images/digitalpanel.png',
+            "image": '../assets/images/digitalpanel.webp',
             "bottom_desc": " Ammeter | Volt meter | VAF Meter | Hz Meter | Frequency MeterDC Meter | RPM & MPM | Transducer Output ",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -48,7 +48,7 @@ const SmartMonitor = {
             "id": 3,
             "heading": " Multifunction Meter",
             "top_desc": "Simultaneous measurement of various electrical parameters",
-            "image": '../assets/images/multifunctionmeter.png',
+            "image": '../assets/images/multifunctionmeter.webp',
             "bottom_desc": " Basic | Power | Energy | Load Manager Digital Output | Pulse Output ",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -70,7 +70,7 @@ const SmartMonitor = {
             "id": 4,
             "heading": " Branch Circuit Monitor",
             "top_desc": "Compact device to enroute multiple channels",
-            "image": '../assets/images/branchcircuitmonitor.png',
+            "image": '../assets/images/branchcircuitmonitor.webp',
             "bottom_desc": " Multi-channel load manager | Power distribution unit ",
             "prod_id": "branchcircuitmonitor",
             "features_heading": "Salient Features",
@@ -92,7 +92,7 @@ const SmartMonitor = {
             "id": 5,
             "heading": " Generator Monitoring Unit",
             "top_desc": "Generator monitoring device with dual display",
-            "image": '../assets/images/generatormonitoringunit.png',
+            "image": '../assets/images/generatormonitoringunit.webp',
             "bottom_desc": " Counter & LED Display | Pulse Output ",
             "prod_id": "generalmoitoringunit",
             "features_heading": "Salient Features",
@@ -114,7 +114,7 @@ const SmartMonitor = {
             "id": 6,
             "heading": " Dual Source Energy Meter",
             "top_desc": "Collecting data from two different sources of energy",
-            "image": '../assets/images/dualsourceenergymeter.png',
+            "image": '../assets/images/dualsourceenergymeter.webp',
             "bottom_desc": " Multifunction meter | Dual source measurement ",
             "prod_id": "dualsource",
             "features_heading": "Salient Features",
@@ -135,7 +135,7 @@ const SmartMonitor = {
             "id": 7,
             "heading": "DC Energy Meter",
             "top_desc": "Smart device for all renewal energy resources",
-            "image": '../assets/images/dcenergymeter.png',
+            "image": '../assets/images/dcenergymeter.webp',
             "bottom_desc": " Multi-channel DC Energy | Voltage/Current full scale ",
             "prod_id": "dcenergy",
             "features_heading": "Salient Features",
@@ -164,7 +164,7 @@ const SmartControl = {
             "id": 1,
             "heading": "Power Quality Meter",
             "top_desc": " Measure, record and visualize electrical network parameters ",
-            "image": '../assets/images/powerqualitymeter.png',
+            "image": '../assets/images/powerqualitymeter.webp',
             "bottom_desc": " Multifunction Meter | Power quality | Load Manager | Demand controller | Power quality | Harmonics ",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -186,7 +186,7 @@ const SmartControl = {
             "id": 2,
             "heading": "Digital Panel Meter",
             "top_desc": "Basic parameters measured precisely",
-            "image": '../assets/images/digitalpanel.png',
+            "image": '../assets/images/digitalpanel.webp',
             "bottom_desc": " Ammeter | Volt meter | VAF Meter | Hz Meter | Frequency MeterDC Meter | RPM & MPM | Transducer Output ",
             "prod_id": "digitalpanelmeter",
             "features_heading": "Salient Features",
@@ -209,7 +209,7 @@ const SmartControl = {
             "id": 3,
             "heading": " Multifunction Meter",
             "top_desc": "Simultaneous measurement of various electrical parameters",
-            "image": '../assets/images/multifunctionmeter.png',
+            "image": '../assets/images/multifunctionmeter.webp',
             "bottom_desc": " Basic | Power | Energy | Load Manager Digital Output | Pulse Output ",
             "prod_id": "multifunction",
             "features_heading": "Salient Features",
@@ -232,7 +232,7 @@ const SmartControl = {
             "id": 4,
             "heading": " Branch Circuit Monitor",
             "top_desc": "Compact device to enroute multiple channels",
-            "image": '../assets/images/branchcircuitmonitor.png',
+            "image": '../assets/images/branchcircuitmonitor.webp',
             "bottom_desc": " Multi-channel load manager | Power distribution unit ",
             "prod_id": "branchcircuitmonitor",
             "features_heading": "Salient Features",
@@ -254,7 +254,7 @@ const SmartControl = {
             "id": 5,
             "heading": " Generator Monitoring Unit",
             "top_desc": "Generator monitoring device with dual display",
-            "image": '../assets/images/generatormonitoringunit.png',
+            "image": '../assets/images/generatormonitoringunit.webp',
             "bottom_desc": " Counter & LED Display | Pulse Output ",
             "prod_id": "generalmoitoringunit",
             "features_heading": "Salient Features",
@@ -276,7 +276,7 @@ const SmartControl = {
             "id": 6,
             "heading": " Dual Source Energy Meter",
             "top_desc": "Collecting data from two different sources of energy",
-            "image": '../assets/images/dualsourceenergymeter.png',
+            "image": '../assets/images/dualsourceenergymeter.webp',
             "bottom_desc": " Multifunction meter | Dual source measurement ",
             "prod_id": "dualsource",
             "features_heading": "Salient Features",
@@ -297,7 +297,7 @@ const SmartControl = {
             "id": 7,
             "heading": "DC Energy Meter",
             "top_desc": "Smart device for all renewal energy resources",
-            "image": '../assets/images/dcenergymeter.png',
+            "image": '../assets/images/dcenergymeter.webp',
             "bottom_desc": " Multi-channel DC Energy | Voltage/Current full scale ",
             "prod_id": "dcenergy",
             "features_heading": "Salient Features",
@@ -326,7 +326,7 @@ const SmartResource = {
             "id": 1,
             "heading": "Automatic Transfer Switch",
             "top_desc": "Seamless switching between sources for uninterrupted supply.",
-            "image": '../assets/images/automatictransferswitch.png',
+            "image": '../assets/images/automatictransferswitch.webp',
             "bottom_desc": " Overload Tripping Logic | Automatic DG Start/Stop | Fire/External Fault Trip | Safe and Rapid Switching | Automatic Transfer",
             "prod_id": "automatictransferswitch",
             "features_heading": "Salient Features",
@@ -348,7 +348,7 @@ const SmartResource = {
             "id": 2,
             "heading": "Manual Transfer Switch",
             "top_desc": "MANUALLY CONTROL YOUR POWER SOURCE",
-            "image": '../assets/images/manualtransferswitch.png',
+            "image": '../assets/images/manualtransferswitch.webp',
             "bottom_desc": " User-friendly Installation | Safe Changeover",
             "prod_id": "manualtransfermeter",
             "features_heading": "Salient Features",
@@ -371,7 +371,7 @@ const SmartResource = {
             "id": 3,
             "heading": "Prepaid/Postpaid Meter",
             "top_desc": "Prepaid meter is a Single Device for electricity, gas and water measurement. Prepaid meter",
-            "image": '../assets/images/prepaidpostpaidmeter.png',
+            "image": '../assets/images/prepaidpostpaidmeter.webp',
             "bottom_desc": " Multifunction | Dual source | Over voltage/current cut off for protection | Post paid meter | Prepaid meter ",
             "prod_id": "prepaidpostmeter",
             "features_heading": "Salient Features",
@@ -394,7 +394,7 @@ const SmartResource = {
             "id": 4,
             "heading": " Power Analyzer",
             "top_desc": "High profile power analyzer with higher accuracy and data logging",
-            "image": '../assets/images/poweranalyzer.png',
+            "image": '../assets/images/poweranalyzer.webp',
             "bottom_desc": "Handheld Power Quality Analyzer | Power Analyzer | Harmonic Analyzer ",
             "prod_id": "poweranalyzer",
             "features_heading": "Salient Features",
@@ -417,7 +417,7 @@ const SmartResource = {
             "id": 5,
             "heading": " ACCL",
             "top_desc": "Accl (Automatic Source Changeover with Current Limiter) For a seamless, uninterrupted changeover between power sources. Accl Changeover Switch manufacturers in India",
-            "image": '../assets/images/accl.png',
+            "image": '../assets/images/accl.webp',
             "bottom_desc": "ACCL | Automatic Changeover Current Limiter | Frequency | Energy",
             "prod_id": "accl",
             "features_heading": "Salient Features",
@@ -440,7 +440,7 @@ const SmartResource = {
         //     "id": 6,
         //     "heading": "Power Quailyt Analayzer",
         //     "top_desc": "Prepaid meter is a Single Device for electricity, gas and water measurement. Prepaid meter manufactures in India",
-        //     "image": '../assets/images/powerqualityanalyzer.png',
+        //     "image": '../assets/images/powerqualityanalyzer.webp',
         //     "bottom_desc": "Multifunction | Dual source | Over voltage/current cut off for protection | Post paid meter | Prepaid meter",
         //     "prod_id": "powerqualityanalyzer",
         //     "features_heading": "Salient Features",
@@ -463,7 +463,7 @@ const SmartResource = {
             "id": 6,
             "heading": "Smart I/O",
             "top_desc": "Smartest way to capture the input & communicate data output",
-            "image": '../assets/images/smartio.png',
+            "image": '../assets/images/smartio.webp',
             "bottom_desc": "Universal Input | Universal Output | Digital Output",
             "prod_id": "smartio",
             "features_heading": "Salient Features",
@@ -493,7 +493,7 @@ const SmartNetwork = {
             "id": 1,
             "heading": "Split Core CT",
             "top_desc": "Seamless switching between sources for uninterrupted supply.Automatic Transfer Switch manufactures in India",
-            "image": '../assets/images/splitcorect.png',
+            "image": '../assets/images/splitcorect.webp',
             "bottom_desc": " Overload Tripping Logic | Automatic DG Start/Stop | Fire/External Fault Trip | Safe and Rapid Switching | Automatic Transfer",
             "prod_id": "splitcorect",
             "features_heading": "Salient Features",
@@ -515,7 +515,7 @@ const SmartNetwork = {
             "id": 2,
             "heading": "Converter",
             "top_desc": "Seamless switching between sources for uninterrupted supply. Automatic Transfer Switch manufactures in India",
-            "image": '../assets/images/converter.png',
+            "image": '../assets/images/converter.webp',
             "bottom_desc": " Overload Tripping Logic | Automatic DG Start/Stop | Fire/External Fault Trip | Safe and Rapid Switching | Automatic Transfer",
             "prod_id": "converter",
             "features_heading": "Salient Features",
@@ -538,7 +538,7 @@ const SmartNetwork = {
             "id": 3,
             "heading": "Gateway",
             "top_desc": "Seamless switching between sources for uninterrupted supply. Automatic Transfer Switch manufactures in India",
-            "image": '../assets/images/gateway.png',
+            "image": '../assets/images/gateway.webp',
             "bottom_desc": " Overload Tripping Logic | Automatic DG Start/Stop | Fire/External Fault Trip | Safe and Rapid Switching | Automatic Transfer ",
             "prod_id": "gateway",
             "features_heading": "Salient Features",
@@ -567,7 +567,7 @@ const Eaton = {
     'Products': [{
         "id": 1,
         "heading": "xPole Combined RCD/MCB Device PKNM, 1+N-pole",
-        "image": '../assets/images/eaton/mcb1.jpg',
+        "image": '../assets/images/eaton/mcb1.webp',
         "paragraph": "This residual current operated circuit breaker with integrated overcurrent protection in 1+N pole is a high-quality residual current circuit breaker and miniature circuit breaker combination. This RCD/MCB combination PKNM switch is not only available as an AC and pulse current sensitive standard type A, but also as a mixing frequency sensitive type F, as a type G or G/A triggering with a time delay of at least 10 ms. While the AC and the A are only impulse current resistant up to 250 A, the other three types F, G and G/A offer an increased impulse current resistance of more than 3 kA.",
         "features": {
             "rated_current": "up to 40 A",
@@ -579,7 +579,7 @@ const Eaton = {
       {
         "id": 2,
         "heading": "xEffect Combined RCD/MCB Device, FRBmM, 1+N, 2, 3 and 3+N-pole",
-        "image": "../assets/images/eaton/eatonxeffect.jpg",
+        "image": "../assets/images/eaton/eatonxeffect.webp",
         "paragraph": "This residual current operated circuit breaker with integrated overcurrent protection is a high-quality residual current circuit breaker and miniature circuit breaker combination with line voltage-independent tripping and a wide variety of rated tripping currents. A tripping by a fault current is signalled by the blue display, white indicates that either the MCB part was tripped or that it was switched off. It is compatible with Busbars. A twin-purpose terminal (lift/open-mouthed) is available for easy and quick mounting.",
         "features": {
             "rated_current": "up to 40 A",
@@ -590,7 +590,7 @@ const Eaton = {
       {
         "id": 3,
         "heading": "FAZ-NA xEffect Miniature Circuit Breaker",
-        "image": "../assets/images/eaton/eatonfaz.jpg",
+        "image": "../assets/images/eaton/eatonfaz.webp",
         "paragraph": "The FAZ-NA / FAZ-RT miniature circuit breaker is a protective device equipped with both a thermal and an electromagnetic release that is available in 1-, 2-, 3- and 4- pole versions. The FAZ-NA is available with rated currents of 0.5 A to 63 A. The switching capacity is 15 kA according to IEC/EN 60947-2, and 10 kA or 14 kA according to UL 489/CSA C22.2 No. 5, depending on the device type.",
         "features": {
             "rated_current": "on DIN rail",
@@ -602,7 +602,7 @@ const Eaton = {
       {
         "id": 4,
         "heading": "FAZ-DC xEffect Miniature Circuit Breaker",
-        "image": "../assets/images/eaton/eatonfazdc.jpg",
+        "image": "../assets/images/eaton/eatonfazdc.webp",
         "paragraph": "The FAZ-DC miniature circuit breaker is a protective device equipped with both a thermal and an electromagnetic release that is available in 1- and 2-pole versions. The FAZ is available with rated currents of 2 A to 50 A. The switching capacity is 10 kA according to IEC/EN 60947-2 The DC rated voltage is 220 V per pole for the 2 A version, and 250 V per pole for the 3 A to 50 A versions. A guide for secure terminal connection and a 3-position DIN-rail simplify the installation of the circuit breaker.",
         "features": {
             "rated_current": "IEC/EN 60947-2",
@@ -613,7 +613,7 @@ const Eaton = {
       {
         "id": 5,
         "heading": "xEffect Combined RCD/MCB Device, FRBmM, 1+N, 2, 3 and 3+N-pole",
-        "image": "../assets/images/eaton/eatonxeffectrcbo.jpg",
+        "image": "../assets/images/eaton/eatonxeffectrcbo.webp",
         "paragraph": "This residual current operated circuit breaker with integrated overcurrent protection is a high-quality residual current circuit breaker and miniature circuit breaker combination with line voltage-independent tripping and a wide variety of rated tripping currents. A tripping by a fault current is signalled by the blue display, white indicates that either the MCB part was tripped or that it was switched off. It is compatible with Busbars. A twin-purpose terminal (lift/open-mouthed) is available for easy and quick mounting.",
         "features": {
             "rated_current": "up to 40 A",
@@ -624,7 +624,7 @@ const Eaton = {
       {
         "id": 6,
         "heading": "AZ xEffect Miniature Circuit Breaker",
-        "image": "../assets/images/eaton/eatonaz.jpg",
+        "image": "../assets/images/eaton/eatonaz.webp",
         "paragraph": "The AZ miniature circuit breaker is a protective device equipped with both a thermal and an electromagnetic release that is available in 1-, 2-, 3-, 4- and 3+N pole versions. The AZ is suitable for both AC and DC applications (60 V per pole) with rated currents from 20 A to 125 A. Depending on the device type, it has a switching capacity of up to 25 kA according to IEC/EN 60947-2.",
         "features": {
             "rated_current": "1-, 2-, 3-, 4- and 3+N pole",
@@ -635,7 +635,7 @@ const Eaton = {
       {
         "id": 7,
         "heading": "FAZ-NA-DC xEffect Miniature Circuit Breaker",
-        "image": "../assets/images/eaton/eatonfaznadc.jpg",
+        "image": "../assets/images/eaton/eatonfaznadc.webp",
         "paragraph": "The FAZ-NA-DC miniature circuit breaker is a protective device that is equipped with both a thermal and an electromagnetic release. The FAZ-NA-DC for DC applications is available in 1-pole and 2-pole versions with rated currents from 2 A to 40 A. The switching capacity is 10 kA according to IEC/EN 60947-2, UL 489 and CSA C22.2 No. 5. The DC rated voltage for all types is 125 V per pole according to UL 489/CSA C22.2 No. 5, and 220 V per pole for the 2 A version / 250 V per pole for the 3 A to 40 A versions according to IEC/EN 60947-2.",
         "features": {
             "rated_current": "C",
@@ -645,7 +645,7 @@ const Eaton = {
       {
         "id": 8,
         "heading": "PLS6-DC and PL10-DC-IN xPole Miniature Circuit Breaker",
-        "image": "../assets/images/eaton/eatonminiature.jpg",
+        "image": "../assets/images/eaton/eatonminiature.webp",
         "paragraph": "The PLS6 miniature circuit breaker (MCB) is a protective device that’s equipped with both a thermal and an electromagnetic release. The former responds in the event of an overload, while the latter offers protection against short circuits. The 1- and 2-pole PLS6 devices for DC applications are available with rated currents from 1 A to 50 A and 4P PL10 devices for DC application are available with rated currents from 16A to 50A and can withstand rated voltages of up to 250 V DC Per pole. The switching capacity is 10 kA. The PLS6-DC and PL10-DC-IN is busbar compatible, and double life/claw terminals are available at the top as well as at the bottom for easy mounting.",
         "features": {
             "rated_current": "compliant MCB",
@@ -655,7 +655,7 @@ const Eaton = {
         {
             "id": 9,
             "heading": "BZM Molded Case Circuit Breaker",
-            "image": '../assets/images/eaton/mcb1.jpg',
+            "image": '../assets/images/eaton/mcb1.webp',
             "paragraph": "Eaton's BZM Molded Case Circuit Breakers offer optimum and efficient protection for low voltage applications in power distribution systems. The advantage of the BZM series is its simple use: The thermal and magnetic release system for over-current and short-circuit protection of your system is already factory set. Along with simple handling of the product and its accessories, Eaton’s BZM offering provides an attractive product assortment.",
             "features": {
                 "rated_current": "up to 40 A",
@@ -667,7 +667,7 @@ const Eaton = {
             {
                 "id": 10,
                 "heading": "NZM Molded Case Circuit Breaker",
-                "image": "../assets/images/eaton/eatonaz.jpg",
+                "image": "../assets/images/eaton/eatonaz.webp",
                 "paragraph": "The new Eaton circuit-breakers cover a range from 15 to 1600 A with just four frame sizes. And they are optimally matched to one another. The wide application spectrum covers every requirement as Eaton has closely examined what every customer needs and implemented the appropriate solutions. Outstanding, for example, is the continuous switching power range – which extends from the smallest to the largest circuit-breaker or the modular system which can be matched without difficulty to suit the specific application.",
                 "features": {
                     "rated_current": "15 to 1600 A",
@@ -679,7 +679,7 @@ const Eaton = {
             {
                 "id": 11,
                 "heading": "Emergency Lighting System",
-                "image": "../assets/images/eaton/light/light.png",
+                "image": "../assets/images/eaton/light/light.webp",
                 "paragraph": "The ELPS502 Model #M05 Emergency Lighting System is designed to automatically provide illumination to designated areas during failure or interruption of power to the normal lighting system. The ELPS502 is factory assembled and wired, and consists of one (1) ELPS50 power supply and two (2) EVLA lighting fixtures The ELPS50 power supply consists of a battery supply and battery recharging system housed inside a hazardous area enclosure with all the circuitry to automatically turn on emergency DC lighting fixture(s) when the normal power supply fails",
                 "features": {
                     "rated_current": "15 to 1600 A",
@@ -691,7 +691,7 @@ const Eaton = {
             {
                 "id": 12,
                 "heading": "Selecting Protective Devices",
-                "image": "../assets/images/eaton/spd/spd.png",
+                "image": "../assets/images/eaton/spd/spd.webp",
                 "paragraph": "Eaton’s Bussmann series Selecting Protective Devices (SPD) handbook. This reference document is based on the 2017 National Electrical Code (NEC ® ) and is a comprehensive guide to electrical overcurrent protection and electrical design considerations. The information within this resource is presented on numerous applications as well as code and standard requirements for a variety of electrical equipment and distribution systems.",
                 "features": {
                     "rated_current": "15 to 1600 A",
@@ -703,7 +703,7 @@ const Eaton = {
             {
                 "id": 13,
                 "heading": "Eaton Contractors",
-                "image": "../assets/images/eaton/contractor/eatonmoeller.jpg",
+                "image": "../assets/images/eaton/contractor/eatonmoeller.webp",
                 "paragraph": "",
                 "features": {
                     "rated_current": "15 to 1600 A",
@@ -718,7 +718,7 @@ const SCModules = {
     'Title': 'MANUAL/AUTO START CONTROL MODULES',
     'Products': [{
         "id": 1,
-        "image": "../assets/images/deepsea/dse402.png",
+        "image": "../assets/images/deepsea/dse402.webp",
         "heading": "DSE402MKII",      
         "sub_heading": "Waterproof Manual & Auto Start Control Module",
         "paragraph": "The DSE402 MKII is a waterproof Auto/Manual Start Control Module designed for generator and engine only applications. The intelligent design combines smart features with a waterproof key switch and enclosure to provide an excellent control option for wet/humid environments. ",
@@ -732,7 +732,7 @@ const SCModules = {
     },
     {
         "id": 2,
-        "image": "../assets/images/deepsea/dse701mkii.png",
+        "image": "../assets/images/deepsea/dse701mkii.webp",
         "heading": "DSE701MKII",      
         "sub_heading": "Manual & Auto Start Control Module",
         "paragraph": "The DSE701 MKII is a compact control module that offers a range of features for single-set applications. The controller can be used in manual or auto start mode.",
@@ -747,7 +747,7 @@ const SCModules = {
 
     {
         "id": 3,
-        "image": "../assets/images/deepsea/dse3110.png",
+        "image": "../assets/images/deepsea/dse3110.webp",
         "heading": "DSE3110",      
         "sub_heading": "Manual & Auto Start Control Module",
         "paragraph": "The DSE3110 is an outstanding compact control module that provides a comprehensive range of features for single-set applications. The controller can be used in manual or auto start mode.",
@@ -762,7 +762,7 @@ const SCModules = {
 
     {
         "id": 4,
-        "image": "../assets/images/deepsea/dse3210.png",
+        "image": "../assets/images/deepsea/dse3210.webp",
         "heading": "DSE3210",      
         "sub_heading": "Manual & Auto Start Control Module",
         "paragraph": "The DSE3210 is an outstanding compact control module that provides a comprehensive range of features for single-set applications. The controller can be used in manual or auto start mode. ",
@@ -777,7 +777,7 @@ const SCModules = {
 
     {
         "id": 5,
-        "image": "../assets/images/deepsea/dse4210.png",
+        "image": "../assets/images/deepsea/dse4210.webp",
         "heading": "DSE4210",      
         "sub_heading": "Auto Start Control Module",
         "paragraph": "The DSE4210 is an Auto Start Control Module that has been developed to provide an outstanding range of features within a compact module size.",
@@ -792,7 +792,7 @@ const SCModules = {
 
     {
         "id": 6,
-        "image": "../assets/images/deepsea/dse4510mkii.png",
+        "image": "../assets/images/deepsea/dse4510mkii.webp",
         "heading": "DSE4510 MKII",      
         "sub_heading": "Auto Start Control Module",
         "paragraph": "The DSE4510 is a compact Auto Start Control Module that has been developed to provide an outstanding range of features within a compact enclosure.",
@@ -807,7 +807,7 @@ const SCModules = {
 
     {
         "id": 7,
-        "image": "../assets/images/deepsea/dse6010.png",
+        "image": "../assets/images/deepsea/dse6010.webp",
         "heading": "DSE6010 MKII",      
         "sub_heading": "Auto Start Control Module",
         "paragraph": "The DSE 6010 MKII is an Auto Start Control Module developed to provide a wide range of operating and monitoring features for single diesel and gas gen-sets. ",
@@ -822,7 +822,7 @@ const SCModules = {
 
     {
         "id": 8,
-        "image": "../assets/images/deepsea/dse6110.png",
+        "image": "../assets/images/deepsea/dse6110.webp",
         "heading": "DSE6110 MKII",      
         "sub_heading": "Auto Start Control Module",
         "paragraph": "The DSE 6110 MKII is an Auto Start Control Module developed to provide a wide range of operating and monitoring features for single diesel and gas gen-sets. ",
@@ -837,7 +837,7 @@ const SCModules = {
 
     {
         "id": 9,
-        "image": "../assets/images/deepsea/dse7110mkii.png",
+        "image": "../assets/images/deepsea/dse7110mkii.webp",
         "heading": "DSE7110 MKII",      
         "sub_heading": "Auto Start Control Module",
         "paragraph": "The DSE7110 MKII is an Auto Start Control Module with an icon-based display. The control module has been designed to control single diesel or gas gen-set applications. ",
@@ -852,7 +852,7 @@ const SCModules = {
 
     {
         "id": 10,
-        "image": "../assets/images/deepsea/dse7310mkii.png",
+        "image": "../assets/images/deepsea/dse7310mkii.webp",
         "heading": "DSE7310 MKII",      
         "sub_heading": "Auto Start Control Module",
         "paragraph": "The DSE7310 MKII is a powerful, new generation auto start genset control module with a highly sophisticated level of new features and functions, presented in the usual DSE user-friendly format. Suitable for a wide variety of single, diesel or gas Gen-set applications. ",
@@ -867,7 +867,7 @@ const SCModules = {
 
     {
         "id": 11,
-        "image": "../assets/images/deepsea/dse7410mkii.png",
+        "image": "../assets/images/deepsea/dse7410mkii.webp",
         "heading": "DSE7410 MKII",      
         "sub_heading": "Auto Start Control Module",
         "paragraph": "The DSE7410 MKII is an intelligent, powerful auto start control module with high-level features and functionality. The control module is the first module in the DSE range to include in-built SNMP and features an embedded web server. The module is suitable for a wide range of single-set gas and diesel applications.",
@@ -886,7 +886,7 @@ const FCModules = {
 'Title': 'AUTO MAINS (UTILITY) FAILURE CONTROL MODULES',
 'Products':[{
         "id": 1,
-        "image": "../assets/images/deepsea/dse4220.png",
+        "image": "../assets/images/deepsea/dse4220.webp",
         "heading": "DSE4220",
         "sub_heading": "Auto Mains (Utility) Control Module",      
         "paragraph": "The DSE4220 is an Auto Mains (Utility) Failure Control Module that has been       developed to provide an outstanding range of features within a compact module size. ",
@@ -901,7 +901,7 @@ const FCModules = {
 
  {
     "id": 2,
-    "image": "../assets/images/deepsea/dse4520.png",
+    "image": "../assets/images/deepsea/dse4520.webp",
     "heading": "DSE4520 MKII",
     "sub_heading": "Auto Mains (Utility) Control Module",
     "paragraph": "The DSE4520 MKII is a compact Auto Mains (Utility) Failure Control Module that has been developed to provide an outstanding range of features within a compact enclosure. New Features Added May 2020. Read Product Change Notification Document for details.",
@@ -916,7 +916,7 @@ const FCModules = {
 
 {
     "id": 3,
-    "image": "../assets/images/deepsea/dse6020.png",
+    "image": "../assets/images/deepsea/dse6020.webp",
     "heading": "DSE6020 MKII",
     "sub_heading": "Auto Mains (Utility) Control Module",
     "paragraph": "The DSE 6020 MKII is an Auto Mains (Utility) Failure Control Module developed to provide a wide range of operating and monitoring features for single diesel and gas gen-sets. ",
@@ -931,7 +931,7 @@ const FCModules = {
 
 {
     "id": 4,
-    "image": "../assets/images/deepsea/dse6120.png",
+    "image": "../assets/images/deepsea/dse6120.webp",
     "heading": "DSE6120 MKII",
     "sub_heading": "Auto Mains (Utility) Failure Control Module",
     "paragraph": "The DSE 6120 MKII is an Auto Mains (Utility) Failure Control Module developed to provide a wide range of operating and monitoring features for single diesel and gas gen-sets. ",
@@ -946,7 +946,7 @@ const FCModules = {
 
 {
     "id": 5,
-    "image": "../assets/images/deepsea/dse7120.png",
+    "image": "../assets/images/deepsea/dse7120.webp",
     "heading": "DSE7120 MKII",
     "sub_heading": "Auto Mains (Utility) Failure Control Module",
     "paragraph": "The DSE7120 is an Auto Mains (Utility) Failure Control Module with an icon-based display. The control module has been designed to control single diesel or gas gen-set applications. ",
@@ -961,7 +961,7 @@ const FCModules = {
 
 {
     "id": 6,
-    "image": "../assets/images/deepsea/dse7320.png",
+    "image": "../assets/images/deepsea/dse7320.webp",
     "heading": "DSE7320 MKII",
     "sub_heading": "Auto Mains (Utility) Failure Control Module",
     "paragraph": "The DSE7320 MKII is a powerful, new generation Auto Mains (Utility) Failure genset control module with a highly sophisticated level of new features and functions, presented in the usual DSE user-friendly format. Suitable for a wide variety of single, diesel or gas Gen-set applications. ",
@@ -976,7 +976,7 @@ const FCModules = {
 
 {
     "id": 7,
-    "image": "../assets/images/deepsea/dse7420mkii.png",
+    "image": "../assets/images/deepsea/dse7420mkii.webp",
     "heading": "DSE7420 MKII",
     "sub_heading": "Auto Mains (Utility) Failure Control Module",
     "paragraph": "The DSE7420 MKII is an intelligent, powerful auto mains (utility) failure control module with high-level features and functionality. The control module is the first module in the DSE range to include in-built SNMP and features an embedded web server. The module is suitable for a wide range of single-set gas and diesel applications. ",
@@ -995,7 +995,7 @@ const SharingModules = {
 'Title': 'SYNCHRONISING AND LOAD SHARING CONTROL MODULES',
 'Products': [{
         "id": 1,
-        "image": "../assets/images/deepsea/dse8610mkii.png",
+        "image": "../assets/images/deepsea/dse8610mkii.webp",
         "heading": "DSE8610 MKII",      
         "sub_heading": "Synchronising & Load Sharing Auto Start Control Module",
         "paragraph": "The DSE8610 MKII represents the latest in complex load sharing & synchronising control technology. Designed to handle the most complex grid type generator applications the DSE8610 MKII control module is packed with multiple features and benefits that are unrivalled across the generator control industry. ",
@@ -1010,7 +1010,7 @@ const SharingModules = {
 
     {
         "id": 2,
-        "image": "../assets/images/deepsea/dse8620.png",
+        "image": "../assets/images/deepsea/dse8620.webp",
         "heading": "DSE8620",      
         "sub_heading": "Synchronising & Load Sharing Auto Mains (Utility) Failure Control Module",
         "paragraph": "The DSE8620 is an intelligent mono display auto mains (utility) failure load share control module packed with industry leading features to enhance paralleling single gensets with a mains (utility) supply. ",
@@ -1025,7 +1025,7 @@ const SharingModules = {
 
     {
         "id": 3,
-        "image": "../assets/images/deepsea/dse8660.png",
+        "image": "../assets/images/deepsea/dse8660.webp",
         "heading": "DSE8660 MKII",      
         "sub_heading": "Auto Transfer Switch & Mains (Utility) Control Module",
         "paragraph": "The DSE8660 MKII is the latest and most advanced Auto Transfer Switch & Mains (Utility) Control Module within the DSE synchronising and load sharing control module range. Developed alongside the DSE8610 MKII this control module provides industry-leading features and benefits for the most complex grid type generator installations.",
@@ -1040,7 +1040,7 @@ const SharingModules = {
 
     {
         "id": 4,
-        "image": "../assets/images/deepsea/dse8661.png",
+        "image": "../assets/images/deepsea/dse8661.webp",
         "heading": "DSE8661",      
         "sub_heading": "Two-Part Auto Transfer Switch & Mains (Utility) Control Module",
         "paragraph": "The DSE8661 is an intelligent two-part mono display single or multi-mains (utility) controller with automatic transfer switch capabilities. The DSE8661 can be used with remote breakers up to 1.2km apart.  The modules synchronise single or multiple set systems in conjunction with DSE synchronising & load share control modules.",
@@ -1055,7 +1055,7 @@ const SharingModules = {
 
     {
         "id": 5,
-        "image": "../assets/images/deepsea/dse7320.png",
+        "image": "../assets/images/deepsea/dse7320.webp",
         "heading": "DSE7320 MKII",      
         "sub_heading": "Auto Mains (Utility) Failure Control Module",
         "paragraph": "The DSE7320 MKII is a powerful, new generation Auto Mains (Utility) Failure genset control module with a highly sophisticated level of new features and functions, presented in the usual DSE user-friendly format. Suitable for a wide variety of single, diesel or gas Gen-set applications. ",
@@ -1070,7 +1070,7 @@ const SharingModules = {
 
     {
         "id": 6,
-        "image": "../assets/images/deepsea/dse871060.png",
+        "image": "../assets/images/deepsea/dse871060.webp",
         "heading": "DSE8710/60",      
         "sub_heading": "Mono Remote Displays",
         "paragraph": "ear Mounted Synchronising & Load Sharing Control Module The DSE8710 is an intelligent rear mounted auto start load share control module packed with industry leading features to enhance multi-set",
@@ -1085,7 +1085,7 @@ const SharingModules = {
 
     {
         "id": 7,
-        "image": "../assets/images/deepsea/dse8721.png",
+        "image": "../assets/images/deepsea/dse8721.webp",
         "heading": "DSE8721",      
         "sub_heading": "Graphical Colour Remote Display",
         "paragraph": "The DSE8721 remote display has been expertly designed to provide the DSE8610/60, DSE8610/60 MKII Load Share Control Modules and DSE8710/60 Rear Mounted Load Share Control Modules flexible graphical colour display options",
@@ -1100,7 +1100,7 @@ const SharingModules = {
 
     {
         "id": 8,
-        "image": "../assets/images/deepsea/dse8810.png",
+        "image": "../assets/images/deepsea/dse8810.webp",
         "heading": "DSE8810",      
         "sub_heading": "Load Share Control with Graphical Colour Display",
         "paragraph": "The DSE8810 is an intelligent graphical colour display load share control module packed with industry leading features to enhance multi-set control. The module can be synchronised with up to 32 generators within the same system. ",
@@ -1115,7 +1115,7 @@ const SharingModules = {
 
     {
         "id": 9,
-        "image": "../assets/images/deepsea/dse8860.png",
+        "image": "../assets/images/deepsea/dse8860.webp",
         "heading": "DSE8860",      
         "sub_heading": "Auto Transfer Switch & Mains (Utility) Graphical Colour Display Control Module",
         "paragraph": "The DSE8860 is an intelligent graphical colour display single or multi-mains (utility) controller with automatic transfer switch capabilities. The control module synchronises single or multiple set systems in conjunction with DSE synchronising & load share control modules.",
@@ -1130,7 +1130,7 @@ const SharingModules = {
 
     {
         "id": 10,
-        "image": "../assets/images/deepsea/dse871116.png",
+        "image": "../assets/images/deepsea/dse871116.webp",
         "heading": "DSE8711/8716",      
         "sub_heading": "Mono Remote Displays",
         "paragraph": "The DSE8711 and DSE8716 remote displays have been expertly designed to provide the DSE8710/60 Rear Mounted Load Share Control Modules flexible display options.",
@@ -1150,7 +1150,7 @@ const LubiSmps = {
     [{
         "id": 1,
         "heading": "LESA15P5",
-        "image": "../assets/images/lubi/smps15p5.png",      
+        "image": "../assets/images/lubi/smps15p5.webp",      
         "features": {
             "products_name":"SMPS", 
             "model_number":"LESA15P5",
@@ -1171,7 +1171,7 @@ const LubiSmps = {
     {
         "id": 2,
         "heading": "LESA15B5",
-        "image": "../assets/images/lubi/smps15b5.jpg",      
+        "image": "../assets/images/lubi/smps15b5.webp",      
         "features": {
             "products_name":"SMPS", 
             "model_number":"LESA15B5",
@@ -1192,7 +1192,7 @@ const LubiSmps = {
     {
         "id": 3,
         "heading": "LESC25P5",
-        "image": "../assets/images/lubi/smps25p5.png",      
+        "image": "../assets/images/lubi/smps25p5.webp",      
         "features": {
             "products_name":"SMPS", 
             "model_number":"LESC25P5",
@@ -1213,7 +1213,7 @@ const LubiSmps = {
     {
         "id": 4,
         "heading": "LESC25B5",
-        "image": "../assets/images/lubi/lesc25b5.jpg",      
+        "image": "../assets/images/lubi/lesc25b5.webp",      
         "features": {
             "products_name":"SMPS", 
             "model_number":"LESC25B5",
@@ -1234,7 +1234,7 @@ const LubiSmps = {
     {
         "id": 5,
         "heading": "LESA50P5",
-        "image": "../assets/images/lubi/lesa50p5.png",      
+        "image": "../assets/images/lubi/lesa50p5.webp",      
         "features": {
             "products_name":"SMPS", 
             "model_number":"LESA50P5",
@@ -1255,7 +1255,7 @@ const LubiSmps = {
     {
         "id": 6,
         "heading": "LESA12P12",
-        "image": "../assets/images/lubi/lesa12p12.png",      
+        "image": "../assets/images/lubi/lesa12p12.webp",      
         "features": {
             "products_name":"SMPS", 
             "model_number":"LESA12P12",
@@ -1276,7 +1276,7 @@ const LubiSmps = {
     {
         "id": 7,
         "heading": "LESA15P12",
-        "image": "../assets/images/lubi/lesa15p12.png",      
+        "image": "../assets/images/lubi/lesa15p12.webp",      
         "features": {
             "products_name":"SMPS", 
             "model_number":"LESA15P12",
@@ -1297,7 +1297,7 @@ const LubiSmps = {
     {
         "id": 8,
         "heading": "LESA12B12",
-        "image": "../assets/images/lubi/lesa12b12.jpg",      
+        "image": "../assets/images/lubi/lesa12b12.webp",      
         "features": {
             "products_name":"SMPS", 
             "model_number":"LESA12B12",
@@ -1318,7 +1318,7 @@ const LubiSmps = {
     {
         "id": 9,
         "heading": "LESA15B12",
-        "image": "../assets/images/lubi/lesa15b12.jpg",      
+        "image": "../assets/images/lubi/lesa15b12.webp",      
         "features": {
             "products_name":"SMPS", 
             "model_number":"LESA15B12",
@@ -1339,7 +1339,7 @@ const LubiSmps = {
     {
         "id": 10,
         "heading": "LESA35P12",
-        "image": "../assets/images/lubi/lesa35p12.jpg",      
+        "image": "../assets/images/lubi/lesa35p12.webp",      
         "features": {
             "products_name":"SMPS", 
             "model_number":"LESA35P12",
@@ -1363,22 +1363,22 @@ const LTTape = {
     'Title': 'L.T.Tape Insulated',
     'Products': [{
         "id": 1,
-        "image": "../assets/images/ampturn/lttape1.png",
+        "image": "../assets/images/ampturn/lttape1.webp",
         "bottom_desc": "TAPE RING TYPE"
         },
         {
             "id": 2,
-            "image": "../assets/images/ampturn/lttape2.png",
+            "image": "../assets/images/ampturn/lttape2.webp",
             "bottom_desc": "TAPE RECTANGULAR TYPE"
         },
         {
             "id": 3,
-            "image": "../assets/images/ampturn/lttape3.jpeg",
+            "image": "../assets/images/ampturn/lttape3.webp",
             "bottom_desc": "TAPE INSULATED WPL TYPE"
             },
         {
             "id": 4,
-            "image": "../assets/images/ampturn/lttape4.jpg",
+            "image": "../assets/images/ampturn/lttape4.webp",
             "bottom_desc": "TAPE WOUND PRIMARY TYPE"
             }],
     'SpecTitle': 'LV Current Transformers',
@@ -1455,30 +1455,30 @@ const LTTape = {
 
 const LTMoulded = {
     'Title': 'L.T.Moulded Case',
-    'CategoryImage': '../assets/images/ampturn/ltm1.png',
+    'CategoryImage': '../assets/images/ampturn/ltm1.webp',
     'Products': [{
         "id": 1,
-        "image": "../assets/images/ampturn/ltm1.png",
+        "image": "../assets/images/ampturn/ltm1.webp",
         "bottom_desc": "MOULDED CASE RING TYPE"      
         },
         {
         "id": 2,
-        "image": "../assets/images/ampturn/ltm2.png",
+        "image": "../assets/images/ampturn/ltm2.webp",
         "bottom_desc": "MOULDED CASE RECTANGULAR TYPE"
         },
         {
         "id": 3,
-        "image": "../assets/images/ampturn/ltm3.jpg",
+        "image": "../assets/images/ampturn/ltm3.webp",
         "bottom_desc": "MOULDED CASE WOUND PRIMARY TYPE"
         },
         {
         "id": 4,
-        "image": "../assets/images/ampturn/ltm4.jpg",
+        "image": "../assets/images/ampturn/ltm4.webp",
         "bottom_desc": "MOULDED CASE RECTANGULAR TYPE"
         },
         {
         "id": 5,
-        "image": "../assets/images/ampturn/ltm5.png",
+        "image": "../assets/images/ampturn/ltm5.webp",
         "bottom_desc": "MOULDED CASE RECTANGULAR TYPE"
         }],
     'SpecTitle': 'LV Current Transformers',
@@ -1557,37 +1557,37 @@ const LTResin = {
     'Title': 'L.T.Resin Cast',
     'Products': [{
         "id": 1,
-        "image": "../assets/images/ampturn/resincast1.png",
+        "image": "../assets/images/ampturn/resincast1.webp",
         "bottom_desc": "RESIN CAST RECTANGULAR TYPE"      
         },
         {
         "id": 2,
-        "image": "../assets/images/ampturn/resincast2.jpeg",
+        "image": "../assets/images/ampturn/resincast2.webp",
         "bottom_desc": "RESIN CAST RECTANGULAR TYPE"
         },
         {
         "id": 3,
-        "image": "../assets/images/ampturn/resincast3.jpeg",
+        "image": "../assets/images/ampturn/resincast3.webp",
         "bottom_desc": "RESIN CAST RECTANGULAR TYPE"
         },
         {
         "id": 4,
-        "image": "../assets/images/ampturn/resincast4.jpeg",
+        "image": "../assets/images/ampturn/resincast4.webp",
         "bottom_desc": "RESIN CAST RING TYPE"
         },
         {
         "id": 5,
-        "image": "../assets/images/ampturn/resincast5.png",
+        "image": "../assets/images/ampturn/resincast5.webp",
         "bottom_desc": "RESIN CAST RING TYPE"
         },
         {
         "id": 6,
-        "image": "../assets/images/ampturn/resincast6.png",
+        "image": "../assets/images/ampturn/resincast6.webp",
         "bottom_desc": "RESIN CAST WPL TYPE"
         },
         {
         "id": 7,
-        "image": "../assets/images/ampturn/resincast7.png",
+        "image": "../assets/images/ampturn/resincast7.webp",
         "bottom_desc": "RESIN CAST WOUND PRIMARY TYPE"
         }],
     'SpecTitle': 'LV Current Transformers',
@@ -1667,31 +1667,31 @@ const Seco = {
     'Products': [{
         "id": 1,
         "heading": "Hooter",
-        "image": '../assets/images/seco/hooter.png',
+        "image": '../assets/images/seco/hooter.webp',
         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
       },
       {
         "id": 2,
         "heading": "Buzzer",
-        "image": '../assets/images/seco/buzzer.png',
+        "image": '../assets/images/seco/buzzer.webp',
         "paragraph": "We design and manufacture Electronic Buzzers with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound. (any one tone can be selectable through link ) Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
       },
       {
         "id": 3,
         "heading": "Microcontroller Annunciators",
-        "image": '../assets/images/seco/annunciator1.png',
+        "image": '../assets/images/seco/annunciator1.webp',
         "paragraph": "We design & manufacture Microcontroller based Annunciator from 2 windows to 64 windows with both Big window unit and small window unit & combination of Big & small window units in moulded box with Wide Aux. supply range, Standby working with AC supply, site selectable window colour, DC Fail Indication, Ac Fail Indication, RS 485 communication and Repeat relay contacts.",
       },
       {
         "id": 4,
         "heading": "Wireless Annunciator - Zigbee Based",
-        "image": '../assets/images/seco/mmannounciator.png',
+        "image": '../assets/images/seco/mmannounciator.webp',
         "paragraph": "We design and manufacture Wireless Annunciator with Microcontroller based advance technology and field proven model for all types of fields and environmental conditions. The purpose of this product is to give window Annunciation required at specific place and where the inputs or protective relays are at distance with the use of the radio frequency signal. This product can be used in the Power generation projects/ Power transmission projects/ process control or Industrial applications where we can’t run the wires to get the Annunciation for devices that may be in the hazardous environment and it also saves the copper wires.",
       },
       {
         "id": 5,
         "heading": "Annunciator - Input From PLC",
-        "image": '../assets/images/seco/plcannounciator.png',
+        "image": '../assets/images/seco/plcannounciator.webp',
         "paragraph": "We design and manufacture Alarm Annunciator – input form PLC (RS 485 input) with Microcontroller based advance technology. This type of Annunciation system is useful in process control panels/ PLC panels to eliminate control cable wires and accept input from Program logic controller by only twisted two wires on RS 485 (Modus protocol). It saves cable cost, labour and also solve loose contact issues. This unit increases the reliability of the system.",
       }],
 };
@@ -1702,7 +1702,7 @@ const Leap = {
             "id": 1,
             "heading": "LED Tube Light",
             "sub_heading": "LED Tube Light",
-            "image": '../assets/images/leap/tubelight.jpg',
+            "image": '../assets/images/leap/tubelight.webp',
             "prod_id": "splitcorect",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -1737,7 +1737,7 @@ const Leap = {
             "id": 2,
             "heading": "LED Tube Light",
             "sub_heading": "1 Feet 5w to 10w Tube Light",
-            "image": '../assets/images/leap/tubelight1.jpg',
+            "image": '../assets/images/leap/tubelight1.webp',
             "prod_id": "splitcorect",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -1766,7 +1766,7 @@ const Leap = {
             "id": 3,
             "heading": "LED Panel Light",
             "sub_heading": "Square LED Panel Light",
-            "image": '../assets/images/leap/ledsquarepanel.jpg',
+            "image": '../assets/images/leap/ledsquarepanel.webp',
             "prod_id": "splitcorect",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -1794,7 +1794,7 @@ const Leap = {
             "id": 4,
             "heading": "LED Panel Light",
             "sub_heading": "Round LED Panel Light",
-            "image": '../assets/images/leap/ledroundpanellight.jpg',
+            "image": '../assets/images/leap/ledroundpanellight.webp',
             "prod_id": "splitcorect",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -1823,7 +1823,7 @@ const Leap = {
             "id": 5,
             "heading": "Street Light",
             "sub_heading": "LED Street Light",
-            "image": '../assets/images/leap/ledstreetlight.jpg',
+            "image": '../assets/images/leap/ledstreetlight.webp',
             "prod_id": "splitcorect",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -1859,7 +1859,7 @@ const Leap = {
             "id": 6,
             "heading": "Street Light",
             "sub_heading": "Solar Street Light",
-            "image": '../assets/images/leap/solarstreetlight.jpg',
+            "image": '../assets/images/leap/solarstreetlight.webp',
             "prod_id": "splitcorect",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -1891,7 +1891,7 @@ const Leap = {
         {
             "id": 7,
             "heading": "LED Driver",
-            "image": '../assets/images/leap/leddriver.jpg',
+            "image": '../assets/images/leap/leddriver.webp',
             "prod_id": "splitcorect",
             "features_heading": "Salient Features",
             "salient_features": [
@@ -1923,20 +1923,20 @@ const Kalaivani = {
     'Products': [{
         "id": 1,
         "heading": "OUTDOOR OIL COOLED CT",
-        "image": '../assets/images/kalaivani/11KV_outdoor_oil_cooled_CT.jpg',
+        "image": '../assets/images/kalaivani/11KV_outdoor_oil_cooled_CT.webp',
         "paragraph": "Oil cooled transformers are made for use on various systems ranging from 11kv to 33kv. the basic construction of the CT is similar to CT of all voltage classes in that the core is placed in a tank mounted on top of the bushing and adequate paper insulation is provided on it. The secondary leads are run through the bushing to the secondary terminal box placed at the bottom of the bushing. The advantage of this type of construction is that the transformer is dynamically more stable under short circuit conditions, the various forces on the primary conductors tending to balance on another.",
         
          },
          {
         "id": 2,
         "heading": "OUTDOOR OIL COOLED PT",
-        "image": '../assets/images/kalaivani/outpt.jpg',
+        "image": '../assets/images/kalaivani/outpt.webp',
         "paragraph": "Potential Transformers are used for measurement and protective application, together with equipment such as meters and relays. Their role in electrical system is of primary importance as they are means of stepping down the voltage of a system to measurable values, such as 110V in the case of a potential transformer. This offers the advantage that measurement and protective equipment can be standardized on a few values of voltages.",
             },
         {
         "id": 3,
         "heading": "RESIN CAST CT & PT",
-        "image": '../assets/images/kalaivani/ctpt.jpg',
+        "image": '../assets/images/kalaivani/ctpt.webp',
         "paragraph": "The transformers are vacuum encapsulated in epoxy resin, which ensures faultless insulation. Incombustible high-class raw material.",
             }],
 };
@@ -1945,43 +1945,43 @@ const Rishab = {
     'Products': [{
         "id": 1,
         "heading": "Handheld Digital Multimeters",
-        "image": '../assets/images/rishab/hdmulti.png',
+        "image": '../assets/images/rishab/hdmulti.webp',
         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
       },
       {
         "id": 2,
         "heading": "Digital and Analog Insulation Tester",
-        "image": '../assets/images/rishab/insulationtester.png',
+        "image": '../assets/images/rishab/insulationtester.webp',
         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
       },
       {
         "id": 3,
         "heading": "Digital Clamp Meters",
-        "image": '../assets/images/rishab/dclamp1.png',
+        "image": '../assets/images/rishab/dclamp1.webp',
         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
       },
       {
         "id": 4,
         "heading": "Insulation And Earth Tester",
-        "image": '../assets/images/rishab/dainsulationt.jpg',
+        "image": '../assets/images/rishab/dainsulationt.webp',
         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
       },
       {
         "id": 5,
         "heading": "Analog Panel Meters",
-        "image": '../assets/images/rishab/analogpanel.png',
+        "image": '../assets/images/rishab/analogpanel.webp',
         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
       },
     //   {
     //     "id": 6,
     //     "heading": "Digital Panel Meters",
-    //     "image": '../assets/images/rishab/digitlpanel.png',
+    //     "image": '../assets/images/rishab/digitlpanel.webp',
     //     "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
     //   },
       {
         "id": 6,
         "heading": "Shunts",
-        "image": '../assets/images/rishab/shunts.jpg',
+        "image": '../assets/images/rishab/shunts.webp',
         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
       }],
 };
