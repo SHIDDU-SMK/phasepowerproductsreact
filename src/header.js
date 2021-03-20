@@ -39,7 +39,7 @@ const Header = () => {
                             </i>
                         </Link>
                         <div className="menudropdown-content link-container">
-                            <Col sm = {4}>
+                            <Col md = {4}>
                                 <ul>
                                     <h5>Elmeasure India</h5>
                                     <li>
@@ -105,7 +105,7 @@ const Header = () => {
                                     </li>
                                 </ul>
                             </Col>
-                            <Col sm = {4}>
+                            <Col md = {4}>
                                 <ul>
                                     <li>
                                         <h5>
