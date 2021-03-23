@@ -24,7 +24,7 @@ const Header = () => {
 
     return (
         <ScrollToTop>
-        <Navbar expand="lg" expanded={expanded} fixed="top" style={{ backgroundColor: 'rgb(211, 207, 207)' }}>
+        <Navbar expand="lg" expanded={expanded} fixed="top" style={{ backgroundColor: '#63EC90' }}>
              <Navbar.Brand href="#home">
                  <img src={Logo} alt="logo" width="150" height="52.5"/>
              </Navbar.Brand>            
@@ -151,7 +151,7 @@ const Header = () => {
                                     </li>
                                 </ul>
                             </Col>
-                            <Col md={4}>
+                            <Col sm = {4}>
                                 <ul>
                                     <li>
                                         <h5>
