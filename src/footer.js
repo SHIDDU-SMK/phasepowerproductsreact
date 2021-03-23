@@ -6,7 +6,7 @@ import {Row ,Col } from 'react-bootstrap';
 class Footer extends Component {
   render() {
     const footerbgColor = {
-      backgroundColor : 'grey',
+      backgroundColor : '#9dbba2',
       paddingLeft: '1rem',
       paddingRight: '1rem',
       paddingTop: '1rem'
@@ -42,7 +42,7 @@ class Footer extends Component {
                         <Col md={5}>
                           <p className="card-text" style={{color:"white"}}>
                             Phase Power Products <br/> 
-                            8/16, OPP.KTG School,  <br/>
+                            8/16, opp.KTG School,  <br/>
                             40 Feet Rd,  <br/>
                             Srigandha Nagar, Hegganahalli,  <br/>
                             Bengaluru, Karnataka 560091 <br />
