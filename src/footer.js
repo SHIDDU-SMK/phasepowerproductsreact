@@ -6,7 +6,7 @@ import {Row ,Col } from 'react-bootstrap';
 class Footer extends Component {
   render() {
     const footerbgColor = {
-      backgroundColor : '#9dbba2',
+      backgroundColor : '#7c917f',
       paddingLeft: '1rem',
       paddingRight: '1rem',
       paddingTop: '1rem'
@@ -20,17 +20,7 @@ class Footer extends Component {
         <div id="contact" style={footerbgColor}>
               <Row>
                     <Col md={6}>
-                      {/* <Row>
-                        <Col md={2}>
-                            <img src={Logo} alt="Tool-img" width="100px" height="70px"/>
-                        </Col>
-                        <Col md={10}>
-                            <p className="card-text" style={{color:"grey"}}> 
-                              “Phase Power Products” was incorporated in the year 2010 as a Sole Proprietorship entity." 
-                            </p>
-                        </Col>
-                      </Row>
-                      <hr style={{ width:'100px', textAlign: 'center'}}  /> */}
+
                       <Row>
                         <Col md={12}>
                           <h4 style={{color:"white"}}>
@@ -53,8 +43,8 @@ class Footer extends Component {
                             <p className="card-text" >
                               <i className="fa fa-phone"></i> &emsp;
                               +91 80 28365150 <br />
-                              +91 80 7353775063, +91 80 7090026669, <br /> 
-                              +91 80 7090036669, +91 80 7090046669&emsp; 
+                              +91 7353775063, +91 7090026669, <br /> 
+                              +91 7090036669, +91 7090046669&emsp; 
                             </p>
                             <p>
                               <i class="fa fa-envelope" style={{ "font-size": "16px", color: "white" }}></i>&emsp; 
@@ -111,7 +101,7 @@ class Footer extends Component {
                   <a href="/terms" style={{color:"white"}}>
                   &emsp;Terms</a>
                   <span style={{float:"right"}}> made by 
-                  <a style={{color:"white"}} target="_blank" href="http://www.anyonecancode.in" rel="noreferrer">
+                  <a style={{color:"#050505"}} target="_blank" href="http://www.anyonecancode.in" rel="noreferrer">
                   {' '}anyonecancode.in
                   </a>
                   </span>
