@@ -27,7 +27,7 @@
 /* Dropdown button */
 
 .menudropdown .dropbtn {
-    font-size: 16px;
+    font-size: 12px;
     border: none;
     outline: none;
     color: white;
@@ -53,14 +53,13 @@
 
 .menudropdown-content {
     display: none;
-    height: auto;
 }
 
 
 /* Mega Menu header, if needed */
 
 .menudropdown-content h5 {
-    padding-top: 0.2rem;
+    padding-bottom: -0.5rem;
     color: black;
     font-size: small;
 }
@@ -69,8 +68,8 @@
 /* Show the dropdown menu on hover */
 
 .menudropdown:hover .menudropdown-content {
+    z-index: 5;
     display: list-item;
-    overflow-y: auto;
     width: 100%;
     background-color: rgb(211, 207, 207);
 }
@@ -148,7 +147,7 @@
     }
     .menudropdown-content .dropdownLink {
         color: darkolivegreen;
-        font-size: 20px;
+        font-size: 16px;
     }
     .menudropdown:hover .menudropdown-content {
         display: flex;
@@ -159,7 +158,7 @@
         background-color: rgb(211, 207, 207);
     }
     .menudropdown-content h5 {
-        padding: 16px;
+        padding: 12px;
         color: black;
         font-size: large;
     }
@@ -167,5 +166,6 @@
 
 .menudropdown-content ul {
     list-style-type: none;
-    line-height: 1rem;
+    line-height: 0.7rem;
+    line-break: loose;
 }

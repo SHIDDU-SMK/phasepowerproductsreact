@@ -9,14 +9,14 @@ import Brand from './brand';
 
 const Home = () => {
       return (
-        <>
+        <div className='flex-auto'>
           <Header />
           <Slider />
           <About />
           <Services />
           <Brand />
           <Footer />
-        </>
+        </div>
       );    
   }
 
