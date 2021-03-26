@@ -194,7 +194,7 @@ const Header = () => {
                         <span style={{ color: "navy" }}>
                         +91 80 28365150 </span>  </span>
                         &emsp;
-                        <i className="nav-link"className="fa fa-envelope" style={{ "font-size": "20px", "color": "navy" }}></i>&emsp; 
+                        <i className="fa fa-envelope" style={{ "font-size": "20px", "color": "navy" }}></i>&emsp; 
                         <Link mailto="sales@PhasePowerProducts.in" style={{ color: "navy" }}>
                             sales@phasepowerproducts.in&emsp;
                         </Link>
