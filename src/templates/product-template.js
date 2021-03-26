@@ -14,23 +14,22 @@ function ProductTemplate({data}) {
                     </b> 
                 </h2>
                 <div className="container" style={{ marginTop: "40px"}}>
-                <Row className="justify-content-md-center">
-                        {
-                            data.Products.map(item => 
-                                <>
-                                    <Col md="3" style={{ "text-align": "center"}} >
-                                        <Link to={`#${item.id}`}> 
-                                            <Image src={ item.image} Height="50" width="50" style={{padding: '100'}}/>
-                                            <hr width = '100' paddingBottom='10'/>
-                                            <h6 style={{color: 'black'}}> { item.heading } </h6>
-                                        </Link>
-                                    </Col>  
-                                </>
-                            )
-                        }             
-                </Row>
-            </div>
-
+                    <Row className="justify-content-md-center">
+                            {
+                                data.Products.map(item => 
+                                    <>
+                                        <Col md="3" style={{ "text-align": "center"}} >
+                                            <Link to={`#${item.id}`}> 
+                                                <Image src={ item.image} Height="50" width="50" style={{padding: '100'}}/>
+                                                <hr width = '50' paddingBottom='10'/>
+                                                <h6 style={{color: 'black'}}> { item.heading } </h6>
+                                            </Link>
+                                        </Col>  
+                                    </>
+                                )
+                            }             
+                    </Row>
+                </div>
                 <div className="container" style={{ marginTop: "40px"}}>
                     {
                         data.Products.map(item => 
@@ -44,7 +43,7 @@ function ProductTemplate({data}) {
                                     <p style={{ textAlign: "center" }}>
                                         {item.top_desc}
                                     </p>
-                                    <Image src={item.image} style={{ paddingBottom: '2rem'}}/>
+                                    <Image src={item.image} style={{ paddingBottom: '2rem'}} width='325'/>
                                     <p style={{ textAlign: "center"}}> 
                                         {item.bottom_desc}
                                     </p>
@@ -68,7 +67,7 @@ function ProductTemplate({data}) {
                                         {item.app_list.map(
                                             app =>
                                             <li>
-                                                { app }
+                                                { app } 
                                             </li>
                                         )}
                                     </ul>
@@ -76,12 +75,11 @@ function ProductTemplate({data}) {
                             </Row>
                         </>
                     )
-                }
-            </div> 
+                    }
+                </div> 
             <Footer />   
         </>
     );
-
 }
 
 export default ProductTemplate;

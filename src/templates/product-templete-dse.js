@@ -39,7 +39,7 @@ function ProductTempleteMedium({data}) {
                             <Row>
                                 <Col sm={4} className={ item.id % 2 === 0? '' : 'order-2' }>
                                    
-                                    <Image src={item.image} width="350" height="350" style={{ paddingBottom: '2rem'}}/>
+                                    <Image src={item.image} width="325" style={{ paddingBottom: '2rem', textAlign: 'center'}}/>
                                     
                                 </Col>
                                 <Col sm={8}>
@@ -51,8 +51,8 @@ function ProductTempleteMedium({data}) {
                                        </p>                                    
                                 </Col>
                             </Row>
-                            <div style={{ textAlign: "center", fontsize: "20px" }}>
-                                <Table striped bordered hover>
+                            <div style={{ textAlign: "center", fontSize: "10px" }}>
+                                <Table striped bordered hover className='feature-table'>
                                     <thead>
                                         <tr>
                                             <th>OVERALL SIZE</th>

@@ -42,15 +42,15 @@ function ProductTempleteLubi({data}) {
                                 <Image src={item.image} width="350" height="350" style={{ paddingBottom: '2rem'}}/>                                    
                             </Col>
                             <Col>
-                            <div style={{ textAlign: "center", fontsize: "20px" }}>
+                            <div style={{ textAlign: "center", fontSize: "10px" }}>
                             <h2  style={{ textAlign: "center" }}>
                                     {item.heading}
                             </h2>
-                                <Table striped bordered hover>
+                                <Table striped bordered hover >
                                     <thead>  
                                         <tr>
-                                            <th>Product Name</th>
-                                            <th>Model Number</th>
+                                            <th>Name</th>
+                                            <th>Model</th>
                                             <th>Description</th> 
                                         </tr>
                                     </thead>
@@ -64,18 +64,18 @@ function ProductTempleteLubi({data}) {
                                 </Table>
                             </div>
                             <hr width = '100' paddingTop='2rem' />                                
-                            <div style={{ textAlign: "center", fontsize: "10px"}}>
-                                <h5 className="text-black-50">
+                            <div style={{ textAlign: "center", fontSize: "10px"}}>
+                                <h6 className="text-black-50">
                                     {item.sub_heading}
-                                </h5>
+                                </h6>
                                 <Table striped bordered hover>
                                     <thead>                               
                                         <tr>
-                                            <th>Number of Outputs</th>
-                                            <th>Mounting Type</th>
-                                            <th>Output Power</th>
-                                            <th>Output Voltage</th>
-                                            <th>Output Current</th>
+                                            <th># of O/P</th>
+                                            <th>Mounting</th>
+                                            <th>O/P W</th>
+                                            <th>O/P V</th>
+                                            <th>O/P Current</th>
                                         </tr>
                                     </thead>
                                     <tbody>

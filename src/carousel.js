@@ -16,7 +16,7 @@ function Slider() {
                 className="d-block w-100" 
                 src={SlideOne}
                 alt="First slide"
-                style={{ paddingTop: '2rem' }}
+                style={{ paddingTop: '2rem'}}
                 />
               
             </Carousel.Item>
