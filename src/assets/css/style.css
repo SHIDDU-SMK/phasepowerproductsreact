@@ -58,7 +58,6 @@
 .menudropdown-content {
     display: none;
     position: fixed;
-   
     left: 2%;
     padding-top: 1rem;
 }
@@ -78,4 +77,14 @@
 .dropmenu-image {
     display: none;
     padding: 1rem;
+}
+
+.feature-table {
+    display: none;
+}
+
+@media (min-width: 62em) {
+    .feature-table {
+        display: block;
+    }
 }

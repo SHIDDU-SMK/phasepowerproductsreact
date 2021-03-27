@@ -32,10 +32,10 @@ const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Link to="/" className="nav-link line current">Home</Link>
-                    <div class="menudropdown">
+                    <div className="menudropdown">
                         <Link className="nav-link" onClick={() => setHideMenu(hidemenu ? false : true)}>
                             Products&emsp;
-                            <i class="fa fa-caret-down">
+                            <i className="fa fa-caret-down">
                             </i>
                         </Link>
                         <div className="menudropdown-content link-container">
@@ -44,9 +44,10 @@ const Header = () => {
                                     <h5>Elmeasure India</h5>
                                     <li>
                                         <Link to="/prodsr" onClick={() => setExpanded(false)}>
-                                                <Image src={SmartIo} className="dropmenu-image"/>      
-                                                &emsp;
-                                            <span className="dropdownLink">Smart Resource
+                                            <Image src={SmartIo} className="dropmenu-image"/>      
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                Smart Resource
                                             </span>
                                         </Link>
                                     </li>
@@ -193,7 +194,7 @@ const Header = () => {
                         <span style={{ color: "navy" }}>
                         +91 80 28365150 </span>  </span>
                         &emsp;
-                        <i className="nav-link"class="fa fa-envelope" style={{ "font-size": "20px", "color": "navy" }}></i>&emsp; 
+                        <i className="fa fa-envelope" style={{ "font-size": "20px", "color": "navy" }}></i>&emsp; 
                         <Link mailto="sales@PhasePowerProducts.in" style={{ color: "navy" }}>
                             sales@phasepowerproducts.in&emsp;
                         </Link>

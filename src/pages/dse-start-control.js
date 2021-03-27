@@ -1,9 +1,9 @@
-import ProductDseTempleteMedium from "../templates/product-templete-dse";
+import ProductDseTemplateMedium from "../templates/product-templete-dse";
 import { SCModules } from '../data/products'
 function StartControl() {
     return (
         <>
-            <ProductDseTempleteMedium data = {SCModules}/>
+            <ProductDseTemplateMedium data = {SCModules}/>
         </>
     )
 }

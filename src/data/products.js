@@ -1155,7 +1155,7 @@ const LubiSmps = {
             "products_name":"SMPS", 
             "model_number":"LESA15P5",
             "manufacturer":"Lubi",
-            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+            "description":"I/P-100~264VAC, O/P-5V/3A, PANEL MOUNT"
         },
         "sub_heading": "Technical Specifications",
         "specifications": {
@@ -1176,7 +1176,7 @@ const LubiSmps = {
             "products_name":"SMPS", 
             "model_number":"LESA15B5",
             "manufacturer":"Lubi",
-            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+            "description":"I/P-100~264VAC, O/P-5V/3A, PANEL MOUNT"
         },
         "sub_heading": "Technical Specifications",
         "specifications": {
@@ -1197,7 +1197,7 @@ const LubiSmps = {
             "products_name":"SMPS", 
             "model_number":"LESC25P5",
             "manufacturer":"Lubi",
-            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+            "description":"I/P-100~264VAC, O/P-5V/3A, PANEL MOUNT"
         },
         "sub_heading": "Technical Specifications",
         "specifications": {
@@ -1218,7 +1218,7 @@ const LubiSmps = {
             "products_name":"SMPS", 
             "model_number":"LESC25B5",
             "manufacturer":"Lubi",
-            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+            "description":"I/P-100~264VAC, O/P-5V/3A, PANEL MOUNT"
         },
         "sub_heading": "Technical Specifications",
         "specifications": {
@@ -1239,7 +1239,7 @@ const LubiSmps = {
             "products_name":"SMPS", 
             "model_number":"LESA50P5",
             "manufacturer":"Lubi",
-            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+            "description":"I/P-100~264VAC, O/P-5V/3A, PANEL MOUNT"
         },
         "sub_heading": "Technical Specifications",
         "specifications": {
@@ -1260,7 +1260,7 @@ const LubiSmps = {
             "products_name":"SMPS", 
             "model_number":"LESA12P12",
             "manufacturer":"Lubi",
-            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+            "description":"I/P-100~264VAC, O/P-5V/3A, PANEL MOUNT"
         },
         "sub_heading": "Technical Specifications",
         "specifications": {
@@ -1281,7 +1281,7 @@ const LubiSmps = {
             "products_name":"SMPS", 
             "model_number":"LESA15P12",
             "manufacturer":"Lubi",
-            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+            "description":"I/P-100~264VAC, O/P-5V/3A, PANEL MOUNT"
         },
         "sub_heading": "Technical Specifications",
         "specifications": {
@@ -1302,7 +1302,7 @@ const LubiSmps = {
             "products_name":"SMPS", 
             "model_number":"LESA12B12",
             "manufacturer":"Lubi",
-            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+            "description":"I/P-100~264VAC, O/P-5V/3A, PANEL MOUNT"
         },
         "sub_heading": "Technical Specifications",
         "specifications": {
@@ -1323,7 +1323,7 @@ const LubiSmps = {
             "products_name":"SMPS", 
             "model_number":"LESA15B12",
             "manufacturer":"Lubi",
-            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+            "description":"I/P-100~264VAC, O/P-5V/3A, PANEL MOUNT"
         },
         "sub_heading": "Technical Specifications",
         "specifications": {
@@ -1344,7 +1344,7 @@ const LubiSmps = {
             "products_name":"SMPS", 
             "model_number":"LESA35P12",
             "manufacturer":"Lubi",
-            "description":"I/P-100~264VAC,O/P-5V/3A,PANEL MOUNT"
+            "description":"I/P-100~264VAC, O/P-5V/3A, PANEL MOUNT"
         },
         "sub_heading": "Technical Specifications",
         "specifications": {

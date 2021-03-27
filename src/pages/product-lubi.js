@@ -1,10 +1,10 @@
-import ProductTempleteLubi from "../templates/product-templete-lubi";
+import ProductTemplateLubi from "../templates/product-template-lubi";
 import { LubiSmps } from '../data/products'
 
 function ProductLubiSmps() {
     return (
         <>
-            <ProductTempleteLubi data = {LubiSmps}/>
+            <ProductTemplateLubi data = {LubiSmps}/>
         </>
     )
 }

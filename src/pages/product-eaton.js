@@ -1,9 +1,9 @@
-import ProductTempleteSimple from "../templates/product-templete-simple";
+import ProductTemplateSimple from "../templates/product-template-simple";
 import { Eaton } from '../data/products'
 function ProductEaton() {
     return (
         <>
-            <ProductTempleteSimple data = {Eaton}/>
+            <ProductTemplateSimple data = {Eaton}/>
         </>
     )
 }

@@ -5,7 +5,7 @@ import { Image, Row, Col, Table } from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
 
 
-function ProductTempleteSimple({data}) {
+function ProductTemplateSimple({data}) {
     return (
         <>
             <Header />
@@ -55,8 +55,8 @@ function ProductTempleteSimple({data}) {
                                        </p>                                    
                                 </Col>
                             </Row>
-                            <div style={{ textAlign: "center", fontsize: "20px" }}>
-                                <Table striped bordered hover>
+                            <div style={{ textAlign: "center", fontSize: "20px" }}>
+                                <Table striped bordered hover className='feature-table'>
                                     <thead>
                                         <tr>
                                             <th>RATED CURRENTS</th>
@@ -83,4 +83,4 @@ function ProductTempleteSimple({data}) {
 
 }
 
-export default ProductTempleteSimple;
+export default ProductTemplateSimple;
