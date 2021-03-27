@@ -25,7 +25,7 @@ const Header = () => {
     return (
         <ScrollToTop>
         <Navbar expand="lg" expanded={expanded} fixed="top" style={{ backgroundColor: '#63EC90' }}>
-             <Navbar.Brand href="#home">
+             <Navbar.Brand href="https://phasepp.netlify.app/">
                  <img src={Logo} alt="logo" width="150" height="52.5"/>
              </Navbar.Brand>            
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
