@@ -149,6 +149,34 @@ const Header = () => {
                                                 MCCB
                                             </span>
                                         </Link>
+                                        <Link to='/prodemcb' onClick={() => setExpanded(false)}>
+                                            <Image src={BZMMccb}  className="dropmenu-image" />      
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                MCB
+                                            </span>
+                                        </Link>
+                                        <Link to='/prodeacb' onClick={() => setExpanded(false)}>
+                                            <Image src={BZMMccb}  className="dropmenu-image" />      
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                ACB
+                                            </span>
+                                        </Link>
+                                        <Link to='/prodeco' onClick={() => setExpanded(false)}>
+                                            <Image src={BZMMccb}  className="dropmenu-image" />      
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                Contactor
+                                            </span>
+                                        </Link>
+                                        <Link to='/prodeps' onClick={() => setExpanded(false)}>
+                                            <Image src={BZMMccb}  className="dropmenu-image" />      
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                Pilot & Signal Divice
+                                            </span>
+                                        </Link>
                                     </li>
                                 </ul>
                             </Col>

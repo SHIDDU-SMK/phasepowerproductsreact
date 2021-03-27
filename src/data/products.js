@@ -563,7 +563,7 @@ const SmartNetwork = {
 };
 
 const Eaton = {
-    'Title': 'Eaton Products',
+    'Title': 'MCCB Products',
     'Products': [{
         "id": 1,
         "heading": "xPole Combined RCD/MCB Device PKNM, 1+N-pole",
@@ -585,29 +585,6 @@ const Eaton = {
             "rated_current": "up to 40 A",
             "compliant_to": "IEC/EN 61009",
             "rated_breaking_capacity": "6 kA or 10 kA",
-        }},
-
-      {
-        "id": 3,
-        "heading": "FAZ-NA xEffect Miniature Circuit Breaker",
-        "image": "../assets/images/eaton/eatonfaz.webp",
-        "paragraph": "The FAZ-NA / FAZ-RT miniature circuit breaker is a protective device equipped with both a thermal and an electromagnetic release that is available in 1-, 2-, 3- and 4- pole versions. The FAZ-NA is available with rated currents of 0.5 A to 63 A. The switching capacity is 15 kA according to IEC/EN 60947-2, and 10 kA or 14 kA according to UL 489/CSA C22.2 No. 5, depending on the device type.",
-        "features": {
-            "rated_current": "on DIN rail",
-            "compliant_to": "1-, 2-, 3- and 4-pole",
-            "rated_breaking_capacity": "3",
-        }
-      },
-
-      {
-        "id": 4,
-        "heading": "FAZ-DC xEffect Miniature Circuit Breaker",
-        "image": "../assets/images/eaton/eatonfazdc.webp",
-        "paragraph": "The FAZ-DC miniature circuit breaker is a protective device equipped with both a thermal and an electromagnetic release that is available in 1- and 2-pole versions. The FAZ is available with rated currents of 2 A to 50 A. The switching capacity is 10 kA according to IEC/EN 60947-2 The DC rated voltage is 220 V per pole for the 2 A version, and 250 V per pole for the 3 A to 50 A versions. A guide for secure terminal connection and a 3-position DIN-rail simplify the installation of the circuit breaker.",
-        "features": {
-            "rated_current": "IEC/EN 60947-2",
-            "compliant_to": "up to 50 A",
-            "rated_breaking_capacity": "1- and 2-pole",
         }},
 
       {
@@ -633,16 +610,6 @@ const Eaton = {
         }},
 
       {
-        "id": 7,
-        "heading": "FAZ-NA-DC xEffect Miniature Circuit Breaker",
-        "image": "../assets/images/eaton/eatonfaznadc.webp",
-        "paragraph": "The FAZ-NA-DC miniature circuit breaker is a protective device that is equipped with both a thermal and an electromagnetic release. The FAZ-NA-DC for DC applications is available in 1-pole and 2-pole versions with rated currents from 2 A to 40 A. The switching capacity is 10 kA according to IEC/EN 60947-2, UL 489 and CSA C22.2 No. 5. The DC rated voltage for all types is 125 V per pole according to UL 489/CSA C22.2 No. 5, and 220 V per pole for the 2 A version / 250 V per pole for the 3 A to 40 A versions according to IEC/EN 60947-2.",
-        "features": {
-            "rated_current": "C",
-            "compliant_to": "1- and 2-pole",
-            "rated_breaking_capacity": "up to 40 A",
-        }},
-      {
         "id": 8,
         "heading": "PLS6-DC and PL10-DC-IN xPole Miniature Circuit Breaker",
         "image": "../assets/images/eaton/eatonminiature.webp",
@@ -652,65 +619,264 @@ const Eaton = {
             "compliant_to": "up to 50 A",
             "rated_breaking_capacity": "C",
         }},
-        {
-            "id": 9,
-            "heading": "BZM Molded Case Circuit Breaker",
-            "image": '../assets/images/eaton/mcb1.webp',
-            "paragraph": "Eaton's BZM Molded Case Circuit Breakers offer optimum and efficient protection for low voltage applications in power distribution systems. The advantage of the BZM series is its simple use: The thermal and magnetic release system for over-current and short-circuit protection of your system is already factory set. Along with simple handling of the product and its accessories, Eaton’s BZM offering provides an attractive product assortment.",
-            "features": {
-                "rated_current": "up to 40 A",
-                "compliant_to": "IEC/EN 61009",
-                "rated_breaking_capacity": "6 kA or 10 kA",
-                }
-            },
+        // {
+        //     "id": 9,
+        //     "heading": "BZM Molded Case Circuit Breaker",
+        //     "image": '../assets/images/eaton/mcb1.webp',
+        //     "paragraph": "Eaton's BZM Molded Case Circuit Breakers offer optimum and efficient protection for low voltage applications in power distribution systems. The advantage of the BZM series is its simple use: The thermal and magnetic release system for over-current and short-circuit protection of your system is already factory set. Along with simple handling of the product and its accessories, Eaton’s BZM offering provides an attractive product assortment.",
+        //     "features": {
+        //         "rated_current": "up to 40 A",
+        //         "compliant_to": "IEC/EN 61009",
+        //         "rated_breaking_capacity": "6 kA or 10 kA",
+        //         }
+        //     },
         
-            {
-                "id": 10,
-                "heading": "NZM Molded Case Circuit Breaker",
-                "image": "../assets/images/eaton/eatonaz.webp",
-                "paragraph": "The new Eaton circuit-breakers cover a range from 15 to 1600 A with just four frame sizes. And they are optimally matched to one another. The wide application spectrum covers every requirement as Eaton has closely examined what every customer needs and implemented the appropriate solutions. Outstanding, for example, is the continuous switching power range – which extends from the smallest to the largest circuit-breaker or the modular system which can be matched without difficulty to suit the specific application.",
-                "features": {
-                    "rated_current": "15 to 1600 A",
-                    "compliant_to": "1- and 2-pole",
-                    "rated_breaking_capacity": "150 kA.",
-                }
-            },
+            // {
+            //     "id": 10,
+            //     "heading": "NZM Molded Case Circuit Breaker",
+            //     "image": "../assets/images/eaton/eatonaz.webp",
+            //     "paragraph": "The new Eaton circuit-breakers cover a range from 15 to 1600 A with just four frame sizes. And they are optimally matched to one another. The wide application spectrum covers every requirement as Eaton has closely examined what every customer needs and implemented the appropriate solutions. Outstanding, for example, is the continuous switching power range – which extends from the smallest to the largest circuit-breaker or the modular system which can be matched without difficulty to suit the specific application.",
+            //     "features": {
+            //         "rated_current": "15 to 1600 A",
+            //         "compliant_to": "1- and 2-pole",
+            //         "rated_breaking_capacity": "150 kA.",
+            //     }
+            // },
 
-            {
-                "id": 11,
-                "heading": "Emergency Lighting System",
-                "image": "../assets/images/eaton/light/light.webp",
-                "paragraph": "The ELPS502 Model #M05 Emergency Lighting System is designed to automatically provide illumination to designated areas during failure or interruption of power to the normal lighting system. The ELPS502 is factory assembled and wired, and consists of one (1) ELPS50 power supply and two (2) EVLA lighting fixtures The ELPS50 power supply consists of a battery supply and battery recharging system housed inside a hazardous area enclosure with all the circuitry to automatically turn on emergency DC lighting fixture(s) when the normal power supply fails",
-                "features": {
-                    "rated_current": "15 to 1600 A",
-                    "compliant_to": "1- and 2-pole",
-                    "rated_breaking_capacity": "150 kA.",
-                }
-            },
+            // {
+            //     "id": 11,
+            //     "heading": "Emergency Lighting System",
+            //     "image": "../assets/images/eaton/light/light.webp",
+            //     "paragraph": "The ELPS502 Model #M05 Emergency Lighting System is designed to automatically provide illumination to designated areas during failure or interruption of power to the normal lighting system. The ELPS502 is factory assembled and wired, and consists of one (1) ELPS50 power supply and two (2) EVLA lighting fixtures The ELPS50 power supply consists of a battery supply and battery recharging system housed inside a hazardous area enclosure with all the circuitry to automatically turn on emergency DC lighting fixture(s) when the normal power supply fails",
+            //     "features": {
+            //         "rated_current": "15 to 1600 A",
+            //         "compliant_to": "1- and 2-pole",
+            //         "rated_breaking_capacity": "150 kA.",
+            //     }
+            // },
 
-            {
-                "id": 12,
-                "heading": "Selecting Protective Devices",
-                "image": "../assets/images/eaton/spd/spd.webp",
-                "paragraph": "Eaton’s Bussmann series Selecting Protective Devices (SPD) handbook. This reference document is based on the 2017 National Electrical Code (NEC ® ) and is a comprehensive guide to electrical overcurrent protection and electrical design considerations. The information within this resource is presented on numerous applications as well as code and standard requirements for a variety of electrical equipment and distribution systems.",
-                "features": {
-                    "rated_current": "15 to 1600 A",
-                    "compliant_to": "1- and 2-pole",
-                    "rated_breaking_capacity": "150 kA.",
-                }
-            },
+            // {
+            //     "id": 12,
+            //     "heading": "Selecting Protective Devices",
+            //     "image": "../assets/images/eaton/spd/spd.webp",
+            //     "paragraph": "Eaton’s Bussmann series Selecting Protective Devices (SPD) handbook. This reference document is based on the 2017 National Electrical Code (NEC ® ) and is a comprehensive guide to electrical overcurrent protection and electrical design considerations. The information within this resource is presented on numerous applications as well as code and standard requirements for a variety of electrical equipment and distribution systems.",
+            //     "features": {
+            //         "rated_current": "15 to 1600 A",
+            //         "compliant_to": "1- and 2-pole",
+            //         "rated_breaking_capacity": "150 kA.",
+            //     }
+            // },
 
-            {
-                "id": 13,
-                "heading": "Eaton Contractors",
-                "image": "../assets/images/eaton/contractor/eatonmoeller.webp",
-                "paragraph": "",
-                "features": {
-                    "rated_current": "15 to 1600 A",
-                    "compliant_to": "1- and 2-pole",
-                    "rated_breaking_capacity": "150 kA.",
-                }
-            }],
+            // {
+            //     "id": 9,
+            //     "heading": "Eaton Contractors",
+            //     "image": "../assets/images/eaton/contractor/eatonmoeller.webp",
+            //     "paragraph": "",
+            //     "features": {
+            //         "rated_current": "15 to 1600 A",
+            //         "compliant_to": "1- and 2-pole",
+            //         "rated_breaking_capacity": "150 kA.",
+            //     }
+            // },
+        ]
+};
+
+const Eatonmcb = {
+    'Title': 'MCB Products',
+    'Products': [{
+        "id": 1,
+        "heading": "Miniature Circuite Breaker(MCB), 10A, 1p",
+        "image": '../assets/images/eaton/mcb/plsm10.webp',
+        "paragraph": "Miniature circuit breaker (MCB), PLSM, 2-pole, tripping characteristic: C, rated current In: 10 A, rated switching capacity according to IEC/EN 60898-1: 10 kA, Switchgear for residential and commercial applications",
+        "features": {
+            "rated_current": "up to 10A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "10 kA",
+        }
+      },
+      {
+        "id": 2,
+        "heading": "Miniature Circuite Breaker(MCB), 16A, 1p",
+        "image": '../assets/images/eaton/mcb/plsm16.webp',
+        "paragraph": "Miniature circuit breaker (MCB), PLSM, 2-pole, tripping characteristic: C, rated current In: 16 A, rated switching capacity according to IEC/EN 60898-1: 10 kA, Switchgear for residential and commercial applications",
+        "features": {
+            "rated_current": "up to 16A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "10 kA",
+        }
+      },
+
+      {
+        "id": 3,
+        "heading": "Miniature Circuite Breaker(MCB), 20A, 1p",
+        "image": '../assets/images/eaton/mcb/plsm20.webp',
+        "paragraph": "Miniature circuit breaker (MCB), PLSM, 1-pole, tripping characteristic: C, rated current In: 20 A, rated switching capacity according to IEC/EN 60898-1: 10 kA, Switchgear for residential and commercial applications",
+        "features": {
+            "rated_current": "up to 20A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "10 kA",
+        }
+      },
+      {
+        "id": 4,
+        "heading": "FAZ-NA xEffect Miniature Circuit Breaker",
+        "image": "../assets/images/eaton/eatonfaz.webp",
+        "paragraph": "The FAZ-NA / FAZ-RT miniature circuit breaker is a protective device equipped with both a thermal and an electromagnetic release that is available in 1-, 2-, 3- and 4- pole versions. The FAZ-NA is available with rated currents of 0.5 A to 63 A. The switching capacity is 15 kA according to IEC/EN 60947-2, and 10 kA or 14 kA according to UL 489/CSA C22.2 No. 5, depending on the device type.",
+        "features": {
+            "rated_current": "on DIN rail",
+            "compliant_to": "1-, 2-, 3- and 4-pole",
+            "rated_breaking_capacity": "3",
+        }
+      },
+      {
+        "id": 5,
+        "heading": "FAZ-NA-DC xEffect Miniature Circuit Breaker",
+        "image": "../assets/images/eaton/eatonfaznadc.webp",
+        "paragraph": "The FAZ-NA-DC miniature circuit breaker is a protective device that is equipped with both a thermal and an electromagnetic release. The FAZ-NA-DC for DC applications is available in 1-pole and 2-pole versions with rated currents from 2 A to 40 A. The switching capacity is 10 kA according to IEC/EN 60947-2, UL 489 and CSA C22.2 No. 5. The DC rated voltage for all types is 125 V per pole according to UL 489/CSA C22.2 No. 5, and 220 V per pole for the 2 A version / 250 V per pole for the 3 A to 40 A versions according to IEC/EN 60947-2.",
+        "features": {
+            "rated_current": "C",
+            "compliant_to": "1- and 2-pole",
+            "rated_breaking_capacity": "up to 40 A",
+        }},
+
+        {
+            "id": 4,
+            "heading": "FAZ-DC xEffect Miniature Circuit Breaker",
+            "image": "../assets/images/eaton/eatonfazdc.webp",
+            "paragraph": "The FAZ-DC miniature circuit breaker is a protective device equipped with both a thermal and an electromagnetic release that is available in 1- and 2-pole versions. The FAZ is available with rated currents of 2 A to 50 A. The switching capacity is 10 kA according to IEC/EN 60947-2 The DC rated voltage is 220 V per pole for the 2 A version, and 250 V per pole for the 3 A to 50 A versions. A guide for secure terminal connection and a 3-position DIN-rail simplify the installation of the circuit breaker.",
+            "features": {
+                "rated_current": "IEC/EN 60947-2",
+                "compliant_to": "up to 50 A",
+                "rated_breaking_capacity": "1- and 2-pole",
+            }},]
+};
+const Eatonacb = {
+    'Title': 'ACB Products',
+    'Products': [{
+        "id": 1,
+        "heading": "IZMX16B3-A12W - Circuit-breaker 3p, 1250A, withdrawable",
+        "image": "../assets/images/eaton/acb/izmxa16.webp",
+        "paragraph": "Circuit-breaker IZMX16 ( Air circuit-breakers/switch-disconnectors), 3 pole, Current Range: Up to 4000 A, Rated current = rated uninterrupted current( In = Iu): 1250 A, Rated ultimate short-circuit breaking capacity up to 440V/690V 42/42( Icu): 42 kA, Rated service short-circuit breaking capacity up to 440V/690V 42/42( Ics): 42 kA, Overload release, min.( Ir): 625 A, Overload release, max.( Ir): 1250 A, Installation type: Withdrawable, Standard/Approval: IEC, Protective function: System protection",
+        "features": {
+            "rated_current": "1250A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "up to 42 kA",
+        }
+    },
+    {
+        "id": 2,
+        "heading": "IZMX16B3-A16W - Circuit-breaker 3p, 1600A, withdrawable",
+        "image": "../assets/images/eaton/acb/izmxa16.webp",
+        "paragraph": "Circuit-breaker IZMX16 ( Air circuit-breakers/switch-disconnectors), 3 pole, Current Range: Up to 4000 A, Rated current = rated uninterrupted current( In = Iu): 1600 A, Rated ultimate short-circuit breaking capacity up to 440V/690V 42/42( Icu): 42 kA, Rated service short-circuit breaking capacity up to 440V/690V 42/42( Ics): 42 kA, Overload release, min.( Ir): 800 A, Overload release, max.( Ir): 1600 A, Installation type: Withdrawable, Standard/Approval: IEC, Protective function: System protection",
+        "features": {
+            "rated_current": "4000 to 6300A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "up to 4000A",
+        }
+    },
+    {
+        "id": 3,
+        "heading": "IZMX40N3-A08F - Circuit-breaker, 3p, 800A, fixed",
+        "image": "../assets/images/eaton/acb/izmxa10.webp",
+        "paragraph": "Circuit-breaker IZMX40 ( Air circuit-breakers/switch-disconnectors), 3 pole, Current Range: Up to 4000 A, Rated current = rated uninterrupted current( In = Iu): 800 A, Rated ultimate short-circuit breaking capacity up to 440V/690V 42/42( Icu): 85 kA, Rated service short-circuit breaking capacity up to 440V/690V 42/42( Ics): 85 kA, Overload release, min.( Ir): 400 A, Overload release, max.( Ir): 800 A, Installation type: Fixed, Standard/Approval: IEC, Protective function: System protection",
+        "features": {
+            "rated_current": "4000 to 6300A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "up to 4000A",
+        }
+    },
+    {
+        "id": 4,
+        "heading": "IZMX16B3-A10F - Circuit-breaker 3p, 1000A, fixed",
+        "image": "../assets/images/eaton/acb/izmxa10f.webp",
+        "paragraph": "Circuit-breaker IZMX16 ( Air circuit-breakers/switch-disconnectors), 3 pole, Current Range: Up to 4000 A, Rated current = rated uninterrupted current( In = Iu): 1000 A, Rated ultimate short-circuit breaking capacity up to 440V/690V 42/42( Icu): 42 kA, Rated service short-circuit breaking capacity up to 440V/690V 42/42( Ics): 42 kA, Overload release, min.( Ir): 500 A, Overload release, max.( Ir): 1000 A, Installation type: Fixed, Standard/Approval: IEC, Protective function: System protection",
+        "features": {
+            "rated_current": "4000 to 6300A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "up to 4000A",
+        }
+    },]
+    
+};
+const Eatoncontactor = {
+    'Title': 'Contactors',
+    'Products': [{
+        "id": 1,
+        "heading": "DILM80(RDC24)-GVP - Contactor, 3p, 37kW/400V/AC3",
+        "image": "../assets/images/eaton/contactor/dilm80.webp",
+        "paragraph": "Contactor, Application: Contactors for Motors, Contactors up to 170 A, 3 pole, Utilization category: AC-1: Non-inductive or slightly inductive loads, resistance furnaces, NAC-3: Normal AC induction motors: starting, switch off during running, AC-4: Normal AC induction motors: starting, plugging, reversing, inching, Connection technique: Screw terminals, Notes: Also suitable for motors with efficiency class IE3, Number of poles: 3 pole, Rated operational current AC-3 380 V 400 V: Ie= 80 A, Rated operational current AC-1 Conventional free air thermal current, 3 pole, 50 - 60 Hz Open at 40 °C: Ith =Ie= 110 A, enclosed: Ith= 80 A, Rated operational current AC-1 Conventional free air thermal current, 1 pole open: Ith= 225 A, enclosed: Ith= 200 A, Max. rating for three-phase motors, 50 - 60 Hz AC-3 220 V 230 V: P= 25 kW, 380 V 400 V: P= 37 kW, 660 V 690 V: P= 63 kW, Max. rating for three-phase motors, 50 - 60 Hz AC-4 220 V 230 V: P= 11.5 kW, 380 V 400 V: P= 20 kW, 660 V 690 V: P= 26 kW, Can be combined with auxiliary contact: DILM150-XHI(V).., DILM1000-XHI(V).., Instructions: Contacts to EN 50 012., integrated suppressor circuit in actuating electronics, Voltage AC/DC: DC operation",
+        "features": {
+            "rated_current": "160A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "up to 800 A",
+        }        
+    },
+    {
+        "id": 2,
+        "heading": "173385 DILM185A/22(RAC240)-SOND730",
+        "image": "../assets/images/eaton/contactor/dilm185a.webp",
+        "paragraph": "Contactor, Application: Contactors for Motors, Standard devices greater than 170 A, Utilization category: AC-1: Non-inductive or slightly inductive loads, resistance furnaces, NAC-3: Normal AC induction motors: starting, switch off during running, AC-4: Normal AC induction motors: starting, plugging, reversing, inching, Connection technique: Screw connection, Rated operational current AC-3 380 V 400 V: Ie= 185 A, Rated operational current AC-1 Conventional free air thermal current, 3 pole, 50 - 60 Hz Open at 40 °C: Ith =Ie= 337 A, enclosed: Ith= 245 A, Rated operational current AC-1 Conventional free air thermal current, 1 pole open: Ith= 685 A, enclosed: Ith= 625 A, Max. rating for three-phase motors, 50 - 60 Hz AC-3 220 V 230 V: P= 55 kW, 380 V 400 V: P= 90 kW, 660 V 690 V: P= 140 kW, Max. rating for three-phase motors, 50 - 60 Hz AC-4 220 V 230 V: P= 41 kW, 380 V 400 V: P= 75 kW, 660 V 690 V: P= 102 kW, Can be combined with auxiliary contact: DILM1000-XHI…, Contacts N/O = Normally open: 2 N/O, Contacts N/C = Normally closed: 2 NC, Instructions: integrated suppressor circuit in actuating electronics, 660 V, 690 V or 1000 V: not directly reversing, Voltage AC/DC: AC operation",
+        "features": {
+            "rated_current": "185A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "2250 A",
+        }        
+    },
+    {
+        "id": 3,
+        "heading": "173389 DILM185A/22(RDC60)-SOND730",
+        "image": "../assets/images/eaton/contactor/dilm185a22.webp",
+        "paragraph": "Contactor, Application: Contactors for Motors, Standard devices greater than 170 A, Utilization category: AC-1: Non-inductive or slightly inductive loads, resistance furnaces, NAC-3: Normal AC induction motors: starting, switch off during running, AC-4: Normal AC induction motors: starting, plugging, reversing, inching, Connection technique: Screw connection, Rated operational current AC-3 380 V 400 V: Ie= 185 A, Rated operational current AC-1 Conventional free air thermal current, 3 pole, 50 - 60 Hz Open at 40 °C: Ith =Ie= 337 A, enclosed: Ith= 245 A, Rated operational current AC-1 Conventional free air thermal current, 1 pole open: Ith= 685 A, enclosed: Ith= 625 A, Max. rating for three-phase motors, 50 - 60 Hz AC-3 220 V 230 V: P= 55 kW, 380 V 400 V: P= 90 kW, 660 V 690 V: P= 140 kW, Max. rating for three-phase motors, 50 - 60 Hz AC-4 220 V 230 V: P= 41 kW, 380 V 400 V: P= 75 kW, 660 V 690 V: P= 102 kW, Can be combined with auxiliary contact: DILM1000-XHI…, Contacts N/O = Normally open: 2 N/O, Contacts N/C = Normally closed: 2 NC, Instructions: integrated suppressor circuit in actuating electronics, 660 V, 690 V or 1000 V: not directly reversing, Voltage AC/DC: DC operation",
+        "features": {
+            "rated_current": "185A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "up to 2250 A",
+        }        
+    },
+    {
+        "id": 4,
+        "heading": "104811 DILM25-01(RDC12)",
+        "image": "../assets/images/eaton/contactor/dilm25.webp",
+        "paragraph": "Contactor, Application: Contactors for Motors, Contactors up to 170 A, 3 pole, Utilization category: AC-1: Non-inductive or slightly inductive loads, resistance furnaces, NAC-3: Normal AC induction motors: starting, switch off during running, AC-4: Normal AC induction motors: starting, plugging, reversing, inching, Connection technique: Screw terminals, Notes: Also suitable for motors with efficiency class IE3, Number of poles: 3 pole, Rated operational current AC-3 380 V 400 V: Ie= 25 A, Rated operational current AC-1 Conventional free air thermal current, 3 pole, 50 - 60 Hz Open at 40 °C: Ith =Ie= 45 A, enclosed: Ith= 36 A, Rated operational current AC-1 Conventional free air thermal current, 1 pole open: Ith= 100 A, enclosed: Ith= 90 A, Max. rating for three-phase motors, 50 - 60 Hz AC-3 220 V 230 V: P= 7.5 kW, 380 V 400 V: P= 11 kW, 660 V 690 V: P= 14 kW, Max. rating for three-phase motors, 50 - 60 Hz AC-4 220 V 230 V: P= 3.5 kW, 380 V 400 V: P= 6 kW, 660 V 690 V: P= 8.5 kW, Can be combined with auxiliary contact: DILA-XHI(V).., Instructions: Contacts to EN 50 012., integrated suppressor circuit in actuating electronics, with mirror contact., Voltage AC/DC: DC operation",
+        "features": {
+            "rated_current": "N/A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "up to 250 A",
+        }        
+    },
+    {
+        "id": 5,
+        "heading": "Contractor- 106367 DILM7-22(24VDC)",
+        "image": "../assets/images/eaton/contactor/dilm722.webp",
+        "paragraph": "Contactor, Application: Contactors for Motors, Complete devices up to 170 A, Utilization category: AC-1: Non-inductive or slightly inductive loads, resistance furnaces, NAC-3: Normal AC induction motors: starting, switch off during running, AC-4: Normal AC induction motors: starting, plugging, reversing, inching, Connection technique: Screw terminals, Notes: Also suitable for motors with efficiency class IE3, Rated operational current AC-3 380 V 400 V: Ie= 7 A, Rated operational current AC-1 Conventional free air thermal current, 3 pole, 50 - 60 Hz Open at 40 °C: Ith =Ie= 22 A, enclosed: Ith= 18 A, Rated operational current AC-1 Conventional free air thermal current, 1 pole open: Ith= 50 A, enclosed: Ith= 45 A, Max. rating for three-phase motors, 50 - 60 Hz AC-3 220 V 230 V: P= 2.2 kW, 380 V 400 V: P= 3 kW, 660 V 690 V: P= 3.5 kW, Max. rating for three-phase motors, 50 - 60 Hz AC-4 220 V 230 V: P= 1 kW, 380 V 400 V: P= 2.2 kW, 660 V 690 V: P= 2.9 kW, Contacts N/O = Normally open: 2 N/O, Contacts N/C = Normally closed: 2 NC, Instructions: Contacts to EN 50 012., Integrated varistor suppressor circuit., with mirror contact., Voltage AC/DC: DC operation",
+        "features": {
+            "rated_current": "112 A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "up to 70 kA",
+        }        
+    },
+    {
+        "id": 6,
+        "heading": "SFD27-OHL 1 P BASE DII/E27 FUSES OVERHEAD LINE 25A",
+        "image": "../assets/images/eaton/contactor/dline1.webp",
+        "paragraph": "Fuse base, low voltage, 63 A, AC 500 V, D3, 1P, IEC Fuse accessory, Fuse-base, low voltage, 63 A, AC 500 V, D3, 1P, IEC, overhead lines, E33",
+        "features": {
+            "rated_current": "63 A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "N/A",
+        }        
+    },
+    {
+        "id": 7,
+        "heading": "SFD33-OHL 1 P BASE DIII/E33 FUSES OVERHEAD LINE",
+        "image": "../assets/images/eaton/contactor/dline2.webp",
+        "paragraph": "Fuse base, low voltage, 25 A, AC 500 V, D2, 1P, IEC Fuse accessory, Fuse-base, low voltage, 25 A, AC 500 V, D2, 1P, IEC, overhead lines, E27",
+        "features": {
+            "rated_current": "25 A",
+            "compliant_to": "IEC/EN 61439",
+            "rated_breaking_capacity": "N/A",
+        }        
+    },]
 };
 
 const SCModules = {
@@ -1373,7 +1539,7 @@ const LTTape = {
         },
         {
             "id": 3,
-            "image": "../assets/images/ampturn/lttape3.webp",
+            "image": "../assets/images/ampturn/lttape33.webp",
             "bottom_desc": "TAPE INSULATED WPL TYPE"
             },
         {
@@ -1463,7 +1629,7 @@ const LTMoulded = {
         },
         {
         "id": 2,
-        "image": "../assets/images/ampturn/ltm2.webp",
+        "image": "../assets/images/ampturn/ltm22.webp",
         "bottom_desc": "MOULDED CASE RECTANGULAR TYPE"
         },
         {
@@ -1567,7 +1733,7 @@ const LTResin = {
         },
         {
         "id": 3,
-        "image": "../assets/images/ampturn/resincast3.webp",
+        "image": "../assets/images/ampturn/resincast33.webp",
         "bottom_desc": "RESIN CAST RECTANGULAR TYPE"
         },
         {
@@ -1989,4 +2155,4 @@ const Rishab = {
 
 
 
-export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton, SCModules, FCModules, SharingModules, LubiSmps, LTTape, LTMoulded, LTResin, Seco, Leap, Kalaivani, Rishab  };
+export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton, SCModules, FCModules, SharingModules, LubiSmps, LTTape, LTMoulded, LTResin, Seco, Leap, Kalaivani, Rishab, Eatonmcb, Eatonacb, Eatoncontactor  };

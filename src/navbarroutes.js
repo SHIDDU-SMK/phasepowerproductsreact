@@ -10,6 +10,9 @@ import ProductControl from './pages/product-control';
 import ProductResource from './pages/product-resource';
 import ProductNetwork from './pages/product-network';
 import ProductEaton from './pages/product-eaton';
+import ProductEatonMcb from './pages/product-eatonmcb';
+import ProductEatonAcb from './pages/product-eatonacb';
+import ProductEatonContactor from './pages/product-eatoncontactor';
 import FailureControl from './pages/dse-fail-control';
 import SharingControl from './pages/dse-sharing-control';
 import StartControl from './pages/dse-start-control';
@@ -32,6 +35,9 @@ const NavBarTop = () => {
         <Route path ="/prodsr"> <ProductResource /> </Route>
         <Route path ="/prodsn"> <ProductNetwork /> </Route>
         <Route path ="/prodea"> <ProductEaton /> </Route>
+        <Route path ="/prodemcb"><ProductEatonMcb /></Route>
+        <Route path ="/prodeacb"><ProductEatonAcb /></Route>
+        <Route path ="/prodeco"><ProductEatonContactor /></Route>
         <Route path ="/prodfc"> <FailureControl /> </Route>
         <Route path ="/prodsh"> <SharingControl /> </Route>
         <Route path ="/prodst"> <StartControl /> </Route>
