@@ -16,6 +16,9 @@ import LTMould from './assets/images/submenuicons/ltm2.webp';
 import LTResin from './assets/images/submenuicons/resincast3.webp';
 import Rishabh from './assets/images/submenuicons/rishabh.webp';
 import BZMMccb from './assets/images/submenuicons/eatonbzm.webp';
+import Acb from './assets/images/submenuicons/acb.webp';
+import Plsm from './assets/images/submenuicons/plsm.webp';
+import Contactor from './assets/images/submenuicons/contactor.webp';
 import ScrollToTop from './scrolltotop';
 
 const Header = () => {
@@ -147,6 +150,34 @@ const Header = () => {
                                             &emsp;
                                             <span className="dropdownLink">
                                                 MCCB
+                                            </span>
+                                        </Link>
+                                        <Link to='/prodemcb' onClick={() => setExpanded(false)}>
+                                            <Image src={Plsm}  className="dropmenu-image" />      
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                MCB
+                                            </span>
+                                        </Link>
+                                        <Link to='/prodeacb' onClick={() => setExpanded(false)}>
+                                            <Image src={Acb}  className="dropmenu-image" />      
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                ACB
+                                            </span>
+                                        </Link>
+                                        <Link to='/prodeco' onClick={() => setExpanded(false)}>
+                                            <Image src={Contactor}  className="dropmenu-image" />      
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                Contactor
+                                            </span>
+                                        </Link>
+                                        <Link to='/prodeps' onClick={() => setExpanded(false)}>
+                                            <Image src={BZMMccb}  className="dropmenu-image" />      
+                                            &emsp;
+                                            <span className="dropdownLink">
+                                                Pilot & Signal Divice
                                             </span>
                                         </Link>
                                     </li>
