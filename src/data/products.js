@@ -709,7 +709,7 @@ const Eatonmcb = {
       {
         "id": 3,
         "heading": "Miniature Circuite Breaker(MCB), 20A, 1p",
-        "image": '../assets/images/eaton/mcb/plsm20.webp',
+        "image": '../assets/images/eaton/mcb/plsm.webp',
         "paragraph": "Miniature circuit breaker (MCB), PLSM, 1-pole, tripping characteristic: C, rated current In: 20 A, rated switching capacity according to IEC/EN 60898-1: 10 kA, Switchgear for residential and commercial applications",
         "features": {
             "rated_current": "up to 20A",

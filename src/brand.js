@@ -22,27 +22,27 @@ import Image from 'react-bootstrap/Image'
             Dealer for
         </h2>
 
-         <div className="row" style={{paddingTop:'2rem'}}>
+         <div className="row" >
                  <div className=" col-lg-4 ">
-                     <Image src={Elmeasure} alt="brand image" width="200px" height="75px"/>
+                     <Image src={Elmeasure} alt="brand image" width="90%" height="70%"/>
                  </div>
                  <div className=" col-lg-4 ">
-                     <Image src={Eaton} alt="brand image" width="200px" height="75px"/>
+                     <Image src={Eaton} alt="brand image" width="90%" height="70%"/>
                  </div>
                  <div className="col-lg-4 ">
-                     <Image src={Micro} alt="brand image" width="200px" height="75px"/>
+                     <Image src={Micro} alt="brand image" width="90%" height="70%"/>
                  </div>
                  <div className="col-lg-4 ">
-                     <Image src={Lubi} alt="brand image" width="200px" height="75px"/>
+                     <Image src={Lubi} alt="brand image" width="90%" height="70%"/>
                  </div>
                  {/* <div className="col-lg-4 ">
                      <Image src={havells} alt="brand image" width="200px" />
                  </div> */}
                  <div className="col-lg-4 ">
-                     <Image src={DSE} alt="brand image" width="200px" height="75px"/>
+                     <Image src={DSE} alt="brand image" width="90%" height="70%"/>
                  </div>
                  <div className="col-lg-4 ">
-                     <Image src={Ampturn} alt="brand image" width="200px" height="75px"/>
+                     <Image src={Ampturn} alt="brand image" width="90%" height="70%"/>
                  </div>
                  {/* <div className="col-lg-4 ">
                      <Image src={LeapLogo} alt="brand image" width="200px" />
@@ -54,7 +54,7 @@ import Image from 'react-bootstrap/Image'
                      <Image src={KalaiVani} alt="brand image" width="200px" />
                  </div> */}
                  <div className="col-lg-4 ">
-                     <Image src={RishabLogo} alt="brand image" width="200px" height="100px"/>
+                     <Image src={RishabLogo} alt="brand image" width="90%" height="70%"/>
                  </div>
          </div>
          </div>
