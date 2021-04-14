@@ -5,53 +5,50 @@ import {
   Switch
 } from "react-router-dom";
 import Home from "./home";
-// import Product from "./product";
-// import ColdRoll from "./pages/coldroll";
-// import Galvanised from "./pages/galvanised";
-// import Access from "./pages/access";
-// import Cement from "./pages/cement";
-// import PrePaint from "./pages/prepainted";
-// import Steel from "./pages/steel";
-// import Others from "./pages/others";
-// import TilesS from './pages/tiles-S';
-// import Pipes from './pages/pipes';
-// import Tubes from './pages/tubes';
-// import Polycarbonates from './pages/poly';
-// import Monotorsubproducts from './pages/monotorsubproducts';
-import SmartMonotor from "./pages/smartmonotor";
-import SmartControl from './pages/smartcontrol';
-import SmartResorces from './pages/smartresource';
-import SmartNetworking from './pages/smartnetworking';
-import Othersproducts from './pages/othersproducts';
-import Elmsure from './pages/elmsure';
-import Eaton from './pages/eaton';
+import ProductMonitor from "./pages/product-monitor";
+import ProductControl from './pages/product-control';
+import ProductResource from './pages/product-resource';
+import ProductNetwork from './pages/product-network';
+import ProductEaton from './pages/product-eaton';
+import ProductEatonMcb from './pages/product-eatonmcb';
+import ProductEatonAcb from './pages/product-eatonacb';
+import ProductEatonContactor from './pages/product-eatoncontactor';
+import FailureControl from './pages/dse-fail-control';
+import SharingControl from './pages/dse-sharing-control';
+import StartControl from './pages/dse-start-control';
+import LubiSmps from './pages/product-lubi';
+import ProductAmpturnTape from './pages/product-lttape';
+import ProductAmpturnResin from './pages/product-ltresin';
+import ProductAmpturnMoulded from './pages/product-ltmould';
+// import ProductSeco from './pages/product-seco';
+// import ProductLeap from './pages/product-leap';
+// import ProductKalaivani from './pages/product-kalaivani';
+import ProductRishab from './pages/product-rishab';
 
 const NavBarTop = () => {
   return (
     <Router>
       <Switch>
          <Route exact path="/" ><Home /></Route>
-        {/* <Route path="/product"><Product /></Route> */}
-        {/* <Route path="/coldroll"><ColdRoll /></Route>   */}
-        <Route path="/smartmonotor"><SmartMonotor /></Route> 
-        <Route path="/smartcontrol"> <SmartControl /></Route>
-        <Route path="/smartresource"> <SmartResorces/></Route>
-        <Route path ="/smartnetworking"> <SmartNetworking /></Route>
-        <Route path ="/othersproducts"> <Othersproducts /> </Route>
-        <Route path ="/elmsure"> <Elmsure /> </Route>
-        <Route path ="/eaton"> <Eaton /> </Route>
-        {/* <Route path ="/monotorsubproducts"> <Monotorsubproducts /> </Route> */}
-        {/* <Route path="/galvanised"><Galvanised /></Route> 
-        <Route path="/access"><Access /></Route>  
-        <Route path="/cement"><Cement /></Route>  
-        <Route path="/prepainted"><PrePaint /></Route> 
-        <Route path="/steel"><Steel /></Route>  
-        <Route path="/others"><Others /></Route>
-        <Route path="/tiles-S"><TilesS /></Route>  
-        <Route path="/pipes"><Pipes /></Route> 
-        <Route path="/tubes"><Tubes /></Route>  
-        <Route path="/poly"><Polycarbonates /></Route>       */}
-
+        <Route path ="/prodsm"> <ProductMonitor /> </Route>
+        <Route path ="/prodsc"> <ProductControl /> </Route>
+        <Route path ="/prodsr"> <ProductResource /> </Route>
+        <Route path ="/prodsn"> <ProductNetwork /> </Route>
+        <Route path ="/prodea"> <ProductEaton /> </Route>
+        <Route path ="/prodemcb"><ProductEatonMcb /></Route>
+        <Route path ="/prodeacb"><ProductEatonAcb /></Route>
+        <Route path ="/prodeco"><ProductEatonContactor /></Route>
+        <Route path ="/prodfc"> <FailureControl /> </Route>
+        <Route path ="/prodsh"> <SharingControl /> </Route>
+        <Route path ="/prodst"> <StartControl /> </Route>
+        <Route path ="/prodlb"> <LubiSmps /> </Route>
+        <Route path = "/prodtp"> <ProductAmpturnTape/> </Route>
+        <Route path = "/prodrn"> <ProductAmpturnResin/> </Route>
+        <Route path = "/prodmd"> <ProductAmpturnMoulded/> </Route>
+        {/* <Route path = "/prodsec"> <ProductSeco/> </Route> */}
+        {/* <Route path = "/prodlp"> <ProductLeap/> </Route> */}
+        {/* <Route path = "/prodkv"> <ProductKalaivani/> </Route> */}
+        <Route path = "/prodrb"> <ProductRishab/> </Route>
       </Switch>
     </Router>
   );

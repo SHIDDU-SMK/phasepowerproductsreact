@@ -1,24 +1,28 @@
 import React from 'react';
-import HandDollar from './images/wholesaledealer.png';
-import Wind  from './images/energymanagement.png';
-import Prepaid  from './images/prepaidmetering.png';
-import Textile from './images/textilesenergy.png';
-import Street from './images/Street Light.png';
-import Process from './images/automation.png';
+import HandDollar from './assets/images/wholesaledealer.webp';
+import Wind  from './assets/images/energymanagement.webp';
+import Prepaid  from './assets/images/prepaidmetering.webp';
+import Textile from './assets/images/textilesenergy.webp';
+import Street from './assets/images/Street Light.webp';
+import Process from './assets/images/automation.webp';
 
 
 const Services = () => {
 	return (
-           <>
-                <div className="container marketing">
-                <h1 className="main-headding"><b>S E R V I C E S</b></h1>
-                    <div className="row" style={{paddingTop:"3rem"}}>
+           <div className="container" id="services">
+                <div className="row featurette">
+                    <h2 className="featurette-heading">
+                        Services
+                    </h2>
+                </div>
+                <div className="row featurette">
                             <div className="col-lg-4">
                                 <svg className="bd-placeholder-img" width="140" height="140" >
                                     <image href={HandDollar} alt="Tool-img" width="100%" height="100%" />
-                                    
                                 </svg>
-                                <h4 style={{paddingTop:"1rem"}}><b>Accessibility Authorized Wholesale Dealer </b></h4>        
+                                <h4 style={{paddingTop:"1rem"}}>
+                                    <b>Accessibility Authorized Wholesale Dealer</b>
+                                </h4>        
                             </div>
                             <div className="col-lg-4">
                                 <svg className="bd-placeholder-img" width="120" height="120" >
@@ -60,8 +64,7 @@ const Services = () => {
                             
                             <hr className="featurette-divider" />
                     </div>
-                </div>
-            </>
+            </div>
 	)
 };
 

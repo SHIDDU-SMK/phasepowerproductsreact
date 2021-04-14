@@ -1,45 +1,58 @@
 import React  from 'react';
 import {Carousel} from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
-import Enegery from './images/slid1.jpg';
-import Auto  from './images/slide2.jpg';
-import streetlight from './images/slide3.jpg';
-import Light from './images/slide4.png';
+import SlideOne from './assets/images/slide-0.webp';
+import SlideTwo from './assets/images/slide-1.webp';
+import SlideThree  from './assets/images/slide-2.webp';
+import SlideFour from './assets/images/slide-3.webp';
+import SlideFive from './assets/images/slide-4.webp';
 
-function TpCarousel() {
-    
+function Slider() {    
   
       return (
-          <Carousel>
+          <Carousel >
             <Carousel.Item>
               <Image
-                className="d-block w-100 bounce-in-top"
-                src={Enegery}
+                className="d-block w-100" 
+                src={SlideOne}
                 alt="First slide"
+                style={{ paddingTop: '2rem'}}
                 />
               
             </Carousel.Item>
             <Carousel.Item interval={900}>
               <Image
-                className=" bounce-in-top d-block w-100"
-                src={Auto}
+                className="d-block w-100"
+                src={SlideTwo}
                 alt="Third slide"
+                style={{ paddingTop: '2rem' }}
               />
              
             </Carousel.Item>
             <Carousel.Item>
-              <Image  className=" bounce-in-top d-block w-100"
-                src={streetlight}
-                alt="Third slide" />
+              <Image  className="d-block w-100"
+                src={SlideThree}
+                alt="Third slide"
+                style={{ paddingTop: '2rem' }}
+              />
               
             </Carousel.Item>
             <Carousel.Item>
-              <Image  className=" bounce-in-top d-block w-100"
-                src={Light}
-                alt="Third slide" />
+              <Image  className="d-block w-100"
+                src={SlideFour}
+                alt="Third slide" 
+                style={{ paddingTop: '2rem' }} 
+              />
+              </Carousel.Item>
+         
+          <Carousel.Item>
+              <Image  className="d-block w-100"
+                src={SlideFive}
+                alt="Third slide" 
+                style={{ paddingTop: '2rem' }}/>
               </Carousel.Item>
           </Carousel>
        );
     }
 
-export default TpCarousel;
+export default Slider;

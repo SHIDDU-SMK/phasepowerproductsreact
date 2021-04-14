@@ -1,42 +1,63 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image'
- import Elmeasure from './images/elmeasure.png';
- import DSE from './images/dse.png';
- import Eaton from './images/eaton.png';
- import Lubi from './images/lubi.jpg';
- import havells from './images/havells.jpg';
- import Micro from './images/micro.jpg';
-
-
+ import Elmeasure from './assets/images/brands/elmeasure.webp';
+ import DSE from './assets/images/brands/rishablogo.webp';
+ import Eaton from './assets/images/brands/eaton.webp';
+ import Lubi from './assets/images/brands/lubi.webp';
+//  import havells from './assets/images/havells.webp';
+ import Micro from './assets/images/brands/micro.webp';
+ import Ampturn from './assets/images/brands/amplogo.webp';
+//  import LeapLogo from './assets/images/leaplogo.webp';
+//  import SecoLogo from './assets/images/secologo.webp';
+//  import KalaiVani from './assets/images/kalaivani.webp';
+ import RishabLogo from './assets/images/brands/dse.webp';
 
  function Brand() {
-
     return (
          <>
-         <h1 style={{textAlign : "center" , color : "rgb(16, 134, 163)"}}>Esteemed Clients</h1>
-         <div className="container" style={{paddingBottom:"4rem" , textAlign:"center"}} >
-             <div className="row">
-           
-                 <div className=" col-lg-4  swing-in-top-fwd ">
-                     <Image src={Elmeasure} alt="brand image" width="200px" height="100px"/>
+        <div className="container">
+
+        <div className="row featurette">
+        <h2 className="featurette-heading">
+            Dealer for
+        </h2>
+
+         <div className="row" >
+                 <div className=" col-lg-4 ">
+                     <Image src={Elmeasure} alt="brand image" width="90%" height="70%"/>
                  </div>
-                 <div className=" col-lg-4  swing-in-top-fwd ">
-                     <Image src={Eaton} alt="brand image" width="200px" height="100px"/>
+                 <div className=" col-lg-4 ">
+                     <Image src={Eaton} alt="brand image" width="90%" height="70%"/>
                  </div>
-                 <div className="col-lg-4 swing-in-top-fwd">
-                     <Image src={Micro} alt="brand image" width="200px" height="80px"/>
+                 <div className="col-lg-4 ">
+                     <Image src={Micro} alt="brand image" width="90%" height="70%"/>
                  </div>
-                 <div className="col-lg-4 swing-in-top-fwd">
-                     <Image src={Lubi} alt="brand image" width="100px" height="100px"/>
+                 <div className="col-lg-4 ">
+                     <Image src={Lubi} alt="brand image" width="90%" height="70%"/>
                  </div>
-                 <div className="col-lg-4 swing-in-top-fwd">
-                     <Image src={havells} alt="brand image" width="100px" height="100px"/>
+                 {/* <div className="col-lg-4 ">
+                     <Image src={havells} alt="brand image" width="200px" />
+                 </div> */}
+                 <div className="col-lg-4 ">
+                     <Image src={DSE} alt="brand image" width="90%" height="70%"/>
                  </div>
-                 <div className="col-lg-4 swing-in-top-fwd">
-                     <Image src={DSE} alt="brand image" width="100px" height="100px"/>
+                 <div className="col-lg-4 ">
+                     <Image src={Ampturn} alt="brand image" width="90%" height="70%"/>
                  </div>
-            
-             </div>
+                 {/* <div className="col-lg-4 ">
+                     <Image src={LeapLogo} alt="brand image" width="200px" />
+                 </div> */}
+                 {/* <div className="col-lg-4 ">
+                     <Image src={SecoLogo} alt="brand image" width="200px" />
+                 </div> */}
+                 {/* <div className="col-lg-4 ">
+                     <Image src={KalaiVani} alt="brand image" width="200px" />
+                 </div> */}
+                 <div className="col-lg-4 ">
+                     <Image src={RishabLogo} alt="brand image" width="90%" height="70%"/>
+                 </div>
+         </div>
+         </div>
          </div>
          </>
     )
