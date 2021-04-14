@@ -5,6 +5,7 @@ import Services from './services';
 import Footer from './footer';
 import About from './about';
 import Brand from './brand';
+import Clients from './clients';
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
           <About />
           <Services />
           <Brand />
+          <Clients />
           <Footer />
         </div>
       );    
