@@ -17,7 +17,7 @@ const Services = () => {
         </div>
         <div className="row featurette">
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-rectangle" width="140" height="140" >
+                        <svg className="bd-placeholder-img rounded-rectangle" width="140" height="140" style={{marginLeft:"3rem"}}>
                             <image href={HandDollar} alt="Tool-img" width="100%" height="100%" />
                         </svg>
                         <h4 style={{paddingTop:"1rem"}}>
@@ -25,13 +25,13 @@ const Services = () => {
                         </h4>
                     </div>
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-rectangle" width="120" height="120" >
+                        <svg className="bd-placeholder-img rounded-rectangle" width="120" height="120" style={{marginLeft:"3rem"}}>
                             <image href={Wind} alt="Tool-img" width="100%" hight="100%" />
                         </svg>
                         <h4 style={{paddingTop:"2rem"}}><b>Energy Management System</b></h4>
                     </div>
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-rectangle" width="120" height="120" >
+                        <svg className="bd-placeholder-img rounded-rectangle" width="120" height="120" style={{marginLeft:"3rem"}}>
                             <image href={Prepaid} alt="Tool-img" width="100%" hight="100%" />
                         </svg>
                         <h4 style={{paddingTop:"2rem"}}><b>Prepaid Metering System</b></h4>
@@ -39,20 +39,20 @@ const Services = () => {
             </div>
             <div className="row" style={{paddingTop:"3rem"}}>
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-rectangle" width="120" height="120" >
+                        <svg className="bd-placeholder-img rounded-rectangle" width="120" height="120" style={{marginLeft:"3rem"}}>
                             <image href={Textile} alt="Tool-img" width="100%" hight="100%" />
                         </svg>
                         <h4 style={{paddingTop:"2rem"}}><b>Textiles Energy & Process</b></h4>
                     </div>
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-rectangle" width="120" height="120" >
+                        <svg className="bd-placeholder-img rounded-rectangle" width="120" height="120" style={{marginLeft:"3rem"}}>
                             <image href={Street} alt="Tool-img" width="100%" hight="100%" />
                             <title>Placeholder</title>
                         </svg>
                         <h4 style={{paddingTop:"2rem"}}><b>Street Light Management </b></h4>
                     </div>
                     <div className="col-lg-4">
-                        <svg className="bd-placeholder-img rounded-rectangle" width="120" height="120" >
+                        <svg className="bd-placeholder-img rounded-rectangle" width="120" height="120" style={{marginLeft:"3rem"}}>
                             <image href={Process} alt="Tool-img" width="100%" hight="100%" />
                             <title>Placeholder</title>
                         </svg>
