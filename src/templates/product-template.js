@@ -34,7 +34,7 @@ function ProductTemplate({data}) {
                     {
                         data.Products.map(item => 
                         <>
-                            <hr id={item.id} className="featurette-divider" />
+                            <hr id={item.id} style={{paddingBottom:"2rem"}} className="featurette-divider" />
                             <Row>
                                 <Col className={ item.id % 2 === 0? '' : 'order-2' }>
                                     <h2  style={{ textAlign: "center" }}>

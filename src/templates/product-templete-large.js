@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from '../footer';
 import Header from '../header';
 import { Image, Row, Col, Table } from 'react-bootstrap';
-import { HashLink as Link } from 'react-router-hash-link';
 
 let i=1;
 function ProductTempleteLubi({data}) {
@@ -20,12 +19,12 @@ function ProductTempleteLubi({data}) {
                                 data.Products.map(item => 
                                     <>
                                         <Col md="3" style={{ "text-align": "center"}}>
-                                            <Link to={`#${item.id}`} style={{ "color": "black"}}>
+                                            <div style={{ "color": "black"}}>
                                                 <Image src={ item.image} height="300" width="300"
                                                 style={{padding: 15}}/>
                                                 <hr width = '100' paddingBottom='10'/>
                                                 <h6 style = {{ fontSize:'12' }} > { item.bottom_desc } </h6>
-                                            </Link>
+                                            </div>
                                         </Col>  
                                     </>
                                 )
