@@ -21,7 +21,7 @@ const About = () => {
                      </svg>
                 </div>
             </div>
-            <hr className="featurette-divider" />
+            <hr className="featurette-divider" id="services"/>
         </div>
 
         );
