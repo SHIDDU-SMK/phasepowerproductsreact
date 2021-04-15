@@ -49,6 +49,7 @@ import Image from 'react-bootstrap/Image'
                  </div>
          </div>
          </div>
+         <hr className="featurette-divider" />
          </div>
          </>
     )
