@@ -1,43 +1,41 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
 import BMRCL from './assets/images/bmrcl.png';
-import Pgrid from './assets/images/powergrid.png';
+import Pgrid from './assets/images/pgrid.png';
 import Loha from './assets/images/loha.png';
-import ESS from './assets/images/ekadanthass-logo.png';
+import ESS from './assets/images/ess.png';
 import SldLogo from './assets/images/sldlogo.png';
-
+import { Row, Col, Container } from 'react-bootstrap';
 
 
  function Clients() {
     return (
          <>
-        <div className="container">
-
-            <div className="row featurette">
-                <h2 className="featurette-heading" style={{paddingBottom:"2rem"}}>
+            <Container>
+            <h2 className="featurette-heading" style={{paddingBottom:"3rem"}}>
                     Our clients
                 </h2>
-                <div className="row" >
-                    <div className=" col-lg-4 zoom ">
-                        <Image src={BMRCL} alt="bmrcl image" width="80%" height="100%" style={{paddingLeft:"3rem"}}/>
-                    </div>
-                    <div className=" col-lg-4 zoom">
-                        <Image src={Pgrid} alt="brand image" width="90%" height="70%"/>
-                    </div>
-                    <div className="col-lg-4 zoom">
-                        <Image src={Loha} alt="brand image" width="70%" height="70%" />
-                    </div>
-                    </div>
-                    <div className="row" style={{paddingTop:"2rem"}}>
-                    <div className="col-lg-4 zoom">
-                        <Image src={ESS} alt="brand image" width="90%" height="50%" style={{paddingLeft:"3rem"}}/>
-                    </div>
-                    <div className="col-lg-4 zoom">
-                        <Image src={SldLogo} alt="brand image" width="70%" height="70%" style={{paddingLeft:"3rem"}}/>
-                    </div>
-                </div>
-            </div>
-         </div>
+                <Row style={{paddingBottom:"3rem"}}>
+                    <Col sm={4} className="zoom">
+                    <Image src={BMRCL} alt="bmrcl image" width="100%" height="100%" />
+                    </Col>
+                    <Col sm={4} className="zoom">
+                    <Image src={Pgrid} alt="brand image" width="100%" height="100%"/>
+                    </Col>
+                    <Col sm={4} className="zoom">
+                    <Image src={Loha} alt="brand image" width="100%" height="100%" />
+                    </Col>
+                </Row>
+                <Row style={{paddingBottom:"3rem"}}>
+                    <Col sm={4} className="zoom">
+                    <Image src={ESS} alt="brand image" width="100%" height="100%" />
+                    </Col>
+                    <Col sm={4} className="zoom">
+                    <Image src={SldLogo} alt="brand image" width="100%" height="100%" /> 
+                    </Col>
+                    
+                </Row>
+            </Container>
          </>
     )
 
