@@ -4,11 +4,11 @@ import Pic3 from './assets/images/about.webp';
 const About = () => {
 
         return (
-        <div className="container" id="about">
+        <div className="container animation" id="about">
             <hr className="featurette-divider" />
             <div className="row featurette">
                 <div className="col-md-7">
-                    <h2 className="featurette-heading glow">About us<span className="text-muted"></span></h2>
+                    <h2 className="featurette-heading glow" style={{paddingBottom:"4rem"}}>About us<span className="text-muted"></span></h2>
                     <p className="lead">“Phase Power Products” started in the year 2016 and is a partnership firm. We perform our occupational activities proficiently as a wholesale distributor. The assortment of products we are delivering Digital Panel Meters with Automatic Changeover Cum Current Limiter, Smart ACCL and Meters, Branch Circuit Monitoring,
                      Advance Motor Protection and more. These products are recognized widely for their unmatched supremacy.</p>
                 </div>
