@@ -14,7 +14,7 @@ import { Row, Col, Container } from 'react-bootstrap';
     return (
          <>
 
-            <Container className="animation">
+            <Container>
                 <h2 className="featurette-heading" style={{paddingBottom:"4rem"}}>
                         Dealer for
                 </h2>

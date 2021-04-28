@@ -4,7 +4,7 @@ import Pic3 from './assets/images/about.webp';
 const About = () => {
 
         return (
-        <div className="container animation" id="about">
+        <div className="container" id="about">
             <hr className="featurette-divider" />
             <div className="row featurette">
                 <div className="col-md-7">
