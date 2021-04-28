@@ -34,6 +34,7 @@ import { Row, Col, Container } from 'react-bootstrap';
                     <Image src={SldLogo} alt="brand image" width="100%"  /> 
                     </Col>  
                 </Row >
+                <hr className="featurette-divider" style={{borderColor: 'transparent'}}/>
             </Container>
          </>
     )
