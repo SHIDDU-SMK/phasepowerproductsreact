@@ -102,4 +102,12 @@
   .image-center{
     display: block;
     text-align: center;
+    padding-bottom: 2rem;
   }
+  .animation {
+    background: rgba(230, 236, 247, 0.82);
+    overflow: hidden;
+    z-index: 2;
+  }
+  
+  
