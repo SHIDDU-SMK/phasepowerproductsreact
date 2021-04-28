@@ -11,7 +11,7 @@ import { Row, Col, Container } from 'react-bootstrap';
  function Clients() {
     return (
          <>
-            <Container className="animation" style={{paddingBottom:"4rem"}}>
+            <Container style={{paddingBottom:"4rem"}}>
             <h2 className="featurette-heading" style={{paddingTop:"1rem"}}>
                     Our clients
                 </h2>

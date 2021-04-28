@@ -15,7 +15,7 @@ const Services = () => {
 	return (
         <>
 
-        <Container className="animation">
+        <Container>
             <h2 className="featurette-heading" style={{paddingBottom:"4rem"}}>
             Services
             </h2>

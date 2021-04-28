@@ -79,8 +79,8 @@ a:hover {
 
 .featurette-divider {
     margin: 3.5rem 0rem;
-    border-top: 1px solid;
-    color: grey;
+    /* border-top: 1px solid;
+    color: grey; */
     /* Space out the Bootstrap <hr> more */
 }
 
@@ -107,7 +107,6 @@ a:hover {
   -------------------------------------------------- */
 
 @media (min-width: 40em) {
-    
     .carousel-caption p {
         margin-bottom: 1.25rem;
         font-size: 1.25rem;
@@ -129,10 +128,6 @@ a:hover {
         position: absolute;
         top: 0;
         left: 0;
-
         height: 35vw;
     }
 }
-
-
-
