@@ -15,35 +15,35 @@ const Services = () => {
 	return (
         <>
 
-        <Container className="animation">
+        <Container>
             <h2 className="featurette-heading" style={{paddingBottom:"4rem"}}>
             Services
             </h2>
-            <Row >
+            <Row style={{background: "rgba(248, 248, 248, 0.82)"}}>
                 <Col sm={4} className="zoom image-center">
-                    <Image src={HandDollar} alt="brand image" width="100px" height="100px" />
+                    <Image src={HandDollar} alt="brand image" width="100px" />
                     <h4><b>Accessibility Authorized Wholesale Dealer</b></h4>
                 </Col>
                 <Col sm={4} className="zoom image-center">
-                    <Image src={Wind} alt="brand image" width="100px" height="100px"/>
+                    <Image src={Wind} alt="brand image" width="100px"/>
                     <h4><b>Energy Management System</b></h4>
                 </Col>
                 <Col sm={4} className="zoom image-center">
-                    <Image src={Prepaid} alt="brand image" width="100px" height="100px" />
+                    <Image src={Prepaid} alt="brand image" width="100px"  />
                     <h4><b>Prepaid Metering System</b></h4>
                 </Col>
             </Row>
-            <Row style={{paddingBottom:"2rem"}}>
+            <Row style={{background: "rgba(248, 248, 248, 0.82)"}}>
                 <Col sm={4} className="zoom image-center">
-                    <Image src={Textile} alt="brand image" width="100px" height="100px" />
+                    <Image src={Textile} alt="brand image" width="100px"  />
                     <h4><b>Textiles Energy & Process</b></h4>
                 </Col>
                 <Col sm={4} className="zoom image-center">
-                    <Image src={Street} alt="brand image" width="100px" height="100px" />
+                    <Image src={Street} alt="brand image" width="100px"  />
                     <h4><b>Street Light Management </b></h4>
                 </Col>
                 <Col sm={4} className="zoom image-center">
-                    <Image src={Process} alt="brand image" width="100px" height="100px" />
+                    <Image src={Process} alt="brand image" width="100px" />
                     <h4><b>Process Automation</b></h4>
                 </Col>
             </Row>
