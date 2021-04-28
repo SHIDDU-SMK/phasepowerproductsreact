@@ -49,11 +49,11 @@ class Footer extends Component {
                             <p>
                               <i class="fa fa-envelope" style={{ "font-size": "16px", color: "white" }}></i>&emsp; 
                               <Link mailto="sales@PhasePowerProducts.in" style={{ color: "white" }}>
-                                  sales@phasepowerproducts.in&emsp;
+                                  sales@phasepowerproducts.in
                               </Link><br/> 
                               <i class="fa fa-envelope" style={{ "font-size": "16px", color: "white"  }}></i>&emsp; 
                               <Link mailto="phasepowerproducts@gmail.com" style={{ color: "white" }}>
-                                  phasepowerproducts@gmail.com&emsp;
+                                  phasepowerproducts@gmail.com
                               </Link>
                             </p>
                             <p>
