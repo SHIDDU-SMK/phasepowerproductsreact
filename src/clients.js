@@ -11,27 +11,27 @@ import { Row, Col, Container } from 'react-bootstrap';
  function Clients() {
     return (
          <>
-            <Container style={{paddingBottom:"4rem"}}>
-            <h2 className="featurette-heading" style={{paddingTop:"1rem"}}>
+            <Container>
+            <h2 className="featurette-heading" style={{paddingBottom:"4rem"}}>
                     Our clients
                 </h2>
-                <Row style={{paddingBottom:"2rem"}}>
-                    <Col sm={4} className="zoom" style={{paddingTop:"2rem"}}>
-                    <Image src={BMRCL} alt="bmrcl image" width="100%" height="100%" />
+                <Row style={{background: "rgba(248, 248, 248, 0.82)"}}>
+                    <Col sm={4} className="zoom image-center">
+                    <Image src={BMRCL} alt="bmrcl image" width="100%"  />
                     </Col>
-                    <Col sm={4} className="zoom" style={{paddingTop:"2rem"}}>
-                    <Image src={Pgrid} alt="brand image" width="100%" height="100%"/>
+                    <Col sm={4} className="zoom image-center">
+                    <Image src={Pgrid} alt="brand image" width="100%" />
                     </Col>
-                    <Col sm={4} className="zoom" style={{paddingTop:"2rem"}}>
-                    <Image src={Loha} alt="brand image" width="100%" height="100%" />
+                    <Col sm={4} className="zoom image-center">
+                    <Image src={Loha} alt="brand image" width="100%"  />
                     </Col>
                 </Row>
-                <Row style={{paddingBottom:"2rem"}}>
-                    <Col sm={4} className="zoom" style={{paddingTop:"2rem"}}>
-                    <Image src={ESS} alt="brand image" width="100%" height="100%" />
+                <Row style={{background: "rgba(248, 248, 248, 0.82)"}}>
+                    <Col sm={4} className="zoom image-center">
+                    <Image src={ESS} alt="brand image" width="100%"  />
                     </Col>
-                    <Col sm={4} className="zoom" style={{paddingTop:"2rem"}}>
-                    <Image src={SldLogo} alt="brand image" width="100%" height="100%" /> 
+                    <Col sm={4} className="zoom image-center">
+                    <Image src={SldLogo} alt="brand image" width="100%"  /> 
                     </Col>  
                 </Row >
             </Container>
