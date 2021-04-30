@@ -41,26 +41,25 @@ class Footer extends Component {
                         </Col>
                         <Col md={7} style={{ color: "white" }}>
                             <p className="card-text" >
-                              <i className="fa fa-phone"></i> &emsp;
+                              <i className="fa fa-phone" style={{paddingRight:"1rem"}}></i>
                               +91 80 28365150 <br />
                               +91 7353775063, +91 7090026669, <br /> 
-                              +91 7090036669, +91 7090046669&emsp; 
+                              +91 7090036669, +91 7090046669
                             </p>
                             <p>
-                              <i class="fa fa-envelope" style={{ "font-size": "16px", color: "white" }}></i>&emsp; 
-                              <Link mailto="sales@PhasePowerProducts.in" style={{ color: "white" }}>
+                              <i class="fa fa-envelope" style={{ "font-size": "16px", color: "white" }}></i> 
+                              <Link mailto="sales@PhasePowerProducts.in" style={{ color: "white", paddingLeft:"1rem" }}>
                                   sales@phasepowerproducts.in
                               </Link><br/> 
-                              <i class="fa fa-envelope" style={{ "font-size": "16px", color: "white"  }}></i>&emsp; 
-                              <Link mailto="phasepowerproducts@gmail.com" style={{ color: "white" }}>
+                              <i class="fa fa-envelope" style={{ "font-size": "16px", color: "white"  }}></i>
+                              <Link mailto="phasepowerproducts@gmail.com" style={{ color: "white", paddingLeft:"1rem" }}>
                                   phasepowerproducts@gmail.com
                               </Link>
                             </p>
                             <p>
-                                <a className="fa" href="https://facebook.com/" style={{color:"white"}} ><i className="fa fa-facebook-square" style={footerTextSize}></i></a>&emsp;
-                                <a className="fa" href="https://linkedin.com/" style={{color:"white"}}><i className="fa fa-linkedin " style={footerTextSize}></i></a>&emsp;
-                                <a className="fa" href="https://twitter.com" style={{color:"white"}}><i className="fa fa-twitter link-color" style={footerTextSize}></i></a>&emsp;
-                                
+                                <a className="fa" href="https://facebook.com/" style={{color:"white", paddingRight:"1rem"}} ><i className="fa fa-facebook-square" style={footerTextSize}></i></a>
+                                <a className="fa" href="https://linkedin.com/" style={{color:"white", paddingRight:"1rem"}}><i className="fa fa-linkedin " style={footerTextSize}></i></a>
+                                <a className="fa" href="https://twitter.com" style={{color:"white"}}><i className="fa fa-twitter link-color" style={footerTextSize}></i></a>   
                             </p>
                         </Col>
                       </Row>
@@ -91,15 +90,13 @@ class Footer extends Component {
               </Row>
               <Row style={{ paddingTop: "1rem"}}>
                 <Col lg={12}>
-                  <p style={{color:"white"}}>
-                  &copy; Phase Power Products 
-                  &emsp;&middot; 
-                  <a href="/privacy" style={{color:"white"}}>
-                  &emsp;Privacy
-                  </a> 
-                  &emsp;&middot; 
-                  <a href="/terms" style={{color:"white"}}>
-                  &emsp;Terms</a>
+                  <p style={{color:"white", paddingRight:"2rem"}}>
+                  &copy; Phase Power Products  
+                  <a href="/privacy" style={{color:"white", paddingLeft:"1rem"}}>
+                  Privacy
+                  </a>  
+                  <a href="/terms" style={{color:"white", paddingLeft:"1rem"}}>
+                  Terms</a>
                   <span style={{float:"right"}}> made by 
                   <a style={{color:"#050505"}} target="_blank" href="http://www.anyonecancode.in" rel="noreferrer">
                   {' '}anyonecancode.in

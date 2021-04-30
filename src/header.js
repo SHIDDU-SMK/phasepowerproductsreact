@@ -221,22 +221,18 @@ const Header = () => {
                 </Nav>
                 <Form inline>
                     <p className="nav-link" style={{ fontSize: "16px", color: "navy" }}>
-                    <i className="fa fa-envelope" style={{ "font-size": "20px", "color": "navy" }}></i>&emsp; 
-                        <Link mailto="sales@PhasePowerProducts.in" style={{ color: "navy" }}>
-                            sales@phasepowerproducts.in&emsp;
+                    <i className="fa fa-envelope" style={{ "font-size": "20px", "color": "navy" }}></i>
+                        <Link mailto="sales@PhasePowerProducts.in" style={{ color: "navy", paddingLeft:"1rem" }}>
+                            sales@phasepowerproducts.in
                         </Link><br/>
-                        <i className="fa fa-phone"></i> &emsp;
-                        <span style={{ color: "navy" }}>
+                        <i className="fa fa-phone"></i> 
+                        <span style={{ color: "navy", paddingLeft:"1rem" }}>
                         +91 80 28365150 </span></p>
-                        <a className="nav-link" style={{ "font-size": "20px", "color": "navy" }}href="https://www.google.co.in/maps/place/PHASE+POWER+PRODUCTS/@13.0010549,77.5060438,15z/data=!4m5!3m4!1s0x0:0x3eceb35962d34fd7!8m2!3d13.0010549!4d77.5060438"><i className="fa fa-map-marker"></i>&emsp; Reach Us</a>
-                        
+                        <a className="nav-link" style={{ "font-size": "20px", "color": "navy" }}href="https://www.google.co.in/maps/place/PHASE+POWER+PRODUCTS/@13.0010549,77.5060438,15z/data=!4m5!3m4!1s0x0:0x3eceb35962d34fd7!8m2!3d13.0010549!4d77.5060438"><i className="fa fa-map-marker"></i> Reach Us</a>    
                 </Form>
             </Navbar.Collapse>
         </Navbar>
         </ScrollToTop>
     );
 }
-
-
-
 export default Header;
