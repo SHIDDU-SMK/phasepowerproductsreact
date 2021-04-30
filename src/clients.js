@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
-import BMRCL from './assets/images/bmrcl.png';
-import Pgrid from './assets/images/powergrid1.png';
-import Loha from './assets/images/lohalogo1.png';
-import ESS from './assets/images/ess.png';
-import SldLogo from './assets/images/sld.png';
+import BMRCL from './assets/images/bmrcl.webp';
+import Pgrid from './assets/images/powergrid.webp';
+import Loha from './assets/images/lohalogo.webp';
+import ESS from './assets/images/ess.webp';
+import SldLogo from './assets/images/sld.webp';
 import { Row, Col, Container } from 'react-bootstrap';
 
 
