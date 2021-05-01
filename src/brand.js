@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image'
-import Elmeasure from './assets/images/elmeasure.png';
-import Rishab from './assets/images/rishablogo.png';
-import Eaton from './assets/images/eaton1.png';
-import Lubi from './assets/images/lubi1.png';
-import Micro from './assets/images/micro1.png';
-import Ampturn from './assets/images/amplogo.png';
-import Dse from './assets/images/dse.png';
+import Elmeasure from './assets/images/elmeasure-logo.webp';
+import Rishab from './assets/images/rishab.webp';
+import Eaton from './assets/images/eaton-logo.webp';
+import Lubi from './assets/images/lubi.webp';
+import Micro from './assets/images/micro.webp';
+import Ampturn from './assets/images/ampturn.webp';
+import Dse from './assets/images/dse.webp';
 import { Row, Col, Container } from 'react-bootstrap';
 
 

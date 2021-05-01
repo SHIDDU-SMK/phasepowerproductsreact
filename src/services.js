@@ -1,10 +1,10 @@
 import React from 'react';
-import HandDollar from './assets/images/wholesaledealer1.png';
-import Wind  from './assets/images/energymanagement1.png';
-import Prepaid  from './assets/images/prepaidmetering1.png';
-import Textile from './assets/images/textilesenergy1.png';
-import Street from './assets/images/Street Light.webp';
-import Process from './assets/images/automation1.png';
+import HandDollar from './assets/images/wholesaledealer.webp';
+import Wind  from './assets/images/energymanagement.webp';
+import Prepaid  from './assets/images/prepaidmetering.webp';
+import Textile from './assets/images/textilesenergy.webp';
+import Street from './assets/images/streetlight.webp';
+import Process from './assets/images/automation.webp';
 import { Row, Col, Container } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 

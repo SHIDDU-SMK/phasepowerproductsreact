@@ -45,9 +45,6 @@ const NavBarTop = () => {
         <Route path = "/prodtp"> <ProductAmpturnTape/> </Route>
         <Route path = "/prodrn"> <ProductAmpturnResin/> </Route>
         <Route path = "/prodmd"> <ProductAmpturnMoulded/> </Route>
-        {/* <Route path = "/prodsec"> <ProductSeco/> </Route> */}
-        {/* <Route path = "/prodlp"> <ProductLeap/> </Route> */}
-        {/* <Route path = "/prodkv"> <ProductKalaivani/> </Route> */}
         <Route path = "/prodrb"> <ProductRishab/> </Route>
       </Switch>
     </Router>
