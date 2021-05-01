@@ -71,7 +71,7 @@ function ProductTempleteLp({data}) {
                                     </ul>
                                 </Col>
                             </Row>
-                            <div style={{ textAlign: "center", fontsize: "20px" }}>
+                            <div style={{ textAlign: "center", fontSize: "20px" }}>
                                 <Table striped bordered hover>
                                     <thead>
                                         <tr>

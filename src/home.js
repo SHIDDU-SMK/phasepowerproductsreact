@@ -4,20 +4,19 @@ import Slider from './carousel';
 import Services from './services';
 import Footer from './footer';
 import About from './about';
-import 'popper.js';
-import 'bootstrap/dist/js/bootstrap.min.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Brand from './brand';
+import Clients from './clients';
 
 
 const Home = () => {
       return (
-        <div className="marketing">
+        <div className='flex-auto'>
           <Header />
           <Slider />
           <About />
           <Services />
           <Brand />
+          <Clients />
           <Footer />
         </div>
       );    
