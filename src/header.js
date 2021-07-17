@@ -14,7 +14,7 @@ import DSE8620 from './assets/images/submenuicons/dse8620.webp';
 import LTTape from './assets/images/submenuicons/lttape3.webp';
 import LTMould from './assets/images/submenuicons/ltm2.webp';
 import LTResin from './assets/images/submenuicons/resincast3.webp';
-import Rishabh from './assets/images/submenuicons/rishabh.webp';
+//import Rishabh from './assets/images/submenuicons/rishabh.webp';
 import BZMMccb from './assets/images/submenuicons/eatonbzm.webp';
 import Acb from './assets/images/submenuicons/acb.webp';
 import Plsm from './assets/images/submenuicons/plsm.webp';
@@ -198,7 +198,7 @@ const Header = () => {
                                         </Link>
                                     </li>
                                 </ul>
-                                <ul>
+                                {/* <ul>
                                     <li>
                                         <h5>
                                             Other Products
@@ -211,7 +211,7 @@ const Header = () => {
                                             </span>                                 
                                         </Link>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </Col>
                         </div>
                     </div>

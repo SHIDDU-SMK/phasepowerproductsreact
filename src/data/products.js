@@ -2106,53 +2106,53 @@ const Kalaivani = {
         "paragraph": "The transformers are vacuum encapsulated in epoxy resin, which ensures faultless insulation. Incombustible high-class raw material.",
             }],
 };
-const Rishab = {
-    'Title': 'Rishabh Instruments',
-    'Products': [{
-        "id": 1,
-        "heading": "Handheld Digital Multimeters",
-        "image": '../assets/images/rishab/hdmulti.webp',
-        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
-      },
-      {
-        "id": 2,
-        "heading": "Digital and Analog Insulation Tester",
-        "image": '../assets/images/rishab/insulationtester.webp',
-        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
-      },
-      {
-        "id": 3,
-        "heading": "Digital Clamp Meters",
-        "image": '../assets/images/rishab/dclamp1.webp',
-        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
-      },
-      {
-        "id": 4,
-        "heading": "Insulation And Earth Tester",
-        "image": '../assets/images/rishab/dainsulationt.webp',
-        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
-      },
-      {
-        "id": 5,
-        "heading": "Analog Panel Meters",
-        "image": '../assets/images/rishab/analogpanel.webp',
-        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
-      },
-    //   {
-    //     "id": 6,
-    //     "heading": "Digital Panel Meters",
-    //     "image": '../assets/images/rishab/digitlpanel.webp',
-    //     "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
-    //   },
-      {
-        "id": 6,
-        "heading": "Shunts",
-        "image": '../assets/images/rishab/shunts.webp',
-        "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
-      }],
-};
+// const Rishab = {
+//     'Title': 'Rishabh Instruments',
+//     'Products': [{
+//         "id": 1,
+//         "heading": "Handheld Digital Multimeters",
+//         "image": '../assets/images/rishab/hdmulti.webp',
+//         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+//       },
+//       {
+//         "id": 2,
+//         "heading": "Digital and Analog Insulation Tester",
+//         "image": '../assets/images/rishab/insulationtester.webp',
+//         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+//       },
+//       {
+//         "id": 3,
+//         "heading": "Digital Clamp Meters",
+//         "image": '../assets/images/rishab/dclamp1.webp',
+//         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+//       },
+//       {
+//         "id": 4,
+//         "heading": "Insulation And Earth Tester",
+//         "image": '../assets/images/rishab/dainsulationt.webp',
+//         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+//       },
+//       {
+//         "id": 5,
+//         "heading": "Analog Panel Meters",
+//         "image": '../assets/images/rishab/analogpanel.webp',
+//         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+//       },
+//     //   {
+//     //     "id": 6,
+//     //     "heading": "Digital Panel Meters",
+//     //     "image": '../assets/images/rishab/digitlpanel.webp',
+//     //     "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+//     //   },
+//       {
+//         "id": 6,
+//         "heading": "Shunts",
+//         "image": '../assets/images/rishab/shunts.webp',
+//         "paragraph": "We design and manufacture Electronic Hooter with universal input supply of 20 to 275V DC & 65 to 275V AC. Site selectable three tones with a sound output of Intermittent, Continuous and bell sound.(Any one tone can be selectable through link). Output sound is more than 90 dB. Low depth of 45 mm moulded Box with Suitable clamps are provided for surface mounting and projection mounting.",
+//       }],
+// };
 
 
 
 
-export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton, SCModules, FCModules, SharingModules, LubiSmps, LTTape, LTMoulded, LTResin, Seco, Leap, Kalaivani, Rishab, Eatonmcb, Eatonacb, Eatoncontactor  };
+export { SmartMonitor, SmartControl, SmartResource, SmartNetwork, Eaton, SCModules, FCModules, SharingModules, LubiSmps, LTTape, LTMoulded, LTResin, Seco, Leap, Kalaivani, Eatonmcb, Eatonacb, Eatoncontactor  };

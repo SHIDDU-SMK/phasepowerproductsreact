@@ -82,7 +82,8 @@ class Footer extends Component {
                                   <ul style={{ lineHeight: '80%' }}>
                                     <Link className="nav-link" to="/prodlb" style={{color:"white"}} >Lubi Electronics</Link>                         
                                     <Link className="nav-link" to="/prodea" style={{color:"white"}} >Eaton Products</Link>
-                                    <Link className="nav-link" to="/prodtp" style={{color:"white"}} >L.T.Tape Insulated</Link><Link className="nav-link" to="/prodmd" style={{color:"white"}} >L.T.Moulded Case</Link><Link className="nav-link" to="/prodrn" style={{color:"white"}} >L.T.Resin Cast</Link><Link className="nav-link" to="/prodrb" style={{color:"white"}} >Rishabh Instruments</Link>
+                                    <Link className="nav-link" to="/prodtp" style={{color:"white"}} >L.T.Tape Insulated</Link><Link className="nav-link" to="/prodmd" style={{color:"white"}} >L.T.Moulded Case</Link><Link className="nav-link" to="/prodrn" style={{color:"white"}} >L.T.Resin Cast</Link>
+                                    {/* <Link className="nav-link" to="/prodrb" style={{color:"white"}} >Rishabh Instruments</Link> */}
                                   </ul> 
                             </Col>
                           </Row>
