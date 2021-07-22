@@ -33,7 +33,7 @@ import { Row, Col, Container } from 'react-bootstrap';
           <Image src={Lubi} alt="brand image" width="100%" />
           </Col>
           <Col sm={4} className="zoom image-center">
-          <Image src={Dse} alt="brand image" width="40%" />
+          <Image src={Dse} alt="brand image" width="100%" />
           </Col>
           <Col sm={4} className="zoom image-center">
           <Image src={Ampturn} alt="brand image" width="100%"/>
