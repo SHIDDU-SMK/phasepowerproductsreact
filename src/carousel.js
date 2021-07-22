@@ -1,10 +1,10 @@
 import React  from 'react';
 import {Carousel} from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
-import SlideOne from './assets/images/elm.webp';
-import SlideTwo from './assets/images/dse2.webp';
-import SlideThree  from './assets/images/eton.webp';
-import SlideFour from './assets/images/ampt.webp';
+import SlideOne from './assets/images/elmaser.webp';
+import SlideTwo from './assets/images/dse.webp';
+import SlideThree  from './assets/images/eaton.webp';
+import SlideFour from './assets/images/amturn.webp';
 //import SlideFive from './assets/images/slide-4.webp';
 
 function Slider() {    
