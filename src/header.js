@@ -35,6 +35,7 @@ const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Link to="/" className="nav-link line current">Home</Link>
+                    <Link to="/#about" className="nav-link line current" onClick={() => setExpanded(false)}>About</Link>
                     <div className="menudropdown">
                         <Link className="nav-link" onClick={() => setHideMenu(hidemenu ? false : true)}>
                             Products&emsp;
@@ -173,13 +174,13 @@ const Header = () => {
                                                 Contactor
                                             </span>
                                         </Link>
-                                        <Link to='/prodeps' onClick={() => setExpanded(false)}>
+                                        {/* <Link to='/prodeps' onClick={() => setExpanded(false)}>
                                             <Image src={BZMMccb}  className="dropmenu-image" />      
                                             &emsp;
                                             <span className="dropdownLink">
                                                 Pilot & Signal Divice
                                             </span>
-                                        </Link>
+                                        </Link> */}
                                     </li>
                                 </ul>
                             </Col>
@@ -216,7 +217,6 @@ const Header = () => {
                         </div>
                     </div>
                     <Link to="/#services" className="nav-link line current" onClick={() => setExpanded(false)}>Services</Link>
-                    <Link to="/#about" className="nav-link line current" onClick={() => setExpanded(false)}>About</Link>
                     <Link to="/#contact" className="nav-link line " onClick={() => setExpanded(false)}>Contact</Link>
                 </Nav>
                 <Form inline>
