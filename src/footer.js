@@ -99,9 +99,14 @@ class Footer extends Component {
                   <a href="/terms" style={{color:"white", paddingLeft:"1rem"}}>
                   Terms</a>
                   <span style={{float:"right"}}> made by 
-                  <a style={{color:"#050505"}} target="_blank" href="http://www.anyonecancode.in" rel="noreferrer">
-                  {' '}anyonecancode.in
+                  <a style={{color:"#050505", '&:hover': {color: "white"}}} target="_blank" href="http://www.makeanybot.com" rel="noreferrer">
+                  {' '}SMK Solutions
                   </a>
+                  {' '}under 
+                  <a style={{color:"#050505"}} target="_blank" href="http://www.anyonecancode.in" rel="noreferrer">
+                  {' '}anybodycancode.in
+                  </a>
+                  {' '}initiative
                   </span>
                 </p>
                 </Col>
