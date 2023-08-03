@@ -6,7 +6,7 @@ import Footer from './footer';
 import About from './about';
 import Brand from './brand';
 import Clients from './clients';
-
+import PhotoGallary from './photogallary';
 
 const Home = () => {
       return (
@@ -17,6 +17,7 @@ const Home = () => {
           <Services />
           <Brand />
           <Clients />
+          <PhotoGallary/>
           <Footer />
         </div>
       );    
