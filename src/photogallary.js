@@ -141,7 +141,7 @@ class PhotoGallary extends Component {
       <>
         <Container>
           <h2 className="featurette-heading" style={{ paddingBottom: "4rem" }}>
-            New Office Opening Ceremony
+            Events
           </h2>
           <div
             className="parent"
