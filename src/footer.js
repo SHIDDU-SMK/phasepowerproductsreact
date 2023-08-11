@@ -36,7 +36,7 @@ class Footer extends Component {
                   1st Floor, 15th Cross, GKW Layout <br />
                   Doddanna Industrial Area, <br />
                   Near Peenya 2nd stage, <br />
-                  Srigandha Nagar, Hegganahalli, <br />
+                  {/* Srigandha Nagar, Hegganahalli, <br /> */}
                   Bangalore-560058. <br />
                   GST N0-29AASFP4396C1ZO
                 </p>
@@ -45,9 +45,9 @@ class Footer extends Component {
                 <p className="card-text">
                   <i
                     className="fa fa-phone"
-                    style={{ paddingRight: "0.5rem" }}
+                    style={{ paddingRight: "0.8rem" }}
                   ></i>
-                  +91 80 28365150 <br />
+                  080 28365150 <br />
                   <i
                     className="fa fa-phone"
                     style={{ paddingRight: "0.5rem" }}
